@@ -1,0 +1,69 @@
+{
+    "itemids": {
+        "5c064c400db834001d234F68": {
+            "Name": "战术图拉10000导轨",
+            "ShortName": "TT10k",
+            "Description": "AK防尘盖的通用导轨，由战术图拉公司制造，为AK及半自动Saiga步枪系列安装光学瞄具。"
+        },
+        "5d2c33Cc48f0355d95672c25": {
+            "Name": "TWS Dog leg “铍”式АК导轨",
+            "ShortName": "Beryl Dog Leg Rail",
+            "Description": "TWS Dog leg “铍”式导轨整合了皮卡汀尼导轨，可兼容所有型号的卡拉什尼科夫自动步枪和基于AK平台的卡宾枪系列。"
+        },
+        "5649b2314bd2Fd79388b4576": {
+            "Name": "AKM系列POPC转接口",
+            "ShortName": "POPC AKM",
+            "Description": "专用于安装POPC的转接口，适用于AKM系列。"
+        },
+        "566Cb2314bdc2d79388b4576": {
+            "Name": "AK100系列POPC转接口",
+            "ShortName": "POPC AK100",
+            "Description": "专用于安装POPC的转接口，适用于AK100系列。"
+        },
+        "5d2c770c48f03543Da07c100": {
+            "Name": "第四代“铍”式光学瞄准具安装轨道",
+            "ShortName": "POPC",
+            "Description": "第四代“铍”式光学瞄准具安装轨道（POPC,Podstawa Optycznych Przyrzadow Celowniczych），整合了皮卡汀尼导轨，可安装在新式AR转接口上。"
+        },
+        "628a83c29179c324ed2695AB": {
+            "Name": "SAG Mk.3护木",
+            "ShortName": "SAG Mk.3",
+            "Description": "Sureshot Armament Group Mk.3护木，用于RD-704步枪。"
+        },
+        "628a83c29179c324ed26955A": {
+            "Name": "SAG Mk.3护木",
+            "ShortName": "SAG Mk.3",
+            "Description": "Sureshot Armament Group Mk.3护木，用于AK系列步枪。"
+        },
+        "628b9be6cff66b70c662b14c": {
+            "Name": "SAG Mk.3防尘盖",
+            "ShortName": "SAG Mk.3 DC",
+            "Description": "SAG生产的Mk.3护木标配防尘盖。"
+        },
+        "5a01ad4786f77450561fBD02": {
+            "Name": "SAG Mk.3定制导气管",
+            "ShortName": "SAG Mk.3",
+            "Description": "配合SAG Mk.3护木使用的定制导气管。"
+        },
+        "5fbcc437d724d907e20BCd5c": {
+            "Name": "SIG Sauer 轻量化枪托",
+            "ShortName": "SIG light",
+            "Description": "SIG Sauer量产的轻量化枪托。"
+        },
+        "57ffa9f424597772857Ee844": {
+            "Name": "B-11 AKS-74U轻量化护木",
+            "ShortName": "B-11轻量化",
+            "Description": "以铝合金D16T为原料一体化量产的B-11护木，经过了黑色涂层处理。能够替代AKS-74U的标准护木。在握把的两侧安装有皮卡汀尼导轨，可以在此基础上安装额外的配件（战术握把、手电筒、激光指示器等）。"
+        },
+        "628a83c29179c324ed64955A": {
+            "Name": "SAG Mk.2.1护木",
+            "ShortName": "SAG Mk.2.1",
+            "Description": "Sureshot Armament Group Mk.2.1标准护木，用于AK系列步枪。"
+        },
+        "628a83c29179c324ed64943D": {
+            "Name": "SAG Mk.2护木",
+            "ShortName": "SAG Mk.2",
+            "Description": "Sureshot Armament Group Mk.2，用于AK系列步枪。"
+        }
+    }
+}

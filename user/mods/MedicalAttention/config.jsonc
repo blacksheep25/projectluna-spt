@@ -1,0 +1,319 @@
+{
+    "MedKits":{
+        "Ai2": {
+            // Soviet AI-2 Medkit
+            "Enable": false,
+            "hpResource": 250,
+            "hpResourceRate": 20,
+            "Duration": 180,
+            "AddStopLightBleeding": false,
+            "AddStopHeavyBleeding": false
+        },
+        "Car": {
+            // Swiss Safe 2-in-1 First Aid Kit (Car Medkit)
+            "Enable": false,
+            "hpResource": 500,
+            "hpResourceRate": 40,
+            "Duration": 180,
+            "AddStopHeavyBleeding": false
+        },
+        "Salewa": {
+            // SALEWA - First Aid Kit Waterproof
+            "Enable": false,
+            "hpResource": 1000,
+            "hpResourceRate": 50,
+            "Duration": 180,
+            "AddFixFracture": false,
+            "AddFixDestroyedPart": false
+        },
+        "Ifak": {
+            // Individual First Aid Kit (IFAK)
+            "Enable": false,
+            "hpResource": 1000,
+            "hpResourceRate": 100,
+            "Duration": 180,
+            "AddFixFracture": false,
+            "AddFixDestroyedPart": false
+        },
+        "Sanitar": {
+            // Sanitar's AFAK
+            "Enable": false,
+            "ResizeTo1x1": false,
+            "hpResource": 2000,
+            "hpResourceRate": 5,
+            "Duration": 15,
+            "AddStopLightBleeding": false,
+            "AddStopHeavyBleeding": false,
+            "AddFixFracture": false
+        },
+        "Afak": {
+            // Advanced Individual First Aid Kit (AFAK)
+            "Enable": false,
+            "hpResource": 1500,
+            "hpResourceRate": 100,
+            "Duration": 180,
+            "AddFixFracture": false,
+            "AddFixDestroyedPart": false
+        },
+        "Grizzly": {
+            // Sportsman Series Grizzly Medical Kit
+            "Enable": false,
+            "hpResource": 5000,
+            "hpResourceRate": 125,
+            "Duration": 180,
+            "AddFixDestroyedPart": false
+        }
+    },
+    "Pills": {
+        "Analgin": {
+            // Analgin (Actually illegal to purchase in real life!)
+            "Enable": false,
+            "hpResource": 24,
+            "Duration": 360,
+            "AddEnergyIncrease": false,
+            "EnergyIncrease": 15,
+            "HydrationBurn": -2,
+            "AddRadExposureFix": false
+        },
+        "Augmentin": {
+            // Augmentin Anti-Biotics
+            "Enable": false,
+            "hpResource": 45,
+            "Duration": 360,
+            "EnergyIncrease": 15,
+            "HydrationBurn": -2,
+            "AddRadExposureFix": false
+        },
+        "Ibuprofen": {
+            // Ibuprofen
+            "Enable": false,
+            "hpResource": 90,
+            "Duration": 360,
+            "AddEnergyIncrease": false,
+            "EnergyIncrease": 15,
+            "HydrationBurn": -2,
+            "AddRadExposureFix": false
+        }
+    },
+    "Bandages": {
+        "Aseptic": {
+            // Medpride Conforming Stretch Gauze
+            "Enable": false,
+            "hpResource": 8,
+            "AddStopHeavyBleeding": false
+        },
+        "Army": {
+            // Russian Individual dressing bag PPI AB-3
+            "Enable": false,
+            "hpResource": 4,
+            "AddStopHeavyBleeding": false
+        }
+    },
+    "Splints": {
+        "Splint": {
+            // EVERLIT Survival 36 Inch Splint
+            "Enable": false,
+            "hpResource": 8
+        },
+        "AluminumSplint": {
+            // Archer Medtech Universal First Aid Splint - Moldable Aluminum
+            "Enable": false,
+            "hpResource": 8
+        }
+    },
+    "Topicals": {
+        "Vaseline": {
+            // Norka Vaseline cosmetic "Mink"
+            "Enable": false,
+            "hpResource": 10,
+            "Duration": 360,
+            "EnergyBurn": -2,
+            "HydrationBurn": -2,
+            "AddRadExposureFix": false
+        },
+        "GoldenStarBalm": {
+            // Golden Star Balm
+            "Enable": false,
+            "hpResource": 10,
+            "Duration": 360,
+            "EnergyBurn": -2,
+            "EnableHydrationBurn": false,
+            "HydrationBurn": -2,
+            "AddRadExposureFix": false
+        }
+    },
+    "SurgicalKits": {
+        "CMSSurgicalKit": {
+            // Tactical Surgical and Suture Kit
+            "Enable": false,
+            "hpResource": 10,
+            "AddStopLightBleeding": false,
+            "AddStopHeavyBleeding": false,
+            "AddFixFracture": false
+        },
+        "SanitarSurgicalKit": {
+            // Also based on the Tactical Surgical and Suture Kit
+            "Enable": false,
+            "ResizeTo2x1": false,
+            "hpResource": 8,
+            "AddStopLightBleeding": false,
+            "AddStopHeavyBleeding": false,
+            "AddFixFracture": false
+        },
+        "Surv12FieldSurgicalKit": {
+            // 12 Survivors First Aid Rollup Kit
+            "Enable": false,
+            "hpResource": 12,
+            "AddStopLightBleeding": false,
+            "AddStopHeavyBleeding": false
+        }
+    },
+    "Tourniquets": {
+        "Esmarch": {
+            // Blood Loss Arterial Bleeding Rubber Band (aka Soviet Pink Tourniquet Esmarch)
+            "Enable": false,
+            "hpResource": 5,
+            "AddStopLightBleeding": false
+        },
+        "CalokB": {
+            // Celox V12090 Blood Clotting Granule Applicator and Plunger
+            "Enable": false,
+            "hpResource": 5,
+            "AddStopLightBleeding": false
+        },
+        "Cat": {
+            // North American Rescue NAR CAT Tourniquet
+            "Enable": false,
+            "hpResource": 5,
+            "AddStopLightBleeding": false
+        }
+    },
+    "Injectors": {
+        "All": {
+            // This setting is a WIP. It has not yet been tested.
+            "AllInjectorsSpawnEverywhere": false
+        },
+        "Morphine": {
+            // Morphine Injector
+            "Enable": false,
+            "hpResource": 4,
+            "Duration": 360,
+            "HydrationBurn": -2,
+            "EnergyBurn": -2
+        },
+        "Sj1": {
+            // Combat Stimulant Injector SJ1 TGLabs
+            "Enable": false,
+            "hpResource": 4
+        },
+        "eTGchange": {
+            // Regenerative Stimulant Injector eTG-change
+            "Enable": false,
+            "hpResource": 4,
+            "Duration": 360
+        },
+        "Sj6": {
+            // Combat Stimulant Injector SJ6 TGLabs
+            "Enable": false,
+            "hpResource": 4
+        },
+        "Sj9": {
+            // Combat Stimulant Injector SJ9 TGLabs
+            "Enable": false,
+            "hpResource": 4
+        },
+        "Propital": {
+            // Propital
+            "Enable": false,
+            "hpResource": 4,
+            "Duration": 360
+        },
+        "Zagustin": {
+            // Hemostatic Drug Zagustin
+            "Enable": false,
+            "hpResource": 4,
+            "Duration": 360
+        },
+        "Adrenaline": {
+            // Adrenaline Injector
+            "Enable": false,
+            "hpResource": 4,
+            "Duration": 360
+        },
+        "Meldonin": {
+            // Meldonin
+            "Enable": false,
+            "hpResource": 4
+        },
+        "Ahf1m": {
+            // AHF1-M
+            "Enable": false,
+            "hpResource": 4
+        },
+        "bTG": {
+            // 3-(b-TG)
+            "Enable": false,
+            "hpResource": 4
+        },
+        "Norepinephrine": {
+            // L1 (Norepinephrine)
+            "Enable": false,
+            "hpResource": 4,
+            "Duration": 360
+        },
+        "p22": {
+            // P22
+            "Enable": false,
+            "hpResource": 4
+        },
+        "Obdolbos": {
+            // Cocktail "Oldolbos"
+            "Enable": false,
+            "hpResource": 4
+        },
+        "Mule": {
+            // M.U.L.E. stimulator
+            "Enable": false,
+            "hpResource": 4
+        },
+        "xTG12": {
+            // Antidote xTG-12
+            "Enable": false,
+            "hpResource": 4
+        },
+        "Obdolbos2": {
+            // Obdolbos 2
+            "Enable": false,
+            "hpResource": 4
+        },
+        "Sj12": {
+            // SJ12 TGLabs
+            "Enable": false,
+            "hpResource": 4
+        },
+        "Perfotoran": {
+            // Perfotoran (Blue Blood)
+            "Enable": false,
+            "hpResource": 4,
+            "Duration": 360
+        },
+        "Trimadol": {
+            // Trimadol
+            "Enable": false,
+            "hpResource": 4,
+            "Duration": 360
+        },
+        "Pnb": {
+            // PNB
+            "Enable": false,
+            "hpResource": 4,
+            "Duration": 360
+        },
+        "ModInjectors": {
+            // All custom injectors from mods.
+            // This setting is a WIP. It has not yet been tested.
+            "Enable": false,
+            "hpResource": 4
+        }
+    }
+}

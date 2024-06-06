@@ -1,0 +1,46 @@
+{
+    "manifest": [
+        {
+            "key": "usec_head_4_combatpaint.bundle",
+            "dependencyKeys":[
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "combat_head_1.bundle",
+            "dependencyKeys":[
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "head_3.bundle",
+            "dependencyKeys":[
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "head_4.bundle",
+            "dependencyKeys":[
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "usec_head_eric_paint_1.bundle",
+            "dependencyKeys":[
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "usec_head_eric_injured.bundle",
+            "dependencyKeys":[
+                "cubemaps",
+                "shaders"
+            ]
+        }
+    ]
+}

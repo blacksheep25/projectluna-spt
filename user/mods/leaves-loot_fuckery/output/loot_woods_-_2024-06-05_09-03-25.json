@@ -1,0 +1,131 @@
+    [Drink]
+        "Pack of Grand juice": Avg:8 | Max:8
+        "Bottle of "Norvinskiy Yadreniy" premium kvass (0.6L)": Avg:5 | Max:5
+        "Bottle of Tarkovskaya vodka": Avg:5 | Max:5
+        "Pack of milk": Avg:4 | Max:4
+        "Emergency Water Ration": Avg:3 | Max:3
+        "Bottle of Pevko Light beer": Avg:2 | Max:2
+        "Can of TarCola soda": Avg:2 | Max:2
+        "Can of Hot Rod energy drink": Avg:1 | Max:1
+        "Can of Ice Green tea": Avg:1 | Max:1
+        "Pack of Vita juice": Avg:1 | Max:1
+        "Bottle of water (0.6L)": Avg:1 | Max:1
+        "Pack of Russian Army pineapple juice": Avg:1 | Max:1
+    [Food]
+        "Pack of Tarker dried meat": Avg:4 | Max:4
+        "Pack of sugar": Avg:4 | Max:4
+        "MRE ration pack": Avg:3 | Max:3
+        "Rye croutons": Avg:2 | Max:2
+        "Army crackers": Avg:2 | Max:2
+        "Can of beef stew (Large)": Avg:2 | Max:2
+        "Can of condensed milk": Avg:2 | Max:2
+        "Salty Dog beef sausage": Avg:1 | Max:1
+        "Can of sprats": Avg:1 | Max:1
+    [AmmoBox]
+        "5.45x39mm US gs ammo pack (30 pcs)": Avg:4 | Max:4
+        "9x18mm PM PSO gzh ammo pack (16 pcs)": Avg:4 | Max:4
+        "5.45x39mm BP gs ammo pack (30 pcs)": Avg:3 | Max:3
+        "9x18mm PMM PstM gzh ammo pack (16 pcs)": Avg:2 | Max:2
+        "9x18mm PM BZhT gzh ammo pack (16 pcs)": Avg:2 | Max:2
+        "9x18mm PM PBM gzh ammo pack (16 pcs)": Avg:2 | Max:2
+        "7.62x39mm T-45M1 gzh ammo pack (20 pcs)": Avg:2 | Max:2
+        "5.56x45mm M855 ammo pack (50 pcs)": Avg:2 | Max:2
+        ".338 Lapua Magnum FMJ ammo pack (20 pcs)": Avg:1 | Max:1
+        "20/70 Devastator slug ammo pack (25 pcs)": Avg:1 | Max:1
+        "5.45x39mm PS gs ammo pack (120 pcs)": Avg:1 | Max:1
+        "7.62x25mm ТТ LRN ammo pack (25 pcs)": Avg:1 | Max:1
+        "5.45x39mm PP gs ammo pack (30 pcs)": Avg:1 | Max:1
+        "4.6x30mm JSP SX ammo pack (40 pcs)": Avg:1 | Max:1
+        "9x18mm PM PS gs PPO ammo pack (16 pcs)": Avg:1 | Max:1
+        "7.62x54mm R HP BT ammo pack (20 pcs)": Avg:1 | Max:1
+        "5.45x39mm PRS gs ammo pack (30 pcs)": Avg:1 | Max:1
+        "5.45x39mm US gs ammo pack (120 pcs)": Avg:1 | Max:1
+        "7.62x54mm R SP BT gzh ammo pack (20 pcs)": Avg:1 | Max:1
+        "12/70 8.5mm Magnum buckshot ammo pack (25 pcs)": Avg:1 | Max:1
+        "7.62x39mm PS gzh ammo pack (20 pcs)": Avg:1 | Max:1
+        "5.45x39mm FMJ ammo pack (30 pcs)": Avg:1 | Max:1
+        "7.62x39mm HP ammo pack (20 pcs)": Avg:1 | Max:1
+        "5.56x45mm M855A1 ammo pack (50 pcs)": Avg:1 | Max:1
+        "9x19mm Pst gzh ammo pack (16 pcs)": Avg:1 | Max:1
+        "20/70 "Poleva-3" slug ammo pack (25 pcs)": Avg:1 | Max:1
+    [Jewelry]
+        "Chainlet": Avg:3 | Max:3
+        "Antique teapot": Avg:1 | Max:1
+    [Lubricant]
+        "Crickent lighter": Avg:2 | Max:2
+    [Other]
+        "Pack of Arseniy buckwheat": Avg:2 | Max:2
+        "Can of Majaica coffee beans": Avg:2 | Max:2
+        "Water filter": Avg:1 | Max:1
+        "Strike Cigarettes": Avg:1 | Max:1
+        "Wilston cigarettes": Avg:1 | Max:1
+    [Medical]
+        "Aseptic bandage": Avg:2 | Max:2
+        "CAT hemostatic tourniquet": Avg:1 | Max:1
+        "Esmarch tourniquet": Avg:1 | Max:1
+        "Army bandage": Avg:1 | Max:1
+        "Surv12 field surgical kit": Avg:1 | Max:1
+    [Armor]
+        "BNTI Module-3M body armor": Avg:2 | Max:2
+        "PACA Soft Armor": Avg:1 | Max:1
+    [Info]
+        "Encrypted message": Avg:1 | Max:1
+        "Secure Folder 0052": Avg:1 | Max:1
+    [Electronics]
+        "Single-axis Fiber Optic Gyroscope #1": Avg:1 | Max:1
+        "Motor Controller #1": Avg:1 | Max:1
+        "Electric motor": Avg:1 | Max:1
+    [MedicalSupplies]
+        "Blood sample": Avg:1 | Max:1
+        "Bottle of hydrogen peroxide": Avg:1 | Max:1
+        "LEDX Skin Transilluminator": Avg:1 | Max:1
+    [Barrel]
+        "M1A 7.62x51 22 inch barrel": Avg:1 | Max:1
+        "AR-15 5.56x45 260mm barrel": Avg:1 | Max:1
+    [FlashHider]
+        "AR-15 Yankee Hill Phantom 5.56x45 flash hider": Avg:1 | Max:1
+        "AR-15 Daniel Defense WAVE 5.56x45 muzzle brake": Avg:1 | Max:1
+        "Ferfrans CRD 5.56x45 Concussion Reduction Device": Avg:1 | Max:1
+        "AR-15 KAC QDC 5.56x45 Flash Suppressor Kit": Avg:1 | Max:1
+        "AR-15 AAC Blackout 51T 5.56x45 flash hider": Avg:1 | Max:1
+        "AR-10 TAA ZK-38 7.62x51 muzzle brake": Avg:1 | Max:1
+        "AR-10 Thunder Beast Arms 30CB 7.62x51 muzzle brake": Avg:1 | Max:1
+    [Tool]
+        "Pliers": Avg:1 | Max:1
+        "Awl": Avg:1 | Max:1
+        "Flat screwdriver (Long)": Avg:1 | Max:1
+        "Hand drill": Avg:1 | Max:1
+        "Sewing kit": Avg:1 | Max:1
+        "Nippers": Avg:1 | Max:1
+    [BuildingMaterial]
+        "Piece of plexiglass": Avg:1 | Max:1
+        "Pressure gauge": Avg:1 | Max:1
+        "Analog thermometer": Avg:1 | Max:1
+    [Drugs]
+        "Analgin painkillers": Avg:1 | Max:1
+        "Augmentin antibiotic pills": Avg:1 | Max:1
+        "Vaseline balm": Avg:1 | Max:1
+    [Magazine]
+        "M1911A1 .45 ACP Wilson Combat 7-round magazine": Avg:1 | Max:1
+        "AK-74 5.45x39 6L31 60-round magazine": Avg:1 | Max:1
+    [Silencer]
+        "SilencerCo Hybrid 46 multi-caliber sound suppressor": Avg:1 | Max:1
+        "Mosin Rifle Bramit 7.62x54R sound suppressor": Avg:1 | Max:1
+    [KeyMechanical]
+        "Health Resort east wing room 316 key": Avg:1 | Max:1
+        "Yotota car key": Avg:1 | Max:1
+        "Health Resort east wing room 308 key": Avg:1 | Max:1
+        "Health Resort east wing room 314 key": Avg:1 | Max:1
+    [AssaultScope]
+        "SIG Sauer BRAVO4 4x30 scope": Avg:1 | Max:1
+    [Battery]
+        "AA Battery": Avg:1 | Max:1
+    [Foregrip]
+        "Viking Tactics UVG tactical foregrip": Avg:1 | Max:1
+        "Magpul AFG tactical foregrip (Black)": Avg:1 | Max:1
+    [Handguard]
+        "AR-15 Strike Industries Viper carbine length M-LOK handguard (FDE)": Avg:1 | Max:1
+    [Receiver]
+        "P226 Stainless Elite pistol slide": Avg:1 | Max:1
+    [CompactCollimator]
+        "Leupold DeltaPoint Reflex Sight": Avg:1 | Max:1

@@ -1,0 +1,29 @@
+{
+    "itemids": {
+        "lyconoxslcshak12lid": {
+            "Name": "ASh-12 12.7x55全尺寸抑制器",
+            "ShortName": "ASh全抑制",
+            "Description": "CKIB的ASh-12 12.7x55自动步枪全尺寸抑制器。"
+        },
+        "lyconoxbrlmc558id": {
+            "Name": "MTs-558 12.7x55常规膛口制退器",
+            "ShortName": "MTs制退器",
+            "Description": "CKIB为MTs-558生产的常规膛口制退器。"
+        },
+        "lyconoxbrlmc558hgid": {
+            "Name": "MTs-558 枪管护木",
+            "ShortName": "MTs护木",
+            "Description": "CKIB为MTs-558生产的金属护木。"
+        },
+        "lyconoxsgtash12fid": {
+            "Name": "ASh-12全尺寸提把式机瞄",
+            "ShortName": "ASh-12 全尺寸提把",
+            "Description": "带有照门的ASh-12用全尺寸可拆卸提把。"
+        },
+        "ACadf6eeae921500134b2799": {
+            "Name": "12.7x55毫米 PS12脱壳穿甲弹",
+            "ShortName": "PS12Sabot",
+            "Description": "12.7x55 毫米PS12脱壳穿甲弹是一种带有穿甲弹头的高超音速子弹。"
+        }
+    }
+}

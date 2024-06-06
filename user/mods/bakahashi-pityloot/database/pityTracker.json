@@ -1,0 +1,79 @@
+{
+  "hideout": {
+    "2": {
+      "currentLevel": 2,
+      "raidsSinceStarted": 0,
+      "timeAvailable": 1717648647550
+    },
+    "4": {
+      "currentLevel": 2,
+      "raidsSinceStarted": 0,
+      "timeAvailable": 1717648569098
+    },
+    "21": {
+      "currentLevel": 1,
+      "raidsSinceStarted": 2,
+      "timeAvailable": 1717647187278
+    },
+    "22": {
+      "currentLevel": 4,
+      "raidsSinceStarted": 0,
+      "timeAvailable": 1717648721439
+    },
+    "23": {
+      "currentLevel": 1,
+      "raidsSinceStarted": 0,
+      "timeAvailable": 1717648677434
+    }
+  },
+  "quests": {
+    "59674cd986f7744ab26e32f2": {
+      "raidsSinceStarted": 2
+    },
+    "59674eb386f774539f14813a": {
+      "raidsSinceStarted": 2
+    },
+    "596b455186f77457cb50eccb": {
+      "raidsSinceStarted": 2
+    },
+    "5979ed3886f77431307dc512": {
+      "raidsSinceStarted": 2
+    },
+    "6660879c652f9a5baa000001": {
+      "raidsSinceStarted": 2
+    },
+    "59689fbd86f7740d137ebfc4": {
+      "raidsSinceStarted": 5
+    },
+    "5ae448a386f7744d3730fff0": {
+      "raidsSinceStarted": 2
+    },
+    "5bc4776586f774512d07cf05": {
+      "raidsSinceStarted": 2
+    },
+    "5d25aed386f77442734d25d2": {
+      "raidsSinceStarted": 2
+    },
+    "5bc479e586f7747f376c7da3": {
+      "raidsSinceStarted": 2
+    },
+    "5ac2426c86f774138762edfe": {
+      "raidsSinceStarted": 2
+    },
+    "5ac2428686f77412450b42bf": {
+      "raidsSinceStarted": 2
+    },
+    "5ac345dc86f774288030817f": {
+      "raidsSinceStarted": 2
+    },
+    "5a27b7a786f774579c3eb376": {
+      "raidsSinceStarted": 2
+    },
+    "596a204686f774576d4c95de": {
+      "raidsSinceStarted": 2
+    },
+    "painter_4": {
+      "raidsSinceStarted": 2
+    }
+  }
+}

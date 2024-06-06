@@ -1,0 +1,101 @@
+    [Money]
+        "Roubles": Avg:21 | Max:21
+        "Dollars": Avg:3 | Max:3
+    [Other]
+        "Apollo Soyuz cigarettes": Avg:16 | Max:16
+        "Strike Cigarettes": Avg:13 | Max:13
+        "Wilston cigarettes": Avg:12 | Max:12
+        "Malboro Cigarettes": Avg:8 | Max:8
+        "Can of Majaica coffee beans": Avg:2 | Max:2
+    [Battery]
+        "D Size battery": Avg:14 | Max:14
+        "AA Battery": Avg:12 | Max:12
+        "Portable Powerbank": Avg:3 | Max:3
+        "Rechargeable battery": Avg:2 | Max:2
+    [Food]
+        "Rye croutons": Avg:14 | Max:14
+        "Emelya rye croutons": Avg:13 | Max:13
+        "Slickers chocolate bar": Avg:11 | Max:11
+        "Alyonka chocolate bar": Avg:6 | Max:6
+        "Pack of oat flakes": Avg:5 | Max:5
+        "Can of green peas": Avg:4 | Max:4
+        "Can of herring": Avg:2 | Max:2
+        "Pack of sugar": Avg:1 | Max:1
+        "Can of sprats": Avg:1 | Max:1
+    [Lubricant]
+        "Crickent lighter": Avg:12 | Max:12
+        "Classic matches": Avg:10 | Max:10
+        "Hunting matches": Avg:5 | Max:5
+        "Dry fuel": Avg:4 | Max:4
+        "SurvL Survivor Lighter": Avg:1 | Max:1
+        "Zibbo lighter": Avg:1 | Max:1
+        "Can of thermite": Avg:1 | Max:1
+        "Propane tank (5L)": Avg:1 | Max:1
+    [Drink]
+        "Can of Ice Green tea": Avg:11 | Max:11
+        "Can of Max Energy energy drink": Avg:10 | Max:10
+        "Can of Hot Rod energy drink": Avg:8 | Max:8
+        "Can of TarCola soda": Avg:7 | Max:7
+        "Pack of milk": Avg:5 | Max:5
+        "Pack of Grand juice": Avg:5 | Max:5
+        "Bottle of water (0.6L)": Avg:3 | Max:3
+        "Pack of apple juice": Avg:2 | Max:2
+        "Bottle of Tarkovskaya vodka": Avg:1 | Max:1
+        "Pack of Russian Army pineapple juice": Avg:1 | Max:1
+        "Bottle of "Norvinskiy Yadreniy" premium kvass (0.6L)": Avg:1 | Max:1
+    [AmmoBox]
+        "9x19mm FMJ M882 ammo pack (30 pcs)": Avg:8 | Max:8
+        "5.45x39mm HP ammo pack (30 pcs)": Avg:8 | Max:8
+        "5.45x39mm FMJ ammo pack (30 pcs)": Avg:6 | Max:6
+        "7.62x39mm SP ammo pack (20 pcs)": Avg:6 | Max:6
+        "9x18mm PM BZhT gzh ammo pack (16 pcs)": Avg:5 | Max:5
+        "7.62x39mm HP ammo pack (20 pcs)": Avg:4 | Max:4
+        "9x18mm PM PPe gzh ammo pack (16 pcs)": Avg:3 | Max:3
+        "9x18mm PM Pst gzh ammo pack (16 pcs)": Avg:3 | Max:3
+        "7.62x39mm FMJ ammo pack (20 pcs)": Avg:3 | Max:3
+        "5.45x39mm US gs ammo pack (120 pcs)": Avg:2 | Max:2
+        "5.45x39mm SP ammo pack (30 pcs)": Avg:2 | Max:2
+        "5.45x39mm PS gs ammo pack (30 pcs)": Avg:2 | Max:2
+        "5.56x45mm M855 ammo pack (50 pcs)": Avg:1 | Max:1
+    [Electronics]
+        "Capacitors": Avg:7 | Max:7
+        "TerraGroup scientist's hard drive": Avg:1 | Max:1
+    [BuildingMaterial]
+        "Insulating tape": Avg:4 | Max:4
+        "Piece of plexiglass": Avg:2 | Max:2
+        "Pack of nails": Avg:2 | Max:2
+        "Tube of Poxeram cold welding": Avg:1 | Max:1
+        "Silicone tube": Avg:1 | Max:1
+        "Bolts": Avg:1 | Max:1
+        "Shustrilo sealing foam": Avg:1 | Max:1
+        "KEKTAPE duct tape": Avg:1 | Max:1
+        "Pack of screws": Avg:1 | Max:1
+        "Corrugated hose": Avg:1 | Max:1
+    [HouseholdGoods]
+        "Ox bleach": Avg:3 | Max:3
+        "Clin window cleaner": Avg:1 | Max:1
+        "Repellent": Avg:1 | Max:1
+    [Drugs]
+        "Analgin painkillers": Avg:3 | Max:3
+    [Info]
+        "Tech manual": Avg:3 | Max:3
+        "Bottle of Le Jean wine": Avg:1 | Max:1
+    [Tool]
+        "Nippers": Avg:2 | Max:2
+        "Awl": Avg:2 | Max:2
+        "Construction measuring tape": Avg:2 | Max:2
+        "Fierce Blow sledgehammer": Avg:1 | Max:1
+        "Pliers Elite": Avg:1 | Max:1
+        "Hand drill": Avg:1 | Max:1
+        "Flat screwdriver": Avg:1 | Max:1
+    [Jewelry]
+        "Chainlet": Avg:2 | Max:2
+        "Golden neck chain": Avg:2 | Max:2
+    [Medical]
+        "CALOK-B hemostatic applicator": Avg:1 | Max:1
+        "Immobilizing splint": Avg:1 | Max:1
+    [Shotgun]
+        "MP-133 12ga pump-action shotgun": Avg:1 | Max:1
+    [MedicalSupplies]
+        "Bottle of hydrogen peroxide": Avg:1 | Max:1
+        "Bottle of OLOLO Multivitamins": Avg:1 | Max:1

@@ -1,0 +1,29 @@
+{
+    "itemids": {
+        "lyconoxslcshak12lid": {
+            "Name": "ASh-12 12.7x55 full-size sound suppressor",
+            "ShortName": "ASh-12 FSS",
+            "Description": "A full-size sound suppressor manufactured by TsKIB for the ASh-12 12.7x55 automatic rifle."
+        },
+        "lyconoxbrlmc558id": {
+            "Name": "MTs-558 12.7x55 muzzle brake-compensator",
+            "ShortName": "MTs-558",
+            "Description": "A standard-issue muzzle brake for the MTs-558 rifle, manufactured by TsKIB."
+        },
+        "lyconoxbrlmc558hgid": {
+            "Name": "MTs-558 barrel handguard",
+            "ShortName": "MTs HG",
+            "Description": "A handguard for the MTs-558 rifle's barrel, manufactured by TsKIB."
+        },
+        "lyconoxsgtash12fid": {
+            "Name": "ASh-12 full-size sight carry handle",
+            "ShortName": "ASh-12 FCH",
+            "Description": "A detachable full-size carry handle with iron sight for the ASh-12 assault rifles."
+        },
+        "ACadf6eeae921500134b2799": {
+            "Name": "12.7x55mm PS12 Sabot",
+            "ShortName": "PS12Sabot",
+            "Description": "A 12.7x55mm PS12 special cartridge with an 15 gram hypersonic armor-piercing bullet with a sabot core. This cartridge was designed to penetrate armor at a top speed of Mach 3. However, due to its design, it has a high probability of bouncing off various surfaces."
+        }
+    }
+}

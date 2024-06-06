@@ -1,0 +1,137 @@
+    [Jewelry]
+        "Chainlet": Avg:6 | Max:6
+        "Horse figurine": Avg:4 | Max:4
+    [Drink]
+        "Pack of Grand juice": Avg:5 | Max:5
+        "Bottle of Tarkovskaya vodka": Avg:5 | Max:5
+        "Emergency Water Ration": Avg:5 | Max:5
+        "Can of TarCola soda": Avg:3 | Max:3
+        "Pack of Russian Army pineapple juice": Avg:3 | Max:3
+        "Can of Hot Rod energy drink": Avg:2 | Max:2
+        "Bottle of water (0.6L)": Avg:1 | Max:1
+        "Can of Max Energy energy drink": Avg:1 | Max:1
+        "Can of Ice Green tea": Avg:1 | Max:1
+    [Food]
+        "Pack of sugar": Avg:5 | Max:5
+        "Slickers chocolate bar": Avg:4 | Max:4
+        "MRE ration pack": Avg:4 | Max:4
+        "Iskra ration pack": Avg:3 | Max:3
+        "Pack of oat flakes": Avg:3 | Max:3
+        "Pack of instant noodles": Avg:3 | Max:3
+        "Alyonka chocolate bar": Avg:2 | Max:2
+        "Can of condensed milk": Avg:2 | Max:2
+        "Can of sprats": Avg:2 | Max:2
+        "Pack of Tarker dried meat": Avg:2 | Max:2
+        "Can of beef stew (Large)": Avg:1 | Max:1
+        "Rye croutons": Avg:1 | Max:1
+        "Salty Dog beef sausage": Avg:1 | Max:1
+    [Other]
+        "Apollo Soyuz cigarettes": Avg:4 | Max:4
+        "Wilston cigarettes": Avg:1 | Max:1
+        "Pack of Arseniy buckwheat": Avg:1 | Max:1
+        "Water filter": Avg:1 | Max:1
+    [Money]
+        "Dollars": Avg:3 | Max:3
+    [AmmoBox]
+        "9x18mm PM PS gs PPO ammo pack (16 pcs)": Avg:3 | Max:3
+        "5.45x39mm PRS gs ammo pack (30 pcs)": Avg:2 | Max:2
+        "7.62x39mm T-45M1 gzh ammo pack (20 pcs)": Avg:2 | Max:2
+        "5.45x39mm BP gs ammo pack (30 pcs)": Avg:2 | Max:2
+        "5.56x45mm M855 ammo pack (50 pcs)": Avg:2 | Max:2
+        "5.45x39mm PS gs ammo pack (120 pcs)": Avg:2 | Max:2
+        "5.45x39mm PRS gs ammo pack (120 pcs)": Avg:2 | Max:2
+        "5.45x39mm US gs ammo pack (120 pcs)": Avg:2 | Max:2
+        "4.6x30mm JSP SX ammo pack (40 pcs)": Avg:2 | Max:2
+        "5.45x39mm PS gs ammo pack (30 pcs)": Avg:2 | Max:2
+        "9x18mm PM PSO gzh ammo pack (16 pcs)": Avg:2 | Max:2
+        "9x18mm PM BZhT gzh ammo pack (16 pcs)": Avg:1 | Max:1
+        "7.62x39mm PS gzh ammo pack (20 pcs)": Avg:1 | Max:1
+        "5.45x39mm PP gs ammo pack (30 pcs)": Avg:1 | Max:1
+        "7.62x54mm R HP BT ammo pack (20 pcs)": Avg:1 | Max:1
+        "5.56x45mm M995 ammo pack (50 pcs)": Avg:1 | Max:1
+        "5.45x39mm SP ammo pack (30 pcs)": Avg:1 | Max:1
+        "9x18mm PMM PstM gzh ammo pack (16 pcs)": Avg:1 | Max:1
+        "9x18mm PM SP7 gzh ammo pack (50 pcs)": Avg:1 | Max:1
+        "5.45x39mm T gs ammo pack (30 pcs)": Avg:1 | Max:1
+        "5.56x45mm MK 255 Mod 0 (RRLP) ammo pack (100 pcs)": Avg:1 | Max:1
+        "9x18mm PM BZhT gzh ammo pack (50 pcs)": Avg:1 | Max:1
+        "9x19mm Luger CCI ammo pack (50 pcs)": Avg:1 | Max:1
+        "5.45x39mm US gs ammo pack (30 pcs)": Avg:1 | Max:1
+        "5.56x45mm MK 318 Mod 0 (SOST) ammo pack (100 pcs)": Avg:1 | Max:1
+    [Lubricant]
+        "Dry fuel": Avg:2 | Max:2
+    [Electronics]
+        "Radiator helix": Avg:2 | Max:2
+        "Single-axis Fiber Optic Gyroscope #1": Avg:1 | Max:1
+        "Motor Controller #1": Avg:1 | Max:1
+        "Spark plug": Avg:1 | Max:1
+    [Drugs]
+        "Augmentin antibiotic pills": Avg:2 | Max:2
+        "Analgin painkillers": Avg:1 | Max:1
+    [Tool]
+        "Flat screwdriver (Long)": Avg:2 | Max:2
+        "Metal cutting scissors": Avg:1 | Max:1
+        "Construction measuring tape": Avg:1 | Max:1
+        "Screwdriver": Avg:1 | Max:1
+        "Round pliers": Avg:1 | Max:1
+    [Info]
+        "Encrypted message": Avg:1 | Max:1
+        "Secure Folder 0052": Avg:1 | Max:1
+    [MedicalSupplies]
+        "Blood sample": Avg:1 | Max:1
+        "Medical tools": Avg:1 | Max:1
+    [Silencer]
+        "HK MP7 B&T Rotex 2 4.6x30 sound suppressor": Avg:1 | Max:1
+        "SureFire SOCOM556-MONSTER 5.56x45 sound suppressor": Avg:1 | Max:1
+    [Foregrip]
+        "TangoDown Stubby BGV-MK46K foregrip (Black)": Avg:1 | Max:1
+        "Viking Tactics UVG tactical foregrip": Avg:1 | Max:1
+        "Magpul M-LOK AFG tactical foregrip (Black)": Avg:1 | Max:1
+    [Stock]
+        "M870 Magpul SGA polymer stock": Avg:1 | Max:1
+        "OP-SKS wooden stock": Avg:1 | Max:1
+    [Battery]
+        "AA Battery": Avg:1 | Max:1
+    [FlashHider]
+        "Glock 9x19 CARVER Custom Decelerator 3 Port compensator": Avg:1 | Max:1
+        "AR-15 Colt USGI A2 5.56x45 flash hider": Avg:1 | Max:1
+        "AK-74 PWS CQB 74 5.45x39 muzzle brake": Avg:1 | Max:1
+        "AAC SCAR-SD 51T 7.62x51 flash hider": Avg:1 | Max:1
+    [Medical]
+        "CMS surgical kit": Avg:1 | Max:1
+        "Esmarch tourniquet": Avg:1 | Max:1
+        "Immobilizing splint": Avg:1 | Max:1
+        "CALOK-B hemostatic applicator": Avg:1 | Max:1
+    [Fuel]
+        "Expeditionary fuel tank": Avg:1 | Max:1
+    [Visors]
+        "Tactical glasses": Avg:1 | Max:1
+    [Magazine]
+        "MP-133 12ga 8-shell magazine": Avg:1 | Max:1
+    [MedKit]
+        "Car first aid kit": Avg:1 | Max:1
+        "Grizzly medical kit": Avg:1 | Max:1
+    [BuildingMaterial]
+        "Tube of Poxeram cold welding": Avg:1 | Max:1
+        "Silicone tube": Avg:1 | Max:1
+    [MuzzleCombo]
+        "MTs-255-12 12ga choke": Avg:1 | Max:1
+    [OpticScope]
+        "KMZ 1P69 3-10x riflescope": Avg:1 | Max:1
+        "Leupold Mark 4 LR 6.5-20x50 30mm riflescope": Avg:1 | Max:1
+        "EOTech Vudu 1-6x24 30mm riflescope": Avg:1 | Max:1
+    [Armor]
+        "BNTI Module-3M body armor": Avg:1 | Max:1
+    [Collimator]
+        "Holosun HS401G5 reflex sight": Avg:1 | Max:1
+        "EOTech EXPS3 holographic sight (Tan)": Avg:1 | Max:1
+    [Handguard]
+        "SA-58 quad rail handguard": Avg:1 | Max:1
+    [PistolGrip]
+        "AK TAPCO SAW-Style pistol grip (FDE)": Avg:1 | Max:1
+    [TacticalCombo]
+        "Olight Baldr Pro tactical flashlight with laser (Tan)": Avg:1 | Max:1
+    [Barrel]
+        "AR-15 5.56x45 260mm barrel": Avg:1 | Max:1
+    [AuxiliaryMod]
+        "Trijicon REAP-IR scope eyecup": Avg:1 | Max:1

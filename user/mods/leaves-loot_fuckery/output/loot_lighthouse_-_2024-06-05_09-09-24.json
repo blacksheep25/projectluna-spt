@@ -1,0 +1,209 @@
+    [Electronics]
+        "Military COFDM Wireless Signal Transmitter": Avg:26 | Max:26
+        "Virtex programmable processor": Avg:9 | Max:9
+        "Phased array element": Avg:3 | Max:3
+        "Military cable": Avg:3 | Max:3
+        "Bundle of wires": Avg:3 | Max:3
+        "Power supply unit": Avg:2 | Max:2
+        "T-Shaped plug": Avg:2 | Max:2
+        "Working hard drive": Avg:1 | Max:1
+        "Laptop with information": Avg:1 | Max:1
+        "VPX Flash Storage Module": Avg:1 | Max:1
+        "Electric motor": Avg:1 | Max:1
+        "Printed circuit board": Avg:1 | Max:1
+        "Magnet": Avg:1 | Max:1
+        "Broken GPhone smartphone": Avg:1 | Max:1
+        "USB Adapter": Avg:1 | Max:1
+        "Military gyrotachometer": Avg:1 | Max:1
+        "Electronic components": Avg:1 | Max:1
+    [Battery]
+        "Cyclon rechargeable battery": Avg:3 | Max:3
+        "Rechargeable battery": Avg:1 | Max:1
+        "AA Battery": Avg:1 | Max:1
+    [Tool]
+        "Ratchet wrench": Avg:3 | Max:3
+        "Metal cutting scissors": Avg:3 | Max:3
+        "Nippers": Avg:2 | Max:2
+        "Wrench": Avg:2 | Max:2
+        "Bulbex cable cutter": Avg:2 | Max:2
+        "Pliers Elite": Avg:2 | Max:2
+        "Flat screwdriver (Long)": Avg:1 | Max:1
+        "Set of files "Master"": Avg:1 | Max:1
+        "Sewing kit": Avg:1 | Max:1
+        "Flat screwdriver": Avg:1 | Max:1
+        "Toolset": Avg:1 | Max:1
+    [Jewelry]
+        "Roler Submariner gold wrist watch": Avg:3 | Max:3
+        "Gold skull ring": Avg:3 | Max:3
+        "Axel parrot figurine": Avg:2 | Max:2
+        "Silver Badge": Avg:2 | Max:2
+        "Horse figurine": Avg:1 | Max:1
+        "Chainlet": Avg:1 | Max:1
+        "Golden egg": Avg:1 | Max:1
+        "GP coin": Avg:1 | Max:1
+    [BuildingMaterial]
+        "Pressure gauge": Avg:2 | Max:2
+        "Corrugated hose": Avg:2 | Max:2
+        "Xenomorph sealing foam": Avg:2 | Max:2
+        "Silicone tube": Avg:1 | Max:1
+        "Metal spare parts": Avg:1 | Max:1
+        "Tube of Poxeram cold welding": Avg:1 | Max:1
+    [Money]
+        "Euros": Avg:2 | Max:2
+        "Dollars": Avg:2 | Max:2
+        "Roubles": Avg:2 | Max:2
+    [Drugs]
+        "Golden Star balm": Avg:2 | Max:2
+        "Augmentin antibiotic pills": Avg:1 | Max:1
+    [Mount]
+        "FN P90 EFFEN 90 receiver rail": Avg:2 | Max:2
+        "Alexander Arms 10 inch rail": Avg:2 | Max:2
+        "Vltor CASV 5 inch rail": Avg:1 | Max:1
+        "NcSTAR MPR45 Backup mount": Avg:1 | Max:1
+        "HK MP5 B&T tri-rail receiver mount": Avg:1 | Max:1
+        "Burris AR-P.E.P.R. 30mm ring scope mount": Avg:1 | Max:1
+        "M700 AB Arms MOD*X rail mount": Avg:1 | Max:1
+        "Remington RAHG 2 inch rail": Avg:1 | Max:1
+        "Recknagel Era-Tac Sunshade mount for Aimpoint T-1 sights": Avg:1 | Max:1
+        "Aimpoint Micro Spacer High": Avg:1 | Max:1
+    [Drink]
+        "Pack of milk": Avg:2 | Max:2
+        "Pack of Russian Army pineapple juice": Avg:1 | Max:1
+        "Bottle of "Norvinskiy Yadreniy" premium kvass (0.6L)": Avg:1 | Max:1
+        "Can of TarCola soda": Avg:1 | Max:1
+        "Emergency Water Ration": Avg:1 | Max:1
+        "Aquamari water bottle with filter": Avg:1 | Max:1
+        "Pack of Grand juice": Avg:1 | Max:1
+        "Bottle of Tarkovskaya vodka": Avg:1 | Max:1
+        "Can of Max Energy energy drink": Avg:1 | Max:1
+        "Bottle of water (0.6L)": Avg:1 | Max:1
+        "Can of RatCola soda": Avg:1 | Max:1
+    [Magazine]
+        "SA-58/FAL/SLR 7.62x51 30-round magazine": Avg:2 | Max:2
+        "SKS 7.62x39 ProMag AALVX 35-round magazine": Avg:1 | Max:1
+        "FN P90 5.7x28 50-round magazine": Avg:1 | Max:1
+        "ORSIS T-5000M 7.62x51 5-round magazine": Avg:1 | Max:1
+    [Food]
+        "Pack of Tarker dried meat": Avg:2 | Max:2
+        "Pack of oat flakes": Avg:1 | Max:1
+        "Pack of sugar": Avg:1 | Max:1
+        "MRE ration pack": Avg:1 | Max:1
+        "Slickers chocolate bar": Avg:1 | Max:1
+    [Lubricant]
+        "TP-200 TNT brick": Avg:2 | Max:2
+        "Propane tank (5L)": Avg:2 | Max:2
+        "Dry fuel": Avg:1 | Max:1
+        "SurvL Survivor Lighter": Avg:1 | Max:1
+        "Classic matches": Avg:1 | Max:1
+        "Crickent lighter": Avg:1 | Max:1
+    [Other]
+        "Paracord": Avg:2 | Max:2
+        "OFZ 30x160mm shell": Avg:1 | Max:1
+        "Can of Majaica coffee beans": Avg:1 | Max:1
+    [Stimulator]
+        "Meldonin injector": Avg:2 | Max:2
+        "M.U.L.E. stimulant injector": Avg:1 | Max:1
+    [MedKit]
+        "AFAK tactical individual first aid kit": Avg:2 | Max:2
+    [AmmoBox]
+        "5.45x39mm BP gs ammo pack (30 pcs)": Avg:2 | Max:2
+        "9x18mm PM PSO gzh ammo pack (50 pcs)": Avg:1 | Max:1
+        "4.6x30mm AP SX ammo pack (40 pcs)": Avg:1 | Max:1
+        "9x18mm PM BZhT gzh ammo pack (50 pcs)": Avg:1 | Max:1
+        "5.56x45mm M856 ammo pack (100 pcs)": Avg:1 | Max:1
+        "5.56x45mm M856A1 ammo pack (50 pcs)": Avg:1 | Max:1
+        "9x18mm PM SP8 gzh ammo pack (16 pcs)": Avg:1 | Max:1
+        "5.45x39mm PRS gs ammo pack (30 pcs)": Avg:1 | Max:1
+        "7.62x54mm R FMJ ammo pack (20 pcs)": Avg:1 | Max:1
+        ".300 Blackout V-Max ammo pack (50 pcs)": Avg:1 | Max:1
+        "9x18mm PM PBM gzh ammo pack (50 pcs)": Avg:1 | Max:1
+        "9x19mm Green Tracer ammo pack (50 pcs)": Avg:1 | Max:1
+        "9x18mm PM PPT gzh ammo pack (16 pcs)": Avg:1 | Max:1
+        "12/70 FTX Custom Lite slug ammo pack (25 pcs)": Avg:1 | Max:1
+        "5.56x45mm MK 255 Mod 0 (RRLP) ammo pack (50 pcs)": Avg:1 | Max:1
+        ".366 TKM EKO ammo pack (20 pcs)": Avg:1 | Max:1
+    [Info]
+        "Secure Flash drive V3": Avg:1 | Max:1
+        "Forged Lightkeeper intelligence": Avg:1 | Max:1
+        "Picture 12": Avg:1 | Max:1
+        "Water pump operation data": Avg:1 | Max:1
+        "Sealed letter": Avg:1 | Max:1
+        "Stolen military documents": Avg:1 | Max:1
+        "Pumping station operation report": Avg:1 | Max:1
+    [RadioTransmitter]
+        "Radio transmitter body": Avg:1 | Max:1
+    [PistolGrip]
+        "PM FAB Defense PM-G pistol grip (Olive Drab)": Avg:1 | Max:1
+        "P226 Stainless Elite Wooden pistol grip": Avg:1 | Max:1
+        "AR-15 F1 Firearms Skeletonized Style 1 pistol grip": Avg:1 | Max:1
+        "AR-15 HK Battle Grip Beavertail pistol grip": Avg:1 | Max:1
+        "SA-58 FAB Defense AG-FAL pistol grip": Avg:1 | Max:1
+        "P226 Axelson Tactical MK25 pistol grip": Avg:1 | Max:1
+        "AR-15 F1 Firearms Skeletonized Style 2 pistol grip": Avg:1 | Max:1
+        "AK KGB MG-47 pistol grip": Avg:1 | Max:1
+        "AR-15 HK Battle Grip pistol grip": Avg:1 | Max:1
+        "AK Custom Arms AGS-74 PRO + Sniper Kit pistol grip": Avg:1 | Max:1
+    [Bipod]
+        "HK G36 bipod": Avg:1 | Max:1
+    [Gasblock]
+        "AR-10 JP Enterprises Gas System-6": Avg:1 | Max:1
+        "AR-15 Daniel Defense MK12 Low Profile Gas Block": Avg:1 | Max:1
+    [Stock]
+        "MP-155 Ultima medium recoil pad": Avg:1 | Max:1
+        "M870 Mesa Tactical LEO stock adapter": Avg:1 | Max:1
+        "AR-15 FAB Defense GLR-16-S stock": Avg:1 | Max:1
+        "AR-15 Magpul PRS GEN3 stock (Black)": Avg:1 | Max:1
+        "SA-58 folding stock": Avg:1 | Max:1
+        "M14 SAGE International M14ALCS chassis": Avg:1 | Max:1
+        "AR-15 Daniel Defense Enhanced Collapsible Buttstock (FDE)": Avg:1 | Max:1
+    [Collimator]
+        "Walther MRS reflex sight": Avg:1 | Max:1
+        "VOMZ Pilad TargetRing reflex sight": Avg:1 | Max:1
+        "Aimpoint PRO reflex sight": Avg:1 | Max:1
+        "Leapers UTG reflex sight": Avg:1 | Max:1
+        "Valday Krechet reflex sight": Avg:1 | Max:1
+    [HouseholdGoods]
+        "PAID AntiRoach spray": Avg:1 | Max:1
+        "Clin window cleaner": Avg:1 | Max:1
+    [Silencer]
+        "KAC QDSS NT-4 5.56x45 sound suppressor (Black)": Avg:1 | Max:1
+        "SR-2M 9x21 sound suppressor (SV-1381)": Avg:1 | Max:1
+        "Rotor 43 .366 TKM muzzle brake-compensator": Avg:1 | Max:1
+    [IronSight]
+        "KAC Folding front sight": Avg:1 | Max:1
+        "KRISS Defiance low profile flip-up front sight": Avg:1 | Max:1
+        "Magpul MBUS Gen2 flip-up front sight": Avg:1 | Max:1
+    [Receiver]
+        "SKS dust cover": Avg:1 | Max:1
+        "AR-15 Vltor MUR-1S 5.56x45 upper receiver": Avg:1 | Max:1
+        "AK Zenit B-33 dust cover": Avg:1 | Max:1
+    [FlashHider]
+        "Desert Tech 7.62x51 flash hider": Avg:1 | Max:1
+        "M1A Smith Enterprise SOCOM 16 7.62x51 threaded muzzle brake & gas block": Avg:1 | Max:1
+        "HK MP5 B&T QD 9x19 muzzle brake": Avg:1 | Max:1
+        "AR-15 Colt USGI A2 5.56x45 flash hider": Avg:1 | Max:1
+        "AR-15 AWC PSR 5.56x45 muzzle brake": Avg:1 | Max:1
+        "Glock 9x19 CARVER Custom 4 Port compensator": Avg:1 | Max:1
+    [Barrel]
+        "AR-10 7.62x51 18 inch barrel": Avg:1 | Max:1
+        "HK USP Tactical .45 ACP threaded barrel": Avg:1 | Max:1
+        "HK 416A5 5.56x45 14.5 inch barrel": Avg:1 | Max:1
+    [Handguard]
+        "AK Hexagon tubular handguard (Anodized Red)": Avg:1 | Max:1
+        "AK Strike Industries TRAX 1 handguard": Avg:1 | Max:1
+        "AK Magpul Zhukov-U handguard (FDE)": Avg:1 | Max:1
+    [TacticalCombo]
+        "Holosun LS321 Tactical device": Avg:1 | Max:1
+        "AN/PEQ-15 tactical device": Avg:1 | Max:1
+        "Insight WMX200 tactical flashlight": Avg:1 | Max:1
+    [OpticScope]
+        "March Tactical 3-24x42 FFP 30mm riflescope": Avg:1 | Max:1
+    [Foregrip]
+        "A3 Tactical MVF001 KeyMod vertical foregrip (Black)": Avg:1 | Max:1
+        "Viking Tactics UVG tactical foregrip": Avg:1 | Max:1
+    [Flashlight]
+        "Ultrafire WF-501B flashlight": Avg:1 | Max:1
+    [MuzzleCombo]
+        "ME Cylinder 12ga muzzle adapter": Avg:1 | Max:1
+    [Fuel]
+        "Metal fuel tank": Avg:1 | Max:1

@@ -1,0 +1,17 @@
+{
+    "name": "aaMFACSHOP",
+    "version": "1.2.0",
+    "main": "src/mod.js",
+    "license": "MIT",
+    "author": "PETTAN",
+    "akiVersion": "3.8.x",
+    "isBundleMod": false,
+    "loadBefore": [],
+    "loadAfter": [],
+    "incompatibilities": [],
+    "contributors": [
+        "(Built off PRISCILU by Reis)"
+    ],
+    "scripts": {},
+    "devDependencies": {}
+}

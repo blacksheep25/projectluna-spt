@@ -1,0 +1,2251 @@
+{
+	"items": {
+		"6401c7b213d9b818bf0e7dd7": {
+			"_id": "6401c7b213d9b818bf0e7dd7",
+			"_name": "WeaponStand_Stash_1",
+			"_parent": "63da6da4784a55176c018dba",
+			"_type": "Item",
+			"_props": {
+				"Name": "WeaponStand_Stash_lvl1",
+				"ShortName": "Item",
+				"Description": "Item",
+				"Weight": 1,
+				"BackgroundColor": "blue",
+				"Width": 1,
+				"Height": 1,
+				"StackMaxSize": 1,
+				"ItemSound": "generic",
+				"Prefab": {
+					"path": "assets/content/items/hideout_area_containers/weaponstand_stash_1.bundle",
+					"rcid": ""
+				},
+				"UsePrefab": {
+					"path": "",
+					"rcid": ""
+				},
+				"StackObjectsCount": 1,
+				"NotShownInSlot": false,
+				"ExaminedByDefault": false,
+				"ExamineTime": 1,
+				"IsUndiscardable": false,
+				"IsUnsaleable": false,
+				"IsUnbuyable": false,
+				"IsUngivable": false,
+				"IsLockedafterEquip": false,
+				"QuestItem": false,
+				"LootExperience": 20,
+				"ExamineExperience": 10,
+				"HideEntrails": false,
+				"RepairCost": 0,
+				"RepairSpeed": 0,
+				"ExtraSizeLeft": 0,
+				"ExtraSizeRight": 0,
+				"ExtraSizeUp": 0,
+				"ExtraSizeDown": 0,
+				"ExtraSizeForceAdd": false,
+				"MergesWithChildren": false,
+				"CanSellOnRagfair": true,
+				"CanRequireOnRagfair": false,
+				"ConflictingItems": [],
+				"Unlootable": false,
+				"UnlootableFromSlot": "FirstPrimaryWeapon",
+				"UnlootableFromSide": [],
+				"AnimationVariantsNumber": 0,
+				"DiscardingBlock": false,
+				"RagFairCommissionModifier": 1,
+				"IsAlwaysAvailableForInsurance": false,
+				"DiscardLimit": -1,
+				"DropSoundType": "None",
+				"InsuranceDisabled": false,
+				"QuestStashMaxCount": 0,
+				"IsSpecialSlotOnly": false,
+				"IsUnremovable": false,
+				"Grids": [
+					{
+						"_name": "1",
+						"_id": "6401c7ff49ffb41e4e0c4477",
+						"_parent": "6401c7b213d9b818bf0e7dd7",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									],
+									"ExcludedFilter": []
+								}
+							],
+							"cellsH": 9,
+							"cellsV": 6,
+							"minCount": 0,
+							"maxCount": 0,
+							"maxWeight": 0,
+							"isSortingTable": false
+						},
+						"_proto": "55d329c24bdc2d892f8b4567"
+					}
+				],
+				"Slots": [],
+				"CanPutIntoDuringTheRaid": true,
+				"CantRemoveFromSlotsDuringRaid": [],
+				"LayoutName": "WeaponStand_Stash"
+			}
+		},
+		"64381b582bb1c5dedd0fc925": {
+			"_id": "64381b582bb1c5dedd0fc925",
+			"_name": "WeaponStand_Stash_2",
+			"_parent": "63da6da4784a55176c018dba",
+			"_type": "Item",
+			"_props": {
+				"Name": "WeaponStand_Stash_lvl2",
+				"ShortName": "Item",
+				"Description": "Item",
+				"Weight": 1,
+				"BackgroundColor": "blue",
+				"Width": 1,
+				"Height": 1,
+				"StackMaxSize": 1,
+				"ItemSound": "generic",
+				"Prefab": {
+					"path": "assets/content/items/hideout_area_containers/weaponstand_stash_1.bundle",
+					"rcid": ""
+				},
+				"UsePrefab": {
+					"path": "",
+					"rcid": ""
+				},
+				"StackObjectsCount": 1,
+				"NotShownInSlot": false,
+				"ExaminedByDefault": false,
+				"ExamineTime": 1,
+				"IsUndiscardable": false,
+				"IsUnsaleable": false,
+				"IsUnbuyable": false,
+				"IsUngivable": false,
+				"IsLockedafterEquip": false,
+				"QuestItem": false,
+				"LootExperience": 20,
+				"ExamineExperience": 10,
+				"HideEntrails": false,
+				"RepairCost": 0,
+				"RepairSpeed": 0,
+				"ExtraSizeLeft": 0,
+				"ExtraSizeRight": 0,
+				"ExtraSizeUp": 0,
+				"ExtraSizeDown": 0,
+				"ExtraSizeForceAdd": false,
+				"MergesWithChildren": false,
+				"CanSellOnRagfair": true,
+				"CanRequireOnRagfair": false,
+				"ConflictingItems": [],
+				"Unlootable": false,
+				"UnlootableFromSlot": "FirstPrimaryWeapon",
+				"UnlootableFromSide": [],
+				"AnimationVariantsNumber": 0,
+				"DiscardingBlock": false,
+				"RagFairCommissionModifier": 1,
+				"IsAlwaysAvailableForInsurance": false,
+				"DiscardLimit": -1,
+				"DropSoundType": "None",
+				"InsuranceDisabled": false,
+				"QuestStashMaxCount": 0,
+				"IsSpecialSlotOnly": false,
+				"IsUnremovable": false,
+				"Grids": [
+					{
+						"_name": "1",
+						"_id": "64381bd02bb1c5dedd0fc929",
+						"_parent": "64381b582bb1c5dedd0fc925",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									],
+									"ExcludedFilter": []
+								}
+							],
+							"cellsH": 11,
+							"cellsV": 6,
+							"minCount": 0,
+							"maxCount": 0,
+							"maxWeight": 0,
+							"isSortingTable": false
+						},
+						"_proto": "55d329c24bdc2d892f8b4567"
+					}
+				],
+				"Slots": [],
+				"CanPutIntoDuringTheRaid": true,
+				"CantRemoveFromSlotsDuringRaid": [],
+				"LayoutName": "WeaponStand_Stash"
+			}
+		},
+		"64381b6e44b37a080d0245b9": {
+			"_id": "64381b6e44b37a080d0245b9",
+			"_name": "WeaponStand_Stash_3",
+			"_parent": "63da6da4784a55176c018dba",
+			"_type": "Item",
+			"_props": {
+				"Name": "WeaponStand_Stash_lvl3",
+				"ShortName": "Item",
+				"Description": "Item",
+				"Weight": 1,
+				"BackgroundColor": "blue",
+				"Width": 1,
+				"Height": 1,
+				"StackMaxSize": 1,
+				"ItemSound": "generic",
+				"Prefab": {
+					"path": "assets/content/items/hideout_area_containers/weaponstand_stash_1.bundle",
+					"rcid": ""
+				},
+				"UsePrefab": {
+					"path": "",
+					"rcid": ""
+				},
+				"StackObjectsCount": 1,
+				"NotShownInSlot": false,
+				"ExaminedByDefault": false,
+				"ExamineTime": 1,
+				"IsUndiscardable": false,
+				"IsUnsaleable": false,
+				"IsUnbuyable": false,
+				"IsUngivable": false,
+				"IsLockedafterEquip": false,
+				"QuestItem": false,
+				"LootExperience": 20,
+				"ExamineExperience": 10,
+				"HideEntrails": false,
+				"RepairCost": 0,
+				"RepairSpeed": 0,
+				"ExtraSizeLeft": 0,
+				"ExtraSizeRight": 0,
+				"ExtraSizeUp": 0,
+				"ExtraSizeDown": 0,
+				"ExtraSizeForceAdd": false,
+				"MergesWithChildren": false,
+				"CanSellOnRagfair": true,
+				"CanRequireOnRagfair": false,
+				"ConflictingItems": [],
+				"Unlootable": false,
+				"UnlootableFromSlot": "FirstPrimaryWeapon",
+				"UnlootableFromSide": [],
+				"AnimationVariantsNumber": 0,
+				"DiscardingBlock": false,
+				"RagFairCommissionModifier": 1,
+				"IsAlwaysAvailableForInsurance": false,
+				"DiscardLimit": -1,
+				"DropSoundType": "None",
+				"InsuranceDisabled": false,
+				"QuestStashMaxCount": 0,
+				"IsSpecialSlotOnly": false,
+				"IsUnremovable": false,
+				"Grids": [
+					{
+						"_name": "1",
+						"_id": "64381bf680a61f284606abb6",
+						"_parent": "64381b6e44b37a080d0245b9",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									],
+									"ExcludedFilter": []
+								}
+							],
+							"cellsH": 13,
+							"cellsV": 7,
+							"minCount": 0,
+							"maxCount": 0,
+							"maxWeight": 0,
+							"isSortingTable": false
+						},
+						"_proto": "55d329c24bdc2d892f8b4567"
+					}
+				],
+				"Slots": [],
+				"CanPutIntoDuringTheRaid": true,
+				"CantRemoveFromSlotsDuringRaid": [],
+				"LayoutName": "WeaponStand_Stash"
+			}
+		},
+		"63dbd45917fff4dee40fe16e": {
+			"_id": "63dbd45917fff4dee40fe16e",
+			"_name": "PlaceOfFame_Stash_1",
+			"_parent": "63da6da4784a55176c018dba",
+			"_type": "Item",
+			"_props": {
+				"Name": "PlaceOfFame_Stash_lvl1",
+				"ShortName": "",
+				"Description": "",
+				"Weight": 0,
+				"BackgroundColor": "blue",
+				"Width": 1,
+				"Height": 1,
+				"StackMaxSize": 1,
+				"ItemSound": "generic",
+				"Prefab": {
+					"path": "assets/content/items/hideout_area_containers/placeoffame_stash_1.bundle",
+					"rcid": ""
+				},
+				"UsePrefab": {
+					"path": "",
+					"rcid": ""
+				},
+				"StackObjectsCount": 1,
+				"NotShownInSlot": false,
+				"ExaminedByDefault": false,
+				"ExamineTime": 1,
+				"IsUndiscardable": false,
+				"IsUnsaleable": false,
+				"IsUnbuyable": false,
+				"IsUngivable": false,
+				"IsLockedafterEquip": false,
+				"QuestItem": false,
+				"LootExperience": 20,
+				"ExamineExperience": 10,
+				"HideEntrails": false,
+				"RepairCost": 0,
+				"RepairSpeed": 0,
+				"ExtraSizeLeft": 0,
+				"ExtraSizeRight": 0,
+				"ExtraSizeUp": 0,
+				"ExtraSizeDown": 0,
+				"ExtraSizeForceAdd": false,
+				"MergesWithChildren": false,
+				"CanSellOnRagfair": true,
+				"CanRequireOnRagfair": true,
+				"ConflictingItems": [],
+				"Unlootable": false,
+				"UnlootableFromSlot": "FirstPrimaryWeapon",
+				"UnlootableFromSide": [],
+				"AnimationVariantsNumber": 0,
+				"DiscardingBlock": false,
+				"RagFairCommissionModifier": 1,
+				"IsAlwaysAvailableForInsurance": false,
+				"DiscardLimit": -1,
+				"DropSoundType": "None",
+				"InsuranceDisabled": false,
+				"QuestStashMaxCount": 0,
+				"IsSpecialSlotOnly": false,
+				"IsUnremovable": false,
+				"Grids": [],
+				"Slots": [
+					{
+						"_name": "dogtag1",
+						"_id": "63e206fbe465b4f0c8027035",
+						"_parent": "63dbd45917fff4dee40fe16e",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"59f32bb586f774757e1e8442",
+										"59f32c3b86f77472a31742f0"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "dogtag2",
+						"_id": "63e382a2ba4b374a890fb46c",
+						"_parent": "63dbd45917fff4dee40fe16e",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"59f32bb586f774757e1e8442",
+										"59f32c3b86f77472a31742f0"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "dogtag3",
+						"_id": "6542412243fce94c13636123",
+						"_parent": "63dbd45917fff4dee40fe16e",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"59f32bb586f774757e1e8442",
+										"59f32c3b86f77472a31742f0"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "smallTrophies1",
+						"_id": "6542412243fce94c13636124",
+						"_parent": "63dbd45917fff4dee40fe16e",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "smallTrophies2",
+						"_id": "655b4dd9d8093f341a46fcbb",
+						"_parent": "63dbd45917fff4dee40fe16e",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "smallTrophies3",
+						"_id": "655b4df10d37ca5135388dad",
+						"_parent": "63dbd45917fff4dee40fe16e",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "smallTrophies4",
+						"_id": "655b4dfc6b515950600d8f5a",
+						"_parent": "63dbd45917fff4dee40fe16e",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "smallTrophies5",
+						"_id": "655b4e1760d0ac437100fd36",
+						"_parent": "63dbd45917fff4dee40fe16e",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "smallTrophies6",
+						"_id": "655b4e1760d0ac437100fd37",
+						"_parent": "63dbd45917fff4dee40fe16e",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "bigTrophies1",
+						"_id": "655b4fced8093f341a46fcbc",
+						"_parent": "63dbd45917fff4dee40fe16e",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "bigTrophies2",
+						"_id": "655b4ff691aa9e07687ae47f",
+						"_parent": "63dbd45917fff4dee40fe16e",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "bigTrophies3",
+						"_id": "655b4ff691aa9e07687ae480",
+						"_parent": "63dbd45917fff4dee40fe16e",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "bigTrophies4",
+						"_id": "655b4ff691aa9e07687ae481",
+						"_parent": "63dbd45917fff4dee40fe16e",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "bigTrophies5",
+						"_id": "655b4ff691aa9e07687ae482",
+						"_parent": "63dbd45917fff4dee40fe16e",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "bigTrophies6",
+						"_id": "655b4ff691aa9e07687ae483",
+						"_parent": "63dbd45917fff4dee40fe16e",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					}
+				],
+				"CanPutIntoDuringTheRaid": true,
+				"CantRemoveFromSlotsDuringRaid": [],
+				"LayoutName": "PlaceOfFame_Stash_lvl1"
+			},
+			"_proto": "55d7217a4bdc2d86028b456d"
+		},
+		"65424185a57eea37ed6562e9": {
+			"_id": "65424185a57eea37ed6562e9",
+			"_name": "PlaceOfFame_Stash_2",
+			"_parent": "63da6da4784a55176c018dba",
+			"_type": "Item",
+			"_props": {
+				"Name": "PlaceOfFame_Stash_lvl2",
+				"ShortName": "",
+				"Description": "",
+				"Weight": 0,
+				"BackgroundColor": "blue",
+				"Width": 1,
+				"Height": 1,
+				"StackMaxSize": 1,
+				"ItemSound": "generic",
+				"Prefab": {
+					"path": "assets/content/items/hideout_area_containers/placeoffame_stash_1.bundle",
+					"rcid": ""
+				},
+				"UsePrefab": {
+					"path": "",
+					"rcid": ""
+				},
+				"StackObjectsCount": 1,
+				"NotShownInSlot": false,
+				"ExaminedByDefault": false,
+				"ExamineTime": 1,
+				"IsUndiscardable": false,
+				"IsUnsaleable": false,
+				"IsUnbuyable": false,
+				"IsUngivable": false,
+				"IsLockedafterEquip": false,
+				"QuestItem": false,
+				"LootExperience": 20,
+				"ExamineExperience": 10,
+				"HideEntrails": false,
+				"RepairCost": 0,
+				"RepairSpeed": 0,
+				"ExtraSizeLeft": 0,
+				"ExtraSizeRight": 0,
+				"ExtraSizeUp": 0,
+				"ExtraSizeDown": 0,
+				"ExtraSizeForceAdd": false,
+				"MergesWithChildren": false,
+				"CanSellOnRagfair": true,
+				"CanRequireOnRagfair": true,
+				"ConflictingItems": [],
+				"Unlootable": false,
+				"UnlootableFromSlot": "FirstPrimaryWeapon",
+				"UnlootableFromSide": [],
+				"AnimationVariantsNumber": 0,
+				"DiscardingBlock": false,
+				"RagFairCommissionModifier": 1,
+				"IsAlwaysAvailableForInsurance": false,
+				"DiscardLimit": -1,
+				"DropSoundType": "None",
+				"InsuranceDisabled": false,
+				"QuestStashMaxCount": 0,
+				"IsSpecialSlotOnly": false,
+				"IsUnremovable": false,
+				"Grids": [],
+				"Slots": [
+					{
+						"_name": "dogtag1",
+						"_id": "65424185a57eea37ed6562ea",
+						"_parent": "65424185a57eea37ed6562e9",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"59f32bb586f774757e1e8442",
+										"59f32c3b86f77472a31742f0"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "dogtag2",
+						"_id": "65424185a57eea37ed6562eb",
+						"_parent": "65424185a57eea37ed6562e9",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"59f32bb586f774757e1e8442",
+										"59f32c3b86f77472a31742f0"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "dogtag3",
+						"_id": "65424185a57eea37ed6562ec",
+						"_parent": "65424185a57eea37ed6562e9",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"59f32bb586f774757e1e8442",
+										"59f32c3b86f77472a31742f0"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "dogtag4",
+						"_id": "6542434e054e1074465b56ca",
+						"_parent": "65424185a57eea37ed6562e9",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"59f32bb586f774757e1e8442",
+										"59f32c3b86f77472a31742f0"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "dogtag5",
+						"_id": "6542434e054e1074465b56cb",
+						"_parent": "65424185a57eea37ed6562e9",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"59f32bb586f774757e1e8442",
+										"59f32c3b86f77472a31742f0"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "dogtag6",
+						"_id": "6542434e054e1074465b56cc",
+						"_parent": "65424185a57eea37ed6562e9",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"59f32bb586f774757e1e8442",
+										"59f32c3b86f77472a31742f0"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "smallTrophies1",
+						"_id": "655b7972ec699f6cea7cf7bc",
+						"_parent": "65424185a57eea37ed6562e9",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "smallTrophies2",
+						"_id": "655b7972ec699f6cea7cf7bd",
+						"_parent": "65424185a57eea37ed6562e9",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "smallTrophies3",
+						"_id": "655b7972ec699f6cea7cf7be",
+						"_parent": "65424185a57eea37ed6562e9",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "smallTrophies4",
+						"_id": "655b7972ec699f6cea7cf7bf",
+						"_parent": "65424185a57eea37ed6562e9",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "smallTrophies5",
+						"_id": "655b7972ec699f6cea7cf7c0",
+						"_parent": "65424185a57eea37ed6562e9",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "smallTrophies6",
+						"_id": "655b7972ec699f6cea7cf7c1",
+						"_parent": "65424185a57eea37ed6562e9",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "smallTrophies7",
+						"_id": "655b7972ec699f6cea7cf7c2",
+						"_parent": "65424185a57eea37ed6562e9",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "smallTrophies8",
+						"_id": "655b7972ec699f6cea7cf7c3",
+						"_parent": "65424185a57eea37ed6562e9",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "smallTrophies9",
+						"_id": "655b7972ec699f6cea7cf7c4",
+						"_parent": "65424185a57eea37ed6562e9",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "smallTrophies10",
+						"_id": "655b7972ec699f6cea7cf7c5",
+						"_parent": "65424185a57eea37ed6562e9",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "smallTrophies11",
+						"_id": "655b7972ec699f6cea7cf7c6",
+						"_parent": "65424185a57eea37ed6562e9",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "smallTrophies12",
+						"_id": "655b7972ec699f6cea7cf7c7",
+						"_parent": "65424185a57eea37ed6562e9",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "bigTrophies1",
+						"_id": "655b7a3d294836103f6616da",
+						"_parent": "65424185a57eea37ed6562e9",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "bigTrophies2",
+						"_id": "655b7a3d294836103f6616db",
+						"_parent": "65424185a57eea37ed6562e9",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "bigTrophies3",
+						"_id": "655b7a3d294836103f6616dc",
+						"_parent": "65424185a57eea37ed6562e9",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "bigTrophies4",
+						"_id": "655b7a3d294836103f6616dd",
+						"_parent": "65424185a57eea37ed6562e9",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "bigTrophies5",
+						"_id": "655b7a3d294836103f6616de",
+						"_parent": "65424185a57eea37ed6562e9",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "bigTrophies6",
+						"_id": "655b7a3d294836103f6616df",
+						"_parent": "65424185a57eea37ed6562e9",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "bigTrophies7",
+						"_id": "655b7a3d294836103f6616e0",
+						"_parent": "65424185a57eea37ed6562e9",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "bigTrophies8",
+						"_id": "655b7a3d294836103f6616e1",
+						"_parent": "65424185a57eea37ed6562e9",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "bigTrophies9",
+						"_id": "655b7a3d294836103f6616e2",
+						"_parent": "65424185a57eea37ed6562e9",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "bigTrophies10",
+						"_id": "655b7a3d294836103f6616e3",
+						"_parent": "65424185a57eea37ed6562e9",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "bigTrophies11",
+						"_id": "655b7a3d294836103f6616e4",
+						"_parent": "65424185a57eea37ed6562e9",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "bigTrophies12",
+						"_id": "655b7a3d294836103f6616e5",
+						"_parent": "65424185a57eea37ed6562e9",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					}
+				],
+				"CanPutIntoDuringTheRaid": true,
+				"CantRemoveFromSlotsDuringRaid": [],
+				"LayoutName": "PlaceOfFame_Stash_lvl2"
+			},
+			"_proto": "55d7217a4bdc2d86028b456d"
+		},
+		"6542435ea57eea37ed6562f0": {
+			"_id": "6542435ea57eea37ed6562f0",
+			"_name": "PlaceOfFame_Stash_3",
+			"_parent": "63da6da4784a55176c018dba",
+			"_type": "Item",
+			"_props": {
+				"Name": "PlaceOfFame_Stash_lvl3",
+				"ShortName": "",
+				"Description": "",
+				"Weight": 0,
+				"BackgroundColor": "blue",
+				"Width": 1,
+				"Height": 1,
+				"StackMaxSize": 1,
+				"ItemSound": "generic",
+				"Prefab": {
+					"path": "assets/content/items/hideout_area_containers/placeoffame_stash_1.bundle",
+					"rcid": ""
+				},
+				"UsePrefab": {
+					"path": "",
+					"rcid": ""
+				},
+				"StackObjectsCount": 1,
+				"NotShownInSlot": false,
+				"ExaminedByDefault": false,
+				"ExamineTime": 1,
+				"IsUndiscardable": false,
+				"IsUnsaleable": false,
+				"IsUnbuyable": false,
+				"IsUngivable": false,
+				"IsLockedafterEquip": false,
+				"QuestItem": false,
+				"LootExperience": 20,
+				"ExamineExperience": 10,
+				"HideEntrails": false,
+				"RepairCost": 0,
+				"RepairSpeed": 0,
+				"ExtraSizeLeft": 0,
+				"ExtraSizeRight": 0,
+				"ExtraSizeUp": 0,
+				"ExtraSizeDown": 0,
+				"ExtraSizeForceAdd": false,
+				"MergesWithChildren": false,
+				"CanSellOnRagfair": true,
+				"CanRequireOnRagfair": true,
+				"ConflictingItems": [],
+				"Unlootable": false,
+				"UnlootableFromSlot": "FirstPrimaryWeapon",
+				"UnlootableFromSide": [],
+				"AnimationVariantsNumber": 0,
+				"DiscardingBlock": false,
+				"RagFairCommissionModifier": 1,
+				"IsAlwaysAvailableForInsurance": false,
+				"DiscardLimit": -1,
+				"DropSoundType": "None",
+				"InsuranceDisabled": false,
+				"QuestStashMaxCount": 0,
+				"IsSpecialSlotOnly": false,
+				"IsUnremovable": false,
+				"Grids": [],
+				"Slots": [
+					{
+						"_name": "dogtag1",
+						"_id": "6542435ea57eea37ed6562f1",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"59f32bb586f774757e1e8442",
+										"59f32c3b86f77472a31742f0"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "dogtag2",
+						"_id": "6542435ea57eea37ed6562f2",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"59f32bb586f774757e1e8442",
+										"59f32c3b86f77472a31742f0"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "dogtag3",
+						"_id": "6542435ea57eea37ed6562f3",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"59f32bb586f774757e1e8442",
+										"59f32c3b86f77472a31742f0"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "dogtag4",
+						"_id": "6542435ea57eea37ed6562f4",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"59f32bb586f774757e1e8442",
+										"59f32c3b86f77472a31742f0"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "dogtag5",
+						"_id": "6542435ea57eea37ed6562f5",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"59f32bb586f774757e1e8442",
+										"59f32c3b86f77472a31742f0"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "dogtag6",
+						"_id": "6542435ea57eea37ed6562f6",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"59f32bb586f774757e1e8442",
+										"59f32c3b86f77472a31742f0"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "dogtag7",
+						"_id": "654243ec6b29cf3df65e9c9b",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"59f32bb586f774757e1e8442",
+										"59f32c3b86f77472a31742f0"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "dogtag8",
+						"_id": "654243ec6b29cf3df65e9c9c",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"59f32bb586f774757e1e8442",
+										"59f32c3b86f77472a31742f0"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "dogtag9",
+						"_id": "654243ec6b29cf3df65e9c9d",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"59f32bb586f774757e1e8442",
+										"59f32c3b86f77472a31742f0"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "dogtag10",
+						"_id": "654243ec6b29cf3df65e9c9e",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"59f32bb586f774757e1e8442",
+										"59f32c3b86f77472a31742f0"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "smallTrophies1",
+						"_id": "655bb16a0b2de553b618d424",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "smallTrophies2",
+						"_id": "655bb16a0b2de553b618d425",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "smallTrophies3",
+						"_id": "655bb16a0b2de553b618d426",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "smallTrophies4",
+						"_id": "655bb16a0b2de553b618d427",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "smallTrophies5",
+						"_id": "655bb16a0b2de553b618d428",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "smallTrophies6",
+						"_id": "655bb16a0b2de553b618d429",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "smallTrophies7",
+						"_id": "655bb16a0b2de553b618d42a",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "smallTrophies8",
+						"_id": "655bb16a0b2de553b618d42b",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "smallTrophies9",
+						"_id": "655bb16a0b2de553b618d42c",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "smallTrophies10",
+						"_id": "655bb16a0b2de553b618d42d",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "smallTrophies11",
+						"_id": "655bb16a0b2de553b618d42e",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "smallTrophies12",
+						"_id": "655bb16a0b2de553b618d42f",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "smallTrophies13",
+						"_id": "655bb16a0b2de553b618d430",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "smallTrophies14",
+						"_id": "655bb16a0b2de553b618d431",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "smallTrophies15",
+						"_id": "655bb16a0b2de553b618d432",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "smallTrophies16",
+						"_id": "655bb16b0b2de553b618d433",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "smallTrophies17",
+						"_id": "655bb16b0b2de553b618d434",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "smallTrophies18",
+						"_id": "655bb16b0b2de553b618d435",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "smallTrophies19",
+						"_id": "655bb16b0b2de553b618d436",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "smallTrophies20",
+						"_id": "655bb16b0b2de553b618d437",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "smallTrophies21",
+						"_id": "655bb16b0b2de553b618d438",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "smallTrophies22",
+						"_id": "655bb16b0b2de553b618d439",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "smallTrophies23",
+						"_id": "655bb16b0b2de553b618d43a",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "smallTrophies24",
+						"_id": "655bb16b0b2de553b618d43b",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "bigTrophies1",
+						"_id": "655bb3af60d0ac437100fe0b",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "bigTrophies2",
+						"_id": "655bb3af60d0ac437100fe0c",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "bigTrophies3",
+						"_id": "655bb3af60d0ac437100fe0d",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "bigTrophies4",
+						"_id": "655bb3af60d0ac437100fe0e",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "bigTrophies5",
+						"_id": "655bb3af60d0ac437100fe0f",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "bigTrophies6",
+						"_id": "655bb3af60d0ac437100fe10",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "bigTrophies7",
+						"_id": "655bb3af60d0ac437100fe11",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "bigTrophies8",
+						"_id": "655bb3af60d0ac437100fe12",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "bigTrophies9",
+						"_id": "655bb3af60d0ac437100fe13",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "bigTrophies10",
+						"_id": "655bb3af60d0ac437100fe14",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "bigTrophies11",
+						"_id": "655bb3af60d0ac437100fe15",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "bigTrophies12",
+						"_id": "655bb3af60d0ac437100fe16",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "bigTrophies13",
+						"_id": "655bb3af60d0ac437100fe17",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "bigTrophies14",
+						"_id": "655bb3af60d0ac437100fe18",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "bigTrophies15",
+						"_id": "655bb3af60d0ac437100fe19",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "bigTrophies16",
+						"_id": "655bb3af60d0ac437100fe1a",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "bigTrophies17",
+						"_id": "655bb3af60d0ac437100fe1b",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "bigTrophies18",
+						"_id": "655bb3af60d0ac437100fe1c",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "bigTrophies19",
+						"_id": "655bb3af60d0ac437100fe1d",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "bigTrophies20",
+						"_id": "655bb3af60d0ac437100fe1e",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "bigTrophies21",
+						"_id": "655bb3af60d0ac437100fe1f",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "bigTrophies22",
+						"_id": "655bb3af60d0ac437100fe20",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "bigTrophies23",
+						"_id": "655bb3af60d0ac437100fe21",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					},
+					{
+						"_name": "bigTrophies24",
+						"_id": "655bb3af60d0ac437100fe22",
+						"_parent": "6542435ea57eea37ed6562f0",
+						"_props": {
+							"filters": [
+								{
+									"Filter": [
+										"54009119af1c881c07000029"
+									]
+								}
+							]
+						},
+						"_required": false,
+						"_mergeSlotWithChildren": false,
+						"_proto": "55d721144bdc2d89028b456f"
+					}
+				],
+				"CanPutIntoDuringTheRaid": true,
+				"CantRemoveFromSlotsDuringRaid": [],
+				"LayoutName": "PlaceOfFame_Stash_lvl3"
+			},
+			"_proto": "55d7217a4bdc2d86028b456d"
+		}
+	}
+}

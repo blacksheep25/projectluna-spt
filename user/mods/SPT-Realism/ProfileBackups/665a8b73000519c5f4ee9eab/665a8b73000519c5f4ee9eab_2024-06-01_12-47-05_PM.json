@@ -1,0 +1,44 @@
+{
+    "info": {
+        "id": "665a8b73000519c5f4ee9eab",
+        "scavId": "665a8b730004db958f56463a",
+        "aid": 1755980,
+        "username": "MadMatt21",
+        "password": "",
+        "wipe": true,
+        "edition": "Special Operations Forces '7' Plus"
+    },
+    "characters": {
+        "pmc": {},
+        "scav": {}
+    },
+    "vitality": {
+        "health": {
+            "Hydration": 0,
+            "Energy": 0,
+            "Temperature": 0,
+            "Head": 0,
+            "Chest": 0,
+            "Stomach": 0,
+            "LeftArm": 0,
+            "RightArm": 0,
+            "LeftLeg": 0,
+            "RightLeg": 0
+        },
+        "effects": {
+            "Head": {},
+            "Chest": {},
+            "Stomach": {},
+            "LeftArm": {},
+            "RightArm": {},
+            "LeftLeg": {},
+            "RightLeg": {}
+        }
+    },
+    "inraid": {
+        "location": "none",
+        "character": "none"
+    },
+    "insurance": [],
+    "dialogues": {}
+}

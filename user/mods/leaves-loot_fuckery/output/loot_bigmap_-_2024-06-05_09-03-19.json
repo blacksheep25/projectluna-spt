@@ -1,0 +1,181 @@
+    [AmmoBox]
+        "5.45x39mm PS gs ammo pack (30 pcs)": Avg:4 | Max:4
+        "5.45x39mm US gs ammo pack (120 pcs)": Avg:2 | Max:2
+        "5.45x39mm PRS gs ammo pack (30 pcs)": Avg:2 | Max:2
+        "5.45x39mm BP gs ammo pack (30 pcs)": Avg:1 | Max:1
+        "7.62x39mm T-45M1 gzh ammo pack (20 pcs)": Avg:1 | Max:1
+        "7.62x54mm R SNB gzh ammo pack (20 pcs)": Avg:1 | Max:1
+        "9x18mm PM PBM gzh ammo pack (16 pcs)": Avg:1 | Max:1
+        "7.62x39mm PS gzh ammo pack (20 pcs)": Avg:1 | Max:1
+        "9x18mm PM PSO gzh ammo pack (16 pcs)": Avg:1 | Max:1
+        "9x18mm PM BZhT gzh ammo pack (16 pcs)": Avg:1 | Max:1
+        "9x18mm PM PS gs PPO ammo pack (16 pcs)": Avg:1 | Max:1
+        "9x18mm PM PPT gzh ammo pack (16 pcs)": Avg:1 | Max:1
+        "9x18mm PMM PstM gzh ammo pack (16 pcs)": Avg:1 | Max:1
+        "7.62x25mm TT AKBS ammo pack (25 pcs)": Avg:1 | Max:1
+    [Battery]
+        "Rechargeable battery": Avg:3 | Max:3
+    [Drugs]
+        "Morphine injector": Avg:3 | Max:3
+        "Analgin painkillers": Avg:1 | Max:1
+        "Golden Star balm": Avg:1 | Max:1
+    [Medical]
+        "Army bandage": Avg:3 | Max:3
+        "CMS surgical kit": Avg:1 | Max:1
+    [Food]
+        "Pack of sugar": Avg:3 | Max:3
+        "Can of sprats": Avg:2 | Max:2
+        "MRE ration pack": Avg:2 | Max:2
+        "Can of beef stew (Large)": Avg:2 | Max:2
+        "Rye croutons": Avg:1 | Max:1
+        "Can of green peas": Avg:1 | Max:1
+        "Emelya rye croutons": Avg:1 | Max:1
+        "Can of beef stew (Small)": Avg:1 | Max:1
+        "Pack of instant noodles": Avg:1 | Max:1
+        "Army crackers": Avg:1 | Max:1
+        "Pack of Tarker dried meat": Avg:1 | Max:1
+        "Slickers chocolate bar": Avg:1 | Max:1
+    [Drink]
+        "Pack of milk": Avg:2 | Max:2
+        "Pack of Russian Army pineapple juice": Avg:2 | Max:2
+        "Pack of Grand juice": Avg:2 | Max:2
+        "Can of Hot Rod energy drink": Avg:1 | Max:1
+        "Bottle of Tarkovskaya vodka": Avg:1 | Max:1
+        "Bottle of "Norvinskiy Yadreniy" premium kvass (0.6L)": Avg:1 | Max:1
+        "Pack of Vita juice": Avg:1 | Max:1
+        "Bottle of Pevko Light beer": Avg:1 | Max:1
+    [Other]
+        "Water filter": Avg:2 | Max:2
+        "Apollo Soyuz cigarettes": Avg:2 | Max:2
+        "Gunpowder "Eagle"": Avg:1 | Max:1
+        "FP-100 filter absorber": Avg:1 | Max:1
+    [KeyMechanical]
+        "Health Resort east wing room 310 key": Avg:2 | Max:2
+        "Dorm room 220 key": Avg:1 | Max:1
+        "Dorm room 118 key": Avg:1 | Max:1
+        "Dorm room 110 key": Avg:1 | Max:1
+        "Factory emergency exit key": Avg:1 | Max:1
+        "TerraGroup Labs arsenal storage room key": Avg:1 | Max:1
+        "Merin car trunk key": Avg:1 | Max:1
+        "OLI logistics department office key": Avg:1 | Max:1
+        "Dorm room 105 key": Avg:1 | Max:1
+        "EMERCOM medical unit key": Avg:1 | Max:1
+        "RB-MP11 key": Avg:1 | Max:1
+        "Health Resort east wing room 306 key": Avg:1 | Max:1
+    [Money]
+        "Dollars": Avg:2 | Max:2
+    [Electronics]
+        "Electric motor": Avg:2 | Max:2
+        "PC CPU": Avg:1 | Max:1
+        "Power supply unit": Avg:1 | Max:1
+    [MedKit]
+        "Salewa first aid kit": Avg:2 | Max:2
+    [Info]
+        "Package of graphics cards": Avg:1 | Max:1
+        "Secure Folder 0013": Avg:1 | Max:1
+        "Picture 7": Avg:1 | Max:1
+        "Secure Folder 0031": Avg:1 | Max:1
+        "Sealed letter with a TG logo": Avg:1 | Max:1
+        "Flash drive with fake info": Avg:1 | Max:1
+        "Secure Folder 0022": Avg:1 | Max:1
+        "Secure Folder 0048": Avg:1 | Max:1
+        "Sliderkey Secure Flash drive": Avg:1 | Max:1
+    [LockableContainer]
+        "Carbon case": Avg:1 | Max:1
+        "Bank case": Avg:1 | Max:1
+    [Jewelry]
+        "Bronze pocket watch on a chain": Avg:1 | Max:1
+    [Lubricant]
+        "Golden Zibbo lighter": Avg:1 | Max:1
+        "Can of thermite": Avg:1 | Max:1
+        "WD-40 (100ml)": Avg:1 | Max:1
+    [Handguard]
+        "AR-10 CMMG MK3 RML9 9 inch M-LOK handguard": Avg:1 | Max:1
+        "MPX Midwest Industries 6.5 inch M-LOK handguard": Avg:1 | Max:1
+        "HK 416A5 Quad Rail Extended handguard": Avg:1 | Max:1
+        "AK Magpul MOE AKM handguard (Stealth Grey)": Avg:1 | Max:1
+        "MPX Midwest Industries 4.5 inch M-LOK handguard": Avg:1 | Max:1
+        "AR-10 Noveske SWS N6 Split handguard": Avg:1 | Max:1
+        "Mossberg 590A1 Magpul MOE forestock": Avg:1 | Max:1
+        "M700 AB Arms MOD*X GEN 3 KeyMod handguard": Avg:1 | Max:1
+    [Tool]
+        "Flat screwdriver (Long)": Avg:1 | Max:1
+        "Wrench": Avg:1 | Max:1
+        "Pliers": Avg:1 | Max:1
+        "Pliers Elite": Avg:1 | Max:1
+        "Toolset": Avg:1 | Max:1
+    [Magazine]
+        "AR-10 7.62x51 Lancer L7AWM 25-round magazine": Avg:1 | Max:1
+        "5.56x45 HK PM Gen.2 STANAG 30-round magazine": Avg:1 | Max:1
+        "AK 7.62x39 30-round magazine (issued '55 or later)": Avg:1 | Max:1
+        "Glock 9x19 "Big Stick" 33-round magazine": Avg:1 | Max:1
+        "5.56x45 TROY BattleMag STANAG 30-round magazine": Avg:1 | Max:1
+        "SR-2M 9x21 30-round magazine": Avg:1 | Max:1
+        "M700 7.62x51 Wyatt's Outdoor 10-round magazine": Avg:1 | Max:1
+    [Stock]
+        "MP-155 Ultima medium recoil pad": Avg:1 | Max:1
+        "AR-15 B5 Systems Precision stock": Avg:1 | Max:1
+    [Mount]
+        "FN P90 EFFEN 90 receiver rail": Avg:1 | Max:1
+        "AKS-74U Zenit B-18 Mount": Avg:1 | Max:1
+        "Armasight Vulcan universal base": Avg:1 | Max:1
+        "Trijicon TA51 sight mount": Avg:1 | Max:1
+        "Zenit KR-2 old gen mount": Avg:1 | Max:1
+        "Glock Aimtech mount base": Avg:1 | Max:1
+        "M870 Leapers UTG PRO MTU-028SG rail": Avg:1 | Max:1
+    [Charge]
+        "AK Zenit RP-1 charging handle": Avg:1 | Max:1
+    [Barrel]
+        "M870 12ga 508mm barrel with a fixed sight": Avg:1 | Max:1
+        "Glock 9x19 SAI threaded barrel": Avg:1 | Max:1
+        "AR-15 5.56x45 260mm barrel": Avg:1 | Max:1
+    [Foregrip]
+        "TangoDown Stubby BGV-MK46K foregrip (FDE)": Avg:1 | Max:1
+        "Zenit RK-1 tactical foregrip": Avg:1 | Max:1
+        "Monstrum Tactical Vertical Fore Grip KeyMod": Avg:1 | Max:1
+    [ThrowWeap]
+        ""Zarya" stun grenade": Avg:1 | Max:1
+    [AssaultRifle]
+        "Kalashnikov AKMN 7.62x39 assault rifle": Avg:1 | Max:1
+    [PistolGrip]
+        "Hogue OverMolded Rubber Grip (Ghillie Earth)": Avg:1 | Max:1
+        "AK Magpul MOE pistol grip (Black)": Avg:1 | Max:1
+        "M870 FAB Defense AGR-870 pistol grip": Avg:1 | Max:1
+    [Gasblock]
+        "AR-15 Ballistic Advantage Lo-Pro Gas Block": Avg:1 | Max:1
+    [Receiver]
+        "HK USP Tactical .45 ACP pistol slide": Avg:1 | Max:1
+    [AssaultCarbine]
+        "KBP VSK-94 9x39 rifle": Avg:1 | Max:1
+    [Pistol]
+        "FN Five-seveN MK2 5.7x28 pistol (FDE)": Avg:1 | Max:1
+    [FlashHider]
+        "AR-15 HK BLITZ 5.56x45 flash hider": Avg:1 | Max:1
+        "Lantac BMD 7.62x51 Blast Mitigation Device": Avg:1 | Max:1
+        "AR-15 Thunder Beast Arms 223CB 5.56x45 muzzle brake": Avg:1 | Max:1
+    [MuzzleCombo]
+        "MTs-255-12 12ga choke": Avg:1 | Max:1
+    [TacticalCombo]
+        "SureFire XC1 tactical flashlight": Avg:1 | Max:1
+        "AN/PEQ-2 tactical device": Avg:1 | Max:1
+        "Zenit Perst-3 tactical device": Avg:1 | Max:1
+    [Headphones]
+        "MSA Sordin Supreme PRO-X/L headset": Avg:1 | Max:1
+    [Silencer]
+        "Rotor 43 7.62x54R muzzle brake-compensator": Avg:1 | Max:1
+    [Ammo]
+        "23x75mm Shrapnel-25 buckshot": Avg:1 | Max:1
+        ".300 Blackout V-Max": Avg:1 | Max:1
+        "12/70 SuperFormance HP slug": Avg:1 | Max:1
+        "5.7x28mm SS197SR": Avg:1 | Max:1
+    [Flashlight]
+        "Zenit 2D flashlight": Avg:1 | Max:1
+    [GrenadeLauncher]
+        "RSP-30 reactive signal cartridge (Red)": Avg:1 | Max:1
+    [IronSight]
+        "M9A3 Sight Mount rear sight rail": Avg:1 | Max:1
+        "KAC Folding Micro front sight": Avg:1 | Max:1
+    [Smg]
+        "Saiga-9 9x19 carbine": Avg:1 | Max:1
+    [HouseholdGoods]
+        "Pack of sodium bicarbonate": Avg:1 | Max:1

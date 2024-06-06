@@ -1,0 +1,1125 @@
+{
+	"064a8c271a037b0c6a1b86f5": {
+		"itemTplToClone": "5fc3e466187fea44d52eda90",
+		"parentId": "5448bc234bdc2d3c308b4569",
+		"handbookParentId": "5b5f754a86f774094242f19b",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Attachment_Magazines/ump_magazine_casket.bundle",
+				"rcid": ""
+			},
+				"BackgroundColor": "yellow",
+			"Cartridges": [
+				{
+					"_id": "cartridgesump_magazine_casket",
+					"_max_count": 50,
+					"_name": "cartridges",
+					"_parent": "064a8c271a037b0c6a1b86f5",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"5e81f423763d9f754677bf2e",
+									"5efb0cabfb3e451d70735af5",
+									"5efb0fc6aeb21837e749c801",
+									"5efb0d4f4bc50b58e81710f3",
+									"5ea2a8e200685063ec28c05a"
+								]
+							}
+						]
+					},
+					"_proto": "5748538b2459770af276a261"
+				}
+			],
+			"magAnimationIndex": 0,
+			"ItemSound": "mag_plastic",
+			"MagazineWithBelt": false,
+			"CheckOverride": 0,
+			"ExtraSizeDown": 1,
+			"Weight": 0.30,
+			"Width": 1,
+			"Height": 2,
+			"CheckTimeModifier": 0,
+			"LoadUnloadModifier": 0,
+			"MalfunctionChance": 0.22,
+			"Ergonomics": -6
+		},
+		"locales": {
+			"en": {
+				"name": "OmniTech UMP .45 ACP 50-Round Casket Magazine",
+				"shortName": "UMP 45",
+				"description": "A 50-round polymer casket style magazine manufactured by OmniTech Systems designed for the UMP .45 ACP submachine gun."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_magazine"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 7000,
+		"handbookPriceRoubles": 7000,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 7800,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
+		"Probability": 250
+	},
+	"5fa85819d2d2bfc0079e6b09": {
+		"itemTplToClone": "618168dc8004cc50514c34fc",
+		"parentId": "5448bc234bdc2d3c308b4569",
+		"handbookParentId": "5b5f754a86f774094242f19b",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Attachment_Magazines/scar_magazine_casket.bundle",
+				"rcid": ""
+			},
+			"BackgroundColor": "yellow",
+			"Cartridges": [
+				{
+					"_id": "cartridgesscar_magazine_casket",
+					"_max_count": 50,
+					"_name": "cartridges",
+					"_parent": "5fa85819d2d2bfc0079e6b09",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"5a6086ea4f39f99cd479502f",
+									"5a608bf24f39f98ffc77720e",
+									"58dd3ad986f77403051cba8f",
+									"5e023e53d4353e3302577c4c",
+									"5efb0c1bd79ff02a1f5e68d9",
+									"5e023e6e34d52a55c3304f71",
+									"5e023e88277cce2b522ff2b1"
+								]
+							}
+						]
+					},
+					"_proto": "5748538b2459770af276a261"
+				}
+			],
+			"Weight": 0.42,
+			"magAnimationIndex": 4,
+			"Width": 1,
+			"CheckTimeModifier": 0,
+			"LoadUnloadModifier": 0,
+			"MalfunctionChance": 0.035,
+			"Ergonomics": -8
+		},
+		"locales": {
+			"en": {
+				"name": "Armaco Industries 7.62x51mm 50-Round SCAR-H Casket Magazine",
+				"shortName": "SCAR-H",
+				"description": "A 50-round 7.62x51mm casket-style magazine manufactured by Armaco Industries designed for the SCAR-H rifle platform."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_magazine"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 16800,
+		"handbookPriceRoubles": 16800,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 8900
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 16800,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
+		"Probability": 250
+	},
+	"0672adb8be2d7d5a552ab4f2": {
+		"itemTplToClone": "5a718f958dc32e00094b97e7",
+		"parentId": "5448bc234bdc2d3c308b4569",
+		"handbookParentId": "5b5f754a86f774094242f19b",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Attachment_Magazines/glock_magazine_cmag.bundle",
+				"rcid": ""
+			},
+				"BackgroundColor": "yellow",
+			"Cartridges": [
+				{
+					"_id": "cartridgesglock_magazine_cmag",
+					"_max_count": 100,
+					"_name": "cartridges",
+					"_parent": "0672adb8be2d7d5a552ab4f2",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"5efb0da7a29a85116f6ea05f",
+									"5c3df7d588a4501f290594e5",
+									"58864a4f2459770fcc257101",
+									"56d59d3ad2720bdb418b4577",
+									"5c925fa22e221601da359b7b",
+									"5a3c16fe86f77452b62de32a",
+									"5efb0e16aeb21837e749c7ff",
+									"5c0d56a986f774449d5de529",
+									"64b7bbb74b75259c590fa897"
+								]
+							}
+						]
+					},
+					"_proto": "5748538b2459770af276a261"
+				}
+			],
+			"magAnimationIndex": 3,
+			"ItemSound": "mag_plastic",
+			"MagazineWithBelt": false,
+			"CheckOverride": 0,
+			"ExtraSizeDown": 1,
+			"Weight": 0.65,
+			"Width": 2,
+			"Height": 2,
+			"CheckTimeModifier": 20,
+			"LoadUnloadModifier": 14,
+			"MalfunctionChance": 0.388,
+			"Ergonomics": -24
+		},
+		"locales": {
+			"en": {
+				"name": "Glock 9x19mm 100-Round Beta Cmag",
+				"shortName": "Beta Cmag",
+				"description": "A 100-round 9x19mm drum magazine for the Glock 9mm platform."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_magazine"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 16800,
+		"handbookPriceRoubles": 16800,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 16800,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
+		"Probability": 250
+	},
+	"ccab703b048be433c03a671c": {
+		"itemTplToClone": "62307b7b10d2321fa8741921",
+		"parentId": "5448bc234bdc2d3c308b4569",
+		"handbookParentId": "5b5f754a86f774094242f19b",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Attachment_Magazines/g36_magazine_mg36cmag.bundle",
+				"rcid": ""
+			},
+				"BackgroundColor": "yellow",
+			"Cartridges": [
+				{
+					"_id": "62307b7b10d2321fa8741923",
+					"_max_count": 100,
+					"_name": "cartridges",
+					"_parent": "62307b7b10d2321fa8741921",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"59e6920f86f77411d82aa167",
+									"59e6927d86f77411da468256",
+									"54527a984bdc2d4e668b4567",
+									"54527ac44bdc2d36668b4567",
+									"59e68f6f86f7746c9f75e846",
+									"59e6906286f7746c9f75e847",
+									"59e690b686f7746c9f75e848",
+									"59e6918f86f7746c9f75e849",
+									"60194943740c5d77f6705eea",
+									"601949593ae8f707c4608daa",
+									"5c0d5ae286f7741e46554302"
+								]
+							}
+						]
+					},
+					"_proto": "5748538b2459770af276a261"
+				}
+			],
+			"magAnimationIndex": 7,
+			"ItemSound": "mag_plastic",
+			"MagazineWithBelt": false,
+			"CheckOverride": 0,
+			"ExtraSizeDown": 1,
+			"Weight": 0.70,
+			"Width": 2,
+			"Height": 2,
+			"CheckTimeModifier": 27,
+			"ConflictingItems": ["622f039199f4ea1a4d6c9a17"],
+			"LoadUnloadModifier": 27,
+			"MalfunctionChance": 0.39,
+			"Ergonomics": -25
+		},
+		"locales": {
+			"en": {
+				"name": "HK MG36 5.56x45 100-Round Drum Magazine",
+				"shortName": "MG36",
+				"description": "A 100-round 5.56x45 c-mag style drum magazine designed for the HK MG36."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_magazine"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 23000,
+		"handbookPriceRoubles": 23000,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 23000,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
+		"Probability": 250
+	},
+	"e64f03a25b5e13510bc55091": {
+		"itemTplToClone": "5ba26586d4351e44f824b340",
+		"parentId": "5448bc234bdc2d3c308b4569",
+		"handbookParentId": "5b5f754a86f774094242f19b",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Attachment_Magazines/mp7_magazine_drum.bundle",
+				"rcid": ""
+			},
+			"Cartridges": [
+				{
+					"_id": "cartridgesmp7_magazine_drum",
+					"_max_count": 60,
+					"_name": "cartridges",
+					"_parent": "e64f03a25b5e13510bc55091",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"5ba26812d4351e003201fef1",
+									"5ba26835d4351e0035628ff5",
+									"5ba2678ad4351e44f824b344",
+									"5ba26844d4351e00334c9475",
+									"64b6979341772715af0f9c39"
+									
+								]
+							}
+						]
+					},
+					"_proto": "5748538b2459770af276a261"
+				}
+			],
+			"magAnimationIndex": 2,
+			"ItemSound": "mag_plastic",
+			"MagazineWithBelt": false,
+			"CheckOverride": 0,
+			"ExtraSizeDown": 1,
+		    "BackgroundColor": "yellow",
+			"Weight": 0.40,
+			"Width": 1,
+			"Height": 2,
+			"CheckTimeModifier": 15,
+			"LoadUnloadModifier": 18,
+			"MalfunctionChance": 0.22,
+			"Ergonomics": -17
+		},
+		"locales": {
+			"en": {
+				"name": "Omnitech 4.6x30mm 60-Round Box Magazine",
+				"shortName": "MP7",
+				"description": "A 60-round 4.6x30mm box magazine designed by Omnitech Systems for the HK MP7 submachine gun."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_magazine"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 16000,
+		"handbookPriceRoubles": 16000,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 16500,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
+		"Probability": 250
+	},
+	"e8aa1ef743f71f3e03b858f2": {
+		"itemTplToClone": "5c88f24b2e22160bc12c69a6",
+		"parentId": "5448bc234bdc2d3c308b4569",
+		"handbookParentId": "5b5f754a86f774094242f19b",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Attachment_Magazines/svd_magazine_drum.bundle",
+				"rcid": ""
+			},
+				"BackgroundColor": "yellow",
+			"Cartridges": [
+				{
+					"_id": "cartridgessvd_magazine_drum",
+					"_max_count": 50,
+					"_name": "cartridges",
+					"_parent": "e8aa1ef743f71f3e03b858f2",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"5e023d34e8a400319a28ed44",
+									"5e023d48186a883be655e551",
+									"5e023cf8186a883be655e54f",
+									"59e77a2386f7742ee578960a",
+									"5887431f2459777e1612938f",
+									"560d61e84bdc2da74d8b4571",
+									"64b8f7968532cf95ee0a0dbf",
+									"64b8f7c241772715af0f9c3d",
+									"64b8f7b5389d7ffd620ccba2"
+									
+								]
+							}
+						]
+					},
+					"_proto": "5748538b2459770af276a261"
+				}
+			],
+			"magAnimationIndex": 1,
+			"ItemSound": "mag_plastic",
+			"MagazineWithBelt": false,
+			"CheckOverride": 0,
+			"ExtraSizeDown": 2,
+			"Weight": 0.87,
+			"Width": 2,
+			"Height": 2,
+			"CheckTimeModifier": 30,
+			"LoadUnloadModifier": 70,
+			"MalfunctionChance": 0.47,
+			"Ergonomics": -27
+		},
+		"locales": {
+			"en": {
+				"name": "Makeshift 7.62x54R 50-Round Drum Magazine",
+				"shortName": "SVD",
+				"description": "A makeshift 50-round 7.62x54R drum magazine for the SVD rifle."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_magazine"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 28000,
+		"handbookPriceRoubles": 28000,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 28000,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
+		"Probability": 250
+	},
+	"fa6502a2104d4c80eeb404fe": {
+		"itemTplToClone": "5a3501acc4a282000d72293a",
+		"parentId": "5448bc234bdc2d3c308b4569",
+		"handbookParentId": "5b5f754a86f774094242f19b",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Attachment_Magazines/ar10_magazine_junglefighter.bundle",
+				"rcid": ""
+			},
+			"Cartridges": [
+				{
+					"_id": "cartridgesar10_magazine_junglefighter",
+					"_max_count": 30,
+					"_name": "cartridges",
+					"_parent": "fa6502a2104d4c80eeb404fe",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"5a6086ea4f39f99cd479502f",
+									"5a608bf24f39f98ffc77720e",
+									"58dd3ad986f77403051cba8f",
+									"5e023e53d4353e3302577c4c",
+									"5efb0c1bd79ff02a1f5e68d9",
+									"5e023e6e34d52a55c3304f71",
+									"5e023e88277cce2b522ff2b1",
+									"6529243824cbe3c74a05e5c1",
+									"6529302b8c26af6326029fb7"
+								]
+							}
+						]
+					},
+					"_proto": "5748538b2459770af276a261"
+				}
+			],
+			"magAnimationIndex": 0,
+			"ItemSound": "mag_plastic",
+			"MagazineWithBelt": false,
+			"CheckOverride": 0,
+			"ExtraSizeDown": 1,
+		    "BackgroundColor": "yellow",
+			"Weight": 0.36,
+			"Width": 1,
+			"Height": 2,
+			"CheckTimeModifier": 0,
+			"LoadUnloadModifier": 0,
+			"MalfunctionChance": 0.025,
+			"Ergonomics": -4
+		},
+		"locales": {
+			"en": {
+				"name": "Jungle Fighter 7.62x51mm 30-Round Magazine",
+				"shortName": "JF 762",
+				"description": "A 30-round 7.62x51mm magazine designed for increased reliability in the field."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_magazine"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 6450,
+		"handbookPriceRoubles": 6450,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 6450,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
+		"Probability": 250
+	},
+	"d4fa8040a5b69d46bf8819e3": {
+		"itemTplToClone": "5cc70093e4a949033c734312",
+		"parentId": "5448bc234bdc2d3c308b4569",
+		"handbookParentId": "5b5f754a86f774094242f19b",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Attachment_Magazines/p90_magazine_ergo.bundle",
+				"rcid": ""
+			},
+				"BackgroundColor": "yellow",
+			"Cartridges": [
+				{
+					"_id": "cartridgesp90_magazine_ergo",
+					"_max_count": 65,
+					"_name": "cartridges",
+					"_parent": "d4fa8040a5b69d46bf8819e3",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"5cc80f53e4a949000e1ea4f8",
+									"5cc86832d7f00c000d3a6e6c",
+									"5cc86840d7f00c002412c56c",
+									"5cc80f67e4a949035e43bbba",
+									"5cc80f38e4a949001152b560",
+									"5cc80f8fe4a949033b0224a2",
+									"5cc80f79e4a949033c7343b2"
+								]
+							}
+						]
+					},
+					"_proto": "5748538b2459770af276a261"
+				}
+			],
+			"ItemSound": "mag_plastic",
+			"MagazineWithBelt": false,
+			"CheckOverride": 0,
+			"Weight": 0.50,
+			"CheckTimeModifier": 20,
+			"LoadUnloadModifier": 65,
+			"MalfunctionChance": 0.09,
+			"Ergonomics": -6
+		},
+		"locales": {
+			"en": {
+				"name": "OmniTech Systems 5.7x28mm 65-Round P90 Magazine",
+				"shortName": "P90",
+				"description": "A polymer 5.7x28mm 65-round P90 magazine manufactured by OmniTech Systems that offers extended capacity over the factory magazine."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_magazine"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 14250,
+		"handbookPriceRoubles": 14250,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 14250,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
+		"Probability": 250
+	},
+	"ca525c0ecc13667bd1ef357c": {
+		"itemTplToClone": "5926c3b286f774640d189b6b",
+		"parentId": "5448bc234bdc2d3c308b4569",
+		"handbookParentId": "5b5f754a86f774094242f19b",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Attachment_Magazines/mp5_magazine_casket.bundle",
+				"rcid": ""
+			},
+				"BackgroundColor": "yellow",
+			"Cartridges": [
+				{
+					"_id": "cartridgesmp5_magazine_casket",
+					"_max_count": 55,
+					"_name": "cartridges",
+					"_parent": "ca525c0ecc13667bd1ef357c",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+				 "5efb0da7a29a85116f6ea05f",
+                  "5c3df7d588a4501f290594e5",
+                  "58864a4f2459770fcc257101",
+                  "56d59d3ad2720bdb418b4577",
+                  "5c925fa22e221601da359b7b",
+                  "5a3c16fe86f77452b62de32a",
+                  "5efb0e16aeb21837e749c7ff",
+                  "5c0d56a986f774449d5de529",
+                  "64b7bbb74b75259c590fa897"
+								]
+							}
+						]
+					},
+					"_proto": "5748538b2459770af276a261"
+				}
+			],
+			"ItemSound": "mag_plastic",
+			"MagazineWithBelt": false,
+			"CheckOverride": 0,
+			"ExtraSizeDown": 1,
+			"Weight": 0.68,
+			"Width": 1,
+			"Height": 2,
+			"CheckTimeModifier": 15,
+			"LoadUnloadModifier": 35,
+			"MalfunctionChance": 0.17,
+			"Ergonomics": -12
+		},
+		"locales": {
+			"en": {
+				"name": "Heritage Ordnance HK MP5 55-Round Casket Magazine",
+				"shortName": "MP5",
+				"description": "A stamped metal MP5 55-round casket style magazine manufactured by Heritage Ordnance."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_magazine"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 17000,
+		"handbookPriceRoubles": 17000,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 17000,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
+		"Probability": 250
+	},
+	"9a5e3fa7c8205cf253799070": {
+		"itemTplToClone": "5fb651dc85f90547f674b6f4",
+		"parentId": "5448bc234bdc2d3c308b4569",
+		"handbookParentId": "5b5f754a86f774094242f19b",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Attachment_Magazines/krissvector45_magazine_drum.bundle",
+				"rcid": ""
+			},
+				"BackgroundColor": "yellow",
+			"Cartridges": [
+				{
+					"_id": "cartridgeskrissvector45_magazine_drum",
+					"_max_count": 50,
+					"_name": "cartridges",
+					"_parent": "9a5e3fa7c8205cf253799070",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+				  "5e81f423763d9f754677bf2e",
+                  "5efb0cabfb3e451d70735af5",
+                  "5efb0fc6aeb21837e749c801",
+                  "5efb0d4f4bc50b58e81710f3",
+                  "5ea2a8e200685063ec28c05a"
+								]
+							}
+						]
+					},
+					"_proto": "5748538b2459770af276a261"
+				}
+			],
+			"magAnimationIndex": 3,
+			"ItemSound": "mag_plastic",
+			"MagazineWithBelt": false,
+			"CheckOverride": 0,
+			"ExtraSizeDown": 1,
+			"Weight": 0.30,
+			"Width": 1,
+			"Height": 2,
+			"CheckTimeModifier": 22,
+			"LoadUnloadModifier": 20,
+			"MalfunctionChance": 0.20,
+			"Ergonomics": -12
+		},
+		"locales": {
+			"en": {
+				"name": "OmniTech V-50 Kriss Vector .45 ACP 50-Round Drum Magazine",
+				"shortName": "V-50",
+				"description": "A 50-round .45 ACP drum magazine manufactured by Omnitech Systems designed for the Kriss Vector Gen.2 .45 ACP submachine gun."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_magazine"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 19000,
+		"handbookPriceRoubles": 19000,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 19000,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
+		"Probability": 250
+	},
+	"a483029913455f81127fd070": {
+		"itemTplToClone": "57d1519e24597714373db79d",
+		"parentId": "5448bc234bdc2d3c308b4569",
+		"handbookParentId": "5b5f754a86f774094242f19b",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Attachment_Magazines/kedr_magazine_drum.bundle",
+				"rcid": ""
+			},
+				"BackgroundColor": "yellow",
+			"Cartridges": [
+				{
+					"_id": "cartridgeskedr_magazine_drum",
+					"_max_count": 55,
+					"_name": "cartridges",
+					"_parent": "a483029913455f81127fd070",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+				  "573718ba2459775a75491131",
+                  "573719df2459775a626ccbc2",
+                  "57371aab2459775a77142f22",
+                  "57371b192459775a9f58a5e0",
+                  "57371e4124597760ff7b25f1",
+                  "57371eb62459776125652ac1",
+                  "57371f8d24597761006c6a81",
+                  "5737201124597760fc4431f1",
+                  "5737207f24597760ff7b25f2",
+                  "57371f2b24597761224311f1",
+                  "573719762459775a626ccbc1",
+                  "573720e02459776143012541",
+                  "57372140245977611f70ee91",
+                  "5737218f245977612125ba51"
+								]
+							}
+						]
+					},
+					"_proto": "5748538b2459770af276a261"
+				}
+			],
+			"magAnimationIndex": 0,
+			"ItemSound": "mag_plastic",
+			"MagazineWithBelt": false,
+			"CheckOverride": 0,
+			"ExtraSizeDown": 2,
+			"Weight": 0.24,
+			"Width": 1,
+			"Height": 2,
+			"CheckTimeModifier": 25,
+			"LoadUnloadModifier": 30,
+			"MalfunctionChance": 0.09,
+			"Ergonomics": -12
+		},
+		"locales": {
+			"en": {
+				"name": "PP-91 Kedr 9x18PM 55-Round Makeshift Drum Magazine",
+				"shortName": "PP91",
+				"description": "A makeshift 55-round 9x18PM drum magazine assemlbed from the parts of an MP-18 drum magazine."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_magazine"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 15250,
+		"handbookPriceRoubles": 15250,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 15250,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
+		"Probability": 250
+	},
+	"a10805748f12422327de49a8": {
+		"itemTplToClone": "5448c12b4bdc2d02308b456f",
+		"parentId": "5448bc234bdc2d3c308b4569",
+		"handbookParentId": "5b5f754a86f774094242f19b",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Attachment_Magazines/pm_magazine_extended.bundle",
+				"rcid": ""
+			},
+				"BackgroundColor": "yellow",
+			"Cartridges": [
+				{
+					"_id": "pm_magazine_extendedcartridges",
+					"_max_count": 18,
+					"_name": "cartridges",
+					"_parent": "a10805748f12422327de49a8",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+			      "573718ba2459775a75491131",
+                  "573719df2459775a626ccbc2",
+                  "57371aab2459775a77142f22",
+                  "57371b192459775a9f58a5e0",
+                  "57371e4124597760ff7b25f1",
+                  "57371eb62459776125652ac1",
+                  "57371f8d24597761006c6a81",
+                  "5737201124597760fc4431f1",
+                  "5737207f24597760ff7b25f2",
+                  "57371f2b24597761224311f1",
+                  "573719762459775a626ccbc1",
+                  "573720e02459776143012541",
+                  "57372140245977611f70ee91",
+                  "5737218f245977612125ba51"
+								]
+							}
+						]
+					},
+					"_proto": "5748538b2459770af276a261"
+				}
+			],
+			"magAnimationIndex": 0,
+			"ItemSound": "mag_plastic",
+			"MagazineWithBelt": false,
+			"CheckOverride": 0,
+			"ExtraSizeDown": 1,
+			"Weight": 0.09,
+			"Width": 1,
+			"Height": 2,
+			"CheckTimeModifier": 0,
+			"LoadUnloadModifier": 0,
+			"MalfunctionChance": 0.07,
+			"Ergonomics": -6
+		},
+		"locales": {
+			"en": {
+				"name": "PM 9x18PM 18-Round Extended Magazine",
+				"shortName": "PM",
+				"description": "An extended 18-round magazine for the PM 9x18PM pistol."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_magazine"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 2800,
+		"handbookPriceRoubles": 2800,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 2800,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
+		"Probability": 250
+	},
+	"c29c6c3762a2414440fb69c9": {
+		"itemTplToClone": "5c6d46132e221601da357d56",
+		"parentId": "5448bc234bdc2d3c308b4569",
+		"handbookParentId": "5b5f754a86f774094242f19b",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Attachment_Magazines/m4a1_magazine_cmag.bundle",
+				"rcid": ""
+			},
+			"Cartridges": [
+				{
+					"_id": "cartridgesm4a1_magazine_cmag",
+					"_max_count": 100,
+					"_name": "cartridges",
+					"_parent": "c29c6c3762a2414440fb69c9",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"59e6920f86f77411d82aa167",
+									"59e6927d86f77411da468256",
+									"54527a984bdc2d4e668b4567",
+									"54527ac44bdc2d36668b4567",
+									"59e68f6f86f7746c9f75e846",
+									"59e6906286f7746c9f75e847",
+									"59e690b686f7746c9f75e848",
+									"59e6918f86f7746c9f75e849",
+									"60194943740c5d77f6705eea",
+									"601949593ae8f707c4608daa",
+									"5c0d5ae286f7741e46554302"
+								]
+							}
+						]
+					},
+					"_proto": "5748538b2459770af276a261"
+				}
+			],
+			"magAnimationIndex": 0,
+			"ItemSound": "mag_plastic",
+			"MagazineWithBelt": false,
+			"CheckOverride": 0,
+			"BackgroundColor": "yellow",
+			"ExtraSizeDown": 1,
+			"Weight": 0.78,
+			"Width": 2,
+			"Height": 2,
+			"CheckTimeModifier": 30,
+			"LoadUnloadModifier": 30,
+			"MalfunctionChance": 0.41,
+			"Ergonomics": -26
+		},
+		"locales": {
+			"en": {
+				"name": "Beta C-Mag 5.56x45 100-Round Drum Magazine",
+				"shortName": "C-Mag",
+				"description": "The Beta C-Mag is a compact twin-drum magazine design that accepts up to 100 rounds of ammunition."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_magazine"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 26000,
+		"handbookPriceRoubles": 26000,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 26000,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
+		"Probability": 250
+	}
+
+}

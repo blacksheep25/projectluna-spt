@@ -1,0 +1,217 @@
+{
+	"PEACEKEEPER": {
+		"items": [
+			{
+				"_id": "traderacr",
+				"_tpl": "acr",
+				"parentId": "hideout",
+				"slotId": "hideout",
+				"upd": {
+					"StackObjectsCount": 99,
+					"Repairable": {
+						"MaxDurability": 100,
+						"Durability": 100
+					},
+					"FireMode": {
+						"FireMode": "single"
+					}
+				}
+			},
+			{
+				"_id": "traderacrfde",
+				"_tpl": "acrfde",
+				"parentId": "hideout",
+				"slotId": "hideout",
+				"upd": {
+					"StackObjectsCount": 99,
+					"Repairable": {
+						"MaxDurability": 100,
+						"Durability": 100
+					},
+					"FireMode": {
+						"FireMode": "single"
+					}
+				}
+			},
+			{
+				"_id": "12478550a53086c4bdc3bc71",
+				"_tpl": "5aaa5dfee5b5b000140293d3",
+				"parentId": "traderacr",
+				"slotId": "mod_magazine"
+			},
+			{
+				"_id": "6201abb9f11df1aa90cc9c4e",
+				"_tpl": "acrupperreceiver",
+				"parentId": "traderacr",
+				"slotId": "mod_reciever"
+			},
+			{
+				"_id": "d512f11deaa01dadb71bd238",
+				"_tpl": "acrhandguardmagpul",
+				"parentId": "traderacr",
+				"slotId": "mod_handguard"
+			},
+			{
+				"_id": "106292c90837b7c306cdafdc",
+				"_tpl": "acrbarrelmedium",
+				"parentId": "traderacr",
+				"slotId": "mod_barrel"
+			},
+			{
+				"_id": "f0e6c9aa9030f1cb48143d9f",
+				"_tpl": "acrstockmagpul",
+				"parentId": "traderacr",
+				"slotId": "mod_stock"
+			},
+			{
+				"_id": "91e7cfbb4fe133b7666a0c48",
+				"_tpl": "5bc09a18d4351e003562b68e",
+				"parentId": "6201abb9f11df1aa90cc9c4e",
+				"slotId": "mod_sight_rear",
+				"upd": {
+					"Sight": {
+						"ScopesCurrentCalibPointIndexes": [
+							0
+						],
+						"ScopesSelectedModes": [
+							0
+						],
+						"SelectedScope": 0
+					}
+				}
+			},
+			{
+				"_id": "84de5389847fe7785e65aea7",
+				"_tpl": "5bc09a30d4351e00367fb7c8",
+				"parentId": "6201abb9f11df1aa90cc9c4e",
+				"slotId": "mod_sight_front",
+				"upd": {
+					"Sight": {
+						"ScopesCurrentCalibPointIndexes": [
+							0
+						],
+						"ScopesSelectedModes": [
+							0
+						],
+						"SelectedScope": 0
+					}
+				}
+			},
+			{
+				"_id": "a5ee8c74a60d61dd8e2710e7",
+				"_tpl": "5ea172e498dacb342978818e",
+				"parentId": "106292c90837b7c306cdafdc",
+				"slotId": "mod_muzzle"
+			},
+
+
+			
+
+			{
+				"_id": "6621b1d4ebca3b70eba22a5a",
+				"_tpl": "5d1340b3d7ad1a0b52682ed7",
+				"parentId": "traderacrfde",
+				"slotId": "mod_magazine"
+			},
+			{
+				"_id": "6621b1dab0b1d3eecc09694e",
+				"_tpl": "acrupperreceiverfde",
+				"parentId": "traderacrfde",
+				"slotId": "mod_reciever"
+			},
+			{
+				"_id": "6621b1e145bdd3d9ca46fcee",
+				"_tpl": "acrhandguardshortfde",
+				"parentId": "traderacrfde",
+				"slotId": "mod_handguard"
+			},
+			{
+				"_id": "6621b1e809d923c6f0ea1502",
+				"_tpl": "acrbarrelshort",
+				"parentId": "traderacrfde",
+				"slotId": "mod_barrel"
+			},
+			{
+				"_id": "6621b1edee443bd4cf689845",
+				"_tpl": "acrstockbufferfde",
+				"parentId": "traderacrfde",
+				"slotId": "mod_stock"
+			},
+			{
+				"_id": "6621b42422781a757bcf4996",
+				"_tpl": "5649be884bdc2d79388b4577",
+				"parentId": "6621b1edee443bd4cf689845",
+				"slotId": "mod_stock_000"
+			},
+			{
+				"_id": "6621b451135b895310484d84",
+				"_tpl": "5d135ecbd7ad1a21c176542e",
+				"parentId": "6621b42422781a757bcf4996",
+				"slotId": "mod_stock_000"
+			},
+
+			{
+				"_id": "6621b1f4be26f8b9b0e0c072",
+				"_tpl": "5c18b9192e2216398b5a8104",
+				"parentId": "6621b1dab0b1d3eecc09694e",
+				"slotId": "mod_sight_rear",
+				"upd": {
+					"Sight": {
+						"ScopesCurrentCalibPointIndexes": [
+							0
+						],
+						"ScopesSelectedModes": [
+							0
+						],
+						"SelectedScope": 0
+					}
+				}
+			},
+			{
+				"_id": "6621b1fc467dfecee4829fb3",
+				"_tpl": "5c18b90d2e2216152142466b",
+				"parentId": "6621b1dab0b1d3eecc09694e",
+				"slotId": "mod_sight_front",
+				"upd": {
+					"Sight": {
+						"ScopesCurrentCalibPointIndexes": [
+							0
+						],
+						"ScopesSelectedModes": [
+							0
+						],
+						"SelectedScope": 0
+					}
+				}
+			},
+			{
+				"_id": "6621b20344e67ea0860d7ed6",
+				"_tpl": "5ea172e498dacb342978818e",
+				"parentId": "6621b1e809d923c6f0ea1502",
+				"slotId": "mod_muzzle"
+			}
+		],
+		"barter_scheme": {
+			"traderacr": [
+				[
+					{
+						"count": 869,
+						"_tpl": "5696686a4bdc2da3298b456a"
+					}
+				]
+			],
+			"traderacrfde": [
+				[
+					{
+						"count": 956,
+						"_tpl": "5696686a4bdc2da3298b456a"
+					}
+				]
+			]
+		},
+		"loyal_level_items": {
+			"traderacr": 2,
+			"traderacrfde": 3
+		}
+	}
+}

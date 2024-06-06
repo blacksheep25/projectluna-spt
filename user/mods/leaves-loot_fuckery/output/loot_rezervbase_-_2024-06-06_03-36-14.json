@@ -1,0 +1,214 @@
+    [AmmoBox]
+        "5.45x39mm US gs ammo pack (30 pcs)": Avg:6 | Max:6
+        "5.45x39mm BP gs ammo pack (30 pcs)": Avg:5 | Max:5
+        "9x18mm PM PSO gzh ammo pack (16 pcs)": Avg:4 | Max:4
+        "9x18mm PM PBM gzh ammo pack (16 pcs)": Avg:4 | Max:4
+        "9x18mm PMM PstM gzh ammo pack (16 pcs)": Avg:4 | Max:4
+        "5.45x39mm PS gs ammo pack (30 pcs)": Avg:4 | Max:4
+        "5.45x39mm PRS gs ammo pack (30 pcs)": Avg:3 | Max:3
+        "9x18mm PM PS gs PPO ammo pack (16 pcs)": Avg:3 | Max:3
+        "7.62x39mm PS gzh ammo pack (20 pcs)": Avg:3 | Max:3
+        "9x18mm PM PPT gzh ammo pack (16 pcs)": Avg:2 | Max:2
+        "7.62x39mm T-45M1 gzh ammo pack (20 pcs)": Avg:2 | Max:2
+        "9x18mm PM PPe gzh ammo pack (16 pcs)": Avg:2 | Max:2
+        "5.45x39mm BT gs ammo pack (120 pcs)": Avg:2 | Max:2
+        "5.45x39mm US gs ammo pack (120 pcs)": Avg:2 | Max:2
+        "5.45x39mm PP gs ammo pack (30 pcs)": Avg:1 | Max:1
+        "7.62x25mm TT P gl ammo pack (25 pcs)": Avg:1 | Max:1
+        ".300 Blackout V-Max ammo pack (50 pcs)": Avg:1 | Max:1
+        "9x18mm PM P gzh ammo pack (50 pcs)": Avg:1 | Max:1
+        "9x39mm BP ammo pack (20 pcs)": Avg:1 | Max:1
+        "9x18mm PM SP8 gzh ammo pack (16 pcs)": Avg:1 | Max:1
+        "9x18mm PM SP7 gzh ammo pack (16 pcs)": Avg:1 | Max:1
+        "7.62x39mm HP ammo pack (20 pcs)": Avg:1 | Max:1
+        "5.45x39mm PS gs ammo pack (120 pcs)": Avg:1 | Max:1
+        "12/70 FTX Custom Lite slug ammo pack (25 pcs)": Avg:1 | Max:1
+        "9x39mm BP gs ammo pack (8 pcs)": Avg:1 | Max:1
+        "5.45x39mm FMJ ammo pack (30 pcs)": Avg:1 | Max:1
+    [Drink]
+        "Pack of Russian Army pineapple juice": Avg:5 | Max:5
+        "Can of Hot Rod energy drink": Avg:2 | Max:2
+        "Can of Ice Green tea": Avg:2 | Max:2
+        "Bottle of Tarkovskaya vodka": Avg:1 | Max:1
+        "Pack of milk": Avg:1 | Max:1
+        "Can of TarCola soda": Avg:1 | Max:1
+    [Drugs]
+        "Morphine injector": Avg:3 | Max:3
+        "Augmentin antibiotic pills": Avg:3 | Max:3
+    [Mount]
+        "AKS-74U Zenit B-18 Mount": Avg:3 | Max:3
+        "Hexagon medium length rail (Anodized Red)": Avg:2 | Max:2
+        "PP-91 "Kedr" Rotor 43 RIS mount": Avg:2 | Max:2
+        "FN Five-seveN MK2 RMR mount": Avg:1 | Max:1
+        "TOZ-106 dovetail mount": Avg:1 | Max:1
+        "Aimpoint QRP2 mount for CompM4/PRO sights": Avg:1 | Max:1
+        "HK USP rail adapter": Avg:1 | Max:1
+        "AK Zenit B-12 Mount": Avg:1 | Max:1
+        "Custom Guns handguard rail": Avg:1 | Max:1
+        "Aimpoint Micro Spacer High": Avg:1 | Max:1
+        "VSS/VAL Zenit B-3 mount combo": Avg:1 | Max:1
+        "Delta-Tek Sprut mount for pump-action shotguns": Avg:1 | Max:1
+        "HK MP5 B&T tri-rail receiver mount": Avg:1 | Max:1
+        "Strike Industries KeyMod 4 inch rail": Avg:1 | Max:1
+    [Medical]
+        "Army bandage": Avg:3 | Max:3
+        "CALOK-B hemostatic applicator": Avg:1 | Max:1
+    [MedKit]
+        "IFAK individual first aid kit": Avg:3 | Max:3
+        "Salewa first aid kit": Avg:2 | Max:2
+    [Magazine]
+        "AK-12 5.45x39 early model 30-round magazine": Avg:2 | Max:2
+        "AK-12 5.45x39 30-round magazine": Avg:2 | Max:2
+        "MP-133 12ga 6-shell magazine": Avg:2 | Max:2
+        "SVD 7.62x54R 20-round magazine": Avg:2 | Max:2
+        "SA-58/FAL/SLR 7.62x51 30-round magazine": Avg:1 | Max:1
+        "9x39 SR3M.130 30-round magazine": Avg:1 | Max:1
+        "AR-10 7.62x51 Lancer L7AWM 20-round magazine": Avg:1 | Max:1
+        "AK 7.62x39 Molot Arms 75-round drum magazine": Avg:1 | Max:1
+        "AK 7.62x39 Magpul PMAG 30 GEN M3 30-round magazine": Avg:1 | Max:1
+        "DVL-10 7.62x51 10-round magazine": Avg:1 | Max:1
+        "Steyr AUG 5.56x45 30-round magazine": Avg:1 | Max:1
+        "PP-19-01 "Vityaz" 9x19 PUFGUN SG-919 30 30-round magazine": Avg:1 | Max:1
+        "AK 7.62x39 30-round magazine (issued '55 or later)": Avg:1 | Max:1
+        "RPK-16 5.45x39 95-round drum magazine": Avg:1 | Max:1
+        "AK-74 5.45x39 6L31 60-round magazine": Avg:1 | Max:1
+        "FN P90 5.7x28 50-round magazine": Avg:1 | Max:1
+        "Glock 9x19 17-round magazine": Avg:1 | Max:1
+    [AssaultRifle]
+        "Desert Tech MDR 7.62x51 assault rifle": Avg:2 | Max:2
+        "Kalashnikov AK-74M 5.45x39 assault rifle": Avg:1 | Max:1
+    [Food]
+        "Pack of oat flakes": Avg:2 | Max:2
+        "Pack of sugar": Avg:2 | Max:2
+        "Iskra ration pack": Avg:1 | Max:1
+        "Slickers chocolate bar": Avg:1 | Max:1
+    [Silencer]
+        "AKM Hexagon 7.62x39 sound suppressor": Avg:2 | Max:2
+        "AKM PBS-1 7.62x39 sound suppressor": Avg:2 | Max:2
+        "TT 7.62x25 makeshift sound suppressor": Avg:2 | Max:2
+        "Rotor 43 7.62x39 muzzle brake-compensator": Avg:1 | Max:1
+        "AKS-74U PBS-4 5.45x39 sound suppressor": Avg:1 | Max:1
+        "PB 9x18PM sound suppressor": Avg:1 | Max:1
+        "AK-74 TGP-A 5.45x39 sound suppressor": Avg:1 | Max:1
+    [HouseholdGoods]
+        "Toothpaste": Avg:2 | Max:2
+        "Soap": Avg:1 | Max:1
+    [Foregrip]
+        "Zenit RK-1 tactical foregrip": Avg:2 | Max:2
+        "Magpul RVG foregrip (Black)": Avg:1 | Max:1
+        "Magpul AFG tactical foregrip (Forest Green)": Avg:1 | Max:1
+        "Magpul AFG tactical foregrip (Black)": Avg:1 | Max:1
+    [Handguard]
+        "AK Magpul MOE AKM handguard (Stealth Grey)": Avg:2 | Max:2
+        "AK Magpul MOE AKM handguard (Black)": Avg:2 | Max:2
+        "AK Zenit B-10 Handguard": Avg:2 | Max:2
+        "AK Magpul MOE AKM handguard (Plum)": Avg:1 | Max:1
+        "AR-15 KAC URX 3.1 10.75 inch lower handguard": Avg:1 | Max:1
+        "AR-10 Lancer LCH7 12.5 inch M-LOK handguard": Avg:1 | Max:1
+        "AK TDI AKM-L handguard": Avg:1 | Max:1
+        "AK 100-series polymer handguard": Avg:1 | Max:1
+        "AK Zenit B-10M handguard with B-19 upper mount": Avg:1 | Max:1
+        "AK-74 "Plum" polymer handguard (6P20 Sb.9)": Avg:1 | Max:1
+        "AK 5.45 Design Aggressor handguard": Avg:1 | Max:1
+        "AK Magpul Zhukov-U handguard (Black)": Avg:1 | Max:1
+    [SimpleContainer]
+        "Gingy keychain": Avg:2 | Max:2
+    [Tool]
+        "Wrench": Avg:2 | Max:2
+        "Pliers Elite": Avg:2 | Max:2
+        "Construction measuring tape": Avg:2 | Max:2
+        "Round pliers": Avg:2 | Max:2
+    [Other]
+        "Water filter": Avg:2 | Max:2
+        "Apollo Soyuz cigarettes": Avg:1 | Max:1
+    [TacticalCombo]
+        "SureFire X400 Ultra tactical flashlight with laser": Avg:2 | Max:2
+        "Zenit Klesch-2U tactical flashlight": Avg:1 | Max:1
+    [Stock]
+        "AKS-74/AKS-74U Zenit PT Lock": Avg:2 | Max:2
+        "Benelli M3 Mesa Tactical Urbino stock": Avg:1 | Max:1
+        "AR-15 FAB Defense GLR-16-S stock": Avg:1 | Max:1
+        "FN SCAR rubber buttpad": Avg:1 | Max:1
+        "SA-58 BRS stock": Avg:1 | Max:1
+        "AK Zenit PT-3 "Klassika" stock": Avg:1 | Max:1
+        "TOZ-106 custom cut Mosin stock": Avg:1 | Max:1
+        "KRISS Vector Pistol Sling adapter": Avg:1 | Max:1
+    [Flashlight]
+        "Zenit 2D flashlight": Avg:2 | Max:2
+    [Info]
+        "Picture 9": Avg:1 | Max:1
+        "Lightkeeper intelligence": Avg:1 | Max:1
+        "Military documents #3": Avg:1 | Max:1
+        "Medical record #1": Avg:1 | Max:1
+        "Military documents #2": Avg:1 | Max:1
+        "Medical record #2": Avg:1 | Max:1
+        "Military documents #1": Avg:1 | Max:1
+    [Electronics]
+        "T-90M Commander Control Panel": Avg:1 | Max:1
+        "MBT Integrated Navigation System": Avg:1 | Max:1
+        "Radiator helix": Avg:1 | Max:1
+        "DVD drive": Avg:1 | Max:1
+        "Military COFDM Wireless Signal Transmitter": Avg:1 | Max:1
+        "Military power filter": Avg:1 | Max:1
+    [Jewelry]
+        "Cultist figurine": Avg:1 | Max:1
+        "Bronze lion figurine": Avg:1 | Max:1
+        "Antique vase": Avg:1 | Max:1
+        "Scav figurine": Avg:1 | Max:1
+        "Chainlet": Avg:1 | Max:1
+        "Horse figurine": Avg:1 | Max:1
+        "Physical Bitcoin": Avg:1 | Max:1
+        "Politician Mutkevich figurine": Avg:1 | Max:1
+        "BEAR operative figurine": Avg:1 | Max:1
+    [PistolGrip]
+        "AR-15 HK Battle Grip Beavertail pistol grip": Avg:1 | Max:1
+        "AK Zenit RK-3 pistol grip": Avg:1 | Max:1
+        "AR-15 Tactical Dynamics Skeletonized pistol grip": Avg:1 | Max:1
+        "AK FAB Defense AGR-47 pistol grip": Avg:1 | Max:1
+        "Mosin Rifle Tacfire pistol grip": Avg:1 | Max:1
+        "P226 Combat pistol grip (FDE)": Avg:1 | Max:1
+        "AK Strike Industries Enhanced Pistol Grip (FDE)": Avg:1 | Max:1
+        "AR-15 HK V2 pistol grip": Avg:1 | Max:1
+    [Receiver]
+        "P226 Emperor Scorpion pistol slide": Avg:1 | Max:1
+        "Glock 17 MOS pistol slide": Avg:1 | Max:1
+    [OpticScope]
+        "NPZ 1P78-1 2.8x scope": Avg:1 | Max:1
+        "KMZ 1P69 3-10x riflescope": Avg:1 | Max:1
+    [AssaultScope]
+        "Leupold Mark 4 HAMR 4x24 DeltaPoint hybrid assault scope": Avg:1 | Max:1
+    [FlashHider]
+        "AR-15 SureFire SF4P 5.56x45 flash hider": Avg:1 | Max:1
+        "DVL-10 7.62x51 muzzle device": Avg:1 | Max:1
+        "TT PM-Laser DTK-TT muzzle brake-compensator": Avg:1 | Max:1
+        "Desert Tech 7.62x51 flash hider": Avg:1 | Max:1
+        "M1A National Match 7.62x51 flash suppressor": Avg:1 | Max:1
+    [Charge]
+        "FN P90 K&M The Handler charging handle": Avg:1 | Max:1
+    [Smg]
+        "HK MP5K 9x19 submachine gun": Avg:1 | Max:1
+        "SR-2M "Veresk" 9x21 submachine gun": Avg:1 | Max:1
+        "B&T MP9 9x19 submachine gun": Avg:1 | Max:1
+        "FN P90 5.7x28 submachine gun": Avg:1 | Max:1
+    [Collimator]
+        "OKP-7 reflex sight": Avg:1 | Max:1
+        "Aimpoint CompM4 reflex sight": Avg:1 | Max:1
+        "SR-2M KP-SR2 reflex sight": Avg:1 | Max:1
+    [Barrel]
+        "Glock 9x19 SAI threaded barrel": Avg:1 | Max:1
+        "MPX-SD 9x19 165mm barrel": Avg:1 | Max:1
+        "TT 7.62x25 121mm homespun threaded barrel": Avg:1 | Max:1
+    [MarksmanRifle]
+        "Knight's Armament Company SR-25 7.62x51 marksman rifle": Avg:1 | Max:1
+        "Remington R11 RSASS 7.62x51 marksman rifle": Avg:1 | Max:1
+    [AuxiliaryMod]
+        "Trijicon REAP-IR scope eyecup": Avg:1 | Max:1
+    [IronSight]
+        "KAC Folding Micro front sight": Avg:1 | Max:1
+    [MedicalSupplies]
+        "Bottle of hydrogen peroxide": Avg:1 | Max:1
+        "Medical bloodset": Avg:1 | Max:1
+    [BuildingMaterial]
+        "Silicone tube": Avg:1 | Max:1
+    [SpecialScope]
+        "NSPU-M 3.5x dovetail night vision scope": Avg:1 | Max:1

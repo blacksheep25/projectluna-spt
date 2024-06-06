@@ -1,0 +1,129 @@
+    [MedicalSupplies]
+        "LEDX Skin Transilluminator": Avg:8 | Max:8
+        "Bottle of hydrogen peroxide": Avg:1 | Max:1
+    [Electronics]
+        "UHF RFID Reader": Avg:7 | Max:7
+        "Far-forward GPS Signal Amplifier Unit": Avg:6 | Max:6
+        "Advanced current converter": Avg:6 | Max:6
+        "Microcontroller board": Avg:6 | Max:6
+        "Golden 1GPhone smartphone": Avg:2 | Max:2
+        "Military circuit board": Avg:1 | Max:1
+        "Ultraviolet lamp": Avg:1 | Max:1
+        "DVD drive": Avg:1 | Max:1
+        "Broken LCD": Avg:1 | Max:1
+    [KeyMechanical]
+        "TerraGroup Labs weapon testing area key": Avg:3 | Max:3
+        "TerraGroup Labs manager's office room key": Avg:1 | Max:1
+    [Tool]
+        "Round pliers": Avg:3 | Max:3
+        "Construction measuring tape": Avg:2 | Max:2
+        "Pliers": Avg:2 | Max:2
+        "Nippers": Avg:1 | Max:1
+        "Ratchet wrench": Avg:1 | Max:1
+        "Pliers Elite": Avg:1 | Max:1
+        "Flat screwdriver (Long)": Avg:1 | Max:1
+        "Bulbex cable cutter": Avg:1 | Max:1
+    [Drugs]
+        "Augmentin antibiotic pills": Avg:3 | Max:3
+        "Morphine injector": Avg:2 | Max:2
+        "Analgin painkillers": Avg:1 | Max:1
+    [Stimulator]
+        "Adrenaline injector": Avg:3 | Max:3
+        "M.U.L.E. stimulant injector": Avg:2 | Max:2
+        "Meldonin injector": Avg:2 | Max:2
+        "Zagustin hemostatic drug injector": Avg:1 | Max:1
+        "PNB (Product 16) stimulant injector": Avg:1 | Max:1
+        ""Obdolbos" cocktail injector": Avg:1 | Max:1
+    [Medical]
+        "Army bandage": Avg:2 | Max:2
+        "Aluminum splint": Avg:2 | Max:2
+        "Aseptic bandage": Avg:1 | Max:1
+    [Info]
+        "Secured tape": Avg:1 | Max:1
+        "Picture 8": Avg:1 | Max:1
+        "Flash drive marked with blue tape": Avg:1 | Max:1
+    [AmmoBox]
+        "5.45x39mm BP gs ammo pack (30 pcs)": Avg:1 | Max:1
+        "9x18mm PM BZhT gzh ammo pack (16 pcs)": Avg:1 | Max:1
+        "12/70 RIP ammo pack (5 pcs)": Avg:1 | Max:1
+        "5.56x45mm M855 ammo pack (50 pcs)": Avg:1 | Max:1
+        "9x18mm PM SP8 gzh ammo pack (16 pcs)": Avg:1 | Max:1
+    [FlashHider]
+        "TACCOM Carbine Brake multi-caliber muzzle brake": Avg:1 | Max:1
+        "AK-74 SRVV MBR Jet 5.45x39 muzzle brake": Avg:1 | Max:1
+        "AR-10 Precision Armanent M11 Severe-Duty 7.62x51 muzzle brake": Avg:1 | Max:1
+        "Mosin Rifle Tacfire Tanker Style 7.62x54R muzzle brake": Avg:1 | Max:1
+        "M14 JP Enterprises 7.62x51 Tactical Compensator": Avg:1 | Max:1
+    [HouseholdGoods]
+        "Toothpaste": Avg:1 | Max:1
+        "Soap": Avg:1 | Max:1
+    [Handguard]
+        "SA-58/FAL AIM Sports Universal KeyMod handguard": Avg:1 | Max:1
+        "AR-15 Soyuz-TM 15 inch M-LOK handguard": Avg:1 | Max:1
+        "AKS-74U Alfa Arms Goliaf handguard": Avg:1 | Max:1
+        "MPX Lancer OEM 14 inch M-LOK handguard": Avg:1 | Max:1
+    [Receiver]
+        "SKS Leapers UTG PRO MTU017 receiver cover mount": Avg:1 | Max:1
+        "AK Zenit B-33 dust cover": Avg:1 | Max:1
+    [Jewelry]
+        "Raven figurine": Avg:1 | Max:1
+        "BEAR operative figurine": Avg:1 | Max:1
+        "Gold skull ring": Avg:1 | Max:1
+        "Bronze lion figurine": Avg:1 | Max:1
+        "Chainlet": Avg:1 | Max:1
+        "Horse figurine": Avg:1 | Max:1
+        "Axel parrot figurine": Avg:1 | Max:1
+    [MedKit]
+        "Salewa first aid kit": Avg:1 | Max:1
+        "Car first aid kit": Avg:1 | Max:1
+    [Other]
+        "BEAR Buddy plush toy": Avg:1 | Max:1
+        "Battered antique book": Avg:1 | Max:1
+        "Apollo Soyuz cigarettes": Avg:1 | Max:1
+    [OpticScope]
+        "Hensoldt FF 4-16x56 34mm riflescope": Avg:1 | Max:1
+    [Magazine]
+        "HK MP5 9x19 20-round magazine": Avg:1 | Max:1
+        "AK 7.62x39 US Palm "AK30" 30-round magazine (FDE)": Avg:1 | Max:1
+        "AK 7.62x39 FAB Defense Ultimag 30R 30-round magazine": Avg:1 | Max:1
+        "M1911A1 .45 ACP Wilson Combat 7-round magazine": Avg:1 | Max:1
+        "SOK-12 12/76 MaxRounds Powermag 20-round magazine": Avg:1 | Max:1
+    [Mount]
+        "JP Enterprises Flat-Top 30mm ring scope mount": Avg:1 | Max:1
+        "MP-133/153 Taktika Tula 12003 stock adapter": Avg:1 | Max:1
+        "Mosin Rifle Kochetov mount": Avg:1 | Max:1
+        "AK Zenit B-12 Mount": Avg:1 | Max:1
+        "Precision Reflex handguard bottom rail mount": Avg:1 | Max:1
+        "Mosin Rifle AIM Sports Tri-Rail mount": Avg:1 | Max:1
+        "M700 AB Arms MOD*X rail mount": Avg:1 | Max:1
+    [Stock]
+        "Daniel Defense TCS 20mm Buttpad ": Avg:1 | Max:1
+        "M14 TROY S.A.S.S. Chassis stock": Avg:1 | Max:1
+        "SA-58 buffer tube adapter": Avg:1 | Max:1
+    [ThrowWeap]
+        "Model 7290 Flash Bang grenade": Avg:1 | Max:1
+    [Barrel]
+        "TT 7.62x25 121mm homespun threaded barrel": Avg:1 | Max:1
+    [Foregrip]
+        "Viking Tactics UVG tactical foregrip": Avg:1 | Max:1
+    [IronSight]
+        "KRISS Defiance low profile flip-up rear sight": Avg:1 | Max:1
+        "Magpul MBUS Gen2 flip-up front sight": Avg:1 | Max:1
+    [TacticalCombo]
+        "Steiner LAS/TAC 2 tactical flashlight": Avg:1 | Max:1
+    [Drink]
+        "Bottle of water (0.6L)": Avg:1 | Max:1
+        "Can of Hot Rod energy drink": Avg:1 | Max:1
+        "Pack of milk": Avg:1 | Max:1
+    [Money]
+        "Roubles": Avg:1 | Max:1
+        "Euros": Avg:1 | Max:1
+        "Dollars": Avg:1 | Max:1
+    [Lubricant]
+        "Propane tank (5L)": Avg:1 | Max:1
+        "Zibbo lighter": Avg:1 | Max:1
+    [Food]
+        "Can of sprats": Avg:1 | Max:1
+        "Can of beef stew (Small)": Avg:1 | Max:1
+    [PistolGrip]
+        "TT Razor Arms rubber grip": Avg:1 | Max:1

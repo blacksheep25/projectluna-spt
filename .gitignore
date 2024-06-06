@@ -1,0 +1,43 @@
+/*
+
+# Base files
+!.gitignore
+!README.md
+
+# Unneeded stuff
+**/.DS_Store
+**.log
+
+# Include BepInEx core
+!BepInEx
+BepInEx/*
+
+# BepInEx Plugins 
+!BepInEx/plugins
+
+# BepInEx Config
+!BepInEx/config
+
+# BepInEx Config Ignore List
+BepInEx/config/BepInEx.cfg
+BepInEx/config/FOVFix.cfg
+BepInEx/config/Tyfon.UIFixes.cfg
+BepInEx/config/com.Amanda.Graphics.cfg
+BepInEx/config/com.bepis.bepinex.configurationmanager.cfg
+
+# Fika Ignore List
+BepInEx/config/com.fika.core.cfg
+
+# User Mod Ignore List (Due to size constraints)
+user/mods/MoxoPixel-BlackCore
+user/mods/MoxoPixel-WhiteCore
+user/mods/MoxoPixel-TacticalGearComponent
+user/mods/ACOG4Life-OpticRework-SPT-380
+user/mods/WTT-PackNStrap
+user/mods/EpicRangeTime-Weapons
+user/mods/RaiRaiTheRaichu-AllTheClothes-1.5.0
+
+#Include User/Mods/
+!User
+User/*
+!User/Mods

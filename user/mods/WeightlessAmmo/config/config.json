@@ -1,0 +1,13 @@
+{
+"enable_is_ammo_weightless" : true,
+
+"enable_stack_max_size_change" : false,
+"stack_max_size" : 2500,
+
+"enable_mag_load_speed_change" : true,
+"mag_load_speed_as_percent" : 50,
+
+"enable_stamina_burn_change" : true,
+"stamina_burn_amount_as_percent" : 0
+
+}

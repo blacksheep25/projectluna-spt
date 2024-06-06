@@ -1,0 +1,24 @@
+{
+	"manifest": [
+		{
+			"key":"shak12/silencer_ash12_long.bundle", 
+			"dependencyKeys":["shaders"]
+		},
+		{
+			"key":"shak12/barrel_mc558_1.bundle", 
+			"dependencyKeys":["shaders"]
+		},
+		{
+			"key":"shak12/handguard_mc558_2.bundle", 
+			"dependencyKeys":["shaders"]
+		},
+		{
+		   "key":"shak12/sight_ash12_full.bundle", 
+		   "dependencyKeys":["shaders"]
+		},
+		{
+			"key":"shak12/patron_12,7x55_ps12_sabot.bundle", 
+			"dependencyKeys":["shaders"]
+		}
+	]
+}

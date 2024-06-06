@@ -1,0 +1,122 @@
+{
+    "ItemPresets": {
+        "639867ca90c8ca7156504f75": {
+            "_changeWeaponName": true,
+            "_id": "639867ca90c8ca7156504f75",
+            "_items": [
+                {
+                    "_id": "9490ecc7ae1a2958412e3c1d",
+                    "_tpl": "5447a9cd4bdc2dbd208b4567",
+                    "upd": {
+                        "Repairable": {
+                            "MaxDurability": 100,
+                            "Durability": 100
+                        },
+                        "FireMode": {
+                            "FireMode": "single"
+                        }
+                    }
+                },
+                {
+                    "_id": "2ccd9a4cb47a7a5971f69a9a",
+                    "_tpl": "55d4b9964bdc2d1d4e8b456e",
+                    "parentId": "9490ecc7ae1a2958412e3c1d",
+                    "slotId": "mod_pistol_grip"
+                },
+                {
+                    "_id": "ee06775d966d7f2de958e6a6",
+                    "_tpl": "55d4887d4bdc2d962f8b4570",
+                    "parentId": "9490ecc7ae1a2958412e3c1d",
+                    "slotId": "mod_magazine"
+                },
+                {
+                    "_id": "452b79175b9cda1a96c4c3bc",
+                    "_tpl": "55d355e64bdc2d962f8b4569",
+                    "parentId": "9490ecc7ae1a2958412e3c1d",
+                    "slotId": "mod_reciever"
+                },
+                {
+                    "_id": "349665ee98ce4cd94842729e",
+                    "_tpl": "5649be884bdc2d79388b4577",
+                    "parentId": "9490ecc7ae1a2958412e3c1d",
+                    "slotId": "mod_stock"
+                },
+                {
+                    "_id": "aa9ac6750aa1e338614d2c67",
+                    "_tpl": "55d44fd14bdc2d962f8b456e",
+                    "parentId": "9490ecc7ae1a2958412e3c1d",
+                    "slotId": "mod_charge"
+                },
+                {
+                    "_id": "5607a614884af42c9a76e83f",
+                    "_tpl": "616584766ef05c2ce828ef57",
+                    "parentId": "452b79175b9cda1a96c4c3bc",
+                    "slotId": "mod_scope"
+                },
+                {
+                    "_id": "ccf89d0c9e33fe82485c2310",
+                    "_tpl": "55d3632e4bdc2d972f8b4569",
+                    "parentId": "452b79175b9cda1a96c4c3bc",
+                    "slotId": "mod_barrel"
+                },
+                {
+                    "_id": "e31d2c08d06b76cdb9065926",
+                    "_tpl": "55d459824bdc2d892f8b4573",
+                    "parentId": "452b79175b9cda1a96c4c3bc",
+                    "slotId": "mod_handguard"
+                },
+                {
+                    "_id": "651c51d360d3c65c3c3b5f42",
+                    "_tpl": "55d4ae6c4bdc2d8b2f8b456e",
+                    "parentId": "349665ee98ce4cd94842729e",
+                    "slotId": "mod_stock_000"
+                },
+                {
+                    "_id": "cce78c8a9126f4e0c11aea8e",
+                    "_tpl": "5c7d560b2e22160bc12c6139",
+                    "parentId": "5607a614884af42c9a76e83f",
+                    "slotId": "mod_scope"
+                },
+                {
+                    "_id": "9f450cb870585f728fd6e4c3",
+                    "_tpl": "544a38634bdc2d58388b4568",
+                    "parentId": "ccf89d0c9e33fe82485c2310",
+                    "slotId": "mod_muzzle"
+                },
+                {
+                    "_id": "c4791e73154e59bfe6895464",
+                    "_tpl": "5ae30e795acfc408fb139a0b",
+                    "parentId": "ccf89d0c9e33fe82485c2310",
+                    "slotId": "mod_gas_block"
+                },
+                {
+                    "_id": "4557420485734e9e3f6b6432",
+                    "_tpl": "6357c98711fb55120211f7e1",
+                    "parentId": "ccf89d0c9e33fe82485c2310",
+                    "slotId": "mod_launcher"
+                },
+                {
+                    "_id": "fa0e4058ffd6979ea2140bef",
+                    "_tpl": "61659f79d92c473c770213ee",
+                    "parentId": "cce78c8a9126f4e0c11aea8e",
+                    "slotId": "mod_scope",
+                    "upd": {
+                        "Sight": {
+                            "ScopesCurrentCalibPointIndexes": [
+                                0
+                            ],
+                            "ScopesSelectedModes": [
+                                0
+                            ],
+                            "SelectedScope": 0
+                        }
+                    }
+                }
+            ],
+            "_name": "Punisher's custom M4A1",
+            "_parent": "9490ecc7ae1a2958412e3c1d",
+            "_type": "Preset"
+          }
+    }
+
+}

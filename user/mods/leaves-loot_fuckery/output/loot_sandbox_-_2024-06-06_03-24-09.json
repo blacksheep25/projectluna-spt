@@ -1,0 +1,94 @@
+    [Battery]
+        "D Size battery": Avg:15 | Max:15
+        "AA Battery": Avg:9 | Max:9
+        "Portable Powerbank": Avg:1 | Max:1
+    [Other]
+        "Apollo Soyuz cigarettes": Avg:15 | Max:15
+        "Wilston cigarettes": Avg:9 | Max:9
+        "Malboro Cigarettes": Avg:8 | Max:8
+        "Strike Cigarettes": Avg:8 | Max:8
+    [Money]
+        "Roubles": Avg:13 | Max:13
+        "Dollars": Avg:1 | Max:1
+    [Lubricant]
+        "Classic matches": Avg:13 | Max:13
+        "Crickent lighter": Avg:6 | Max:6
+        "Hunting matches": Avg:6 | Max:6
+        "Zibbo lighter": Avg:2 | Max:2
+        "Dry fuel": Avg:2 | Max:2
+        "Can of thermite": Avg:1 | Max:1
+        "WD-40 (100ml)": Avg:1 | Max:1
+        "Propane tank (5L)": Avg:1 | Max:1
+        "SurvL Survivor Lighter": Avg:1 | Max:1
+    [Drink]
+        "Can of Ice Green tea": Avg:12 | Max:12
+        "Can of TarCola soda": Avg:10 | Max:10
+        "Can of Max Energy energy drink": Avg:9 | Max:9
+        "Pack of Grand juice": Avg:6 | Max:6
+        "Bottle of water (0.6L)": Avg:6 | Max:6
+        "Can of Hot Rod energy drink": Avg:5 | Max:5
+        "Pack of milk": Avg:4 | Max:4
+        "Bottle of "Norvinskiy Yadreniy" premium kvass (0.6L)": Avg:4 | Max:4
+        "Bottle of Tarkovskaya vodka": Avg:3 | Max:3
+        "Pack of apple juice": Avg:2 | Max:2
+    [Electronics]
+        "Capacitors": Avg:11 | Max:11
+        "TerraGroup scientist's hard drive": Avg:1 | Max:1
+    [Food]
+        "Rye croutons": Avg:9 | Max:9
+        "Emelya rye croutons": Avg:9 | Max:9
+        "Slickers chocolate bar": Avg:8 | Max:8
+        "Alyonka chocolate bar": Avg:5 | Max:5
+        "Can of herring": Avg:5 | Max:5
+        "Can of green peas": Avg:4 | Max:4
+        "Pack of oat flakes": Avg:2 | Max:2
+        "Can of beef stew (Large)": Avg:1 | Max:1
+        "Pack of sugar": Avg:1 | Max:1
+    [AmmoBox]
+        "5.45x39mm SP ammo pack (30 pcs)": Avg:8 | Max:8
+        "7.62x39mm FMJ ammo pack (20 pcs)": Avg:4 | Max:4
+        "5.45x39mm FMJ ammo pack (30 pcs)": Avg:4 | Max:4
+        "9x18mm PM Pst gzh ammo pack (16 pcs)": Avg:4 | Max:4
+        "9x18mm PM BZhT gzh ammo pack (16 pcs)": Avg:3 | Max:3
+        "7.62x39mm HP ammo pack (20 pcs)": Avg:3 | Max:3
+        "9x18mm PM PPe gzh ammo pack (16 pcs)": Avg:2 | Max:2
+        "7.62x39mm SP ammo pack (20 pcs)": Avg:2 | Max:2
+        "5.45x39mm US gs ammo pack (120 pcs)": Avg:2 | Max:2
+        "9x19mm FMJ M882 ammo pack (30 pcs)": Avg:2 | Max:2
+        "5.45x39mm PP gs ammo pack (30 pcs)": Avg:1 | Max:1
+    [MedicalSupplies]
+        "Disposable syringe": Avg:7 | Max:7
+    [Jewelry]
+        "Chainlet": Avg:3 | Max:3
+        "Golden neck chain": Avg:1 | Max:1
+    [Drugs]
+        "Analgin painkillers": Avg:3 | Max:3
+    [Tool]
+        "Round pliers": Avg:3 | Max:3
+        "Pliers Elite": Avg:2 | Max:2
+        "Sewing kit": Avg:2 | Max:2
+        "Awl": Avg:1 | Max:1
+        "Pliers": Avg:1 | Max:1
+        "Wrench": Avg:1 | Max:1
+        "Screwdriver": Avg:1 | Max:1
+        "Hand drill": Avg:1 | Max:1
+    [BuildingMaterial]
+        "Insulating tape": Avg:2 | Max:2
+        "Xenomorph sealing foam": Avg:1 | Max:1
+        "Tube of Poxeram cold welding": Avg:1 | Max:1
+        "Metal spare parts": Avg:1 | Max:1
+        "KEKTAPE duct tape": Avg:1 | Max:1
+        "Silicone tube": Avg:1 | Max:1
+    [Info]
+        "Bottle of Le Jean wine": Avg:1 | Max:1
+        "Tech manual": Avg:1 | Max:1
+    [Gasblock]
+        "AR-10 JP Enterprises Gas System-6": Avg:1 | Max:1
+    [HouseholdGoods]
+        "LVNDMARK's rat poison": Avg:1 | Max:1
+        "Printer paper": Avg:1 | Max:1
+        "Clin window cleaner": Avg:1 | Max:1
+    [Mount]
+        "VPO-102 Arbalet mount": Avg:1 | Max:1
+    [Pistol]
+        "SIG P226R 9x19 pistol": Avg:1 | Max:1
