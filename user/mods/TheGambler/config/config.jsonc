@@ -1,0 +1,111 @@
+{    
+    
+    // Custom Item Trader Settings
+    "wallet_price": 90000,
+    "wallet_stock": 35,
+
+    "key_price": 13000,
+    "key_stock": 100,
+
+    "stim_price": 29500,
+    "stim_stock": 25,
+
+    "keycard_price": 150000,
+    "keycard_stock": 25,
+
+    "fiftyfity_price": 2500000,
+    "fiftyfity_stock": 4,
+
+    "melee_price": 26500,
+    "melee_stock": 80,
+
+    "gun_case_price": 50000,
+    "gun_case_stock": 30,
+
+    "premium_gun_case_price": 275000,
+    "premium_gun_case_stock": 10,
+
+    "armor_case_price": 95000,
+    "armor_case_stock": 25,
+
+    "premium_armor_case_price": 400000,
+    "premium_armor_case_stock": 10,
+
+    "sealed_case_price": 350000,
+    "sealed_case_stock": 4,
+    
+    // GAMBLING ODDS SECTION 
+    //
+    //
+    //
+    // gambling_container_wallet 
+    // Chance for each possibility in percentage from rarest to most common
+    "wallet_extremely_rare": 1,     // 2 Million Roubles
+    "wallet_rare": 2.5,             // 1 Miliion Roubles
+    "wallet_kinda_rare": 5.0,       // 500k Roubles
+    "wallet_uncommon": 8.0,        // 300k Roubles
+    "wallet_common": 20.0,          // 100K Roubles
+    // 100% - all above percentages = % at receiving nothing from gambling container. If desired.
+
+    // gambling_container_key 
+    // Chance for each possibility in percentage from rarest to most common
+    "key_extremely_rare": 0.5, // Extremely Rare Key
+    "key_rare": 4.5,           // Rare Key
+    "key_uncommon": 15.0,      // Uncommon Key
+    "key_common": 80.0,        // Common Key
+    // 100% - all above percentages = % at receiving nothing from gambling container. If desired.
+
+    // gambling_container_stim 
+    // Chance for each possibility in percentage from rarest to most common
+    "stim_rare": 20.0,           // Rare Stim
+    "stim_uncommon": 35.0,      // Uncommon Stim
+    "stim_common": 45.0,        // Common Stim
+    // 100% - all above percentages = % at receiving nothing from gambling container. If desired.
+
+    // gambling_container_keycard
+    // Chance for each possibility in percentage from rarest to most common
+    "keycard_red": 0.1,           // Red Keycard
+    "keycard_green": 0.2,         // Green Keycard
+    "keycard_blue": 0.3,          // Blue Keycard
+    "keycard_violet": 0.4,        // Violet Keycard
+    "keycard_black": 0.4,         // Black Keycard
+    "keycard_yellow": 0.6,        // Yellow Keycard
+    "keycard_blue_marking": 2.5,    // Keycard with blue marking
+    "keycard_21WS": 2.75,            // 21WS Keycard
+    "keycard_11SR": 2.75,            // 11SR Keycard
+    "keycard_access": 65,         // Access Keycard
+    // 100% - all above percentages = % at receiving nothing from gambling container. If desired.
+
+    // gambling_container_melee
+    // Chance for each possibility in percentage from rarest to most common
+    "melee_extremely_rare": 0.25,      // Extremely Rare melee
+    "melee_rare": 2.0,                // Rare melee
+    "melee_uncommon": 22.75,           // Uncommon melee
+    "melee_common": 75.0,             // Common melee
+    // 100% - all above percentages = % at receiving nothing from gambling container. If desired.
+
+    // gambling_container_weapon
+    // Chance for each possibility in percentage from rarest to most common
+    "gun_rare": 10,     // Rare Gun
+    "gun_meme": 12,
+    "gun_uncommon": 38.0, // Semi-modded Gun
+    "gun_common": 40,   // Default Gun
+    // 100% - all above percentages = % at receiving nothing from gambling container. If desired.
+
+    // gambling_container_premium_weapon
+    // Chance for each possibility in percentage from rarest to most common
+    "premium_gun_rare": 100.0, // Rare Gun
+    // 100% - all above percentages = % at receiving nothing from gambling container. If desired.
+
+    // gambling_container_armor
+    // Chance for each possibility in percentage from rarest to most common
+    "armor_rare": 15.0,     // Rare Armor
+    "armor_uncommon": 25.0, // Uncommon Armor
+    "armor_common": 60.0,   // Common Armor
+    // 100% - all above percentages = % at receiving nothing from gambling container. If desired.
+
+    // gambling_container_premium_armor
+    // Chance for each possibility in percentage from rarest to most common
+    "premium_armor_rare": 100.0  // Rare Gun
+    // 100% - all above percentages = % at receiving nothing from gambling container. If desired.
+}
