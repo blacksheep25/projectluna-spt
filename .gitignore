@@ -8,12 +8,19 @@
 **/.DS_Store
 **.log
 
+# ignore ALL .log files
+*.log
+
+# ignore ALL files in ANY directory named log
+log/
+
 # Include BepInEx core
 !BepInEx
 BepInEx/*
 
 # BepInEx Plugins 
 !BepInEx/plugins
+BepInEx/plugins/DanW-SPTQuestingBots\log
 
 # BepInEx Config
 !BepInEx/config
@@ -28,7 +35,12 @@ BepInEx/config/com.bepis.bepinex.configurationmanager.cfg
 # Fika Ignore List
 BepInEx/config/com.fika.core.cfg
 
-# User Mod Ignore List (Due to size constraints)
+# Include User/Mods/
+!User
+User/*
+!User/Mods
+
+# User Mod Ignore List
 user/mods/MoxoPixel-BlackCore
 user/mods/MoxoPixel-WhiteCore
 user/mods/MoxoPixel-TacticalGearComponent
@@ -36,8 +48,4 @@ user/mods/ACOG4Life-OpticRework-SPT-380
 user/mods/WTT-PackNStrap
 user/mods/EpicRangeTime-Weapons
 user/mods/RaiRaiTheRaichu-AllTheClothes-1.5.0
-
-#Include User/Mods/
-!User
-User/*
-!User/Mods
+user/mods/bakahashi-pityloot/database
