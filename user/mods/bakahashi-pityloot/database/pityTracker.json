@@ -1,15 +1,5 @@
 {
   "hideout": {
-    "0": {
-      "currentLevel": 2,
-      "raidsSinceStarted": 0,
-      "timeAvailable": 1717660659807
-    },
-    "1": {
-      "currentLevel": 2,
-      "raidsSinceStarted": 0,
-      "timeAvailable": 1717660659807
-    },
     "2": {
       "currentLevel": 2,
       "raidsSinceStarted": 0,
@@ -20,67 +10,78 @@
       "raidsSinceStarted": 0,
       "timeAvailable": 1717648569098
     },
-    "5": {
-      "currentLevel": 2,
-      "raidsSinceStarted": 0,
-      "timeAvailable": 1717660659807
-    },
-    "6": {
+    "21": {
       "currentLevel": 1,
       "raidsSinceStarted": 0,
-      "timeAvailable": 1717660659807
+      "timeAvailable": 1717725277696
     },
-    "7": {
+    "22": {
+      "currentLevel": 4,
+      "raidsSinceStarted": 0,
+      "timeAvailable": 1717725277696
+    },
+    "23": {
       "currentLevel": 1,
       "raidsSinceStarted": 0,
-      "timeAvailable": 1717660659807
-    },
-    "9": {
-      "currentLevel": 1,
-      "raidsSinceStarted": 0,
-      "timeAvailable": 1717660659807
-    },
-    "10": {
-      "currentLevel": 1,
-      "raidsSinceStarted": 0,
-      "timeAvailable": 1717660659807
+      "timeAvailable": 1717725277696
     }
   },
   "quests": {
-    "INTROART_1": {
-      "raidsSinceStarted": 0
-    },
-    "5ac23c6186f7741247042bad": {
-      "raidsSinceStarted": 0
-    },
-    "596b36c586f77450d6045ad2": {
-      "raidsSinceStarted": 0
-    },
-    "59689ee586f7740d1570bbd5": {
-      "raidsSinceStarted": 0
-    },
-    "5d24b81486f77439c92d6ba8": {
-      "raidsSinceStarted": 0
-    },
-    "5fd9fad9c1ce6b1a3b486d00": {
-      "raidsSinceStarted": 0
-    },
     "59674cd986f7744ab26e32f2": {
       "raidsSinceStarted": 2
     },
-    "66614f313c5926f0d9000001": {
+    "59674eb386f774539f14813a": {
       "raidsSinceStarted": 0
     },
-    "66614f313c5926f0d900000a": {
+    "596b455186f77457cb50eccb": {
+      "raidsSinceStarted": 0
+    },
+    "5979ed3886f77431307dc512": {
+      "raidsSinceStarted": 0
+    },
+    "6660879c652f9a5baa000001": {
+      "raidsSinceStarted": 0
+    },
+    "5ae448a386f7744d3730fff0": {
+      "raidsSinceStarted": 0
+    },
+    "5bc4776586f774512d07cf05": {
+      "raidsSinceStarted": 0
+    },
+    "5d25aed386f77442734d25d2": {
+      "raidsSinceStarted": 0
+    },
+    "5bc479e586f7747f376c7da3": {
+      "raidsSinceStarted": 0
+    },
+    "5ac2426c86f774138762edfe": {
+      "raidsSinceStarted": 0
+    },
+    "5ac2428686f77412450b42bf": {
+      "raidsSinceStarted": 0
+    },
+    "5ac345dc86f774288030817f": {
+      "raidsSinceStarted": 0
+    },
+    "5a27b7a786f774579c3eb376": {
+      "raidsSinceStarted": 0
+    },
+    "596a204686f774576d4c95de": {
+      "raidsSinceStarted": 0
+    },
+    "5c1234c286f77406fa13baeb": {
+      "raidsSinceStarted": 0
+    },
+    "ARTT_4": {
+      "raidsSinceStarted": 0
+    },
+    "painter_5": {
+      "raidsSinceStarted": 0
+    },
+    "66614fa63c5926f0d9000006": {
       "raidsSinceStarted": 0
     },
     "5968eb3186f7741dde183a4d": {
-      "raidsSinceStarted": 0
-    },
-    "painter_2": {
-      "raidsSinceStarted": 0
-    },
-    "59c124d686f774189b3c843f": {
       "raidsSinceStarted": 0
     }
   }
