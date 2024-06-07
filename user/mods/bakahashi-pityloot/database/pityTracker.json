@@ -2,33 +2,33 @@
   "hideout": {
     "2": {
       "currentLevel": 2,
-      "raidsSinceStarted": 1,
+      "raidsSinceStarted": 2,
       "timeAvailable": 1717648647550
     },
     "4": {
       "currentLevel": 2,
-      "raidsSinceStarted": 1,
+      "raidsSinceStarted": 2,
       "timeAvailable": 1717648569098
     },
     "21": {
       "currentLevel": 1,
       "raidsSinceStarted": 1,
-      "timeAvailable": 1717725277696
+      "timeAvailable": 1717731381133
     },
     "22": {
       "currentLevel": 4,
       "raidsSinceStarted": 1,
-      "timeAvailable": 1717725277696
+      "timeAvailable": 1717731381133
     },
     "23": {
       "currentLevel": 1,
       "raidsSinceStarted": 1,
-      "timeAvailable": 1717725277696
+      "timeAvailable": 1717731381133
     }
   },
   "quests": {
     "59674cd986f7744ab26e32f2": {
-      "raidsSinceStarted": 3
+      "raidsSinceStarted": 4
     },
     "59674eb386f774539f14813a": {
       "raidsSinceStarted": 1
@@ -79,6 +79,15 @@
       "raidsSinceStarted": 1
     },
     "5968eb3186f7741dde183a4d": {
+      "raidsSinceStarted": 2
+    },
+    "5ae448bf86f7744d733e55ee": {
+      "raidsSinceStarted": 1
+    },
+    "5ae448e586f7744dcf0c2a67": {
+      "raidsSinceStarted": 1
+    },
+    "638fcd23dc65553116701d33": {
       "raidsSinceStarted": 1
     }
   }
