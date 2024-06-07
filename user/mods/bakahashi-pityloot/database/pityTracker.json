@@ -2,87 +2,84 @@
   "hideout": {
     "2": {
       "currentLevel": 2,
-      "raidsSinceStarted": 0,
+      "raidsSinceStarted": 1,
       "timeAvailable": 1717648647550
     },
     "4": {
       "currentLevel": 2,
-      "raidsSinceStarted": 0,
+      "raidsSinceStarted": 1,
       "timeAvailable": 1717648569098
     },
     "21": {
       "currentLevel": 1,
-      "raidsSinceStarted": 0,
+      "raidsSinceStarted": 1,
       "timeAvailable": 1717725277696
     },
     "22": {
       "currentLevel": 4,
-      "raidsSinceStarted": 0,
+      "raidsSinceStarted": 1,
       "timeAvailable": 1717725277696
     },
     "23": {
       "currentLevel": 1,
-      "raidsSinceStarted": 0,
+      "raidsSinceStarted": 1,
       "timeAvailable": 1717725277696
     }
   },
   "quests": {
     "59674cd986f7744ab26e32f2": {
-      "raidsSinceStarted": 2
+      "raidsSinceStarted": 3
     },
     "59674eb386f774539f14813a": {
-      "raidsSinceStarted": 0
+      "raidsSinceStarted": 1
     },
     "596b455186f77457cb50eccb": {
-      "raidsSinceStarted": 0
+      "raidsSinceStarted": 1
     },
     "5979ed3886f77431307dc512": {
-      "raidsSinceStarted": 0
+      "raidsSinceStarted": 1
     },
     "6660879c652f9a5baa000001": {
-      "raidsSinceStarted": 0
-    },
-    "5ae448a386f7744d3730fff0": {
-      "raidsSinceStarted": 0
+      "raidsSinceStarted": 1
     },
     "5bc4776586f774512d07cf05": {
-      "raidsSinceStarted": 0
+      "raidsSinceStarted": 1
     },
     "5d25aed386f77442734d25d2": {
-      "raidsSinceStarted": 0
+      "raidsSinceStarted": 1
     },
     "5bc479e586f7747f376c7da3": {
-      "raidsSinceStarted": 0
+      "raidsSinceStarted": 1
     },
     "5ac2426c86f774138762edfe": {
-      "raidsSinceStarted": 0
+      "raidsSinceStarted": 1
     },
     "5ac2428686f77412450b42bf": {
-      "raidsSinceStarted": 0
+      "raidsSinceStarted": 1
     },
     "5ac345dc86f774288030817f": {
-      "raidsSinceStarted": 0
+      "raidsSinceStarted": 1
     },
     "5a27b7a786f774579c3eb376": {
-      "raidsSinceStarted": 0
+      "raidsSinceStarted": 1
     },
     "596a204686f774576d4c95de": {
-      "raidsSinceStarted": 0
+      "raidsSinceStarted": 1
     },
     "5c1234c286f77406fa13baeb": {
-      "raidsSinceStarted": 0
+      "raidsSinceStarted": 1
     },
     "ARTT_4": {
-      "raidsSinceStarted": 0
+      "raidsSinceStarted": 1
     },
     "painter_5": {
-      "raidsSinceStarted": 0
+      "raidsSinceStarted": 1
     },
     "66614fa63c5926f0d9000006": {
-      "raidsSinceStarted": 0
+      "raidsSinceStarted": 1
     },
     "5968eb3186f7741dde183a4d": {
-      "raidsSinceStarted": 0
+      "raidsSinceStarted": 1
     }
   }
 }
