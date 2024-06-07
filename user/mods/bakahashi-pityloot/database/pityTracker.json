@@ -2,38 +2,32 @@
   "hideout": {
     "2": {
       "currentLevel": 2,
-      "raidsSinceStarted": 2,
+      "raidsSinceStarted": 28,
       "timeAvailable": 1717648647550
     },
     "4": {
       "currentLevel": 2,
-      "raidsSinceStarted": 2,
-      "timeAvailable": 1717648569098
+      "raidsSinceStarted": 1,
+      "timeAvailable": 1717751897812
     },
     "21": {
       "currentLevel": 1,
-      "raidsSinceStarted": 1,
-      "timeAvailable": 1717731381133
+      "raidsSinceStarted": 2,
+      "timeAvailable": 1717751549947
     },
     "22": {
       "currentLevel": 4,
       "raidsSinceStarted": 1,
-      "timeAvailable": 1717731381133
+      "timeAvailable": 1717751897812
     },
     "23": {
       "currentLevel": 1,
       "raidsSinceStarted": 1,
-      "timeAvailable": 1717731381133
+      "timeAvailable": 1717751897812
     }
   },
   "quests": {
-    "59674cd986f7744ab26e32f2": {
-      "raidsSinceStarted": 4
-    },
     "59674eb386f774539f14813a": {
-      "raidsSinceStarted": 1
-    },
-    "596b455186f77457cb50eccb": {
       "raidsSinceStarted": 1
     },
     "5979ed3886f77431307dc512": {
@@ -63,9 +57,6 @@
     "5a27b7a786f774579c3eb376": {
       "raidsSinceStarted": 1
     },
-    "596a204686f774576d4c95de": {
-      "raidsSinceStarted": 1
-    },
     "5c1234c286f77406fa13baeb": {
       "raidsSinceStarted": 1
     },
@@ -73,9 +64,6 @@
       "raidsSinceStarted": 1
     },
     "painter_5": {
-      "raidsSinceStarted": 1
-    },
-    "66614fa63c5926f0d9000006": {
       "raidsSinceStarted": 1
     },
     "5968eb3186f7741dde183a4d": {
@@ -88,6 +76,15 @@
       "raidsSinceStarted": 1
     },
     "638fcd23dc65553116701d33": {
+      "raidsSinceStarted": 1
+    },
+    "5969f9e986f7741dde183a50": {
+      "raidsSinceStarted": 1
+    },
+    "5c0d190cd09282029f5390d8": {
+      "raidsSinceStarted": 1
+    },
+    "6193850f60b34236ee0483de": {
       "raidsSinceStarted": 1
     }
   }
