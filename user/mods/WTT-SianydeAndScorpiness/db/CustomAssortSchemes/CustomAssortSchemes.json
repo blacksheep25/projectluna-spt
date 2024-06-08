@@ -1,0 +1,111 @@
+{
+    "SKIER": {
+		"items": [
+			{
+				"_id": "traderscorpion",
+				"_tpl": "czscorpion",
+				"parentId": "hideout",
+				"slotId": "hideout",
+				"upd": {
+					"StackObjectsCount": 99,
+					"Repairable": {
+						"MaxDurability": 100,
+						"Durability": 100
+					},
+					"FireMode": {
+						"FireMode": "single"
+					}
+				}
+			},
+            {
+				"_id": "662f1aa6f9e144217c866c19",
+				"_tpl": "66350caf3d749fb3864cbe70",
+				"parentId": "traderscorpion",
+				"slotId": "mod_magazine"
+			},
+			{
+				"_id": "662f1ab0f33824eb74081d2e",
+				"_tpl": "czhandguardstock",
+				"parentId": "traderscorpion",
+				"slotId": "mod_handguard"
+			},
+			{
+				"_id": "662f1abdd07dfd9bebcf6bd6",
+				"_tpl": "czbarrelmed",
+				"parentId": "traderscorpion",
+				"slotId": "mod_barrel"
+			},
+			{
+				"_id": "662f1ac35a6bc0721cf710f3",
+				"_tpl": "czstockscorpion",
+				"parentId": "traderscorpion",
+				"slotId": "mod_stock"
+			},
+            {
+				"_id": "662f1dcd6b41e5d7dd3e8783",
+				"_tpl": "czpgrip3",
+				"parentId": "traderscorpion",
+				"slotId": "mod_pistolgrip"
+			},
+            {
+                "_id": "662f1ea5ed42e5923301dd04",
+                "_tpl": "czcharginghandle",
+                "parentId": "traderscorpion",
+                "slotId": "mod_charge"
+            },
+			{
+				"_id": "662f1acaa9f2704ab420210e",
+				"_tpl": "czsightr",
+				"parentId": "traderscorpion",
+				"slotId": "mod_sight_rear",
+				"upd": {
+					"Sight": {
+						"ScopesCurrentCalibPointIndexes": [
+							0
+						],
+						"ScopesSelectedModes": [
+							0
+						],
+						"SelectedScope": 0
+					}
+				}
+			},
+			{
+				"_id": "662f1b382fc7531fc9b007d8",
+				"_tpl": "czsightf",
+				"parentId": "662f1ab0f33824eb74081d2e",
+				"slotId": "mod_sight_front",
+				"upd": {
+					"Sight": {
+						"ScopesCurrentCalibPointIndexes": [
+							0
+						],
+						"ScopesSelectedModes": [
+							0
+						],
+						"SelectedScope": 0
+					}
+				}
+			},
+			{
+				"_id": "662f1b3d4b28e1a5a3264a17",
+				"_tpl": "czcompstock",
+				"parentId": "662f1abdd07dfd9bebcf6bd6",
+				"slotId": "mod_muzzle"
+			}
+        ],
+        "barter_scheme": {
+			"traderscorpion": [
+				[
+					{
+						"count": 623,
+						"_tpl": "569668774bdc2da2298b4568"
+					}
+				]
+			]
+		},
+		"loyal_level_items": {
+			"traderscorpion": 2
+		}
+    }
+}

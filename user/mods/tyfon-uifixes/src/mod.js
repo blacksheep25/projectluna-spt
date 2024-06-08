@@ -19,7 +19,7 @@ class UIFixes {
                 }
                 return original.call(inventoryController, playerData, request, sessionID);
             };
-        }, { frequency: "Always" });
+        }, { frequency: "Once" });
         // Keep quickbinds for items that aren't actually lost on death
         container.afterResolution("InRaidHelper", (_, inRaidHelper) => {
             const original = inRaidHelper.deleteInventory;
@@ -35,7 +35,7 @@ class UIFixes {
                     }
                 }
             };
-        }, { frequency: "Always" });
+        }, { frequency: "Once" });
         staticRouterModService.registerStaticRouter("UIFixesRoutes", [
             {
                 url: "/uifixes/assortUnlocks",

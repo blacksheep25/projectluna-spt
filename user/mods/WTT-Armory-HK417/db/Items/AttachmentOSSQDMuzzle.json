@@ -1,0 +1,80 @@
+{
+	"664b9a705538c7da4f026f22": {
+		"itemTplToClone": "61713308d92c473c770214a0",
+		"parentId": "550aa4bf4bdc2dd6348b456b",
+		"handbookParentId": "5b5f724c86f774093f2ecf15",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "muzzle_oss762qd.bundle",
+				"rcid": ""
+			},
+				"BackgroundColor": "blue",
+				"Accuracy": 1,
+				"Recoil": -8,
+				"Loudness": 20,
+				"Ergonomics": -2,
+				"HeatFactor": 0.987,
+				"CoolFactor": 1,
+				"muzzleModType": "conpensator",
+				"DurabilityBurnModificator": 0.99,
+			"Slots": [
+				{
+					"_id": "664b9a6a3b4d865b785aa9c3",
+					"_mergeSlotWithChildren": false,
+					"_name": "mod_muzzle",
+					"_parent": "664b9a705538c7da4f026f22",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"664b9a4798222d80ce536df6"
+								],
+								"Shift": 0
+							}
+						]
+					},
+					"_proto": "55d30c4c4bdc2db4468b457e",
+					"_required": false
+				}
+			],
+			"ExaminedByDefault": true
+		},
+		"locales": {
+			"en": {
+				"name": "OSS 762 QD Muzzle Brake",
+				"shortName": "OSS QD",
+				"description": "A 2-port muzzle brake manufactured by OSS to act as a host for the OSS Helix QD 762 Suppressor."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 22622,
+		"handbookPriceRoubles": 3750,
+		"addtoTraders": false,
+		"traderId": "58330581ace78e27b8b10cee",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 5,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtoStaticLootContainers": false,
+		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
+		"Probability": 250
+	}
+}
+	
