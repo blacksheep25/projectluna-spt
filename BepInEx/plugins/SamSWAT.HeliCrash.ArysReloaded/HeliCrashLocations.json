@@ -1,5 +1,5 @@
 {
-    "Customs": [
+    "bigmap": [
         {
             "Position": {
                 "x": 208.5571,
@@ -3643,7 +3643,7 @@
             }
         }
     ],
-    "Rezerv": [
+    "RezervBase": [
         {
             "Position": {
                 "x": -241.359512,
@@ -5675,7 +5675,7 @@
             }
         }
     ],
-    "GroundZero": [
+    "Sandbox": [
         {
             "Position": {
                 "x": 142.9365,
@@ -5725,7 +5725,7 @@
             }
         }
     ],
-    "Develop": [
+    "develop": [
         {
             "Position": {
                 "x": 13.0,
