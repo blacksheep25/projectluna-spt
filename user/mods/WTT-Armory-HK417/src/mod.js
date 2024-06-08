@@ -34,10 +34,10 @@ const CustomItemService_1 = require("./CustomItemService");
 // Custom Trader Assort Items
 const CustomAssortSchemeService_1 = require("./CustomAssortSchemeService");
 const CustomWeaponPresets_1 = require("./CustomWeaponPresets");
-class WTTArmoryWilsonCombat {
+class WTTArmoryHK417 {
     Instance = new WTTInstanceManager_1.WTTInstanceManager();
     version;
-    modName = "WTTArmoryWilsonCombat";
+    modName = "WTTArmoryHK417";
     config;
     //#region CustomBosses
     customItemService = new CustomItemService_1.CustomItemService();
@@ -84,9 +84,9 @@ class WTTArmoryWilsonCombat {
         this.Instance.logger.log(`[${this.modName}] ------------------------------------------------------------------------`, LogTextColor_1.LogTextColor.GREEN);
         this.Instance.logger.log(`[${this.modName}] Pre-Alpha development build`, LogTextColor_1.LogTextColor.GREEN);
         this.Instance.logger.log(`[${this.modName}] Developers:           Tron and the WTT Team`, LogTextColor_1.LogTextColor.GREEN);
-        this.Instance.logger.log(`[${this.modName}] Wilsonnnnnnnnnnnnnnn!`, LogTextColor_1.LogTextColor.GREEN);
+        this.Instance.logger.log(`[${this.modName}] HK417 go boom`, LogTextColor_1.LogTextColor.GREEN);
         this.Instance.logger.log(`[${this.modName}] ------------------------------------------------------------------------`, LogTextColor_1.LogTextColor.GREEN);
     }
 }
-module.exports = { mod: new WTTArmoryWilsonCombat() };
+module.exports = { mod: new WTTArmoryHK417() };
 //# sourceMappingURL=mod.js.map
