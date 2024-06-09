@@ -463,7 +463,7 @@
       "QuestAmount": 1,
       "Lifespan": 10080
     },
-    "EnableQuests": true,
+    "EnableQuests": false,
     "ScavQuests": {
       "MinKillsLR2": 3,
       "MaxKillsLR2": 15,
