@@ -1,9 +1,9 @@
 {
     "name": "TheGambler",
-    "version": "0.1.2",
+    "version": "0.1.4",
     "main": "src/mod.js",
     "license": "MIT",
-    "author": "Shirito",
+    "author": "Hood",
     "akiVersion": "~3.8",
 	"loadBefore": [],
 	"loadAfter": [],

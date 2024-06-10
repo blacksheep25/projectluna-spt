@@ -1,38 +1,65 @@
-{    
+{   // Debug Option: Every Mystery Box opening will post its item information in the console before opening.
+
+    //   If your game is crashing when opening any mystery Box from TheGambler do the following:
+    //
+    //     1 - Take a screenshot of the Item you unboxed that is bugged and post it in the mods page comments with which mystery box you opened
+    //
+    //                                           OR
+    //
+    //     1 - Copy the Item information that was posted in the console right before the Error. This information looks like:
+    //                [
+    //                   { _id: '1c446ddf70bb4a2687f88bbe', _tpl: '5c06c6a80db834001b735491' },
+    //                   {
+    //                    _id: 'e70645ec4817d30ed552d29b',
+    //                    _tpl: '6571199565daf6aa960c9b10',
+    //                    parentId: '1c446ddf70bb4a2687f88bbe',
+    //                    slotId: 'Helmet_top',
+    //                    upd: {}
+    //                   }, ... more data
+    //                ]
+    //     2 - Post the error information and the Item Information from the console in TheGambler mod page comments section and this will help me pinpoint the problem.
+    //
+    "debug": true,
+    //
+    //        
+    //           
     
     // Custom Item Trader Settings
-    "wallet_price": 90000,
-    "wallet_stock": 35,
+    "wallet_price": 100000,
+    "wallet_stock": 200,
 
-    "key_price": 13000,
-    "key_stock": 100,
+    "key_price": 15000,
+    "key_stock": 45,
 
-    "stim_price": 29500,
-    "stim_stock": 25,
+    "stim_price": 40000,
+    "stim_stock": 30,
 
     "keycard_price": 150000,
-    "keycard_stock": 25,
+    "keycard_stock": 50,
 
     "fiftyfity_price": 2500000,
     "fiftyfity_stock": 4,
 
     "melee_price": 26500,
-    "melee_stock": 80,
+    "melee_stock": 50,
 
     "gun_case_price": 50000,
-    "gun_case_stock": 30,
+    "gun_case_stock": 40,
 
     "premium_gun_case_price": 275000,
-    "premium_gun_case_stock": 10,
+    "premium_gun_case_stock": 25,
+
+    "helmet_case_price": 55000,
+    "helmet_case_stock": 40,
 
     "armor_case_price": 95000,
-    "armor_case_stock": 25,
+    "armor_case_stock": 30,
 
     "premium_armor_case_price": 400000,
-    "premium_armor_case_stock": 10,
+    "premium_armor_case_stock": 15,
 
     "sealed_case_price": 350000,
-    "sealed_case_stock": 4,
+    "sealed_case_stock": 10,
     
     // GAMBLING ODDS SECTION 
     //
@@ -57,9 +84,9 @@
 
     // gambling_container_stim 
     // Chance for each possibility in percentage from rarest to most common
-    "stim_rare": 20.0,           // Rare Stim
-    "stim_uncommon": 35.0,      // Uncommon Stim
-    "stim_common": 45.0,        // Common Stim
+    "stim_rare": 15.0,           // Rare Stim
+    "stim_uncommon": 30.0,      // Uncommon Stim
+    "stim_common": 55.0,        // Common Stim
     // 100% - all above percentages = % at receiving nothing from gambling container. If desired.
 
     // gambling_container_keycard
@@ -95,6 +122,14 @@
     // gambling_container_premium_weapon
     // Chance for each possibility in percentage from rarest to most common
     "premium_gun_rare": 100.0, // Rare Gun
+    // 100% - all above percentages = % at receiving nothing from gambling container. If desired.
+
+    // gambling_container_key 
+    // Chance for each possibility in percentage from rarest to most common
+    "helmet_extremely_rare": 0.35, // Extremely Rare Key
+    "helmet_rare": 20.0,           // Rare Key
+    "helmet_uncommon": 37.0,      // Uncommon Key
+    "helmet_common": 42.65,        // Common Key
     // 100% - all above percentages = % at receiving nothing from gambling container. If desired.
 
     // gambling_container_armor
