@@ -7630,10 +7630,10 @@ class Weapons {
         {
             Id: "666050bb010012f7da32de1d",
             Name: "akm1",
-            Root: "0aa161e7921454025864cd49",
+            Root: "1912b79f1b8dab875a1e66d6",
             Items: [
                 {
-                    _id: "0aa161e7921454025864cd49",
+                    _id: "1912b79f1b8dab875a1e66d6",
                     _tpl: "59d6088586f774275f37482f",
                     upd: {
                         Repairable: {
@@ -7646,33 +7646,39 @@ class Weapons {
                     },
                 },
                 {
-                    _id: "7d56b08ae28c22f5ea721c5d",
+                    _id: "d9644a02a11b212a68407f6c",
                     _tpl: "59d64ec286f774171d1e0a42",
-                    parentId: "0aa161e7921454025864cd49",
+                    parentId: "1912b79f1b8dab875a1e66d6",
                     slotId: "mod_gas_block",
                 },
                 {
-                    _id: "c6db8c657da082d667f9c4e2",
+                    _id: "4671e831cca5ee6537655be5",
                     _tpl: "5a9fbacda2750c00141e080f",
-                    parentId: "0aa161e7921454025864cd49",
+                    parentId: "1912b79f1b8dab875a1e66d6",
                     slotId: "mod_muzzle",
+                    upd: {
+                        SpawnedInSession: true,
+                    },
                 },
                 {
-                    _id: "7409988f4f864849cee7c020",
+                    _id: "35bf9eca27d97698afd0558e",
                     _tpl: "59e62cc886f77440d40b52a1",
-                    parentId: "0aa161e7921454025864cd49",
+                    parentId: "1912b79f1b8dab875a1e66d6",
                     slotId: "mod_pistol_grip",
                 },
                 {
-                    _id: "8c8885b1f924a4072233d316",
+                    _id: "6935e847dabdb34598145a97",
                     _tpl: "59e6449086f7746c9f75e822",
-                    parentId: "0aa161e7921454025864cd49",
+                    parentId: "1912b79f1b8dab875a1e66d6",
                     slotId: "mod_reciever",
+                    upd: {
+                        SpawnedInSession: true,
+                    },
                 },
                 {
-                    _id: "d0beb8d18f06bc1564d99c63",
+                    _id: "341c4b89e32f426ee458dd71",
                     _tpl: "59d650cf86f7741b846413a4",
-                    parentId: "0aa161e7921454025864cd49",
+                    parentId: "1912b79f1b8dab875a1e66d6",
                     slotId: "mod_sight_rear",
                     upd: {
                         Sight: {
@@ -7683,40 +7689,31 @@ class Weapons {
                     },
                 },
                 {
-                    _id: "7e01b9c89643cacbf793b1bc",
-                    _tpl: "5649b2314bdc2d79388b4576",
-                    parentId: "0aa161e7921454025864cd49",
+                    _id: "a172f5a79efdb7ad0824e467",
+                    _tpl: "5b0e794b5acfc47a877359b2",
+                    parentId: "1912b79f1b8dab875a1e66d6",
                     slotId: "mod_stock",
                 },
                 {
-                    _id: "4807f07205550199e8983624",
+                    _id: "7bdcc1b411c5a2dcbab2f9cc",
                     _tpl: "59d625f086f774661516605d",
-                    parentId: "0aa161e7921454025864cd49",
+                    parentId: "1912b79f1b8dab875a1e66d6",
                     slotId: "mod_magazine",
                 },
                 {
-                    _id: "b37859959dde05f817dcd49a",
+                    _id: "107e70ca6e48a1b764a608ec",
                     _tpl: "5d4aaa54a4b9365392071170",
-                    parentId: "7d56b08ae28c22f5ea721c5d",
+                    parentId: "d9644a02a11b212a68407f6c",
                     slotId: "mod_handguard",
+                    upd: {
+                        SpawnedInSession: true,
+                    },
                 },
                 {
-                    _id: "01dbdfa822c1bf7e5d1f1664",
-                    _tpl: "5c793fb92e221644f31bfb64",
-                    parentId: "7e01b9c89643cacbf793b1bc",
-                    slotId: "mod_stock",
-                },
-                {
-                    _id: "5613d360d54ad445106645ea",
+                    _id: "76fc56c2a7f7852370fd8bb6",
                     _tpl: "651a8bf3a8520e48047bf708",
-                    parentId: "b37859959dde05f817dcd49a",
+                    parentId: "107e70ca6e48a1b764a608ec",
                     slotId: "mod_foregrip",
-                },
-                {
-                    _id: "53daf6a04b34486f182d4935",
-                    _tpl: "5beec8c20db834001d2c465c",
-                    parentId: "01dbdfa822c1bf7e5d1f1664",
-                    slotId: "mod_stock_001",
                 },
             ],
         },

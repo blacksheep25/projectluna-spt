@@ -17,7 +17,7 @@ class ItemCreateHelper {
         const walletGamble = {
             newItem: {
                 _id: "a_gambling_wallet",
-                _name: "gambling_container_wallet",
+                _name: "gambling_wallet",
                 _parent: "62f109593b54472778797866",
                 _props: {
                     "AnimationVariantsNumber": 0,
@@ -122,7 +122,7 @@ class ItemCreateHelper {
         const keyGamble = {
             newItem: {
                 _id: "a_key_gamble",
-                _name: "gambling_container_key",
+                _name: "gambling_key",
                 _parent: "62f109593b54472778797866",
                 _props: {
                     "AnimationVariantsNumber": 0,
@@ -227,7 +227,7 @@ class ItemCreateHelper {
         const stimGamble = {
             newItem: {
                 _id: "a_stim_gamble",
-                _name: "gambling_container_stim",
+                _name: "gambling_stim",
                 _parent: "62f109593b54472778797866",
                 _props: {
                     "AnimationVariantsNumber": 0,
@@ -332,7 +332,7 @@ class ItemCreateHelper {
         const keycardGamble = {
             newItem: {
                 _id: "a_keycard_gamble",
-                _name: "gambling_container_keycard",
+                _name: "gambling_keycard",
                 _parent: "62f109593b54472778797866",
                 _props: {
                     "AnimationVariantsNumber": 0,
@@ -437,7 +437,7 @@ class ItemCreateHelper {
         const fiftyFiftyGamble = {
             newItem: {
                 _id: "z_50/50_gamble",
-                _name: "gambling_container_50/50",
+                _name: "gambling_50/50",
                 _parent: "62f109593b54472778797866",
                 _props: {
                     "AnimationVariantsNumber": 0,
@@ -542,7 +542,7 @@ class ItemCreateHelper {
         const meleeWeaponGamble = {
             newItem: {
                 _id: "a_melee_weapon_gamble",
-                _name: "gambling_container_melee",
+                _name: "gambling_melee",
                 _parent: "62f109593b54472778797866",
                 _props: {
                     "AnimationVariantsNumber": 0,
@@ -647,7 +647,7 @@ class ItemCreateHelper {
         const weaponGamble = {
             newItem: {
                 _id: "w_weapon_gamble",
-                _name: "gambling_container_weapon",
+                _name: "gambling_weapon",
                 _parent: "62f109593b54472778797866",
                 _props: {
                     "AnimationVariantsNumber": 0,
@@ -752,7 +752,7 @@ class ItemCreateHelper {
         const premiumWeaponGamble = {
             newItem: {
                 _id: "wa_premium_weapon_gamble",
-                _name: "gambling_container_premium_weapon",
+                _name: "gambling_premium_weapon",
                 _parent: "62f109593b54472778797866",
                 _props: {
                     "AnimationVariantsNumber": 0,
@@ -850,14 +850,119 @@ class ItemCreateHelper {
                 "en": {
                     name: "Premium Weapon Mystery Box",
                     shortName: "Premium Weapon Mystery Box",
-                    description: `ThePremium Weapon Mystery Box contains a guaranteed heavily modded weappon\n==============================\nRare Weapon - ${this.config.premium_armor_rare}%`
+                    description: `The Premium Weapon Mystery Box contains a guaranteed heavily modded weappon\n==============================\nRare Weapon - ${this.config.premium_armor_rare}%`
+                }
+            }
+        };
+        const helmetGamble = {
+            newItem: {
+                _id: "x_helmet_gamble",
+                _name: "gambling_helmet",
+                _parent: "62f109593b54472778797866",
+                _props: {
+                    "AnimationVariantsNumber": 0,
+                    "BackgroundColor": "orange",
+                    "BlocksArmorVest": false,
+                    "CanPutIntoDuringTheRaid": true,
+                    "CanRequireOnRagfair": false,
+                    "CanSellOnRagfair": false,
+                    "CantRemoveFromSlotsDuringRaid": [],
+                    "ConflictingItems": [],
+                    "Description": "Helmet Mystery Box",
+                    "DiscardLimit": -1,
+                    "DiscardingBlock": false,
+                    "DropSoundType": "None",
+                    "ExamineExperience": 100,
+                    "ExamineTime": 1,
+                    "ExaminedByDefault": true,
+                    "ExtraSizeDown": 0,
+                    "ExtraSizeForceAdd": false,
+                    "ExtraSizeLeft": 0,
+                    "ExtraSizeRight": 0,
+                    "ExtraSizeUp": 0,
+                    "Grids": [
+                        {
+                            "_id": "6489c03c8bc5233fdc78e789",
+                            "_name": "main",
+                            "_parent": "6489c03c8bc5233fdc78e788",
+                            "_props": {
+                                "cellsH": 1,
+                                "cellsV": 1,
+                                "filters": [
+                                    {
+                                        "ExcludedFilter": [
+                                            "54009119af1c881c07000029"
+                                        ],
+                                        "Filter": []
+                                    }
+                                ],
+                                "isSortingTable": false,
+                                "maxCount": 99,
+                                "maxWeight": 0,
+                                "minCount": 1
+                            },
+                            "_proto": "55d329c24bdc2d892f8b4567"
+                        }
+                    ],
+                    "Height": 2,
+                    "HideEntrails": true,
+                    "InsuranceDisabled": false,
+                    "IsAlwaysAvailableForInsurance": false,
+                    "IsLockedafterEquip": false,
+                    "IsSpecialSlotOnly": false,
+                    "IsUnbuyable": false,
+                    "IsUndiscardable": false,
+                    "IsUngivable": false,
+                    "IsUnremovable": false,
+                    "IsUnsaleable": false,
+                    "ItemSound": "container_plastic",
+                    "LootExperience": 20,
+                    "MergesWithChildren": false,
+                    "Name": "Helmet Mystery Box",
+                    "NotShownInSlot": false,
+                    "Prefab": {
+                        "path": "assets/content/items/equipment/helmet_altyn/item_equipment_helmet_altyn.bundle",
+                        "rcid": ""
+                    },
+                    "QuestItem": false,
+                    "QuestStashMaxCount": 0,
+                    "RagFairCommissionModifier": 1,
+                    "RepairCost": 0,
+                    "RepairSpeed": 0,
+                    "SearchSound": "drawer_metal_looting",
+                    "ShortName": "Helmet Mystery Box",
+                    "Slots": [],
+                    "StackMaxSize": 1,
+                    "StackObjectsCount": 1,
+                    "Unlootable": false,
+                    "UnlootableFromSide": [],
+                    "UnlootableFromSlot": "FirstPrimaryWeapon",
+                    "UsePrefab": {
+                        "path": "",
+                        "rcid": ""
+                    },
+                    "Weight": 2,
+                    "Width": 2,
+                    "ReverbVolume": 0
+                },
+                _proto: "",
+                _type: "Item"
+            },
+            fleaPriceRoubles: 79750,
+            handbookPriceRoubles: 79750,
+            handbookParentId: "5b5f6fa186f77409407a7eb7",
+            locales: {
+                "en": {
+                    name: "Helmet Mystery Box",
+                    shortName: "Helmet Mystery Box",
+                    description: `Are you tired of Chad PMCs one tapping your dome? Well I can offer protection for you! Purchase a Helmet Mystery Box today!\n==============================\nCommon Helmet - ${this.config.helmet_common}%\nUncommon Helmet - ${this.config.helmet_uncommon}%\nRare Helmet - ${this.config.helmet_rare}%\nExtremely Rare T-7 Thermal Helmet - ${this.config.helmet_extremely_rare}%`
                 }
             }
         };
         const armorGamble = {
             newItem: {
                 _id: "w_armor_gamble",
-                _name: "gambling_container_armor",
+                _name: "gambling_armor",
                 _parent: "62f109593b54472778797866",
                 _props: {
                     "AnimationVariantsNumber": 0,
@@ -962,7 +1067,7 @@ class ItemCreateHelper {
         const premiumArmorGamble = {
             newItem: {
                 _id: "w_premium_armor_gamble",
-                _name: "gambling_container_premium_armor",
+                _name: "gambling_premium_armor",
                 _parent: "62f109593b54472778797866",
                 _props: {
                     "AnimationVariantsNumber": 0,
@@ -1071,7 +1176,8 @@ class ItemCreateHelper {
         customItem.createItem(fiftyFiftyGamble);
         customItem.createItem(meleeWeaponGamble);
         customItem.createItem(weaponGamble);
-        customItem.createItem(armorGamble); // This is gonna take some time...
+        customItem.createItem(helmetGamble);
+        customItem.createItem(armorGamble);
         customItem.createItem(premiumArmorGamble);
         customItem.createItem(premiumWeaponGamble);
     }

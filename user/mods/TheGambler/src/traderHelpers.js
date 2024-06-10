@@ -114,6 +114,7 @@ class TraderHelper {
         const MELEEGAMBLE_ID = "a_melee_weapon_gamble";
         const GUNGAMBLE_ID = "w_weapon_gamble";
         const SEALEDWEAPONCASE_ID = "648990314b4d2b31b63a46fc";
+        const HELMETGAMBLE_ID = "x_helmet_gamble";
         const ARMORGAMBLE_ID = "w_armor_gamble";
         const PREMIUMARMORGAMBLE_ID = "w_premium_armor_gamble";
         const PREMIUMGUNGAMBLE_ID = "wa_premium_weapon_gamble";
@@ -163,6 +164,12 @@ class TraderHelper {
             .addStackCount(config.gun_case_stock)
             .addBuyRestriction(config.gun_case_stock)
             .addMoneyCost(Money_1.Money.ROUBLES, config.gun_case_price)
+            .addLoyaltyLevel(1)
+            .export(tables.traders[baseJson._id]);
+        assortCreator.createSingleAssortItem(HELMETGAMBLE_ID)
+            .addStackCount(config.helmet_case_stock)
+            .addBuyRestriction(config.helmet_case_stock)
+            .addMoneyCost(Money_1.Money.ROUBLES, config.helmet_case_price)
             .addLoyaltyLevel(1)
             .export(tables.traders[baseJson._id]);
         assortCreator.createSingleAssortItem(ARMORGAMBLE_ID)
