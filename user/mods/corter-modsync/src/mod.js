@@ -24,7 +24,12 @@ class Mod {
         const vfs = Mod.container.resolve("VFS");
         const hashUtil = Mod.container.resolve("HashUtil");
         const httpFileUtil = Mod.container.resolve("HttpFileUtil");
-        const { clientDirs, serverDirs, } = require("./config.json");
+        const jsonUtil = Mod.container.resolve("JsonUtil");
+        const { clientDirs, serverDirs, commonModExclusions } = jsonUtil.deserializeJsonC(await vfs.readFileAsync(node_path_1.default.join(__dirname, "config.jsonc")), "config.jsonc");
+        const commonModExclusionsRegex = commonModExclusions.map((exclusion) => new RegExp(exclusion
+            .split(node_path_1.default.posix.sep)
+            .join(node_path_1.default.sep)
+            .replaceAll("\\", "\\\\")));
         if (clientDirs.some((dir) => node_path_1.default.isAbsolute(dir) ||
             node_path_1.default
                 .relative(process.cwd(), node_path_1.default.resolve(process.cwd(), dir))
@@ -46,12 +51,14 @@ class Mod {
                             !file.endsWith(".nosync.txt") &&
                             !vfs.exists(`${file}.nosync`) &&
                             !vfs.exists(`${file}.nosync.txt`) &&
-                            node_path_1.default.basename(file) !== "Corter-ModSync.dll"),
+                            !commonModExclusionsRegex.some((exclusion) => exclusion.test(file))),
                         ...vfs
                             .getDirs(dir)
-                            .filter((subDir) => !vfs.exists(node_path_1.default.join(dir, subDir, ".nosync")) &&
-                            !vfs.exists(node_path_1.default.join(dir, subDir, ".nosync.txt")))
-                            .flatMap((subDir) => getFilesInDir(node_path_1.default.join(dir, subDir))),
+                            .map((subDir) => node_path_1.default.join(dir, subDir))
+                            .filter((subDir) => !vfs.exists(node_path_1.default.join(subDir, ".nosync")) &&
+                            !vfs.exists(node_path_1.default.join(subDir, ".nosync.txt")) &&
+                            !commonModExclusionsRegex.some((exclusion) => exclusion.test(subDir)))
+                            .flatMap((subDir) => getFilesInDir(subDir)),
                     ];
                 }
                 catch {
@@ -63,7 +70,10 @@ class Mod {
                 // biome-ignore lint/style/noNonNullAssertion: <explanation>
                 const dir = dirs.find((dir) => !node_path_1.default.relative(dir, file).startsWith(".."));
                 return [
-                    node_path_1.default.join(dir, node_path_1.default.relative(dir, file)),
+                    node_path_1.default
+                        .join(dir, node_path_1.default.relative(dir, file))
+                        .split(node_path_1.default.sep)
+                        .join(node_path_1.default.win32.sep),
                     {
                         crc: hashUtil.generateCRC32ForFile(file),
                         modified: new Date(modified.getTime() + modified.getTimezoneOffset() * 60000).getTime(),
@@ -90,12 +100,12 @@ class Mod {
             else if (req.url === "/modsync/client/dirs") {
                 resp.setHeader("Content-Type", "application/json");
                 resp.writeHead(200, "OK");
-                resp.end(JSON.stringify(clientDirs));
+                resp.end(JSON.stringify(clientDirs.map((dir) => dir.split(node_path_1.default.posix.sep).join(node_path_1.default.win32.sep))));
             }
             else if (req.url === "/modsync/server/dirs") {
                 resp.setHeader("Content-Type", "application/json");
                 resp.writeHead(200, "OK");
-                resp.end(JSON.stringify(serverDirs));
+                resp.end(JSON.stringify(serverDirs.map((dir) => dir.split(node_path_1.default.posix.sep).join(node_path_1.default.win32.sep))));
             }
             else if (req.url === "/modsync/client/hashes") {
                 const clientModUpdated = Math.max(...clientDirs.map((dir) => node_fs_1.default.statSync(dir).mtimeMs));
