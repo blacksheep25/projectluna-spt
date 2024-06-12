@@ -220,7 +220,7 @@ class ItemCreateHelper {
                 "en": {
                     name: "Mystery Key",
                     shortName: "Mystery Key",
-                    description: `So you want a brand new key to your favorite looting spot? Try your luck!\n==============================\nCommon Key - ${this.config.key_common}%\nUncommon Key - ${this.config.key_uncommon}%\nRare Key - ${this.config.key_rare}%\nExtremely Rare Key - ${this.config.key_extremely_rare}%`
+                    description: `So you want a brand-new key to your favorite looting spot? Or maybe you're looking for that pesky quest key. We have it all! Try your luck!\n==============================\nCommon Key - ${this.config.key_common}%\nUncommon Key - ${this.config.key_uncommon}%\nRare Key - ${this.config.key_rare}%\nExtremely Rare Key - ${this.config.key_extremely_rare}%`
                 }
             }
         };

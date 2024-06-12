@@ -1,6 +1,6 @@
 {
     "name": "Painter - Trader",
-    "version": "1.0.4",
+    "version": "1.0.6",
     "main": "src/mod.js",
     "license": "MIT",
     "author": "MoxoPixel",
