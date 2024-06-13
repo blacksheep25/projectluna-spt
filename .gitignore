@@ -49,6 +49,9 @@ user/mods/EpicRangeTime-Weapons
 user/mods/RaiRaiTheRaichu-AllTheClothes-1.5.0
 user/mods/bakahashi-pityloot/database
 user/mods/leaves-loot_fuckery/output
+user/mods/SPT-Realism/ProfileBackups
+# Raid review currently isn't Fika Compatible so we will ignore this for now
+user/mods/raid_review__0.0.3/data
 
 # Ignore MPT Updater
 user/mods/MPT.Updater.exe
