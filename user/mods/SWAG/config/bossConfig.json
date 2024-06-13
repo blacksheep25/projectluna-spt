@@ -161,7 +161,7 @@
       "woods": 0
 		},
     "punisher": {
-			"enabled": true,
+			"enabled": false,
 			"useProgressSpawnChance": false,
       "customs": 5,
       "factory": 5,
