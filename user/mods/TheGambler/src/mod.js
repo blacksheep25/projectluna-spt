@@ -68,7 +68,7 @@ class SampleTrader {
         this.traderHelper = new traderHelpers_1.TraderHelper();
         this.fluentAssortCreator = new fluentTraderAssortCreator_1.FluentAssortConstructor(hashUtil, this.logger);
         this.traderHelper.registerProfileImage(baseJson, this.mod, preAkiModLoader, imageRouter, "thegambler.jpg");
-        this.traderHelper.setTraderUpdateTime(traderConfig, baseJson, 3600, 4000);
+        this.traderHelper.setTraderUpdateTime(traderConfig, baseJson, this.config.trader_update_min_time, this.config.trader_update_max_time);
         // Add trader to trader enum
         Traders_1.Traders[baseJson._id] = baseJson._id;
         // Add trader to flea market
@@ -174,8 +174,8 @@ class SampleTrader {
         */
         const output = eventOutputHolder.getOutput(sessionID);
         let multipleItems;
-        /* // Not Working
-        let message: Message = {
+        /*
+        let message: Message = { // Not Working
             _id: String,
             uid: String,
             type: MessageType,

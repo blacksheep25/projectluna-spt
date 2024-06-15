@@ -115,7 +115,7 @@ class ItemCreateHelper {
                 "en": {
                     name: "Mystery Wallet",
                     shortName: "Mystery Wallet",
-                    description: `Wager your Roubles to win more, or lose it all!\n==============================\n0 Roubles - 60.0%\n100k Roubles - ${this.config.wallet_common}%\n300k Roubles - ${this.config.wallet_uncommon}%\n500k Roubles - ${this.config.wallet_kinda_rare}%\n1 Million Roubles - ${this.config.wallet_rare}%\n2 Million Roubles - ${this.config.wallet_extremely_rare}%`
+                    description: `Wager your Roubles to win more, or lose it all!\n==============================\n0 Roubles - 50.0%\n100k Roubles - ${this.config.wallet_common}%\n300k Roubles - ${this.config.wallet_uncommon}%\n500k Roubles - ${this.config.wallet_kinda_rare}%\n1 Million Roubles - ${this.config.wallet_rare}%\n2 Million Roubles - ${this.config.wallet_extremely_rare}%`
                 }
             }
         };
@@ -745,7 +745,7 @@ class ItemCreateHelper {
                 "en": {
                     name: "Weapon Mystery Box",
                     shortName: "Weapon Mystery Box",
-                    description: `Weapon Mystery Box, contains over 180 different guns ranging from Meta Chad weapons, early wipe weapons, and cursed weapons \n==============================\nFully Modded Weapon - ${this.config.gun_rare}%\nMeme Weapon - ${this.config.gun_meme}%\nSemi-modded Weapon - ${this.config.gun_uncommon}%\nDefault Weapon - ${this.config.gun_common}%`
+                    description: `Weapon Mystery Box, contains over 180 different guns ranging from Meta Chad weapons, early wipe weapons, and cursed weapons \n==============================\nFully Modded Weapon - ${this.config.gun_rare}%\nMeme Weapon - ${this.config.gun_meme}%\nSemi-modded Weapon - ${this.config.gun_uncommon}%\nScav Weapon - ${this.config.gun_scav}%\nDefault Weapon - ${this.config.gun_common}%`
                 }
             }
         };
@@ -956,6 +956,216 @@ class ItemCreateHelper {
                     name: "Helmet Mystery Box",
                     shortName: "Helmet Mystery Box",
                     description: `Are you tired of Chad PMCs one tapping your dome? Well I can offer protection for you! Purchase a Helmet Mystery Box today!\n==============================\nCommon Helmet - ${this.config.helmet_common}%\nUncommon Helmet - ${this.config.helmet_uncommon}%\nRare Helmet - ${this.config.helmet_rare}%\nExtremely Rare T-7 Thermal Helmet - ${this.config.helmet_extremely_rare}%`
+                }
+            }
+        };
+        const headsetGamble = {
+            newItem: {
+                _id: "xy_headset_gamble",
+                _name: "gambling_headset",
+                _parent: "62f109593b54472778797866",
+                _props: {
+                    "AnimationVariantsNumber": 0,
+                    "BackgroundColor": "orange",
+                    "BlocksArmorVest": false,
+                    "CanPutIntoDuringTheRaid": true,
+                    "CanRequireOnRagfair": false,
+                    "CanSellOnRagfair": false,
+                    "CantRemoveFromSlotsDuringRaid": [],
+                    "ConflictingItems": [],
+                    "Description": "Mystery Headset",
+                    "DiscardLimit": -1,
+                    "DiscardingBlock": false,
+                    "DropSoundType": "None",
+                    "ExamineExperience": 100,
+                    "ExamineTime": 1,
+                    "ExaminedByDefault": true,
+                    "ExtraSizeDown": 0,
+                    "ExtraSizeForceAdd": false,
+                    "ExtraSizeLeft": 0,
+                    "ExtraSizeRight": 0,
+                    "ExtraSizeUp": 0,
+                    "Grids": [
+                        {
+                            "_id": "6489c03c8bc5233fdc78e789",
+                            "_name": "main",
+                            "_parent": "6489c03c8bc5233fdc78e788",
+                            "_props": {
+                                "cellsH": 1,
+                                "cellsV": 1,
+                                "filters": [
+                                    {
+                                        "ExcludedFilter": [
+                                            "54009119af1c881c07000029"
+                                        ],
+                                        "Filter": []
+                                    }
+                                ],
+                                "isSortingTable": false,
+                                "maxCount": 99,
+                                "maxWeight": 0,
+                                "minCount": 1
+                            },
+                            "_proto": "55d329c24bdc2d892f8b4567"
+                        }
+                    ],
+                    "Height": 2,
+                    "HideEntrails": true,
+                    "InsuranceDisabled": false,
+                    "IsAlwaysAvailableForInsurance": false,
+                    "IsLockedafterEquip": false,
+                    "IsSpecialSlotOnly": false,
+                    "IsUnbuyable": false,
+                    "IsUndiscardable": false,
+                    "IsUngivable": false,
+                    "IsUnremovable": false,
+                    "IsUnsaleable": false,
+                    "ItemSound": "container_plastic",
+                    "LootExperience": 20,
+                    "MergesWithChildren": false,
+                    "Name": "Mystery Headset",
+                    "NotShownInSlot": false,
+                    "Prefab": {
+                        "path": "assets/content/items/equipment/headset_comtaciv/item_equipment_headset_comtaciv.bundle",
+                        "rcid": ""
+                    },
+                    "QuestItem": false,
+                    "QuestStashMaxCount": 0,
+                    "RagFairCommissionModifier": 1,
+                    "RepairCost": 0,
+                    "RepairSpeed": 0,
+                    "SearchSound": "drawer_metal_looting",
+                    "ShortName": "Mystery Headset",
+                    "Slots": [],
+                    "StackMaxSize": 1,
+                    "StackObjectsCount": 1,
+                    "Unlootable": false,
+                    "UnlootableFromSide": [],
+                    "UnlootableFromSlot": "FirstPrimaryWeapon",
+                    "UsePrefab": {
+                        "path": "",
+                        "rcid": ""
+                    },
+                    "Weight": 2,
+                    "Width": 2,
+                    "ReverbVolume": 0
+                },
+                _proto: "",
+                _type: "Item"
+            },
+            fleaPriceRoubles: 79750,
+            handbookPriceRoubles: 79750,
+            handbookParentId: "5b5f6fa186f77409407a7eb7",
+            locales: {
+                "en": {
+                    name: "Mystery Headset",
+                    shortName: "Mystery Headset",
+                    description: `You can't expect to hear that sneaky USEC with those flimsy pair of headphones. Buy a Mystery Headset today!\n==============================\nRandom Headset - ${this.config.headset_chance}%`
+                }
+            }
+        };
+        const backpackGamble = {
+            newItem: {
+                _id: "wr_backpack_gamble",
+                _name: "gambling_backpack",
+                _parent: "62f109593b54472778797866",
+                _props: {
+                    "AnimationVariantsNumber": 0,
+                    "BackgroundColor": "orange",
+                    "BlocksArmorVest": false,
+                    "CanPutIntoDuringTheRaid": true,
+                    "CanRequireOnRagfair": false,
+                    "CanSellOnRagfair": false,
+                    "CantRemoveFromSlotsDuringRaid": [],
+                    "ConflictingItems": [],
+                    "Description": "Backpack Mystery Box",
+                    "DiscardLimit": -1,
+                    "DiscardingBlock": false,
+                    "DropSoundType": "None",
+                    "ExamineExperience": 100,
+                    "ExamineTime": 1,
+                    "ExaminedByDefault": true,
+                    "ExtraSizeDown": 0,
+                    "ExtraSizeForceAdd": false,
+                    "ExtraSizeLeft": 0,
+                    "ExtraSizeRight": 0,
+                    "ExtraSizeUp": 0,
+                    "Grids": [
+                        {
+                            "_id": "6489c03c8bc5233fdc78e789",
+                            "_name": "main",
+                            "_parent": "6489c03c8bc5233fdc78e788",
+                            "_props": {
+                                "cellsH": 1,
+                                "cellsV": 1,
+                                "filters": [
+                                    {
+                                        "ExcludedFilter": [
+                                            "54009119af1c881c07000029"
+                                        ],
+                                        "Filter": []
+                                    }
+                                ],
+                                "isSortingTable": false,
+                                "maxCount": 99,
+                                "maxWeight": 0,
+                                "minCount": 1
+                            },
+                            "_proto": "55d329c24bdc2d892f8b4567"
+                        }
+                    ],
+                    "Height": 7,
+                    "HideEntrails": true,
+                    "InsuranceDisabled": false,
+                    "IsAlwaysAvailableForInsurance": false,
+                    "IsLockedafterEquip": false,
+                    "IsSpecialSlotOnly": false,
+                    "IsUnbuyable": false,
+                    "IsUndiscardable": false,
+                    "IsUngivable": false,
+                    "IsUnremovable": false,
+                    "IsUnsaleable": false,
+                    "ItemSound": "container_plastic",
+                    "LootExperience": 20,
+                    "MergesWithChildren": false,
+                    "Name": "Backpack Mystery Box",
+                    "NotShownInSlot": false,
+                    "Prefab": {
+                        "path": "assets/content/items/equipment/backpack_pilgrim/item_equipment_backpack_pilgrim_christmas.bundle",
+                        "rcid": ""
+                    },
+                    "QuestItem": false,
+                    "QuestStashMaxCount": 0,
+                    "RagFairCommissionModifier": 1,
+                    "RepairCost": 0,
+                    "RepairSpeed": 0,
+                    "SearchSound": "drawer_metal_looting",
+                    "ShortName": "Backpack Mystery Box",
+                    "Slots": [],
+                    "StackMaxSize": 1,
+                    "StackObjectsCount": 1,
+                    "Unlootable": false,
+                    "UnlootableFromSide": [],
+                    "UnlootableFromSlot": "FirstPrimaryWeapon",
+                    "UsePrefab": {
+                        "path": "",
+                        "rcid": ""
+                    },
+                    "Weight": 2,
+                    "Width": 5,
+                    "ReverbVolume": 0
+                },
+                _proto: "",
+                _type: "Item"
+            },
+            fleaPriceRoubles: 79750,
+            handbookPriceRoubles: 79750,
+            handbookParentId: "5b5f6fa186f77409407a7eb7",
+            locales: {
+                "en": {
+                    name: "Backpack Mystery Bag",
+                    shortName: "Backpack Mystery Bag",
+                    description: `Need a new bag for your next loot run?We got you covered!\n==============================\nCommon Backpack - ${this.config.backpack_common}%\nUncommon Backpack - ${this.config.backpack_uncommon}%\nRare Backpack - ${this.config.backpack_rare}%\nExtremely Rare Backpack - ${this.config.backpack_extremely_rare}%`
                 }
             }
         };
@@ -1177,6 +1387,8 @@ class ItemCreateHelper {
         customItem.createItem(meleeWeaponGamble);
         customItem.createItem(weaponGamble);
         customItem.createItem(helmetGamble);
+        customItem.createItem(headsetGamble);
+        customItem.createItem(backpackGamble);
         customItem.createItem(armorGamble);
         customItem.createItem(premiumArmorGamble);
         customItem.createItem(premiumWeaponGamble);

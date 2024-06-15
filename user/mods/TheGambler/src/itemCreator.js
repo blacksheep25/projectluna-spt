@@ -60,6 +60,9 @@ class ItemCreator {
         if (which == "base") {
             weaponBuilds = this.Weapons.weaponBaseBuilds;
         }
+        else if (which == "scav") {
+            weaponBuilds = this.Weapons.weaponScavBuilds;
+        }
         else if (which == "decent") {
             weaponBuilds = this.Weapons.weaponDecentBuilds;
         }
