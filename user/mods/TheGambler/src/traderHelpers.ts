@@ -18,6 +18,11 @@ import path from "path";
 export class TraderHelper
 {
 
+    // getRandomInt(3) returns 0, 1, or 2
+    protected getRandomInt(max: number) {
+        return Math.floor(Math.random() * max);
+    }
+
      /**
      * Add profile picture to our trader
      * @param baseJson json file for trader (db/base.json)
@@ -113,10 +118,13 @@ export class TraderHelper
         const MELEEGAMBLE_ID = "a_melee_weapon_gamble";
         const GUNGAMBLE_ID = "w_weapon_gamble";
         const SEALEDWEAPONCASE_ID = "648990314b4d2b31b63a46fc";
+        const BACKPACKGAMBLE_ID = "wr_backpack_gamble";
         const HELMETGAMBLE_ID = "x_helmet_gamble";
+        const HEADSETGAMBLE_ID = "xy_headset_gamble";
         const ARMORGAMBLE_ID = "w_armor_gamble";
         const PREMIUMARMORGAMBLE_ID = "w_premium_armor_gamble";
         const PREMIUMGUNGAMBLE_ID = "wa_premium_weapon_gamble";
+        
         
 
         assortCreator.createSingleAssortItem(WALLETGAMBLE_ID)
@@ -189,6 +197,18 @@ export class TraderHelper
                                 .addStackCount(config.premium_gun_case_stock)
                                 .addBuyRestriction(config.remium_gun_case_stock)
                                 .addMoneyCost(Money.ROUBLES, config.premium_gun_case_price)
+                                .addLoyaltyLevel(1)
+                                .export(tables.traders[baseJson._id]);
+        assortCreator.createSingleAssortItem(BACKPACKGAMBLE_ID)
+                                .addStackCount(config.backpack_case_stock)
+                                .addBuyRestriction(config.backpack_case_stock)
+                                .addMoneyCost(Money.ROUBLES, config.backpack_case_price)
+                                .addLoyaltyLevel(1)
+                                .export(tables.traders[baseJson._id]);
+        assortCreator.createSingleAssortItem(HEADSETGAMBLE_ID)
+                                .addStackCount(config.headset_case_stock)
+                                .addBuyRestriction(config.headset_case_stock)
+                                .addMoneyCost(Money.ROUBLES, config.headset_case_price)
                                 .addLoyaltyLevel(1)
                                 .export(tables.traders[baseJson._id]);
 

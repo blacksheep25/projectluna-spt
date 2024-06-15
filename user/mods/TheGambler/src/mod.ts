@@ -84,7 +84,7 @@ class SampleTrader implements IPreAkiLoadMod, IPostDBLoadMod
         this.traderHelper = new TraderHelper();
         this.fluentAssortCreator = new FluentAssortCreator(hashUtil, this.logger);
         this.traderHelper.registerProfileImage(baseJson, this.mod, preAkiModLoader, imageRouter, "thegambler.jpg");
-        this.traderHelper.setTraderUpdateTime(traderConfig, baseJson, 3600, 4000);
+        this.traderHelper.setTraderUpdateTime(traderConfig, baseJson, this.config.trader_update_min_time, this.config.trader_update_max_time);
 
         // Add trader to trader enum
         Traders[baseJson._id] = baseJson._id;
@@ -217,8 +217,8 @@ class SampleTrader implements IPreAkiLoadMod, IPostDBLoadMod
 
         const output = eventOutputHolder.getOutput(sessionID);
         let multipleItems: any;
-        /* // Not Working
-        let message: Message = {
+        /*
+        let message: Message = { // Not Working
             _id: String,
             uid: String,
             type: MessageType,

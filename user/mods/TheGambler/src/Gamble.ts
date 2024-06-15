@@ -9,6 +9,8 @@ import { Item } from "../common/tables/IItem";
 import { ItemCreator } from "./itemCreator";
 import { Keys } from "./keys";
 import { Stims } from "./Stims";
+import { Backpacks } from "./Backpacks";
+import { Headsets } from "./Headsets";
 
 
 export class Gamble {
@@ -66,6 +68,12 @@ export class Gamble {
                 break;
             case 'gambling_helmet':
                 this.openHelmet();
+                break;
+            case 'gambling_headset':
+                this.openHeadset();
+                break;
+            case 'gambling_backpack':
+                this.openBackpack();
                 break;
             case 'gambling_armor':
                 this.openArmor();
@@ -228,8 +236,8 @@ export class Gamble {
         this.logger.info(`\n[TheGambler] The container roll is: ${roll}!`);
         const stims = new Stims();
         const rare_odds = this.config.stim_rare;
-        const uncommon_odds = this.config.key_uncommon + rare_odds;
-        const common_odds = this.config.key_common + uncommon_odds;
+        const uncommon_odds = this.config.stim_uncommon + rare_odds;
+        const common_odds = this.config.stim_common + uncommon_odds;
 
         if (roll <= rare_odds) {
             const secondRoll = this.randomUtil.getInt(0, stims.rareStims.length - 1);
@@ -269,7 +277,8 @@ export class Gamble {
         const rare_odds = this.config.gun_rare;
         const meme_odds = this.config.gun_meme + rare_odds;
         const uncommon_odds = this.config.gun_uncommon + meme_odds;
-        const common_odds = this.config.gun_common + uncommon_odds;
+        const scav_odds = this.config.gun_scav + uncommon_odds;
+        const common_odds = this.config.gun_common + scav_odds;
 
         if(roll <= rare_odds) {
             createWeapon = item.createGun('meta');
@@ -277,6 +286,8 @@ export class Gamble {
             createWeapon = item.createGun('meme');
         } else if (roll <= uncommon_odds) {
             createWeapon = item.createGun('decent');
+        } else if (roll <= scav_odds) {
+            createWeapon = item.createGun('scav');
         } else if (roll <= common_odds) {
             createWeapon = item.createGun('base');
         } else { // Nothing
@@ -353,6 +364,72 @@ export class Gamble {
         
         if (createHelmet.length != 0) {
             this.newItemRequest.itemWithModsToAdd.push(...createHelmet);
+            this.newItemRequest.foundInRaid = true;
+        }
+    }
+
+    private openHeadset(){
+        let id: string;
+        const roll = this.randomUtil.getFloat(0,8);
+        this.logger.info(`\n[TheGambler] The container roll is: ${roll}!`);
+        const headsets = new Headsets();
+        const headset_odds = this.config.headset_chance;
+        id = headsets.headsets[roll];
+
+        if (roll <= headset_odds) {
+            const secondRoll = this.randomUtil.getInt(0, headsets.headsets.length - 1);
+            id = headsets.headsets[secondRoll];
+
+        } else { // Nothing
+            id = "NaN";
+            this.logger.info(`[TheGambler] Case Opened... Received Nothing... Better luck next time :)`);
+        }
+
+        if(this.config.debug) {
+            this.logger.info("[TheGambler] Mystery Headset Information...");
+            this.logger.info("[TheGambler] Headset id = " + id);
+        }
+
+        if (id != "NaN") {
+            this.newItemRequest.itemWithModsToAdd.push(this.newItemFormat(id));
+            this.newItemRequest.foundInRaid = true;
+        }
+    }
+
+    private openBackpack(){
+        let id: string;
+        const roll = this.randomUtil.getFloat(0,100);
+        this.logger.info(`\n[TheGambler] The container roll is: ${roll}!`);
+        const backpacks = new Backpacks();
+        const extremely_rare_odds = this.config.backpack_extremely_rare;
+        const rare_odds = this.config.backpack_rare + extremely_rare_odds;
+        const uncommon_odds = this.config.backpack_uncommon + rare_odds;
+        const common_odds = this.config.backpack_common + uncommon_odds;
+
+        if (roll <= rare_odds) {
+            const secondRoll = this.randomUtil.getInt(0, backpacks.rareBackpacks.length - 1);
+            id = backpacks.rareBackpacks[secondRoll];
+
+        } else if (roll <= uncommon_odds) {
+            const secondRoll = this.randomUtil.getInt(0, backpacks.uncommonBackpacks.length - 1);
+            id = backpacks.uncommonBackpacks[secondRoll];
+            
+        } else if (roll <= common_odds) { // Common Key
+            const secondRoll = this.randomUtil.getInt(0, backpacks.commonBackpacks.length - 1);
+            id = backpacks.commonBackpacks[secondRoll];
+
+        } else { // Nothing
+            id = "NaN";
+            this.logger.info(`[TheGambler] Case Opened... Received Nothing... Better luck next time :)`);
+        }
+
+        if(this.config.debug) {
+            this.logger.info("[TheGambler] Backpack Mystery Box Information...");
+            this.logger.info("[TheGambler] Backpack id = " + id);
+        }
+
+        if (id != "NaN") {
+            this.newItemRequest.itemWithModsToAdd.push(this.newItemFormat(id));
             this.newItemRequest.foundInRaid = true;
         }
     }

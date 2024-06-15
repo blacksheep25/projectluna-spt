@@ -16,36 +16,32 @@ import { LogTextColor } from "@spt-aki/models/spt/logging/LogTextColor";
 import * as fs from "fs";
 import * as path from "path";
 import { WTTInstanceManager } from "./WTTInstanceManager";
+import { IDatabaseTables } from "@spt-aki/models/spt/server/IDatabaseTables";
+import { JsonUtil } from "@spt-aki/utils/JsonUtil";
 
-export class CustomItemService
-{
+export class CustomItemService {
     private configs: ConfigItem;
     private Instance: WTTInstanceManager;
 
-    constructor() 
-    {
+    constructor() {
         this.configs = this.loadCombinedConfig();
     }
 
-    public preAkiLoad(Instance: WTTInstanceManager): void 
-    {
+    public preAkiLoad(Instance: WTTInstanceManager): void {
         this.Instance = Instance;
     }
 
-    public postDBLoad(): void 
-    {
+    public postDBLoad(): void {
         //const jsonUtil = this.Instance.container.resolve("JsonUtil");
 
         let numItemsAdded = 0;
 
-        for (const itemId in this.configs) 
-        {
+        for (const itemId in this.configs) {
             const itemConfig = this.configs[itemId];
 
             const { exampleCloneItem, finalItemTplToClone } =
-        this.createExampleCloneItem(itemConfig, itemId);
-            if (this.Instance.debug)
-            {
+                this.createExampleCloneItem(itemConfig, itemId);
+            if (this.Instance.debug) {
                 console.log(`Item ID: ${itemId}`);
                 console.log(`Prefab Path: ${exampleCloneItem.overrideProperties?.Prefab.path}`);
             }
@@ -62,27 +58,25 @@ export class CustomItemService
                 itemId
             );
             this.processTraders(itemConfig, itemId);
-            //this.modifyQuests(tables, jsonUtil);
+            this.modifyQuests(this.Instance.database, this.Instance.jsonUtil);
             numItemsAdded++;
         }
 
 
-        if (numItemsAdded > 0) 
-        {
+        if (numItemsAdded > 0) {
             this.Instance.logger.log(
                 `[${this.Instance.modName}] Database: Loaded ${numItemsAdded} custom items.`,
                 LogTextColor.GREEN
             );
         }
-        else 
-        {
+        else {
             this.Instance.logger.log(
                 `[${this.Instance.modName}] Database: No custom items loaded.`,
                 LogTextColor.GREEN
             );
         }
 
-        
+
     }
 
 
@@ -97,21 +91,20 @@ export class CustomItemService
         itemConfig: ConfigItem[string],
         itemId: string
     ): {
-            exampleCloneItem: NewItemFromCloneDetails;
-            finalItemTplToClone: string;
-        } 
-    {
+        exampleCloneItem: NewItemFromCloneDetails;
+        finalItemTplToClone: string;
+    } {
         const itemTplToCloneFromMap =
-      ItemMap[itemConfig.itemTplToClone] || itemConfig.itemTplToClone;
+            ItemMap[itemConfig.itemTplToClone] || itemConfig.itemTplToClone;
         const finalItemTplToClone = itemTplToCloneFromMap;
 
         const parentIdFromMap =
-      ItemBaseClassMap[itemConfig.parentId] || itemConfig.parentId;
+            ItemBaseClassMap[itemConfig.parentId] || itemConfig.parentId;
         const finalParentId = parentIdFromMap;
 
         const handbookParentIdFromMap =
-      ItemHandbookCategoryMap[itemConfig.handbookParentId] ||
-      itemConfig.handbookParentId;
+            ItemHandbookCategoryMap[itemConfig.handbookParentId] ||
+            itemConfig.handbookParentId;
         const finalHandbookParentId = handbookParentIdFromMap;
 
         const itemPrefabPath = `customItems/${itemId}.bundle`;
@@ -123,7 +116,7 @@ export class CustomItemService
                     ...itemConfig.overrideProperties,
                     Prefab: {
                         path:
-                itemConfig.overrideProperties.Prefab?.path || itemPrefabPath,
+                            itemConfig.overrideProperties.Prefab?.path || itemPrefabPath,
                         rcid: ""
                     }
                 }
@@ -135,8 +128,7 @@ export class CustomItemService
             handbookParentId: finalHandbookParentId,
             locales: itemConfig.locales
         };
-        if (this.Instance.debug)
-        {
+        if (this.Instance.debug) {
             console.log(`Cloning item ${finalItemTplToClone} for itemID: ${itemId}`);
         }
         return { exampleCloneItem, finalItemTplToClone };
@@ -154,12 +146,10 @@ export class CustomItemService
         containerID: string,
         itemToAdd: string,
         probability: number
-    ): void 
-    {
+    ): void {
         const lootContainer = this.Instance.database.loot.staticLoot[containerID];
 
-        if (!lootContainer) 
-        {
+        if (!lootContainer) {
             console.error(`Error: Invalid loot container ID: ${containerID}`);
             return;
         }
@@ -186,47 +176,38 @@ export class CustomItemService
    * @param {string} itemId - The ID of the item.
    * @return {void} This function does not return a value.
    */
-    private processStaticLootContainers(itemConfig: any, itemId: string): void 
-    {
-        if (itemConfig.addtoStaticLootContainers) 
-        {
-            if (this.Instance.debug)
-            {
+    private processStaticLootContainers(itemConfig: any, itemId: string): void {
+        if (itemConfig.addtoStaticLootContainers) {
+            if (this.Instance.debug) {
                 console.log("Processing static loot containers for item:", itemId);
             }
-            if (Array.isArray(itemConfig.StaticLootContainers)) 
-            {
-                if (this.Instance.debug)
-                {
+            if (Array.isArray(itemConfig.StaticLootContainers)) {
+                if (this.Instance.debug) {
                     console.log("Adding item to multiple static loot containers:");
                 }
-                itemConfig.StaticLootContainers.forEach((container) => 
-                {
+                itemConfig.StaticLootContainers.forEach((container) => {
                     const staticLootContainer =
-            ItemMap[container.ContainerName] || container.ContainerName;
+                        ItemMap[container.ContainerName] || container.ContainerName;
                     this.addToStaticLoot(
                         staticLootContainer,
                         itemId,
                         container.Probability
                     );
-                    if (this.Instance.debug)
-                    {
+                    if (this.Instance.debug) {
                         console.log(` - Added to container '${staticLootContainer}' with probability ${container.Probability}`);
                     }
                 });
             }
-            else 
-            {
+            else {
                 const staticLootContainer =
-          ItemMap[itemConfig.StaticLootContainers] ||
-          itemConfig.StaticLootContainers;
+                    ItemMap[itemConfig.StaticLootContainers] ||
+                    itemConfig.StaticLootContainers;
                 this.addToStaticLoot(
                     staticLootContainer,
                     itemId,
                     itemConfig.Probability
                 );
-                if (this.Instance.debug)
-                {
+                if (this.Instance.debug) {
                     console.log(`Added to container '${staticLootContainer}' with probability ${itemConfig.Probability}`);
                 }
             }
@@ -245,8 +226,7 @@ export class CustomItemService
         itemConfig: ConfigItem[string],
         finalItemTplToClone: string[],
         itemId: string
-    ): void 
-    {
+    ): void {
         const tables = this.Instance.database;
 
         const moddableItemWhitelistIds = Array.isArray(
@@ -275,48 +255,38 @@ export class CustomItemService
             modSlotName.toLowerCase()
         );
 
-        if (itemConfig.addtoModSlots) 
-        {
-            if (this.Instance.debug)
-            {
+        if (itemConfig.addtoModSlots) {
+            if (this.Instance.debug) {
                 console.log("Processing mod slots for item:", itemId);
             }
-            for (const parentItemId in tables.templates.items) 
-            {
+            for (const parentItemId in tables.templates.items) {
                 const parentItem = tables.templates.items[parentItemId];
 
-                if (!parentItem._props.Slots) 
-                {
+                if (!parentItem._props.Slots) {
                     continue;
                 }
 
                 const isBlacklisted = moddableItemBlacklistIds.includes(parentItemId);
                 const isWhitelisted = moddableItemWhitelistIds.includes(parentItemId);
 
-                if (isBlacklisted) 
-                {
+                if (isBlacklisted) {
                     continue;
                 }
 
                 let addToModSlots = false;
 
-                if (isWhitelisted && itemConfig.modSlot) 
-                {
+                if (isWhitelisted && itemConfig.modSlot) {
                     addToModSlots = true;
                 }
-                else if (!isBlacklisted && itemConfig.modSlot) 
-                {
-                    for (const modSlot of parentItem._props.Slots) 
-                    {
+                else if (!isBlacklisted && itemConfig.modSlot) {
+                    for (const modSlot of parentItem._props.Slots) {
                         if (
                             modSlot._props.filters &&
-              modSlot._props.filters[0].Filter.some((filterItem) =>
-                  finalItemTplToClone.includes(filterItem)
-              )
-                        ) 
-                        {
-                            if (lowercaseModSlots.includes(modSlot._name.toLowerCase())) 
-                            {
+                            modSlot._props.filters[0].Filter.some((filterItem) =>
+                                finalItemTplToClone.includes(filterItem)
+                            )
+                        ) {
+                            if (lowercaseModSlots.includes(modSlot._name.toLowerCase())) {
                                 addToModSlots = true;
                                 break;
                             }
@@ -324,14 +294,10 @@ export class CustomItemService
                     }
                 }
 
-                if (addToModSlots) 
-                {
-                    for (const modSlot of parentItem._props.Slots) 
-                    {
-                        if (lowercaseModSlots.includes(modSlot._name.toLowerCase())) 
-                        {
-                            if (!modSlot._props.filters) 
-                            {
+                if (addToModSlots) {
+                    for (const modSlot of parentItem._props.Slots) {
+                        if (lowercaseModSlots.includes(modSlot._name.toLowerCase())) {
+                            if (!modSlot._props.filters) {
                                 modSlot._props.filters = [
                                     {
                                         AnimationIndex: 0,
@@ -339,11 +305,9 @@ export class CustomItemService
                                     }
                                 ];
                             }
-                            if (!modSlot._props.filters[0].Filter.includes(itemId)) 
-                            {
+                            if (!modSlot._props.filters[0].Filter.includes(itemId)) {
                                 modSlot._props.filters[0].Filter.push(itemId);
-                                if (this.Instance.debug)
-                                {
+                                if (this.Instance.debug) {
                                     console.log(`Successfully added item ${itemId} to the filter of mod slot ${modSlot._name} for parent item ${parentItemId}`);
                                 }
                             }
@@ -365,26 +329,22 @@ export class CustomItemService
     private processInventorySlots(
         itemConfig: ConfigItem[string],
         itemId: string
-    ): void 
-    {
+    ): void {
         const tables = this.Instance.database;
 
-        if (itemConfig.addtoInventorySlots) 
-        {
-            if (this.Instance.debug)
-            {
+        if (itemConfig.addtoInventorySlots) {
+            if (this.Instance.debug) {
                 console.log("Processing inventory slots for item:", itemId);
             }
             const defaultInventorySlots =
-        tables.templates.items["55d7217a4bdc2d86028b456d"]._props.Slots;
+                tables.templates.items["55d7217a4bdc2d86028b456d"]._props.Slots;
 
             const allowedSlots = Array.isArray(itemConfig.addtoInventorySlots)
                 ? itemConfig.addtoInventorySlots
                 : [itemConfig.addtoInventorySlots];
 
             // Iterate over the slots and push the item into the filters per the config
-            for (const slot of defaultInventorySlots) 
-            {
+            for (const slot of defaultInventorySlots) {
                 const slotName = inventorySlots[slot._name];
                 const slotId = Object.keys(inventorySlots).find(
                     (key) => inventorySlots[key] === slot._name
@@ -392,15 +352,12 @@ export class CustomItemService
 
                 if (
                     allowedSlots.includes(slot._name) ||
-          allowedSlots.includes(slotName) ||
-          allowedSlots.includes(slotId)
-                ) 
-                {
-                    if (!slot._props.filters[0].Filter.includes(itemId)) 
-                    {
+                    allowedSlots.includes(slotName) ||
+                    allowedSlots.includes(slotId)
+                ) {
+                    if (!slot._props.filters[0].Filter.includes(itemId)) {
                         slot._props.filters[0].Filter.push(itemId);
-                        if (this.Instance.debug)
-                        {
+                        if (this.Instance.debug) {
                             console.log(`Successfully added item ${itemId} to the filter of slot ${slot._name}`);
                         }
                     }
@@ -420,37 +377,29 @@ export class CustomItemService
     private processMasterySections(
         itemConfig: ConfigItem[string],
         itemId: string
-    ): void 
-    {
+    ): void {
         const tables = this.Instance.database;
-        if (itemConfig.masteries) 
-        {
-            if (this.Instance.debug)
-            {
+        if (itemConfig.masteries) {
+            if (this.Instance.debug) {
                 console.log("Processing mastery sections for item:", itemId);
             }
             const masterySections = Array.isArray(itemConfig.masterySections)
                 ? itemConfig.masterySections
                 : [itemConfig.masterySections];
 
-            for (const mastery of masterySections) 
-            {
+            for (const mastery of masterySections) {
                 const existingMastery = tables.globals.config.Mastering.find(
                     (existing) => existing.Name === mastery.Name
                 );
-                if (existingMastery) 
-                {
+                if (existingMastery) {
                     existingMastery.Templates.push(...mastery.Templates);
-                    if (this.Instance.debug)
-                    {
+                    if (this.Instance.debug) {
                         console.log(` - Adding to existing mastery section for item: ${itemId}`);
                     }
                 }
-                else 
-                {
+                else {
                     tables.globals.config.Mastering.push(mastery);
-                    if (this.Instance.debug)
-                    {
+                    if (this.Instance.debug) {
                         console.log(` - Adding new mastery section for item: ${itemId}`);
                     }
                 }
@@ -467,38 +416,31 @@ export class CustomItemService
     private processWeaponPresets(
         itemConfig: ConfigItem[string],
         itemId: string
-    ): void 
-    {
+    ): void {
         const tables = this.Instance.database;
         const { addweaponpreset, weaponpresets } = itemConfig;
         const itemPresets = tables.globals.ItemPresets;
 
-        if (addweaponpreset) 
-        {
-            if (this.Instance.debug)
-            {
+        if (addweaponpreset) {
+            if (this.Instance.debug) {
                 console.log("Processing weapon presets for item:", itemId);
             }
-            weaponpresets.forEach((presetData) => 
-            {
+            weaponpresets.forEach((presetData) => {
                 const preset: Preset = {
                     _changeWeaponName: presetData._changeWeaponName,
                     _encyclopedia: presetData._encyclopedia || undefined,
                     _id: presetData._id,
-                    _items: presetData._items.map((itemData: any) => 
-                    {
+                    _items: presetData._items.map((itemData: any) => {
                         const item: Item = {
                             _id: itemData._id,
                             _tpl: itemData._tpl
                         };
 
                         // Add parentId and slotId only if they are present in itemData
-                        if (itemData.parentId) 
-                        {
+                        if (itemData.parentId) {
                             item.parentId = itemData.parentId;
                         }
-                        if (itemData.slotId) 
-                        {
+                        if (itemData.slotId) {
                             item.slotId = itemData.slotId;
                         }
 
@@ -510,12 +452,64 @@ export class CustomItemService
                 };
 
                 itemPresets[preset._id] = preset;
-                if (this.Instance.debug)
-                {
+                if (this.Instance.debug) {
                     console.log(` - Added weapon preset: ${preset._name}`);
                     console.log(` - Preset: ${JSON.stringify(preset)}`);
-                }           
+                }
             });
+        }
+    }
+
+    /**
+ * Modify the quests in the given tables using the provided JSON utility.
+ *
+ * @param {IDatabaseTables} tables - the tables containing the quests
+ * @param {JsonUtil} jsonUtil - the JSON utility for cloning objects
+ * @return {void} 
+ */
+    private modifyQuests(tables: IDatabaseTables, jsonUtil: JsonUtil): void {
+        // Define new SVDs
+        const newSVDs = [
+            "6657bc8faeddd6b0a9b40224",
+            "6657bd4d3a4d6e7c33fd2fdc"
+        ];
+        // Get the specific quest
+        const punisher6 = tables.templates.quests["59ca2eb686f77445a80ed049"];
+        if (punisher6) {
+            // Extract existing SVDs
+            const existingPunisher6SVDs = punisher6.conditions.AvailableForFinish[0].counter.conditions[0].weapon;
+            try {
+                // Clone the existing pistols array
+                const updatedSVDs = jsonUtil.clone(existingPunisher6SVDs);
+                let modified = false;
+                // Add new SVDs if they do not already exist
+                for (const SVD of newSVDs) {
+                    if (!updatedSVDs.includes(SVD)) {
+                        updatedSVDs.push(SVD);
+                        modified = true;
+
+                        if (this.Instance.debug) {
+                            console.log("Added new SVD:", SVD);
+                        }
+                    }
+                    else {
+                        if (this.Instance.debug) {
+                            console.log("SVD already exists:", SVD);
+                        }
+                    }
+                }
+                // Only update the quest if modifications were made
+                if (modified) {
+                    punisher6.conditions.AvailableForFinish[0].counter.conditions[0].weapon = updatedSVDs;
+
+                    if (this.Instance.debug) {
+                        console.log("Modified quest:", punisher6.conditions.AvailableForFinish[0].counter.conditions[0].weapon);
+                    }
+                }
+            }
+            catch (error) {
+                console.error("Error modifying quests:", error);
+            }
         }
     }
 
@@ -529,11 +523,9 @@ export class CustomItemService
     private processTraders(
         itemConfig: ConfigItem[string],
         itemId: string
-    ): void 
-    {
+    ): void {
         const tables = this.Instance.database;
-        if (!itemConfig.addtoTraders) 
-        {
+        if (!itemConfig.addtoTraders) {
             return;
         }
 
@@ -543,15 +535,12 @@ export class CustomItemService
         const finalTraderId = traderIdFromMap || traderId;
         const trader = tables.traders[finalTraderId];
 
-        if (!trader) 
-        {
+        if (!trader) {
             return;
         }
 
-        for (const item of traderItems) 
-        {
-            if (this.Instance.debug)
-            {
+        for (const item of traderItems) {
+            if (this.Instance.debug) {
                 console.log("Processing traders for item:", itemId);
             }
             const newItem = {
@@ -566,25 +555,21 @@ export class CustomItemService
             };
 
             trader.assort.items.push(newItem);
-            if (this.Instance.debug)
-            {
+            if (this.Instance.debug) {
                 console.log(`Successfully added item ${itemId} to the trader ${traderId}`);
             }
         }
 
         trader.assort.barter_scheme[itemId] = [];
 
-        for (const scheme of barterScheme) 
-        {
-            if (this.Instance.debug)
-            {
+        for (const scheme of barterScheme) {
+            if (this.Instance.debug) {
                 console.log("Processing trader barter scheme for item:", itemId);
             }
             const count = scheme.count;
             const tpl = currencyIDs[scheme._tpl] || ItemMap[scheme._tpl];
 
-            if (!tpl) 
-            {
+            if (!tpl) {
                 throw new Error(
                     `Invalid _tpl value in barterScheme for item: ${itemId}`
                 );
@@ -596,8 +581,7 @@ export class CustomItemService
                     _tpl: tpl
                 }
             ]);
-            if (this.Instance.debug)
-            {
+            if (this.Instance.debug) {
                 console.log(`Successfully added item ${itemId} to the barter scheme of trader ${traderId}`);
             }
         }
@@ -618,29 +602,21 @@ export class CustomItemService
         itemConfig: ConfigItem[string],
         finalItemTplToClone: string,
         itemId: string
-    ): void 
-    {
+    ): void {
         const tables = this.Instance.database;
-        if (itemConfig.addtoBots) 
-        {
-            if (this.Instance.debug) 
-            {
+        if (itemConfig.addtoBots) {
+            if (this.Instance.debug) {
                 console.log("Processing traders for item:", itemId);
             }
-            for (const botId in tables.bots.types) 
-            {
+            for (const botId in tables.bots.types) {
                 const botType = allBotTypes[botId];
-                if (botType) 
-                {
-                    for (const lootSlot in tables.bots.types[botId].inventory.items) 
-                    {
+                if (botType) {
+                    for (const lootSlot in tables.bots.types[botId].inventory.items) {
                         const items = tables.bots.types[botId].inventory.items;
                         // Check if the loot slot contains the final item template
-                        if (items[lootSlot][finalItemTplToClone] !== undefined) 
-                        {
+                        if (items[lootSlot][finalItemTplToClone] !== undefined) {
                             const weight = items[lootSlot][finalItemTplToClone];
-                            if (this.Instance.debug) 
-                            {
+                            if (this.Instance.debug) {
                                 console.log(` - Adding item to bot inventory for bot type: ${botType} in loot slot: ${lootSlot} with weight: ${weight}`);
                             }
                             // Push the item to the loot slot with the corresponding weight
@@ -651,23 +627,21 @@ export class CustomItemService
             }
         }
     }
-    
+
 
     /**
    * Loads and combines multiple configuration files into a single ConfigItem object.
    *
    * @return {any} The combined configuration object.
    */
-    private loadCombinedConfig(): any 
-    {
+    private loadCombinedConfig(): any {
         const configFiles = fs
             .readdirSync(path.join(__dirname, "../db/Items"))
             .filter((file) => !file.includes("BaseItemReplacement"));
 
         const combinedConfig: any = {};
 
-        configFiles.forEach((file) => 
-        {
+        configFiles.forEach((file) => {
             const configPath = path.join(__dirname, "../db/Items", file);
             const configFileContents = fs.readFileSync(configPath, "utf-8");
             const config = JSON.parse(configFileContents) as ConfigItem;

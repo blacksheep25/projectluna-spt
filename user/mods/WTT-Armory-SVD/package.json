@@ -1,7 +1,7 @@
 {
     "name": "WTTArmorySVD",
     "author": "Tron",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "license": "NCSA",
     "main": "src/mod.js",
     "akiVersion": "~3.8",

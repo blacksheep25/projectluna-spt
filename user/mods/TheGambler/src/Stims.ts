@@ -18,13 +18,13 @@ export class Stims {
             "637b620db7afa97bfc3d7009", // Trimadol stimulant injector
             "5c0e531d86f7747fa23f4d42", // SJ6 TGLabs combat stimulant injector
             "5fca13ca637ee0341a484f46", // SJ9 TGLabs combat stimulant injector
-            "637b612fb7afa97bfc3d7005"  // SJ12 TGLabs combat stimulant injector
+            "637b612fb7afa97bfc3d7005",  // SJ12 TGLabs combat stimulant injector
+            "5ed5166ad380ab312177c100", // "Obdolbos" cocktail injector
     ]
 
     public rareStims = [
             "5c0e534186f7747fa1419867", // eTG-change regenerative stimulant injector
             "5fca138c2a7b221b2852a5c6", // xTG-12 antidote injector	
-            "5ed5166ad380ab312177c100", // "Obdolbos" cocktail injector
             "637b60c3b7afa97bfc3d7001", // "Obdolbos 2" cocktail injector
             "5ed51652f6c34d2cc26336a1"  // M.U.L.E. stimulant injector
     ]
