@@ -14,11 +14,11 @@ class AnyStand {
 		//WeaponStand_Stash_3
 		database.templates.items["64381b6e44b37a080d0245b9"] = modDb.items["64381b6e44b37a080d0245b9"];
 		//PlaceOfFame_Stash_lvl1
-		database.templates.items["63dbd45917fff4dee40fe16e"] = modDb.items["63dbd45917fff4dee40fe16e"];
+		//database.templates.items["63dbd45917fff4dee40fe16e"] = modDb.items["63dbd45917fff4dee40fe16e"];
 		//PlaceOfFame_Stash_lvl2
-		database.templates.items["65424185a57eea37ed6562e9"] = modDb.items["65424185a57eea37ed6562e9"];
+		//database.templates.items["65424185a57eea37ed6562e9"] = modDb.items["65424185a57eea37ed6562e9"];
 		//PlaceOfFame_Stash_lvl3
-		database.templates.items["6542435ea57eea37ed6562f0"] = modDb.items["6542435ea57eea37ed6562f0"];
+		//database.templates.items["6542435ea57eea37ed6562f0"] = modDb.items["6542435ea57eea37ed6562f0"];
 
 
 

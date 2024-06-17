@@ -124,6 +124,7 @@ class TraderHelper {
         const ARMORGAMBLE_ID = "w_armor_gamble";
         const PREMIUMARMORGAMBLE_ID = "w_premium_armor_gamble";
         const PREMIUMGUNGAMBLE_ID = "wa_premium_weapon_gamble";
+        const ARMBANDGAMBLE_ID = "w_armband_gamble";
         assortCreator.createSingleAssortItem(WALLETGAMBLE_ID)
             .addStackCount(config.wallet_stock)
             .addBuyRestriction(config.wallet_stock)
@@ -206,6 +207,12 @@ class TraderHelper {
             .addStackCount(config.headset_case_stock)
             .addBuyRestriction(config.headset_case_stock)
             .addMoneyCost(Money_1.Money.ROUBLES, config.headset_case_price)
+            .addLoyaltyLevel(1)
+            .export(tables.traders[baseJson._id]);
+        assortCreator.createSingleAssortItem(ARMBANDGAMBLE_ID)
+            .addStackCount(config.armband_case_stock)
+            .addBuyRestriction(config.armband_case_stock)
+            .addMoneyCost(Money_1.Money.ROUBLES, config.armband_case_price)
             .addLoyaltyLevel(1)
             .export(tables.traders[baseJson._id]);
     }

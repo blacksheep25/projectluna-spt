@@ -12,7 +12,6 @@ import { Stims } from "./Stims";
 import { Backpacks } from "./Backpacks";
 import { Headsets } from "./Headsets";
 
-
 export class Gamble {
 
     public newItemRequest: IAddItemDirectRequest;
@@ -80,6 +79,9 @@ export class Gamble {
                 break;
             case 'gambling_premium_armor':
                 this.openPremiumArmor();
+                break;
+            case 'gambling_armband':
+                this.openArmband();
                 break;
             default:
                 this.logger.error(`[TheGambler] This Container Doesn't exist!`);    
@@ -552,6 +554,87 @@ export class Gamble {
             this.logger.info("[TheGambler] Melee id = " + id);
         }
 
+        if (id != "NaN") {
+            this.newItemRequest.itemWithModsToAdd.push(this.newItemFormat(id));
+            this.newItemRequest.foundInRaid = true;
+        }
+    }
+
+    private openArmband(){
+        let id: string;
+        const roll = this.randomUtil.getFloat(0,100);
+        this.logger.info(`\n[TheGambler] The container roll is: ${roll}!`);
+        const extremely_rare_odds = this.config.armband_extremely_rare;
+        const rare_odds = this.config.armband_rare + extremely_rare_odds;
+        const uncommon_odds = this.config.armband_uncommon + rare_odds;
+        const common_odds = this.config.armband_common + uncommon_odds;
+
+        if (roll <= extremely_rare_odds) {
+            const secondRoll = this.randomUtil.getInt(0, 2);
+            //this.logger.info(`[TheGambler] The Second Roll is: ${secondRoll}!`);
+            if (secondRoll == 0) {
+                id = "619bde3dc9546643a67df6f2"; // Armband (Kiba Arms)
+            }
+            else if (secondRoll == 1) {
+                id = "619bddc6c9546643a67df6ee"; // Armband (DEADSKUL)
+            }
+            else if (secondRoll == 2) {
+                id = "619bddffc9546643a67df6f0"; // Armband (Train Hard)
+            }
+        }
+        else if (roll <= rare_odds) {
+            const secondRoll = this.randomUtil.getInt(0, 1);
+            if (secondRoll == 0) {
+                id = "5f9949d869e2777a0e779ba5"; // Armband (Rivals 2020)
+            }
+            else if (secondRoll == 1) {
+                id = "60b0f988c4449e4cb624c1da"; // Armband (Evasion)
+            }
+        }
+        else if (roll <= uncommon_odds) {
+            const secondRoll = this.randomUtil.getInt(0, 4);
+            if (secondRoll == 0) {
+                id = "619bde7fc9546643a67df6f4"; // Armband (Labs)
+            }
+            else if (secondRoll == 1) {
+                id = "619bdeb986e01e16f839a99e"; // Armband (RFARMY)
+            }
+            else if (secondRoll == 2) {
+                id = "619bdf9cc9546643a67df6f8"; // Armband (UNTAR)
+            }
+            else if (secondRoll == 3) {
+                id = "619bdfd4c9546643a67df6fa"; // Armband (USEC)
+            }
+            else if (secondRoll == 4) {
+                id = "619bdd8886e01e16f839a99c"; // Armband (BEAR)
+            }
+        }
+        else if (roll <= common_odds) {
+            const secondRoll = this.randomUtil.getInt(0, 4);
+            if (secondRoll == 0) {
+                id = "5b3f3af486f774679e752c1f"; // Armband (Blue)
+            }
+            else if (secondRoll == 1) {
+                id = "5b3f3b0186f774021a2afef7"; // Armband (Green)
+            }
+            else if (secondRoll == 2) {
+                id = "5b3f3ade86f7746b6b790d8e"; // Armband (Red)
+            }
+            else if (secondRoll == 3) {
+                id = "5b3f16c486f7747c327f55f7"; // Armband (White)
+            }
+            else if (secondRoll == 4) {
+                id = "5b3f3b0e86f7746752107cda"; // Armband (Yellow)
+            }
+        }
+        else { // Nothing. Default percentages make this 0% of happening
+            id = "NaN";
+            this.logger.info(`[TheGambler] Case Opened... Received Nothing... Better luck next time :)`);
+        }
+        if (this.config.debug) {
+            this.logger.info("[TheGambler] Armband Mystery Box Information...");
+            this.logger.info("[TheGambler] Armband id = " + id);
+        }
         if (id != "NaN") {
             this.newItemRequest.itemWithModsToAdd.push(this.newItemFormat(id));
             this.newItemRequest.foundInRaid = true;

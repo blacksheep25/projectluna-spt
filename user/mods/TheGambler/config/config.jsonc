@@ -71,6 +71,9 @@
     "backpack_case_price": 45000,
     "backpack_case_stock": 15,
 
+    "armband_case_price": 20000,
+    "armband_case_stock": 50,
+
     // GAMBLING ODDS SECTION 
     //
     //
@@ -145,5 +148,12 @@
     "armor_common": 60.0,   // Common Armor
 
     // gambling_container_premium_armor
-    "premium_armor_rare": 100.0  // Rare Gun
+    "premium_armor_rare": 100.0,  // Rare Gun
+
+    // gambling_armbands
+    "armband_extremely_rare": 1.0,      // Extremely Rare armband,
+    "armband_rare": 5.0,                // Rare armband
+    "armband_uncommon": 15.0,           // Uncommon armband
+    "armband_common": 79.0             // Common armband
+    // 100% - all above percentages = % at receiving nothing from gambling container. If desired.
 }

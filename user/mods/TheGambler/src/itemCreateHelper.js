@@ -1379,6 +1379,111 @@ class ItemCreateHelper {
                 }
             }
         };
+        const armbandGamble = {
+            newItem: {
+                _id: "w_armband_gamble",
+                _name: "gambling_armband",
+                _parent: "62f109593b54472778797866",
+                _props: {
+                    "AnimationVariantsNumber": 0,
+                    "BackgroundColor": "yellow",
+                    "BlocksArmorVest": false,
+                    "CanPutIntoDuringTheRaid": true,
+                    "CanRequireOnRagfair": false,
+                    "CanSellOnRagfair": false,
+                    "CantRemoveFromSlotsDuringRaid": [],
+                    "ConflictingItems": [],
+                    "Description": "Armband Mystery Box",
+                    "DiscardLimit": -1,
+                    "DiscardingBlock": false,
+                    "DropSoundType": "None",
+                    "ExamineExperience": 100,
+                    "ExamineTime": 1,
+                    "ExaminedByDefault": true,
+                    "ExtraSizeDown": 0,
+                    "ExtraSizeForceAdd": false,
+                    "ExtraSizeLeft": 0,
+                    "ExtraSizeRight": 0,
+                    "ExtraSizeUp": 0,
+                    "Grids": [
+                        {
+                            "_id": "6489c03c8bc5233fdc78e789",
+                            "_name": "main",
+                            "_parent": "6489c03c8bc5233fdc78e788",
+                            "_props": {
+                                "cellsH": 1,
+                                "cellsV": 1,
+                                "filters": [
+                                    {
+                                        "ExcludedFilter": [
+                                            "54009119af1c881c07000029"
+                                        ],
+                                        "Filter": []
+                                    }
+                                ],
+                                "isSortingTable": false,
+                                "maxCount": 99,
+                                "maxWeight": 0,
+                                "minCount": 1
+                            },
+                            "_proto": "55d329c24bdc2d892f8b4567"
+                        }
+                    ],
+                    "Height": 1,
+                    "HideEntrails": true,
+                    "InsuranceDisabled": false,
+                    "IsAlwaysAvailableForInsurance": false,
+                    "IsLockedafterEquip": false,
+                    "IsSpecialSlotOnly": false,
+                    "IsUnbuyable": false,
+                    "IsUndiscardable": false,
+                    "IsUngivable": false,
+                    "IsUnremovable": false,
+                    "IsUnsaleable": false,
+                    "ItemSound": "item_cloth_generic",
+                    "LootExperience": 20,
+                    "MergesWithChildren": false,
+                    "Name": "Armor Mystery Box",
+                    "NotShownInSlot": false,
+                    "Prefab": {
+                        "path": "assets/content/items/equipment/armband/item_equipment_armband_dead.bundle",
+                        "rcid": ""
+                    },
+                    "QuestItem": false,
+                    "QuestStashMaxCount": 0,
+                    "RagFairCommissionModifier": 1,
+                    "RepairCost": 0,
+                    "RepairSpeed": 0,
+                    "SearchSound": "None",
+                    "ShortName": "Armband Mystery Box",
+                    "Slots": [],
+                    "StackMaxSize": 1,
+                    "StackObjectsCount": 1,
+                    "Unlootable": false,
+                    "UnlootableFromSide": [],
+                    "UnlootableFromSlot": "ArmBand",
+                    "UsePrefab": {
+                        "path": "",
+                        "rcid": ""
+                    },
+                    "Weight": 0.05,
+                    "Width": 1,
+                    "ReverbVolume": 0
+                },
+                _proto: "",
+                _type: "Item"
+            },
+            fleaPriceRoubles: 66666,
+            handbookPriceRoubles: 66666,
+            handbookParentId: "5b5f704686f77447ec5d76d7",
+            locales: {
+                "en": {
+                    name: "Armband Mystery Box",
+                    shortName: "Armband Mystery Box",
+                    description: `The Armband Mystery Box contains a guaranteed armband\n==============================\nCommon Armband - ${this.config.armband_common}%\nUncommon Armband - ${this.config.armband_uncommon}%\nRare Armband - ${this.config.armband_rare}%\nExtremely Rare Armband - ${this.config.armband_extremely_rare}%`
+                }
+            }
+        };
         customItem.createItem(walletGamble);
         customItem.createItem(keyGamble);
         customItem.createItem(stimGamble);
@@ -1392,6 +1497,7 @@ class ItemCreateHelper {
         customItem.createItem(armorGamble);
         customItem.createItem(premiumArmorGamble);
         customItem.createItem(premiumWeaponGamble);
+        customItem.createItem(armbandGamble);
     }
 }
 exports.ItemCreateHelper = ItemCreateHelper;
