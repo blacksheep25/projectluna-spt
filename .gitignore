@@ -21,6 +21,7 @@ BepInEx/*
 # BepInEx Plugins 
 !BepInEx/plugins
 BepInEx/plugins/DanW-SPTQuestingBots\log
+BepInEx/plugins/DrakiaXYZ-QuestTracker\config
 
 # BepInEx Config
 !BepInEx/config
