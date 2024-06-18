@@ -326,7 +326,7 @@
       "KillaFactory": false,
       "BossesOnReserve": false,
       "CultistsEverywhere": false,
-      "RaidersEverywhere": true,
+      "RaidersEverywhere": false,
       "GlukharLabs": false
     },
     "LabInsurance": false,

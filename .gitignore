@@ -31,9 +31,10 @@ BepInEx/config/BepInEx.cfg
 BepInEx/config/FOVFix.cfg
 BepInEx/config/Tyfon.UIFixes.cfg
 BepInEx/config/com.Amanda.Graphics.cfg
+BepInEx/config/xyz.drakia.botdebug.cfg
 
 # Fika Ignore List
-BepInEx/config/com.fika.core.cfg
+#BepInEx/config/com.fika.core.cfg
 
 # Include User/Mods/
 !User
