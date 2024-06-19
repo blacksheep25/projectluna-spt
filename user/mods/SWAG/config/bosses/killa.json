@@ -101,7 +101,10 @@
       "BossEscortAmount": "0",
       "BossEscortType": "followertagilla",
       "BossName": "bosskilla",
-      "BossZone": null,
+      "BossZone": [
+        "ZoneHotel_1",
+        "ZoneHotel_2"
+      ],
       "Time": -1
     }
   ],
