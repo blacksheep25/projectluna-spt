@@ -32,6 +32,7 @@ BepInEx/config/FOVFix.cfg
 BepInEx/config/Tyfon.UIFixes.cfg
 BepInEx/config/com.Amanda.Graphics.cfg
 BepInEx/config/xyz.drakia.botdebug.cfg
+BepInEx/config/xyz.drakia.questtracker.cfg
 
 # Fika Ignore List
 #BepInEx/config/com.fika.core.cfg
