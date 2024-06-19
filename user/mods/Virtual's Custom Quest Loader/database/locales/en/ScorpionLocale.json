@@ -423,7 +423,7 @@
     "Scorpion_7_1 successMessagetext": "Thanks! I'm willing to bet I get another order soon.",
     "Scorpion_7_2 req_0": "Handover the custom MDR",
     "Scorpion_7_2 name": "Weapon Acquisition II",
-    "Scorpion_7_2 description": "New order arrived for a Desert Tech MDR chambered in 5.56x45mm. Get on it. \n\nRequirements:\n  Ergonomics >= 71\n  Sighting Range >= 300\n  Recoil Sum <= 263\n  Magazine Size >= 60\n  Durability >= 90\n  Weight <= 5 kg\n  Magazine: Magpul Branded",
+    "Scorpion_7_2 description": "New order arrived for a Desert Tech MDR Multi Cal. Assault Rifle chambered in 5.56x45mm. Get on it. \n\nRequirements:\n  Ergonomics >= 71\n  Sighting Range >= 300\n  Recoil Sum <= 263\n  Magazine Size >= 60\n  Durability >= 90\n  Weight <= 5 kg\n  Magazine: Magpul Branded",
     "Scorpion_7_2 startedMessageText": "Make sure it's chambered in 5.56x45mm \n\nRequirements:\n Desert Tech MDR 5.56x45 assault rifle\n  Ergonomics >= 71\n  Sighting Range >= 300\n  Recoil Sum <= 263\n  Magazine Size >= 60\n  Durability >= 90\n  Weight <= 5 kg\n  Magazine: Magpul Branded",
     "Scorpion_7_2 successMessagetext": "I'll get this to the client quickly!",
     "Scorpion_7_3 req_0": "Handover the custom M700",
