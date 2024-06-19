@@ -211,13 +211,6 @@ class ArtemTrader {
         tables.templates.customization[artem_top9_suit._id] = artem_top9_suit;
         this.addClothingItemToLocales(tables, artem_top9_suit._id, artem_top9_locale.Name, artem_top9_locale.ShortName, artem_top9_locale.Description);
         tables.traders["ArtemTrader"].suits = tradersuits;
-        //adds Five seven loyalty 2
-        this.fluentTraderAssortHeper.createComplexAssortItem(tables.globals.ItemPresets["5d51290186f77419093e7c24"]._items)
-            .addStackCount(2580)
-            .addBuyRestriction(6)
-            .addMoneyCost(Money_1.Money.ROUBLES, 19432)
-            .addLoyaltyLevel(2)
-            .export(tables.traders[baseJson._id]);
         // Add trader to locale file, ensures trader text shows properly on screen
         // WARNING: adds the same text to ALL locales (e.g. chinese/french/english)
         this.traderHelper.addTraderToLocales(baseJson, tables, baseJson.name, "Artem", baseJson.nickname, baseJson.location, "[REDACTED]");
