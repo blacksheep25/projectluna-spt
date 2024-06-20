@@ -7,7 +7,7 @@ import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
 import { IWeatherConfig } from "@spt-aki/models/spt/config/IWeatherConfig";
 import { StaticRouterModService } from "@spt-aki/services/mod/staticRouter/StaticRouterModService";
 
-class SomtimesItSnows implements IPreAkiLoadMod {
+class SometimesItSnows implements IPreAkiLoadMod {
   preAkiLoad(container: DependencyContainer): void {
     const configServer = container.resolve<ConfigServer>("ConfigServer");
     const WeatherValues = configServer.getConfig<IWeatherConfig>(
@@ -20,7 +20,7 @@ class SomtimesItSnows implements IPreAkiLoadMod {
 
     enable &&
       staticRouterModService.registerStaticRouter(
-        `SomtimesItSnows`,
+        `SometimesItSnows`,
         [
           {
             url: "/client/raid/configuration",
@@ -39,4 +39,4 @@ class SomtimesItSnows implements IPreAkiLoadMod {
   }
 }
 
-module.exports = { mod: new SomtimesItSnows() };
+module.exports = { mod: new SometimesItSnows() };
