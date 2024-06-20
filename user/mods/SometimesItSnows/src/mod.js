@@ -2,13 +2,13 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const config_json_1 = require("../config/config.json");
 const ConfigTypes_1 = require("C:/snapshot/project/obj/models/enums/ConfigTypes");
-class SomtimesItSnows {
+class SometimesItSnows {
     preAkiLoad(container) {
         const configServer = container.resolve("ConfigServer");
         const WeatherValues = configServer.getConfig(ConfigTypes_1.ConfigTypes.WEATHER);
         const staticRouterModService = container.resolve("StaticRouterModService");
         config_json_1.enable &&
-            staticRouterModService.registerStaticRouter(`SomtimesItSnows`, [
+            staticRouterModService.registerStaticRouter(`SometimesItSnows`, [
                 {
                     url: "/client/raid/configuration",
                     action: (_url, info, sessionId, output) => {
@@ -22,5 +22,5 @@ class SomtimesItSnows {
             ], "aki");
     }
 }
-module.exports = { mod: new SomtimesItSnows() };
+module.exports = { mod: new SometimesItSnows() };
 //# sourceMappingURL=mod.js.map
