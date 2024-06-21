@@ -29,7 +29,6 @@
     "MoxoPixel-WhiteCore",
     "RaiRaiTheRaichu-AllTheClothes-1.5.0",
     "Realistic-Thermals-1.0.3",
-    "ServerValueModifier",
     "SkillsExtended",
     "Skwizzy-NoDiscardLimit",
     "TheGambler",
@@ -47,9 +46,11 @@
     "zrairaitheraichu-ammostats-3.1.1",
     "leaves-loot_fuckery",
     "tyfon-uifixes",
+    "ServerValueModifier",
     "SPT-Realism",
     "SWAG",
-    "DanW-SPTQuestingBots",
-    "zSolarint-SAIN-ServerMod"
+    "zSolarint-SAIN-ServerMod",
+    "corter-modsync",
+    "SometimesItSnows"
   ]
 }
