@@ -27,6 +27,7 @@ BepInEx/plugins/DrakiaXYZ-QuestTracker/config/*
 !BepInEx/config
 
 # BepInEx Config Ignore List
+BepInEx/config/com.fika.core.cfg
 BepInEx/config/BepInEx.cfg
 BepInEx/config/FOVFix.cfg
 BepInEx/config/Tyfon.UIFixes.cfg
