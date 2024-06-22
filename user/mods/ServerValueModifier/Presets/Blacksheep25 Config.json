@@ -333,7 +333,7 @@
     "EnableRaids": true,
     "Removelabkey": false,
     "RaidStartup": {
-      "TimeBeforeDeployLocal": 6,
+      "TimeBeforeDeployLocal": 15,
       "AIAmount": "AsOnline",
       "SaveLoot": true,
       "AIDifficulty": "AsOnline",

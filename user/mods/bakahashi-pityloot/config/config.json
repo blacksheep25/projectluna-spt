@@ -1,5 +1,5 @@
 {
-  "enabled": true,
+  "enabled": false,
   "debug": true,
   "trace": false,
   "appliesToQuests": true,
