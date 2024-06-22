@@ -124,7 +124,7 @@
         "TIME_REDUCTION_BONUS_PER_LEVEL": 0.006,
         "TIME_REDUCTION_BONUS_PER_LEVEL_ELITE": 0.15,
         "PICK_BASE_SUCCESS_CHANCE": 90,
-        "PICK_BASE_DIFFICULTY_MOD": 8,
+        "PICK_BASE_DIFFICULTY_MOD": 6,
         "INSPECT_LOCK_XP_RATIO": 0.30,
         "XP_TABLE": {
             "0": 3.9,
@@ -172,7 +172,7 @@
                 "custom_Obshezhitie_2_indoor_00030": 0,
                 "custom_Obshezhitie_2_indoor_00037": 5,
                 "custom_Obshezhitie_2_indoor_00039": 0,
-                "custom_Obshezhitie_2_indoor_00043": 20,
+                "custom_Obshezhitie_2_indoor_00043": 100,
                 "custom_Obshezhitie_2_indoor_00046": 0,
                 "custom_Obshezhitie_2_indoor_00048": 0,
                 "custom_Obshezhitie_2_indoor_00049": 0,
@@ -288,7 +288,7 @@
                 "Shopping_Mall_OLI_00043": 10
             },
             "Reserve": {
-                "00469": 20,
+                "00469": 100,
                 "00474": 5,
                 "00484": 5,
                 "00485": 5,
@@ -305,7 +305,7 @@
                 "00609": 10,
                 "00636": 5,
                 "00644": 5,
-                "00662": 20,
+                "00662": 100,
                 "00663": 5,
                 "00686": 10,
                 "00706": 10,
@@ -320,7 +320,7 @@
                 "00812": 5,
                 "00819": 5,
                 "00820": 5,
-                "00882": 20
+                "00882": 100
             },
             "Shoreline": {
                 "shoreline_pirs_00000": 0,
@@ -380,7 +380,7 @@
             "Lighthouse": {
                 "Lighthouse_Bus_Stop_00004": 0,
                 "door_Lighthouse_Extension_00009": 0,
-                "00452": 20,
+                "00452": 100,
                 "Lighthouse_Roads_00030": 0,
                 "Lighthouse_Roads_00040": 0,
                 "Lighthouse_Roads_00043": 0,
@@ -406,7 +406,7 @@
                 "door_City_SE_01_Lenina_74_Indoor_00000": 5,
                 "door_City_SE_01_Pinewood_Hotel_indoor_00003": 0,
                 "door_City_SE_02_Malevicha_5_00001": 10,
-                "door_City_SE_02_Nikitskaya_6_indoor_00016": 20,
+                "door_City_SE_02_Nikitskaya_6_indoor_00016": 100,
                 "door_City_SW_01_Primorskiy_46_indoor_00077": 5,
                 "door_City_SE_02_Nikitskaya_10_indoor_00008": 5,  
                 "door_City_SE_03_Cinema_00000": 0,
@@ -424,7 +424,7 @@
                 "door_City_SW_01_Zmeiskiy_3_indoor_00020": 5,
                 "door_City_SW_01_Zmeiskiy_3a_indoor_00012": 0,
                 "door_City_SW_01_Zmeiskiy_5_indoor_00015": 0,
-                "door_City_SW_01_B_Chekannaya_13_indoor_2ST_NEW_00000": 20,
+                "door_City_SW_01_B_Chekannaya_13_indoor_2ST_NEW_00000": 100,
                 "door_City_SW_01_B_Klimova_16a_indoor_HIDE_00009": 15,
                 "door_City_SW_01_B_School_30_indoor_HIDE_00008": 0,
                 "door_City_SW_01_Zmeiskiy_4a_indoor_HIDE_00017": 0,
