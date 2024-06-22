@@ -2,174 +2,183 @@
   "hideout": {
     "20": {
       "currentLevel": 2,
-      "raidsSinceStarted": 1,
-      "timeAvailable": 1718925250645
+      "raidsSinceStarted": 4,
+      "timeAvailable": 1719003600549
     },
     "21": {
       "currentLevel": 1,
-      "raidsSinceStarted": 1,
-      "timeAvailable": 1718925250645
+      "raidsSinceStarted": 24,
+      "timeAvailable": 1718966093017
     }
   },
   "quests": {
     "5ae448bf86f7744d733e55ee": {
-      "raidsSinceStarted": 1
+      "raidsSinceStarted": 0
     },
     "5c1234c286f77406fa13baeb": {
-      "raidsSinceStarted": 1
+      "raidsSinceStarted": 4
     },
     "5c0d190cd09282029f5390d8": {
-      "raidsSinceStarted": 1
-    },
-    "6193850f60b34236ee0483de": {
-      "raidsSinceStarted": 1
+      "raidsSinceStarted": 4
     },
     "5ede55112c95834b583f052a": {
-      "raidsSinceStarted": 1
+      "raidsSinceStarted": 4
     },
     "60896e28e4a85c72ef3fa301": {
-      "raidsSinceStarted": 1
+      "raidsSinceStarted": 4
     },
     "Scorpion_10_3_0": {
-      "raidsSinceStarted": 1
+      "raidsSinceStarted": 24
     },
     "Scorpion_10_5_0": {
-      "raidsSinceStarted": 1
+      "raidsSinceStarted": 0
     },
     "Scorpion_10_6_0": {
-      "raidsSinceStarted": 1
+      "raidsSinceStarted": 24
     },
     "Scorpion_10_7_0": {
-      "raidsSinceStarted": 1
+      "raidsSinceStarted": 0
     },
     "Scorpion_10_8_0": {
-      "raidsSinceStarted": 1
+      "raidsSinceStarted": 24
     },
     "Scorpion_10_9_0": {
-      "raidsSinceStarted": 1
+      "raidsSinceStarted": 24
     },
     "Scorpion_10_10_0": {
-      "raidsSinceStarted": 1
+      "raidsSinceStarted": 24
     },
     "5d25d2c186f77443e35162e5": {
-      "raidsSinceStarted": 1
+      "raidsSinceStarted": 0
     },
     "63ab180c87413d64ae0ac20a": {
-      "raidsSinceStarted": 1
+      "raidsSinceStarted": 4
     },
     "Scorpion_10_1_2": {
-      "raidsSinceStarted": 1
+      "raidsSinceStarted": 4
     },
     "Scorpion_10_4_1": {
-      "raidsSinceStarted": 1
+      "raidsSinceStarted": 0
     },
     "Scorpion_10_2_1": {
-      "raidsSinceStarted": 1
+      "raidsSinceStarted": 0
     },
     "5d25e29d86f7740a22516326": {
-      "raidsSinceStarted": 1
+      "raidsSinceStarted": 0
     },
     "6086c852c945025d41566124": {
-      "raidsSinceStarted": 1
+      "raidsSinceStarted": 0
     },
     "ARTT_6": {
-      "raidsSinceStarted": 1
+      "raidsSinceStarted": 0
     },
     "5ae3267986f7742a413592fe": {
-      "raidsSinceStarted": 1
+      "raidsSinceStarted": 0
     },
     "5c0d4c12d09282029f539173": {
-      "raidsSinceStarted": 1
+      "raidsSinceStarted": 4
     },
     "5ac3464c86f7741d651d6877": {
-      "raidsSinceStarted": 1
+      "raidsSinceStarted": 4
     },
     "5c0bde0986f77479cf22c2f8": {
-      "raidsSinceStarted": 1
+      "raidsSinceStarted": 4
     },
     "6089743983426423753cd58a": {
-      "raidsSinceStarted": 1
+      "raidsSinceStarted": 4
     },
     "Scorpion_3_2": {
-      "raidsSinceStarted": 1
-    },
-    "Scorpion_1_8": {
-      "raidsSinceStarted": 1
+      "raidsSinceStarted": 0
     },
     "ARTT_9": {
-      "raidsSinceStarted": 1
+      "raidsSinceStarted": 0
     },
     "ARTT_10": {
-      "raidsSinceStarted": 1
+      "raidsSinceStarted": 0
     },
     "59c50c8886f7745fed3193bf": {
-      "raidsSinceStarted": 1
+      "raidsSinceStarted": 0
     },
     "5b478ff486f7744d184ecbbf": {
-      "raidsSinceStarted": 1
+      "raidsSinceStarted": 0
     },
     "Scorpion_2_5": {
-      "raidsSinceStarted": 1
+      "raidsSinceStarted": 4
     },
     "Scorpion_9_1": {
-      "raidsSinceStarted": 1
+      "raidsSinceStarted": 4
     },
     "5c12452c86f7744b83469073": {
-      "raidsSinceStarted": 1
+      "raidsSinceStarted": 4
     },
     "5edac63b930f5454f51e128b": {
-      "raidsSinceStarted": 1
+      "raidsSinceStarted": 0
     },
     "5c0d1c4cd0928202a02a6f5c": {
-      "raidsSinceStarted": 1
+      "raidsSinceStarted": 4
     },
     "6671f527b44bab494b000001": {
-      "raidsSinceStarted": 1
+      "raidsSinceStarted": 0
     },
     "65734c186dc1e402c80dc19e": {
-      "raidsSinceStarted": 1
+      "raidsSinceStarted": 0
     },
     "5a03173786f77451cb427172": {
-      "raidsSinceStarted": 1
+      "raidsSinceStarted": 0
     },
     "6179aff8f57fb279792c60a1": {
-      "raidsSinceStarted": 1
+      "raidsSinceStarted": 0
     },
     "5ac346cf86f7741d63233a02": {
-      "raidsSinceStarted": 1
+      "raidsSinceStarted": 0
     },
     "5ac3477486f7741d651d6885": {
-      "raidsSinceStarted": 1
+      "raidsSinceStarted": 0
     },
     "Scorpion_7_3": {
-      "raidsSinceStarted": 1
+      "raidsSinceStarted": 0
     },
     "Scorpion_8_3": {
-      "raidsSinceStarted": 1
+      "raidsSinceStarted": 0
     },
     "5bc480a686f7741af0342e29": {
-      "raidsSinceStarted": 1
+      "raidsSinceStarted": 0
     },
     "5d25e2b486f77409de05bba0": {
-      "raidsSinceStarted": 1
+      "raidsSinceStarted": 0
     },
     "5d25e4d586f77443e625e388": {
-      "raidsSinceStarted": 1
+      "raidsSinceStarted": 0
     },
     "64f3176921045e77405d63b5": {
-      "raidsSinceStarted": 1
+      "raidsSinceStarted": 0
     },
     "6573397ef3f8344c4575cd87": {
-      "raidsSinceStarted": 1
+      "raidsSinceStarted": 0
     },
     "double_agent_2": {
-      "raidsSinceStarted": 1
+      "raidsSinceStarted": 4
     },
-    "6673f066205e9de669000001": {
-      "raidsSinceStarted": 1
+    "6179b4f16e9dd54ac275e407": {
+      "raidsSinceStarted": 0
     },
-    "63913715f8e5dd32bf4e3aaa": {
-      "raidsSinceStarted": 1
+    "667541e72ded776941000001": {
+      "raidsSinceStarted": 0
+    },
+    "667541e72ded776941000008": {
+      "raidsSinceStarted": 0
+    },
+    "639135e8c115f907b14700aa": {
+      "raidsSinceStarted": 0
+    },
+    "639136fa9444fb141f4e6eee": {
+      "raidsSinceStarted": 0
+    },
+    "63a511ea30d85e10e375b045": {
+      "raidsSinceStarted": 0
+    },
+    "Scorpion_1_9": {
+      "raidsSinceStarted": 0
     }
   }
 }

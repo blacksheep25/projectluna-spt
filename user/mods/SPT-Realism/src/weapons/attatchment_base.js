@@ -54,7 +54,6 @@ class AttachmentBase {
         //SPEAR
         for (let ammo of _308Ammo) {
             this.itemDB()["65290f395ae2ae97b80fdf2d"]._props.Chambers[0]._props.filters[0].Filter.push(ammo);
-			this.itemDB()["0108_BLACK_SPEAR"]._props.Chambers[0]._props.filters[0].Filter.push(ammo); //SWWWWWWWWWWWWWWWWWWW
         }
         //VPO-215 Magazine
         for (let ammo of _762x39Ammo) {
@@ -67,8 +66,6 @@ class AttachmentBase {
             this.localsDB()[local]["5fbcc1d9016cce60e8341ab3 Description"] = this.localsDB()[local]["5fbcc1d9016cce60e8341ab3 Description"].replace(/\.300 Blackout/g, "Multi Caliber");
             this.localsDB()[local]["65290f395ae2ae97b80fdf2d ShortName"] = "SPEAR Multi Cal.";
             this.localsDB()[local]["65290f395ae2ae97b80fdf2d Name"] = this.localsDB()[local]["65290f395ae2ae97b80fdf2d Name"].replace(/6\.8x51/g, "Multi Cal.");
-            this.localsDB()[local]["0108_BLACK_SPEAR ShortName"] = "SPEAR Multi Cal.";//
-            this.localsDB()[local]["0108_BLACK_SPEAR Name"] = this.localsDB()[local]["0108_BLACK_SPEAR Name"].replace(/6\.8x51/g, "Multi Cal.");//
             this.localsDB()[local]["5c488a752e221602b412af63 Name"] = this.localsDB()[local]["5c488a752e221602b412af63 Name"].replace(/5\.56x45/g, "Multi Cal.");
             this.localsDB()[local]["5c488a752e221602b412af63 Description"] = this.localsDB()[local]["5c488a752e221602b412af63 Description"].replace(/5\.56x45/g, "Multi Cal.");
             this.localsDB()[local]["5de652c31b7e3716273428be Name"] = this.localsDB()[local]["5de652c31b7e3716273428be Name"].replace(/\.366 TKM/g, "");

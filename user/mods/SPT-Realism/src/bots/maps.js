@@ -81,6 +81,7 @@ class Spawns {
             this.tables.locations.woods.base.BossLocationSpawn = bossSpawns.WoodsBossLocationSpawn;
             this.tables.locations.tarkovstreets.base.BossLocationSpawn = bossSpawns.StreetsBossLocationSpawn;
         }
+        //SPT does its own custom PMC waves, this couble be doubling up or interfering in some way
         if (this.modConf.spawn_waves == true && utils_1.ModTracker.swagPresent == false) {
             this.tables.locations.bigmap.base.waves = spawnWaves.CustomsWaves;
             this.tables.locations.lighthouse.base.waves = spawnWaves.LighthouseWaves;
