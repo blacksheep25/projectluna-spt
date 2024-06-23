@@ -56,8 +56,7 @@ user/mods/bakahashi-pityloot/database
 user/mods/leaves-loot_fuckery/output
 user/mods/SPT-Realism/ProfileBackups
 # Raid review currently isn't Fika Compatible so we will ignore this for now
-user/mods/raid_review__0.0.3/data
+user/mods/raid_review__0.0.6/data
 
 # Ignore MPT Updater
 user/mods/MPT.Updater.exe
-/user/mods/leaves-loot_fuckery/output
