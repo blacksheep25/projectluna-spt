@@ -103,7 +103,7 @@ class Gamble {
         }
         else {
             money = 0;
-            this.logger.info(`[TheGambler] Case Opened... Received Nothing... Better luck next time :)`);
+            this.logger.info(`[TheGambler] Wallet Case Opened... Received Nothing... Better luck next time :)`);
         }
         if (money > 0) {
             const id = "5449016a4bdc2d6f028b456f"; // Roubles
@@ -158,7 +158,7 @@ class Gamble {
         }
         else {
             id = "NaN";
-            this.logger.info(`[TheGambler] Case Opened... Received Nothing... Better luck next time :)`);
+            this.logger.info(`[TheGambler] Keycard Case Opened... Received Nothing... Better luck next time :)`);
         }
         if (this.config.debug) {
             this.logger.info("[TheGambler] Keycard Mystery Box Information...");
@@ -175,12 +175,14 @@ class Gamble {
         const roll = this.randomUtil.getFloat(0, 100);
         if (roll <= 50) {
             id = "57347d7224597744596b4e72"; // Can of beef stew (Small)
+            this.logger.info(`[TheGambler] 50/50 Case Lost! Enjoy the stew!`);
             this.newItemRequest.itemWithModsToAdd.push(this.newItemFormat(id));
             this.newItemRequest.foundInRaid = true;
         }
         else {
             id = "5449016a4bdc2d6f028b456f"; // Roubles
             money = 5000000; // 5,000,000 roubles
+            this.logger.info(`[TheGambler] 50/50 Case Won! Congratulations!`);
             this.newItemRequest.itemWithModsToAdd.push(this.newItemFormat(id, money));
             this.newItemRequest.foundInRaid = true;
         }
@@ -212,7 +214,7 @@ class Gamble {
         }
         else { // Nothing
             id = "NaN";
-            this.logger.info(`[TheGambler] Case Opened... Received Nothing... Better luck next time :)`);
+            this.logger.info(`[TheGambler] Key Case Opened... Received Nothing... Better luck next time :)`);
         }
         if (this.config.debug) {
             this.logger.info("[TheGambler] Key Mystery Box Information...");
@@ -245,7 +247,7 @@ class Gamble {
         }
         else { // Nothing
             id = "NaN";
-            this.logger.info(`[TheGambler] Case Opened... Received Nothing... Better luck next time :)`);
+            this.logger.info(`[TheGambler] Stimulant Case Opened... Received Nothing... Better luck next time :)`);
         }
         if (this.config.debug) {
             this.logger.info("[TheGambler] Stimulant Mystery Box Information...");
@@ -283,7 +285,7 @@ class Gamble {
             createWeapon = item.createGun('base');
         }
         else { // Nothing
-            this.logger.info(`[TheGambler] Case Opened... Received Nothing... Better luck next time :)`);
+            this.logger.info(`[TheGambler] Weapon Case Opened... Received Nothing... Better luck next time :)`);
         }
         if (this.config.debug) {
             this.logger.info("[TheGambler] Weapon Mystery Box Information...");
@@ -304,7 +306,7 @@ class Gamble {
             createGun = item.createGun('meta');
         }
         else { // Nothing
-            this.logger.info(`[TheGambler] Case Opened... Received Nothing... Better luck next time :)`);
+            this.logger.info(`[TheGambler] Premium Weapon Case Opened... Received Nothing... Better luck next time :)`);
         }
         if (this.config.debug) {
             this.logger.info("[TheGambler] Premium Weapon Mystery Box Information...");
@@ -325,7 +327,7 @@ class Gamble {
         const rare_odds = this.config.helmet_rare + extremely_rare_odds;
         const uncommon_odds = this.config.helmet_uncommon + rare_odds;
         const common_odds = this.config.helmet_common + uncommon_odds;
-        this.logger.info(`[TheGambler] Extremelt Rare Odds ${extremely_rare_odds}`);
+        this.logger.info(`[TheGambler] Extremelty Rare Odds ${extremely_rare_odds}`);
         if (roll <= extremely_rare_odds) {
             createHelmet = item.createHelmet('extremely_rare');
         }
@@ -339,7 +341,7 @@ class Gamble {
             createHelmet = item.createHelmet('common');
         }
         else { // Nothing
-            this.logger.info(`[TheGambler] Case Opened... Received Nothing... Better luck next time :)`);
+            this.logger.info(`[TheGambler] Helmet Case Opened... Received Nothing... Better luck next time :)`);
         }
         if (this.config.debug) {
             this.logger.info("[TheGambler] Helmet Mystery Box Information...");
@@ -363,10 +365,10 @@ class Gamble {
         }
         else { // Nothing
             id = "NaN";
-            this.logger.info(`[TheGambler] Case Opened... Received Nothing... Better luck next time :)`);
+            this.logger.info(`[TheGambler] Headset Case Opened... Received Nothing... Better luck next time :)`);
         }
         if (this.config.debug) {
-            this.logger.info("[TheGambler] Mystery Headset Information...");
+            this.logger.info("[TheGambler] Headset Mystery Box Information...");
             this.logger.info("[TheGambler] Headset id = " + id);
         }
         if (id != "NaN") {
@@ -397,7 +399,7 @@ class Gamble {
         }
         else { // Nothing
             id = "NaN";
-            this.logger.info(`[TheGambler] Case Opened... Received Nothing... Better luck next time :)`);
+            this.logger.info(`[TheGambler] Backpack Case Opened... Received Nothing... Better luck next time :)`);
         }
         if (this.config.debug) {
             this.logger.info("[TheGambler] Backpack Mystery Box Information...");
@@ -426,7 +428,7 @@ class Gamble {
             createArmor = item.createArmor('common');
         }
         else { // Nothing
-            this.logger.info(`[TheGambler] Case Opened... Received Nothing... Better luck next time :)`);
+            this.logger.info(`[TheGambler] Armor Case Opened... Received Nothing... Better luck next time :)`);
         }
         if (this.config.debug) {
             this.logger.info("[TheGambler] Armor Mystery Box Information...");
@@ -447,7 +449,7 @@ class Gamble {
             createArmor = item.createArmor('rare');
         }
         else { // Nothing
-            this.logger.info(`[TheGambler] Case Opened... Received Nothing... Better luck next time :)`);
+            this.logger.info(`[TheGambler] Premium Armor Case Opened... Received Nothing... Better luck next time :)`);
         }
         if (this.config.debug) {
             this.logger.info("[TheGambler] Premium Armor Mystery Box Information...");
@@ -529,7 +531,7 @@ class Gamble {
         }
         else { // Nothing. Default percentages make this 0% of happening
             id = "NaN";
-            this.logger.info(`[TheGambler] Case Opened... Received Nothing... Better luck next time :)`);
+            this.logger.info(`[TheGambler] Melee Case Opened... Received Nothing... Better luck next time :)`);
         }
         if (this.config.debug) {
             this.logger.info("[TheGambler] Melee Mystery Box Information...");
@@ -608,7 +610,7 @@ class Gamble {
         }
         else { // Nothing. Default percentages make this 0% of happening
             id = "NaN";
-            this.logger.info(`[TheGambler] Case Opened... Received Nothing... Better luck next time :)`);
+            this.logger.info(`[TheGambler] Armband Case Opened... Received Nothing... Better luck next time :)`);
         }
         if (this.config.debug) {
             this.logger.info("[TheGambler] Armband Mystery Box Information...");
