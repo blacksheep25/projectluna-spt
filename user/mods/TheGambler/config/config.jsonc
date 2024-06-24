@@ -80,11 +80,11 @@
     //
     // gambling_container_wallet 
     // Chance for each possibility in percentage from rarest to most common
-    "wallet_extremely_rare": 1,     // 2 Million Roubles
-    "wallet_rare": 2.5,             // 1 Miliion Roubles
-    "wallet_kinda_rare": 5.0,       // 500k Roubles
-    "wallet_uncommon": 8.0,        // 300k Roubles
-    "wallet_common": 33.5,          // 100K Roubles
+    "wallet_extremely_rare": 0.5,     // 2 Million Roubles
+    "wallet_rare": 1.5,             // 1 Miliion Roubles
+    "wallet_kinda_rare": 4.0,       // 500k Roubles
+    "wallet_uncommon": 7.0,        // 300k Roubles
+    "wallet_common": 35.0,          // 100K Roubles
     // 100% - all above percentages = % at receiving nothing from gambling container. If desired. (Applies to all gambling containers!)
 
     // gambling_container_key 
@@ -100,21 +100,21 @@
 
     // gambling_container_keycard
     "keycard_red": 0.1,           // Red Keycard
-    "keycard_green": 0.2,         // Green Keycard
-    "keycard_blue": 0.25,          // Blue Keycard
-    "keycard_violet": 0.25,        // Violet Keycard
-    "keycard_black": 0.45,         // Black Keycard
-    "keycard_yellow": 0.45,        // Yellow Keycard
-    "keycard_blue_marking": 4,    // Keycard with blue marking
-    "keycard_21WS": 5,            // 21WS Keycard
-    "keycard_11SR": 5,            // 11SR Keycard
+    "keycard_green": 0.15,         // Green Keycard
+    "keycard_blue": 0.2,          // Blue Keycard
+    "keycard_violet": 0.2,        // Violet Keycard
+    "keycard_black": 0.35,         // Black Keycard
+    "keycard_yellow": 0.35,        // Yellow Keycard
+    "keycard_blue_marking": 3.5,    // Keycard with blue marking
+    "keycard_21WS": 4.5,            // 21WS Keycard
+    "keycard_11SR": 4.5,            // 11SR Keycard
     "keycard_access": 45,         // Access Keycard
 
     // gambling_container_melee
-    "melee_extremely_rare": 0.25,      // Extremely Rare melee
-    "melee_rare": 2.0,                // Rare melee
-    "melee_uncommon": 22.75,           // Uncommon melee
-    "melee_common": 75.0,             // Common melee
+    "melee_extremely_rare": 0.05,      // Extremely Rare melee
+    "melee_rare": 0.5,                // Rare melee
+    "melee_uncommon": 10.0,           // Uncommon melee
+    "melee_common": 89.45,             // Common melee
 
     // gambling_container_backpack
     "backpack_extremely_rare": 5,      // Extremely Rare melee
