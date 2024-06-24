@@ -1,0 +1,1947 @@
+{
+	"6677a832f0f86eaf1d538c8c": {
+		"itemTplToClone": "59faf7ca86f7740dbe19f6c2",
+		"parentId": "57864a3d24597754843f8721",
+		"handbookParentId": "5b47574386f77428ca22b2f1",
+		"overrideProperties": {
+			"CanSellOnRagfair": false,
+			"Height": 2,
+			"Width": 2,
+			"ExaminedByDefault": false,
+			"Prefab": {
+				"path": "customItems/dt/variants/dt1.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "Arachnotron Toy",
+				"shortName": "Arachnotron Toy",
+				"description": "Rip And Tear"
+			}
+		},
+		"clearClonedProps": false,
+		"addtoHallOfFame": true,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 125000,
+		"handbookPriceRoubles": 125000,
+		"addtoStaticLootContainers": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DEAD_SCAV"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DUFFLE_BAG"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_JACKET"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DRAWER"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_TOOLBOX"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_SAFE"
+				],
+				"Probability": 500
+			}
+		]
+	},
+	"6677c04d48f544f7d3dea8f4": {
+		"itemTplToClone": "59faf7ca86f7740dbe19f6c2",
+		"parentId": "57864a3d24597754843f8721",
+		"handbookParentId": "5b47574386f77428ca22b2f1",
+		"overrideProperties": {
+			"CanSellOnRagfair": false,
+			"Height": 2,
+			"Width": 2,
+			"ExaminedByDefault": false,
+			"Prefab": {
+				"path": "customItems/dt/variants/dt2.bundle",
+				"rcid": ""
+			},
+			"Durability": 30,
+			"MaxDurability": 30,
+			"Weight": 0.1,
+			"mousePenalty": 0,
+			"weaponErgonomicPenalty": 0
+		},
+		"locales": {
+			"en": {
+				"name": "Baron Toy",
+				"shortName": "Baron Toy",
+				"description": "Rip And Tear"
+			}
+		},
+		"clearClonedProps": false,
+		"addtoHallOfFame": true,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 125000,
+		"handbookPriceRoubles": 125000,
+		"addtoStaticLootContainers": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DEAD_SCAV"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DUFFLE_BAG"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_JACKET"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DRAWER"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_TOOLBOX"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_SAFE"
+				],
+				"Probability": 500
+			}
+		]
+	},
+	"6677c051a1882cee3f5bdc23": {
+		"itemTplToClone": "59faf7ca86f7740dbe19f6c2",
+		"parentId": "57864a3d24597754843f8721",
+		"handbookParentId": "5b47574386f77428ca22b2f1",
+		"overrideProperties": {
+			"CanSellOnRagfair": false,
+			"Height": 2,
+			"Width": 2,
+			"ExaminedByDefault": false,
+			"Prefab": {
+				"path": "customItems/dt/variants/dt3.bundle",
+				"rcid": ""
+			},
+			"Durability": 30,
+			"MaxDurability": 30,
+			"Weight": 0.1,
+			"mousePenalty": 0,
+			"weaponErgonomicPenalty": 0
+		},
+		"locales": {
+			"en": {
+				"name": "Cacodemon Toy",
+				"shortName": "Cacodemon Toy",
+				"description": "Rip And Tear"
+			}
+		},
+		"clearClonedProps": false,
+		"addtoHallOfFame": true,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 125000,
+		"handbookPriceRoubles": 125000,
+		"addtoStaticLootContainers": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DEAD_SCAV"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DUFFLE_BAG"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_JACKET"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DRAWER"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_TOOLBOX"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_SAFE"
+				],
+				"Probability": 500
+			}
+		]
+	},
+	"6677c05370bfe415e97bab90": {
+		"itemTplToClone": "59faf7ca86f7740dbe19f6c2",
+		"parentId": "57864a3d24597754843f8721",
+		"handbookParentId": "5b47574386f77428ca22b2f1",
+		"overrideProperties": {
+			"CanSellOnRagfair": false,
+			"Height": 2,
+			"Width": 2,
+			"ExaminedByDefault": false,
+			"Prefab": {
+				"path": "customItems/dt/variants/dt4.bundle",
+				"rcid": ""
+			},
+			"Durability": 30,
+			"MaxDurability": 30,
+			"Weight": 0.1,
+			"mousePenalty": 0,
+			"weaponErgonomicPenalty": 0
+		},
+		"locales": {
+			"en": {
+				"name": "Carcass Toy",
+				"shortName": "Carcass Toy",
+				"description": "Rip And Tear"
+			}
+		},
+		"clearClonedProps": false,
+		"addtoHallOfFame": true,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 125000,
+		"handbookPriceRoubles": 125000,
+		"addtoStaticLootContainers": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DEAD_SCAV"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DUFFLE_BAG"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_JACKET"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DRAWER"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_TOOLBOX"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_SAFE"
+				],
+				"Probability": 500
+			}
+		]
+	},
+	"6677c0568836c8a62531ff3c": {
+		"itemTplToClone": "59faf7ca86f7740dbe19f6c2",
+		"parentId": "57864a3d24597754843f8721",
+		"handbookParentId": "5b47574386f77428ca22b2f1",
+		"overrideProperties": {
+			"CanSellOnRagfair": false,
+			"Height": 2,
+			"Width": 2,
+			"ExaminedByDefault": false,
+			"Prefab": {
+				"path": "customItems/dt/variants/dt5.bundle",
+				"rcid": ""
+			},
+			"Durability": 30,
+			"MaxDurability": 30,
+			"Weight": 0.1,
+			"mousePenalty": 0,
+			"weaponErgonomicPenalty": 0
+		},
+		"locales": {
+			"en": {
+				"name": "Cueball Toy",
+				"shortName": "Cueball Toy",
+				"description": "Rip And Tear"
+			}
+		},
+		"clearClonedProps": false,
+		"addtoHallOfFame": true,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 125000,
+		"handbookPriceRoubles": 125000,
+		"addtoStaticLootContainers": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DEAD_SCAV"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DUFFLE_BAG"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_JACKET"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DRAWER"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_TOOLBOX"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_SAFE"
+				],
+				"Probability": 500
+			}
+		]
+	},
+	"6677c05852cb297b0c4dc446": {
+		"itemTplToClone": "59faf7ca86f7740dbe19f6c2",
+		"parentId": "57864a3d24597754843f8721",
+		"handbookParentId": "5b47574386f77428ca22b2f1",
+		"overrideProperties": {
+			"CanSellOnRagfair": false,
+			"Height": 2,
+			"Width": 2,
+			"ExaminedByDefault": false,
+			"Prefab": {
+				"path": "customItems/dt/variants/dt6.bundle",
+				"rcid": ""
+			},
+			"Durability": 30,
+			"MaxDurability": 30,
+			"Weight": 0.1,
+			"mousePenalty": 0,
+			"weaponErgonomicPenalty": 0
+		},
+		"locales": {
+			"en": {
+				"name": "Doomhunter Toy",
+				"shortName": "Doomhunter Toy",
+				"description": "Rip And Tear"
+			}
+		},
+		"clearClonedProps": false,
+		"addtoHallOfFame": true,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 125000,
+		"handbookPriceRoubles": 125000,
+		"addtoStaticLootContainers": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DEAD_SCAV"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DUFFLE_BAG"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_JACKET"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DRAWER"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_TOOLBOX"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_SAFE"
+				],
+				"Probability": 500
+			}
+		]
+	},
+	"6677c05bc6278c8b7fa90ec6": {
+		"itemTplToClone": "59faf7ca86f7740dbe19f6c2",
+		"parentId": "57864a3d24597754843f8721",
+		"handbookParentId": "5b47574386f77428ca22b2f1",
+		"overrideProperties": {
+			"CanSellOnRagfair": false,
+			"Height": 2,
+			"Width": 2,
+			"ExaminedByDefault": false,
+			"Prefab": {
+				"path": "customItems/dt/variants/dt7.bundle",
+				"rcid": ""
+			},
+			"Durability": 30,
+			"MaxDurability": 30,
+			"Weight": 0.1,
+			"mousePenalty": 0,
+			"weaponErgonomicPenalty": 0
+		},
+		"locales": {
+			"en": {
+				"name": "Doomslayer Toy",
+				"shortName": "Doomslayer Toy",
+				"description": "Rip And Tear"
+			}
+		},
+		"clearClonedProps": false,
+		"addtoHallOfFame": true,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 125000,
+		"handbookPriceRoubles": 125000,
+		"addtoStaticLootContainers": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DEAD_SCAV"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DUFFLE_BAG"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_JACKET"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DRAWER"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_TOOLBOX"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_SAFE"
+				],
+				"Probability": 500
+			}
+		]
+	},
+	"6677c05e2484a27279c8bccb": {
+		"itemTplToClone": "59faf7ca86f7740dbe19f6c2",
+		"parentId": "57864a3d24597754843f8721",
+		"handbookParentId": "5b47574386f77428ca22b2f1",
+		"overrideProperties": {
+			"CanSellOnRagfair": false,
+			"Height": 2,
+			"Width": 2,
+			"ExaminedByDefault": false,
+			"Prefab": {
+				"path": "customItems/dt/variants/dt8.bundle",
+				"rcid": ""
+			},
+			"Durability": 30,
+			"MaxDurability": 30,
+			"Weight": 0.1,
+			"mousePenalty": 0,
+			"weaponErgonomicPenalty": 0
+		},
+		"locales": {
+			"en": {
+				"name": "Dreadknight Toy",
+				"shortName": "Dreadknight Toy",
+				"description": "Rip And Tear"
+			}
+		},
+		"clearClonedProps": false,
+		"addtoHallOfFame": true,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 125000,
+		"handbookPriceRoubles": 125000,
+		"addtoStaticLootContainers": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DEAD_SCAV"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DUFFLE_BAG"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_JACKET"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DRAWER"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_TOOLBOX"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_SAFE"
+				],
+				"Probability": 500
+			}
+		]
+	},
+	"6677c06058ac4b3452380541": {
+		"itemTplToClone": "59faf7ca86f7740dbe19f6c2",
+		"parentId": "57864a3d24597754843f8721",
+		"handbookParentId": "5b47574386f77428ca22b2f1",
+		"overrideProperties": {
+			"CanSellOnRagfair": false,
+			"Height": 2,
+			"Width": 2,
+			"ExaminedByDefault": false,
+			"Prefab": {
+				"path": "customItems/dt/variants/dt9.bundle",
+				"rcid": ""
+			},
+			"Durability": 30,
+			"MaxDurability": 30,
+			"Weight": 0.1,
+			"mousePenalty": 0,
+			"weaponErgonomicPenalty": 0
+		},
+		"locales": {
+			"en": {
+				"name": "Flamecubus Toy",
+				"shortName": "Flamecubus Toy",
+				"description": "Rip And Tear"
+			}
+		},
+		"clearClonedProps": false,
+		"addtoHallOfFame": true,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 125000,
+		"handbookPriceRoubles": 125000,
+		"addtoStaticLootContainers": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DEAD_SCAV"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DUFFLE_BAG"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_JACKET"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DRAWER"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_TOOLBOX"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_SAFE"
+				],
+				"Probability": 500
+			}
+		]
+	},
+	"6677c06227a6675b9b1fae0c": {
+		"itemTplToClone": "59faf7ca86f7740dbe19f6c2",
+		"parentId": "57864a3d24597754843f8721",
+		"handbookParentId": "5b47574386f77428ca22b2f1",
+		"overrideProperties": {
+			"CanSellOnRagfair": false,
+			"Height": 2,
+			"Width": 2,
+			"ExaminedByDefault": false,
+			"Prefab": {
+				"path": "customItems/dt/variants/dt10.bundle",
+				"rcid": ""
+			},
+			"Durability": 30,
+			"MaxDurability": 30,
+			"Weight": 0.1,
+			"mousePenalty": 0,
+			"weaponErgonomicPenalty": 0
+		},
+		"locales": {
+			"en": {
+				"name": "Gargoyle Toy",
+				"shortName": "Gargoyle Toy",
+				"description": "Rip And Tear"
+			}
+		},
+		"clearClonedProps": false,
+		"addtoHallOfFame": true,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 125000,
+		"handbookPriceRoubles": 125000,
+		"addtoStaticLootContainers": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DEAD_SCAV"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DUFFLE_BAG"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_JACKET"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DRAWER"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_TOOLBOX"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_SAFE"
+				],
+				"Probability": 500
+			}
+		]
+	},
+	"6677c064e22788fa05793450": {
+		"itemTplToClone": "59faf7ca86f7740dbe19f6c2",
+		"parentId": "57864a3d24597754843f8721",
+		"handbookParentId": "5b47574386f77428ca22b2f1",
+		"overrideProperties": {
+			"CanSellOnRagfair": false,
+			"Height": 2,
+			"Width": 2,
+			"ExaminedByDefault": false,
+			"Prefab": {
+				"path": "customItems/dt/variants/dt11.bundle",
+				"rcid": ""
+			},
+			"Durability": 30,
+			"MaxDurability": 30,
+			"Weight": 0.1,
+			"mousePenalty": 0,
+			"weaponErgonomicPenalty": 0
+		},
+		"locales": {
+			"en": {
+				"name": "Gladiator Toy",
+				"shortName": "Gladiator Toy",
+				"description": "Rip And Tear"
+			}
+		},
+		"clearClonedProps": false,
+		"addtoHallOfFame": true,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 125000,
+		"handbookPriceRoubles": 125000,
+		"addtoStaticLootContainers": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DEAD_SCAV"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DUFFLE_BAG"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_JACKET"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DRAWER"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_TOOLBOX"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_SAFE"
+				],
+				"Probability": 500
+			}
+		]
+	},
+	"6677c066d80f5c3b0ad5a304": {
+		"itemTplToClone": "59faf7ca86f7740dbe19f6c2",
+		"parentId": "57864a3d24597754843f8721",
+		"handbookParentId": "5b47574386f77428ca22b2f1",
+		"overrideProperties": {
+			"CanSellOnRagfair": false,
+			"Height": 2,
+			"Width": 2,
+			"ExaminedByDefault": false,
+			"Prefab": {
+				"path": "customItems/dt/variants/dt12.bundle",
+				"rcid": ""
+			},
+			"Durability": 30,
+			"MaxDurability": 30,
+			"Weight": 0.1,
+			"mousePenalty": 0,
+			"weaponErgonomicPenalty": 0
+		},
+		"locales": {
+			"en": {
+				"name": "Hellknight Toy",
+				"shortName": "Hellknight Toy",
+				"description": "Rip And Tear"
+			}
+		},
+		"clearClonedProps": false,
+		"addtoHallOfFame": true,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 125000,
+		"handbookPriceRoubles": 125000,
+		"addtoStaticLootContainers": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DEAD_SCAV"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DUFFLE_BAG"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_JACKET"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DRAWER"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_TOOLBOX"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_SAFE"
+				],
+				"Probability": 500
+			}
+		]
+	},
+	"6677c06931ea90617579fa54": {
+		"itemTplToClone": "59faf7ca86f7740dbe19f6c2",
+		"parentId": "57864a3d24597754843f8721",
+		"handbookParentId": "5b47574386f77428ca22b2f1",
+		"overrideProperties": {
+			"CanSellOnRagfair": false,
+			"Height": 2,
+			"Width": 2,
+			"ExaminedByDefault": false,
+			"Prefab": {
+				"path": "customItems/dt/variants/dt13.bundle",
+				"rcid": ""
+			},
+			"Durability": 30,
+			"MaxDurability": 30,
+			"Weight": 0.1,
+			"mousePenalty": 0,
+			"weaponErgonomicPenalty": 0
+		},
+		"locales": {
+			"en": {
+				"name": "Icon Of Sin Toy",
+				"shortName": "Icon Of Sin Toy",
+				"description": "Rip And Tear"
+			}
+		},
+		"clearClonedProps": false,
+		"addtoHallOfFame": true,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 125000,
+		"handbookPriceRoubles": 125000,
+		"addtoStaticLootContainers": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DEAD_SCAV"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DUFFLE_BAG"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_JACKET"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DRAWER"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_TOOLBOX"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_SAFE"
+				],
+				"Probability": 500
+			}
+		]
+	},
+	"6677c06b70ce75837f22b75b": {
+		"itemTplToClone": "59faf7ca86f7740dbe19f6c2",
+		"parentId": "57864a3d24597754843f8721",
+		"handbookParentId": "5b47574386f77428ca22b2f1",
+		"overrideProperties": {
+			"CanSellOnRagfair": false,
+			"Height": 2,
+			"Width": 2,
+			"ExaminedByDefault": false,
+			"Prefab": {
+				"path": "customItems/dt/variants/dt14.bundle",
+				"rcid": ""
+			},
+			"Durability": 30,
+			"MaxDurability": 30,
+			"Weight": 0.1,
+			"mousePenalty": 0,
+			"weaponErgonomicPenalty": 0
+		},
+		"locales": {
+			"en": {
+				"name": "Imp Toy",
+				"shortName": "Imp Toy",
+				"description": "Rip And Tear"
+			}
+		},
+		"clearClonedProps": false,
+		"addtoHallOfFame": true,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 125000,
+		"handbookPriceRoubles": 125000,
+		"addtoStaticLootContainers": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DEAD_SCAV"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DUFFLE_BAG"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_JACKET"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DRAWER"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_TOOLBOX"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_SAFE"
+				],
+				"Probability": 500
+			}
+		]
+	},
+	"6677c0730319b17f078280dc": {
+		"itemTplToClone": "59faf7ca86f7740dbe19f6c2",
+		"parentId": "57864a3d24597754843f8721",
+		"handbookParentId": "5b47574386f77428ca22b2f1",
+		"overrideProperties": {
+			"CanSellOnRagfair": false,
+			"Height": 2,
+			"Width": 2,
+			"ExaminedByDefault": false,
+			"Prefab": {
+				"path": "customItems/dt/variants/dt15.bundle",
+				"rcid": ""
+			},
+			"Durability": 30,
+			"MaxDurability": 30,
+			"Weight": 0.1,
+			"mousePenalty": 0,
+			"weaponErgonomicPenalty": 0
+		},
+		"locales": {
+			"en": {
+				"name": "Khan Maykr Toy",
+				"shortName": "Khan Maykr Toy",
+				"description": "Rip And Tear"
+			}
+		},
+		"clearClonedProps": false,
+		"addtoHallOfFame": true,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 125000,
+		"handbookPriceRoubles": 125000,
+		"addtoStaticLootContainers": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DEAD_SCAV"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DUFFLE_BAG"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_JACKET"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DRAWER"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_TOOLBOX"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_SAFE"
+				],
+				"Probability": 500
+			}
+		]
+	},
+	"6677c0764c92aef863862f3f": {
+		"itemTplToClone": "59faf7ca86f7740dbe19f6c2",
+		"parentId": "57864a3d24597754843f8721",
+		"handbookParentId": "5b47574386f77428ca22b2f1",
+		"overrideProperties": {
+			"CanSellOnRagfair": false,
+			"Height": 2,
+			"Width": 2,
+			"ExaminedByDefault": false,
+			"Prefab": {
+				"path": "customItems/dt/variants/dt16.bundle",
+				"rcid": ""
+			},
+			"Durability": 30,
+			"MaxDurability": 30,
+			"Weight": 0.1,
+			"mousePenalty": 0,
+			"weaponErgonomicPenalty": 0
+		},
+		"locales": {
+			"en": {
+				"name": "Lost Soul Toy",
+				"shortName": "Lost Soul Toy",
+				"description": "Rip And Tear"
+			}
+		},
+		"clearClonedProps": false,
+		"addtoHallOfFame": true,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 125000,
+		"handbookPriceRoubles": 125000,
+		"addtoStaticLootContainers": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DEAD_SCAV"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DUFFLE_BAG"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_JACKET"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DRAWER"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_TOOLBOX"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_SAFE"
+				],
+				"Probability": 500
+			}
+		]
+	},
+	"6677c07a3066fb08e32699e7": {
+		"itemTplToClone": "59faf7ca86f7740dbe19f6c2",
+		"parentId": "57864a3d24597754843f8721",
+		"handbookParentId": "5b47574386f77428ca22b2f1",
+		"overrideProperties": {
+			"CanSellOnRagfair": false,
+			"Height": 2,
+			"Width": 2,
+			"ExaminedByDefault": false,
+			"Prefab": {
+				"path": "customItems/dt/variants/dt17.bundle",
+				"rcid": ""
+			},
+			"Durability": 30,
+			"MaxDurability": 30,
+			"Weight": 0.1,
+			"mousePenalty": 0,
+			"weaponErgonomicPenalty": 0
+		},
+		"locales": {
+			"en": {
+				"name": "Mancubus Goo Toy",
+				"shortName": "Mancubus Goo Toy",
+				"description": "Rip And Tear"
+			}
+		},
+		"clearClonedProps": false,
+		"addtoHallOfFame": true,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 125000,
+		"handbookPriceRoubles": 125000,
+		"addtoStaticLootContainers": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DEAD_SCAV"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DUFFLE_BAG"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_JACKET"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DRAWER"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_TOOLBOX"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_SAFE"
+				],
+				"Probability": 500
+			}
+		]
+	},
+	"6677c07c7b6ae4b1aefd6d3a": {
+		"itemTplToClone": "59faf7ca86f7740dbe19f6c2",
+		"parentId": "57864a3d24597754843f8721",
+		"handbookParentId": "5b47574386f77428ca22b2f1",
+		"overrideProperties": {
+			"CanSellOnRagfair": false,
+			"Height": 2,
+			"Width": 2,
+			"ExaminedByDefault": false,
+			"Prefab": {
+				"path": "customItems/dt/variants/dt18.bundle",
+				"rcid": ""
+			},
+			"Durability": 30,
+			"MaxDurability": 30,
+			"Weight": 0.1,
+			"mousePenalty": 0,
+			"weaponErgonomicPenalty": 0
+		},
+		"locales": {
+			"en": {
+				"name": "Marauder Toy",
+				"shortName": "Marauder Toy",
+				"description": "Rip And Tear"
+			}
+		},
+		"clearClonedProps": false,
+		"addtoHallOfFame": true,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 125000,
+		"handbookPriceRoubles": 125000,
+		"addtoStaticLootContainers": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DEAD_SCAV"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DUFFLE_BAG"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_JACKET"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DRAWER"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_TOOLBOX"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_SAFE"
+				],
+				"Probability": 500
+			}
+		]
+	},
+	"6677c07f00a37549b6c1b3a4": {
+		"itemTplToClone": "59faf7ca86f7740dbe19f6c2",
+		"parentId": "57864a3d24597754843f8721",
+		"handbookParentId": "5b47574386f77428ca22b2f1",
+		"overrideProperties": {
+			"CanSellOnRagfair": false,
+			"Height": 2,
+			"Width": 2,
+			"ExaminedByDefault": false,
+			"Prefab": {
+				"path": "customItems/dt/variants/dt19.bundle",
+				"rcid": ""
+			},
+			"Durability": 30,
+			"MaxDurability": 30,
+			"Weight": 0.1,
+			"mousePenalty": 0,
+			"weaponErgonomicPenalty": 0
+		},
+		"locales": {
+			"en": {
+				"name": "Pain Elemental Toy",
+				"shortName": "Pain Elemental Toy",
+				"description": "Rip And Tear"
+			}
+		},
+		"clearClonedProps": false,
+		"addtoHallOfFame": true,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 125000,
+		"handbookPriceRoubles": 125000,
+		"addtoStaticLootContainers": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DEAD_SCAV"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DUFFLE_BAG"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_JACKET"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DRAWER"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_TOOLBOX"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_SAFE"
+				],
+				"Probability": 500
+			}
+		]
+	},
+	"6677c0810c5dd17a3c64d594": {
+		"itemTplToClone": "59faf7ca86f7740dbe19f6c2",
+		"parentId": "57864a3d24597754843f8721",
+		"handbookParentId": "5b47574386f77428ca22b2f1",
+		"overrideProperties": {
+			"CanSellOnRagfair": false,
+			"Height": 2,
+			"Width": 2,
+			"ExaminedByDefault": false,
+			"Prefab": {
+				"path": "customItems/dt/variants/dt20.bundle",
+				"rcid": ""
+			},
+			"Durability": 30,
+			"MaxDurability": 30,
+			"Weight": 0.1,
+			"mousePenalty": 0,
+			"weaponErgonomicPenalty": 0
+		},
+		"locales": {
+			"en": {
+				"name": "Pinky Toy",
+				"shortName": "Pinky Toy",
+				"description": "Rip And Tear"
+			}
+		},
+		"clearClonedProps": false,
+		"addtoHallOfFame": true,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 125000,
+		"handbookPriceRoubles": 125000,
+		"addtoStaticLootContainers": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DEAD_SCAV"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DUFFLE_BAG"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_JACKET"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DRAWER"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_TOOLBOX"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_SAFE"
+				],
+				"Probability": 500
+			}
+		]
+	},
+	"6677c0835ebc0f13908d82b7": {
+		"itemTplToClone": "59faf7ca86f7740dbe19f6c2",
+		"parentId": "57864a3d24597754843f8721",
+		"handbookParentId": "5b47574386f77428ca22b2f1",
+		"overrideProperties": {
+			"CanSellOnRagfair": false,
+			"Height": 2,
+			"Width": 2,
+			"ExaminedByDefault": false,
+			"Prefab": {
+				"path": "customItems/dt/variants/dt21.bundle",
+				"rcid": ""
+			},
+			"Durability": 30,
+			"MaxDurability": 30,
+			"Weight": 0.1,
+			"mousePenalty": 0,
+			"weaponErgonomicPenalty": 0
+		},
+		"locales": {
+			"en": {
+				"name": "Prowler Toy",
+				"shortName": "Prowler Toy",
+				"description": "Rip And Tear"
+			}
+		},
+		"clearClonedProps": false,
+		"addtoHallOfFame": true,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 125000,
+		"handbookPriceRoubles": 125000,
+		"addtoStaticLootContainers": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DEAD_SCAV"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DUFFLE_BAG"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_JACKET"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DRAWER"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_TOOLBOX"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_SAFE"
+				],
+				"Probability": 500
+			}
+		]
+	},
+	"6677c0880fc2aa9034ea10f9": {
+		"itemTplToClone": "59faf7ca86f7740dbe19f6c2",
+		"parentId": "57864a3d24597754843f8721",
+		"handbookParentId": "5b47574386f77428ca22b2f1",
+		"overrideProperties": {
+			"CanSellOnRagfair": false,
+			"Height": 2,
+			"Width": 2,
+			"ExaminedByDefault": false,
+			"Prefab": {
+				"path": "customItems/dt/variants/dt22.bundle",
+				"rcid": ""
+			},
+			"Durability": 30,
+			"MaxDurability": 30,
+			"Weight": 0.1,
+			"mousePenalty": 0,
+			"weaponErgonomicPenalty": 0
+		},
+		"locales": {
+			"en": {
+				"name": "Revenant Toy",
+				"shortName": "Revenant Toy",
+				"description": "Rip And Tear"
+			}
+		},
+		"clearClonedProps": false,
+		"addtoHallOfFame": true,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 125000,
+		"handbookPriceRoubles": 125000,
+		"addtoStaticLootContainers": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DEAD_SCAV"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DUFFLE_BAG"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_JACKET"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DRAWER"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_TOOLBOX"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_SAFE"
+				],
+				"Probability": 500
+			}
+		]
+	},
+	"6677c08ae734daf9383990a8": {
+		"itemTplToClone": "59faf7ca86f7740dbe19f6c2",
+		"parentId": "57864a3d24597754843f8721",
+		"handbookParentId": "5b47574386f77428ca22b2f1",
+		"overrideProperties": {
+			"CanSellOnRagfair": false,
+			"Height": 2,
+			"Width": 2,
+			"ExaminedByDefault": false,
+			"Prefab": {
+				"path": "customItems/dt/variants/dt23.bundle",
+				"rcid": ""
+			},
+			"Durability": 30,
+			"MaxDurability": 30,
+			"Weight": 0.1,
+			"mousePenalty": 0,
+			"weaponErgonomicPenalty": 0
+		},
+		"locales": {
+			"en": {
+				"name": "Tyrant Toy",
+				"shortName": "Tyrant Toy",
+				"description": "Rip And Tear"
+			}
+		},
+		"clearClonedProps": false,
+		"addtoHallOfFame": true,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 125000,
+		"handbookPriceRoubles": 125000,
+		"addtoStaticLootContainers": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DEAD_SCAV"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DUFFLE_BAG"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_JACKET"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DRAWER"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_TOOLBOX"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_SAFE"
+				],
+				"Probability": 500
+			}
+		]
+	},
+	"6677c08ea7e0eb652ed5b345": {
+		"itemTplToClone": "59faf7ca86f7740dbe19f6c2",
+		"parentId": "57864a3d24597754843f8721",
+		"handbookParentId": "5b47574386f77428ca22b2f1",
+		"overrideProperties": {
+			"CanSellOnRagfair": false,
+			"Height": 2,
+			"Width": 2,
+			"ExaminedByDefault": false,
+			"Prefab": {
+				"path": "customItems/dt/variants/dt24.bundle",
+				"rcid": ""
+			},
+			"Durability": 30,
+			"MaxDurability": 30,
+			"Weight": 0.1,
+			"mousePenalty": 0,
+			"weaponErgonomicPenalty": 0
+		},
+		"locales": {
+			"en": {
+				"name": "Whiplash Toy",
+				"shortName": "Whiplash Toy",
+				"description": "Rip And Tear"
+			}
+		},
+		"clearClonedProps": false,
+		"addtoHallOfFame": true,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 125000,
+		"handbookPriceRoubles": 125000,
+		"addtoStaticLootContainers": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DEAD_SCAV"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DUFFLE_BAG"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_JACKET"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DRAWER"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_TOOLBOX"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_SAFE"
+				],
+				"Probability": 500
+			}
+		]
+	},
+	"6677c091647650da54da326b": {
+		"itemTplToClone": "59faf7ca86f7740dbe19f6c2",
+		"parentId": "57864a3d24597754843f8721",
+		"handbookParentId": "5b47574386f77428ca22b2f1",
+		"overrideProperties": {
+			"CanSellOnRagfair": false,
+			"Height": 2,
+			"Width": 2,
+			"ExaminedByDefault": false,
+			"Prefab": {
+				"path": "customItems/dt/variants/dt25.bundle",
+				"rcid": ""
+			},
+			"Durability": 30,
+			"MaxDurability": 30,
+			"Weight": 0.1,
+			"mousePenalty": 0,
+			"weaponErgonomicPenalty": 0
+		},
+		"locales": {
+			"en": {
+				"name": "Zombie T1 Toy",
+				"shortName": "Zombie T1 Toy",
+				"description": "Rip And Tear"
+			}
+		},
+		"clearClonedProps": false,
+		"addtoHallOfFame": true,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 125000,
+		"handbookPriceRoubles": 125000,
+		"addtoStaticLootContainers": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DEAD_SCAV"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DUFFLE_BAG"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_JACKET"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DRAWER"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_TOOLBOX"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_SAFE"
+				],
+				"Probability": 500
+			}
+		]
+	},
+	"6677c09464dc67d72631d0a1": {
+		"itemTplToClone": "59faf7ca86f7740dbe19f6c2",
+		"parentId": "57864a3d24597754843f8721",
+		"handbookParentId": "5b47574386f77428ca22b2f1",
+		"overrideProperties": {
+			"CanSellOnRagfair": false,
+			"Height": 2,
+			"Width": 2,
+			"ExaminedByDefault": false,
+			"Prefab": {
+				"path": "customItems/dt/variants/dt26.bundle",
+				"rcid": ""
+			},
+			"Durability": 30,
+			"MaxDurability": 30,
+			"Weight": 0.1,
+			"mousePenalty": 0,
+			"weaponErgonomicPenalty": 0
+		},
+		"locales": {
+			"en": {
+				"name": "Zombie T3 Toy",
+				"shortName": "Zombie T3 Toy",
+				"description": "Rip And Tear"
+			}
+		},
+		"clearClonedProps": false,
+		"addtoHallOfFame": true,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 125000,
+		"handbookPriceRoubles": 125000,
+		"addtoStaticLootContainers": true,
+		"StaticLootContainers": [
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DEAD_SCAV"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DUFFLE_BAG"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_JACKET"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_DRAWER"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_TOOLBOX"
+				],
+				"Probability": 500
+			},
+			{
+				"ContainerName": [
+					"LOOTCONTAINER_SAFE"
+				],
+				"Probability": 500
+			}
+		]
+	}
+}

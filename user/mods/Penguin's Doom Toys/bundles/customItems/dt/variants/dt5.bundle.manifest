@@ -1,0 +1,38 @@
+ManifestFileVersion: 0
+CRC: 2281141226
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2bdc30ccf8df447075d1b24678fc82ca
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 07feae795a0d865c4e1ba97629235948
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0e88583c408674d4bad1d52c226ee09a, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Penguin's Doom Toys/Cueball.prefab
+Dependencies:
+- D:/DOWNLOADS/Tarkov Shit/EscapeFromTarkov-SDK-main/AssetBundles/StandaloneWindows/shaders
