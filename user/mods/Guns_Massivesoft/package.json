@@ -10,9 +10,7 @@
     "loadAfter": [
         "aaMFACSHOP"
     ],
-    "incompatibilities": [
-        "SPT-Realism"
-    ],
+    "incompatibilities": [],
     "contributors": [
         "Backend - Mighty_Condor",
         "Bundles - Massivesoft"
