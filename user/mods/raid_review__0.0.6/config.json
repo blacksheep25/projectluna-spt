@@ -11,7 +11,7 @@
 
 
     "02_comment" : "[TELEMETRY] [DEFAULT: true] Contribute end of raid statistics to the 'https://raid-review.online' server, more info here: https://github.com/ekky-llc/spt-raid-review/blob/main/TELEMETRY.md.",
-    "telemetry" : true,
+    "telemetry" : false,
 
 
     "03_comment": "[AUTO-DELETE] [DEFAULT: true] Automatically delete old raids to save disk space, runs on start up.",

@@ -1,0 +1,98 @@
+{
+	"b1d9a394f4cc5ac555f35ef5": {
+		"itemTplToClone": "5ba26b01d4351e0085325a51", 
+		"parentId": "55818ac54bdc2d5b648b456e",
+		"handbookParentId": "5b5f746686f77447ec5d7708",
+		"overrideProperties": {
+			 "Prefab": {
+                    "path": "mods/frontsights/sight_front_all_hk_mp7_folded.bundle", 
+                    "rcid": ""
+                }
+		}, 
+		"locales": { 
+			"en": {
+				"name": "HK MP7 folded down front sight",
+				"shortName": "MP7 FS",
+				"description": "A removable folding flpped down front sight for MP7 SMGs, installed on the mount. Manufactured by Heckler & Koch."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [], 
+		"ModdableItemWhitelist": [], 
+		"ModdableItemBlacklist": [], 
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_sight_front"
+		],
+		"fleaPriceRoubles": 1111, 
+		"handbookPriceRoubles": 602, 
+		"addtoTraders": false,
+		"traderId": "PEACEKEEPER", 
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 999999
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 1, 
+				"_tpl": "DOLLARS" 
+			}
+		],
+	
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
+		"Probability": 250
+	},
+	"802212c14b623228751dc3a7": {
+		"itemTplToClone": "5ba26b17d4351e00367f9bdd", 
+		"parentId": "55818ac54bdc2d5b648b456e",
+		"handbookParentId": "5b5f746686f77447ec5d7708",
+		"overrideProperties": {
+			 "Prefab": {
+                    "path": "mods/rearsights/sight_rear_all_hk_mp7_folded.bundle", 
+                    "rcid": ""
+		}
+	 },
+		"locales": { 
+			"en": {
+				"name": "HK MP7 folded down rear sight",
+				"shortName": "MP7 RS",
+				"description": "A removable folding flipped down rear sight for MP7 SMGs. Manufactured by Heckler & Koch."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [], 
+		"ModdableItemWhitelist": [], 
+		"ModdableItemBlacklist": [], 
+		"fleaPriceRoubles": 1111, 
+		"handbookPriceRoubles": 803, 
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_sight_rear"
+		],
+		"addtoTraders": false,
+		"traderId": "PEACEKEEPER", 
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 999999
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 1, 
+				"_tpl": "DOLLARS" 
+			}
+		],
+	
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
+		"Probability": 250
+	}
+}

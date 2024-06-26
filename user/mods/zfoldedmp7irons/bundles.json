@@ -1,0 +1,20 @@
+{
+    "manifest": [
+        {
+            "key": "mods/frontsights/sight_front_all_hk_mp7_folded.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "mods/rearsights/sight_rear_all_hk_mp7_folded.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        }
+    ]
+}
