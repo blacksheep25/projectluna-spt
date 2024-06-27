@@ -1,0 +1,117 @@
+{
+    "PEACEKEEPER": {
+		"items": [
+			  {
+				"_id": "667b9a234d201364b9517bf0",
+				"_tpl": "667b693466834848ed0c05a6",
+				"parentId": "hideout",
+				"slotId": "hideout",
+				"upd": {
+				  "StackObjectsCount": 99805,
+				  "Repairable": {
+					"Durability": 100,
+					"MaxDurability": 100
+				  }
+				}
+			  },
+			  {
+				"_id": "667b9a2d027dcd973cd134e2",
+				"_tpl": "667b6951d45fb5f04c80d873",
+				"parentId": "667b9a234d201364b9517bf0",
+				"slotId": "mod_pistol_grip"
+			},
+			{
+				"_id": "667b9a35d7ec1a39461dea27",
+				"_tpl": "667b6a1e035c41fb2dfb17cc",
+				"parentId": "667b9a234d201364b9517bf0",
+				"slotId": "mod_magazine"
+			},
+			{
+				"_id": "667b9a41de570e9a244dccdd",
+				"_tpl": "667b693c3f5fbfc2e39d6cfd",
+				"parentId": "667b9a234d201364b9517bf0",
+				"slotId": "mod_stock"
+			},
+			{
+				"_id": "667b9a4ee51dfa69626305fa",
+				"_tpl": "667b6a6f9b81c23384a2ae1d",
+				"parentId": "667b9a234d201364b9517bf0",
+				"slotId": "mod_handguard"
+			},
+			{
+				"_id": "667b9a51f4a9fc4e0d6d4fae",
+				"_tpl": "667b6a525cd146e3c0e15a48",
+				"parentId": "667b9a234d201364b9517bf0",
+				"slotId": "mod_barrel"
+			},
+			{
+				"_id": "667b9a55a2f772af8db920f1",
+				"_tpl": "667b6a7c79f7f1feb368b6ae",
+				"parentId": "667b9a234d201364b9517bf0",
+				"slotId": "mod_charge"
+			},
+			{
+				"_id": "667b9a5b562d5417da16e190",
+				"_tpl": "667b6a8c87df3de87c2030f0",
+				"parentId": "667b9a4ee51dfa69626305fa",
+				"slotId": "mod_mount"
+			},
+			{
+				"_id": "667b9a6039e13bfe6c57b223",
+				"_tpl": "667b6a3210c279b3607b4270",
+				"parentId": "667b9a51f4a9fc4e0d6d4fae",
+				"slotId": "mod_muzzle"
+			},
+			{
+				"_id": "667b9cd14e798704989c8a15",
+				"_tpl": "6678f7b1290f78957e3358da",
+				"parentId": "hideout",
+				"slotId": "hideout",
+				"upd": {
+				  "StackObjectsCount": 1000
+				}
+			  }, 
+			  {
+				"_id": "667b9cd6587bbb47f2d81ade",
+				"_tpl": "667b6a1e035c41fb2dfb17cc",
+				"parentId": "hideout",
+				"slotId": "hideout",
+				"upd": {
+				  "StackObjectsCount": 1000
+				}
+			  }
+        ],
+        "barter_scheme": {
+			"667b9a234d201364b9517bf0": [
+				[
+					{
+						"count": 1400,
+						"_tpl": "5696686a4bdc2da3298b456a"
+					}
+				]
+			],
+			"667b9cd14e798704989c8a15": [
+				[
+					{
+						"count": 12,
+						"_tpl": "5696686a4bdc2da3298b456a"
+					}
+				]
+			],
+			
+			"667b9cd6587bbb47f2d81ade": [
+				[
+					{
+						"count": 50,
+						"_tpl": "5696686a4bdc2da3298b456a"
+					}
+				]
+			]
+		},
+		"loyal_level_items": {
+			"667b9a234d201364b9517bf0": 3,
+			"667b9cd14e798704989c8a15": 3,
+			"667b9cd6587bbb47f2d81ade": 3
+		}
+    }
+}
