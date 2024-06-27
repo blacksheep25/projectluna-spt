@@ -111,7 +111,7 @@ export class Gamble {
             money = 100000;
         } else {
             money = 0;
-            this.logger.info(`[TheGambler] Case Opened... Received Nothing... Better luck next time :)`);
+            this.logger.info(`[TheGambler] Wallet Opened... Received Nothing... Better luck next time :)`);
         }
 
         if (money > 0) {
@@ -139,27 +139,37 @@ export class Gamble {
 
         if(roll <= keycard_red_odds) {
             id = "5c1d0efb86f7744baf2e7b7b"; // TerraGroup Labs keycard (Red)
+            this.logger.info(`[TheGambler] You won Terragroup Labs keycard (Red)! Lucky Bastard!`);
         } else if (roll <= keycard_green_odds) {
             id = "5c1d0dc586f7744baf2e7b79"; // TerraGroup Labs keycard (Green)
+            this.logger.info(`[TheGambler] You won Terragroup Labs keycard (Green)! Lucky Bastard!`);
         } else if (roll <= keycard_blue_odds) {
             id = "5c1d0c5f86f7744bb2683cf0"; // TerraGroup Labs keycard (Blue)
+            this.logger.info(`[TheGambler] You won Terragroup Labs keycard (Blue)! Lucky Bastard!`);
         } else if (roll <= keycard_violet_odds) {
             id = "5c1e495a86f7743109743dfb"; // TerraGroup Labs keycard (Violet)
+            this.logger.info(`[TheGambler] You won Terragroup Labs keycard (Violet)! Lucky Bastard!`);
         } else if (roll <= keycard_black_odds) {
             id = "5c1d0f4986f7744bb01837fa"; // TerraGroup Labs keycard (Black)
+            this.logger.info(`[TheGambler] You won Terragroup Labs keycard (Black)! Lucky Bastard!`);
         } else if (roll <= keycard_yellow_odds) {
             id = "5c1d0d6d86f7744bb2683e1f"; // TerraGroup Labs keycard (Yellow)
+            this.logger.info(`[TheGambler] You won Terragroup Labs keycard (Yellow)! Lucky Bastard!`);
         } else if (roll <= keycard_blue_marking_odds) {
             id = "5efde6b4f5448336730dbd61"; // Keycard with a blue marking
+            this.logger.info(`[TheGambler] You won Keycard with a blue marking!`);
         } else if (roll <= keycard_21WS_odds) {
             id = "5e42c83786f7742a021fdf3c"; // Object #21WS keycard
+            this.logger.info(`[TheGambler] You won Object #21WS Keycard!`);
         } else if (roll <= keycard_11SR_odds) {
             id = "5e42c81886f7742a01529f57"; // Object #11SR keycard
+            this.logger.info(`[TheGambler] You won Object #11SR Keycard!`);
         } else if (roll <= keycard_access_odds) {
             id = "5c94bbff86f7747ee735c08f"; // TerraGroup Labs access keycard
+            this.logger.info(`[TheGambler] You won TerraGroup Labs Access Keycard!`);
         } else {
             id = "NaN";
-            this.logger.info(`[TheGambler] Case Opened... Received Nothing... Better luck next time :)`);
+            this.logger.info(`[TheGambler] Keycard Case Opened... Received Nothing... Better luck next time :)`);
         }
 
         if(this.config.debug) {
@@ -180,10 +190,12 @@ export class Gamble {
 
         if (roll <= 50) {
             id = "57347d7224597744596b4e72"; // Can of beef stew (Small)
+            this.logger.info(`[TheGambler] 50/50 Case Opened and LOST! Enjoy the beef stew! ;)`);
             this.newItemRequest.itemWithModsToAdd.push(this.newItemFormat(id));
             this.newItemRequest.foundInRaid = true;
         } else {
             id = "5449016a4bdc2d6f028b456f"; // Roubles
+            this.logger.info(`[TheGambler] 50/50 Case Opened and WON! Someone's rolling in cash!`);
             money = 5000000; // 5,000,000 roubles
             this.newItemRequest.itemWithModsToAdd.push(this.newItemFormat(id, money));
             this.newItemRequest.foundInRaid = true;
@@ -203,10 +215,12 @@ export class Gamble {
         if (roll <= extremely_rare_odds) {
             const secondRoll = this.randomUtil.getInt(0, keys.extremelyRareKeys.length - 1)
             id = keys.extremelyRareKeys[secondRoll];
+            this.logger.info(`[TheGambler] You won an Extremely Rare Key! Lucky Bastard!`);
 
         } else if (roll <= rare_odds) {
             const secondRoll = this.randomUtil.getInt(0, keys.rareKeys.length - 1);
             id = keys.rareKeys[secondRoll];
+            this.logger.info(`[TheGambler] You won a Rare Key! Lucky Bastard!`);
 
         } else if (roll <= uncommon_odds) {
             const secondRoll = this.randomUtil.getInt(0, keys.uncommonKeys.length - 1);
@@ -218,11 +232,11 @@ export class Gamble {
 
         } else { // Nothing
             id = "NaN";
-            this.logger.info(`[TheGambler] Case Opened... Received Nothing... Better luck next time :)`);
+            this.logger.info(`[TheGambler] Key Mystery Case Opened... Received Nothing... Better luck next time :)`);
         }
 
         if(this.config.debug) {
-            this.logger.info("[TheGambler] Key Mystery Box Information...");
+            this.logger.info("[TheGambler] Key Mystery Case Information...");
             this.logger.info("[TheGambler] Key id = " + id);
         }
 
@@ -255,11 +269,11 @@ export class Gamble {
 
         } else { // Nothing
             id = "NaN";
-            this.logger.info(`[TheGambler] Case Opened... Received Nothing... Better luck next time :)`);
+            this.logger.info(`[TheGambler] Stimulant Mystery Case Opened... Received Nothing... Better luck next time :)`);
         }
 
         if(this.config.debug) {
-            this.logger.info("[TheGambler] Stimulant Mystery Box Information...");
+            this.logger.info("[TheGambler] Stimulant Mystery Case Information...");
             this.logger.info("[TheGambler] Stimulant id = " + id);
         }
 
@@ -284,20 +298,25 @@ export class Gamble {
 
         if(roll <= rare_odds) {
             createWeapon = item.createGun('meta');
+            this.logger.info(`[TheGambler] You won a Meta Gun! Lucky Bastard!`);
         } else if (roll <= meme_odds) {
             createWeapon = item.createGun('meme');
+            this.logger.info(`[TheGambler] You won a Meme Gun! Trolololol!`);
         } else if (roll <= uncommon_odds) {
             createWeapon = item.createGun('decent');
+            this.logger.info(`[TheGambler] You won a Decent Gun!`);
         } else if (roll <= scav_odds) {
             createWeapon = item.createGun('scav');
+            this.logger.info(`[TheGambler] You won a Scav Weapon, Lol!`);
         } else if (roll <= common_odds) {
             createWeapon = item.createGun('base');
+            this.logger.info(`[TheGambler] You won a shitty base gun, haha!`);
         } else { // Nothing
-            this.logger.info(`[TheGambler] Case Opened... Received Nothing... Better luck next time :)`);
+            this.logger.info(`[TheGambler] Weapon Case Opened... Received Nothing... Better luck next time :)`);
         }
 
         if(this.config.debug) {
-            this.logger.info("[TheGambler] Weapon Mystery Box Information...");
+            this.logger.info("[TheGambler] Weapon Mystery Case Information...");
             this.logger.info(createWeapon);
         }
 
@@ -317,11 +336,11 @@ export class Gamble {
         if(roll <= rare_odds){
             createGun = item.createGun('meta');
         } else { // Nothing
-            this.logger.info(`[TheGambler] Case Opened... Received Nothing... Better luck next time :)`);
+            this.logger.info(`[TheGambler] Premium Weapon Case Opened... Received Nothing... Better luck next time :)`);
         }
 
         if(this.config.debug) {
-            this.logger.info("[TheGambler] Premium Weapon Mystery Box Information...");
+            this.logger.info("[TheGambler] Premium Weapon Mystery Case Information...");
             this.logger.info(createGun);
         }
 
@@ -348,18 +367,20 @@ export class Gamble {
         
         if(roll <= extremely_rare_odds) {
             createHelmet = item.createHelmet('extremely_rare');
+            this.logger.info(`[TheGambler] You won an Extremely Rare Helmet! Lucky Bastard!`);
         } else if (roll <= rare_odds) {
             createHelmet= item.createHelmet('rare');
+            this.logger.info(`[TheGambler] You won a Rare Helmet!`);
         } else if (roll <= uncommon_odds) {
             createHelmet = item.createHelmet('uncommon');
         } else if (roll <= common_odds) {
             createHelmet = item.createHelmet('common');
         } else { // Nothing
-            this.logger.info(`[TheGambler] Case Opened... Received Nothing... Better luck next time :)`);
+            this.logger.info(`[TheGambler] Helmet Mystery Case Opened... Received Nothing... Better luck next time :)`);
         }
 
         if(this.config.debug) {
-            this.logger.info("[TheGambler] Helmet Mystery Box Information...");
+            this.logger.info("[TheGambler] Helmet Mystery Case Information...");
             this.logger.info(createHelmet);
         }
 
@@ -384,11 +405,11 @@ export class Gamble {
 
         } else { // Nothing
             id = "NaN";
-            this.logger.info(`[TheGambler] Case Opened... Received Nothing... Better luck next time :)`);
+            this.logger.info(`[TheGambler] Headset Mystery Case Opened... Received Nothing... Better luck next time :)`);
         }
 
         if(this.config.debug) {
-            this.logger.info("[TheGambler] Mystery Headset Information...");
+            this.logger.info("[TheGambler] Headset Mystery Case Information...");
             this.logger.info("[TheGambler] Headset id = " + id);
         }
 
@@ -422,11 +443,11 @@ export class Gamble {
 
         } else { // Nothing
             id = "NaN";
-            this.logger.info(`[TheGambler] Case Opened... Received Nothing... Better luck next time :)`);
+            this.logger.info(`[TheGambler] Backpack Mystery Case Opened... Received Nothing... Better luck next time :)`);
         }
 
         if(this.config.debug) {
-            this.logger.info("[TheGambler] Backpack Mystery Box Information...");
+            this.logger.info("[TheGambler] Backpack Mystery Case Information...");
             this.logger.info("[TheGambler] Backpack id = " + id);
         }
 
@@ -452,10 +473,10 @@ export class Gamble {
         } else if (roll <= common_odds) {
             createArmor = item.createArmor('common');
         } else { // Nothing
-            this.logger.info(`[TheGambler] Case Opened... Received Nothing... Better luck next time :)`);
+            this.logger.info(`[TheGambler] Armor Mystery Case Opened... Received Nothing... Better luck next time :)`);
         }
         if(this.config.debug) {
-            this.logger.info("[TheGambler] Armor Mystery Box Information...");
+            this.logger.info("[TheGambler] Armor Mystery Case Information...");
             this.logger.info(createArmor);
         }
         
@@ -476,11 +497,11 @@ export class Gamble {
         if ( roll <= rare_odds) {
             createArmor = item.createArmor('rare');
         } else { // Nothing
-            this.logger.info(`[TheGambler] Case Opened... Received Nothing... Better luck next time :)`);
+            this.logger.info(`[TheGambler] Premium Armor Mystery Case Opened... Received Nothing... Better luck next time :)`);
         }
 
         if(this.config.debug) {
-            this.logger.info("[TheGambler] Premium Armor Mystery Box Information...");
+            this.logger.info("[TheGambler] Premium Armor Mystery Case Information...");
             this.logger.info(createArmor);
         }
         
@@ -504,17 +525,22 @@ export class Gamble {
             //this.logger.info(`[TheGambler] The Second Roll is: ${secondRoll}!`);
             if(secondRoll == 0) {
                 id = "63920105a83e15700a00f168"; // SOG Voodoo Hawk tactical tomahawk
+                this.logger.info(`[TheGambler] You won a SOG Voodoo Hawk Tactical Tomahawk (Extremely Rare)! Lucky Bastard!`);
             } else if(secondRoll == 1) {
                 id = "5bffe7930db834001b734a39"; // Crash Axe
+                this.logger.info(`[TheGambler] You won a Crash Axe (Extremely Rare)! Lucky Bastard!`);
             } else if(secondRoll == 2) {
                 id = "601948682627df266209af05"; // UVSR Taiga-1 survival machete
+                this.logger.info(`[TheGambler] You won a UVSR Taiga-1 Survival Machete (Extremely Rare)! Lucky Bastard!`);
             }
         } else if (roll <= rare_odds) {
             const secondRoll = this.randomUtil.getInt(0, 1);
             if(secondRoll == 0) {
                 id = "5c0126f40db834002a125382"; // Red Rebel ice pick
+                this.logger.info(`[TheGambler] You won a Red Rebel Ice Pick (Rare)!`);
             } else if(secondRoll == 1) {
                 id = "5bffdd7e0db834001b734a1a"; // Miller Bros. Blades M-2 Tactical Sword
+                this.logger.info(`[TheGambler] You won a Miller Bros. Blades M-2 Tactical Sword (Rare)!`);
             }
         } else if (roll <= uncommon_odds) {
             const secondRoll = this.randomUtil.getInt(0, 3);
@@ -546,11 +572,11 @@ export class Gamble {
             }
         } else { // Nothing. Default percentages make this 0% of happening
             id = "NaN";
-            this.logger.info(`[TheGambler] Case Opened... Received Nothing... Better luck next time :)`);
+            this.logger.info(`[TheGambler] Melee Mystery Case Opened... Received Nothing... Better luck next time :)`);
         }
 
         if(this.config.debug) {
-            this.logger.info("[TheGambler] Melee Mystery Box Information...");
+            this.logger.info("[TheGambler] Melee Mystery Case Information...");
             this.logger.info("[TheGambler] Melee id = " + id);
         }
 
@@ -574,21 +600,26 @@ export class Gamble {
             //this.logger.info(`[TheGambler] The Second Roll is: ${secondRoll}!`);
             if (secondRoll == 0) {
                 id = "619bde3dc9546643a67df6f2"; // Armband (Kiba Arms)
+                this.logger.info(`[TheGambler] You won an Armband (Kiba Arms) (Extremely Rare)! Lucky Bastard!`);
             }
             else if (secondRoll == 1) {
                 id = "619bddc6c9546643a67df6ee"; // Armband (DEADSKUL)
+                this.logger.info(`[TheGambler] You won an Armband (DEADSKUL) (Extremely Rare)! Lucky Bastard!`);
             }
             else if (secondRoll == 2) {
                 id = "619bddffc9546643a67df6f0"; // Armband (Train Hard)
+                this.logger.info(`[TheGambler] You won an Armband (Train Hard) (Extremely Rare)! Lucky Bastard!`);
             }
         }
         else if (roll <= rare_odds) {
             const secondRoll = this.randomUtil.getInt(0, 1);
             if (secondRoll == 0) {
                 id = "5f9949d869e2777a0e779ba5"; // Armband (Rivals 2020)
+                this.logger.info(`[TheGambler] You won an Armband (Rivals 2020) (Rare)!`);
             }
             else if (secondRoll == 1) {
                 id = "60b0f988c4449e4cb624c1da"; // Armband (Evasion)
+                this.logger.info(`[TheGambler] You won an Armband (Evasion) (Rare)!`);
             }
         }
         else if (roll <= uncommon_odds) {
@@ -629,10 +660,10 @@ export class Gamble {
         }
         else { // Nothing. Default percentages make this 0% of happening
             id = "NaN";
-            this.logger.info(`[TheGambler] Case Opened... Received Nothing... Better luck next time :)`);
+            this.logger.info(`[TheGambler] Armband Mystery Case Opened... Received Nothing... Better luck next time :)`);
         }
         if (this.config.debug) {
-            this.logger.info("[TheGambler] Armband Mystery Box Information...");
+            this.logger.info("[TheGambler] Armband Mystery Case Information...");
             this.logger.info("[TheGambler] Armband id = " + id);
         }
         if (id != "NaN") {
