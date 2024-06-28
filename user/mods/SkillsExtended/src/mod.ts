@@ -127,8 +127,8 @@ class SkillsPlus implements IPreAkiLoadMod, IPostDBLoadMod
 
             parentId: "5c99f98d86f7745c314214b3",
             newId: ItemIDS.Lockpick,
-            fleaPriceRoubles: 120000,
-            handbookPriceRoubles: 75000,
+            fleaPriceRoubles: 135000,
+            handbookPriceRoubles: 115000,
             handbookParentId: "5c518ec986f7743b68682ce2",
 
             locales: {
@@ -152,14 +152,14 @@ class SkillsPlus implements IPreAkiLoadMod, IPostDBLoadMod
             upd:
             {
                 UnlimitedCount: false,
-                StackObjectsCount: 10
+                StackObjectsCount: 2
             }
         });
 
         mechanic.assort.barter_scheme[ItemIDS.Lockpick] = [
             [
                 {
-                    count: 75000,
+                    count: 115000,
                     _tpl: Money.ROUBLES
                 }
             ]
@@ -223,14 +223,14 @@ class SkillsPlus implements IPreAkiLoadMod, IPostDBLoadMod
         peaceKeeper.assort.loyal_level_items[ItemIDS.Pda] = 3;
     }
 
-    private addCraftsToDatabase(): void
-    {
-        const crafts = SkillsConfig.LockPickingSkill.CRAFTING_RECIPES;
-
-        crafts.forEach((craft) => {
-            this.Instance.database.hideout.production.push(craft);
-        })
-    }
+    //private addCraftsToDatabase(): void
+    //{
+    //     const crafts = SkillsConfig.LockPickingSkill.CRAFTING_RECIPES;
+    //
+    //    crafts.forEach((craft) => {
+    //        this.Instance.database.hideout.production.push(craft);
+    //    })
+    //}
 }
 
 module.exports = { mod: new SkillsPlus() }
