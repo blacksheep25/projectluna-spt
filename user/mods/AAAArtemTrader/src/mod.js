@@ -29,7 +29,6 @@ const baseJson = __importStar(require("../db/base.json"));
 const questAssort = __importStar(require("../db/questassort.json"));
 const traderHelpers_1 = require("./traderHelpers");
 const fluentTraderAssortCreator_1 = require("./fluentTraderAssortCreator");
-const Money_1 = require("C:/snapshot/project/obj/models/enums/Money");
 const Traders_1 = require("C:/snapshot/project/obj/models/enums/Traders");
 const assortJson = __importStar(require("../db/assort.json"));
 // Pants Items
@@ -48,6 +47,15 @@ const artem_pants_4_locale = __importStar(require("../db/Clothing/Pants/Artem_Pa
 const artem_pants_5 = __importStar(require("../db/Clothing/Pants/Artem_Pants5/artem_pants5.json"));
 const artem_pants_5_suit = __importStar(require("../db/Clothing/Pants/Artem_Pants5/artem_pants5_suit.json"));
 const artem_pants_5_locale = __importStar(require("../db/Clothing/Pants/Artem_Pants5/artem_pants5_locale.json"));
+const artem_pants_6 = __importStar(require("../db/Clothing/Pants/Artem_Pants6/artem_pants6.json"));
+const artem_pants_6_suit = __importStar(require("../db/Clothing/Pants/Artem_Pants6/artem_pants6_suit.json"));
+const artem_pants_6_locale = __importStar(require("../db/Clothing/Pants/Artem_Pants6/artem_pants6_locale.json"));
+const artem_pants_7 = __importStar(require("../db/Clothing/Pants/Artem_Pants7/artem_pants7.json"));
+const artem_pants_7_suit = __importStar(require("../db/Clothing/Pants/Artem_Pants7/artem_pants7_suit.json"));
+const artem_pants_7_locale = __importStar(require("../db/Clothing/Pants/Artem_Pants7/artem_pants7_locale.json"));
+const artem_pants_8 = __importStar(require("../db/Clothing/Pants/Artem_Pants8/artem_pants8.json"));
+const artem_pants_8_suit = __importStar(require("../db/Clothing/Pants/Artem_Pants8/artem_pants8_suit.json"));
+const artem_pants_8_locale = __importStar(require("../db/Clothing/Pants/Artem_Pants8/artem_pants8_locale.json"));
 // Top Items
 const test_top = __importStar(require("../db/Clothing/Tops/Test_Shirt/test_top.json"));
 const test_top_suit = __importStar(require("../db/Clothing/Tops/Test_Shirt/test_top_suit.json"));
@@ -89,6 +97,38 @@ const artem_top9 = __importStar(require("../db/Clothing/Tops/Artem_Shit9/artem_t
 const artem_top9_suit = __importStar(require("../db/Clothing/Tops/Artem_Shit9/artem_top9_suit.json"));
 const artem_top9_hands = __importStar(require("../db/Clothing/Tops/Artem_Shit9/artem_top9_hands.json"));
 const artem_top9_locale = __importStar(require("../db/Clothing/Tops/Artem_Shit9/artem_top9_locale.json"));
+const artem_top10 = __importStar(require("../db/Clothing/Tops/Artem_Shit11/artem_top_10.json"));
+const artem_top10_suit = __importStar(require("../db/Clothing/Tops/Artem_Shit11/artem_top10_suit.json"));
+const artem_top10_hands = __importStar(require("../db/Clothing/Tops/Artem_Shit11/artem_top10_hands.json"));
+const artem_top10_locale = __importStar(require("../db/Clothing/Tops/Artem_Shit11/artem_top10_locale.json"));
+const artem_wtttop = __importStar(require("../db/Clothing/Tops/Artem_Shit10/wtt_top.json"));
+const artem_wtttop_suit = __importStar(require("../db/Clothing/Tops/Artem_Shit10/wtt_top_suit.json"));
+const artem_wtttop_hands = __importStar(require("../db/Clothing/Tops/Artem_Shit10/wtt_top_hands.json"));
+const artem_wtttop_locale = __importStar(require("../db/Clothing/Tops/Artem_Shit10/wtt_top_locale.json"));
+const artem_top12 = __importStar(require("../db/Clothing/Tops/Artem_Shit12/artem_top_12.json"));
+const artem_top12_suit = __importStar(require("../db/Clothing/Tops/Artem_Shit12/artem_top12_suit.json"));
+const artem_top12_hands = __importStar(require("../db/Clothing/Tops/Artem_Shit12/artem_top12_hands.json"));
+const artem_top12_locale = __importStar(require("../db/Clothing/Tops/Artem_Shit12/artem_top12_locale.json"));
+const artem_top13 = __importStar(require("../db/Clothing/Tops/Artem_Shit13/artem_top_13.json"));
+const artem_top13_suit = __importStar(require("../db/Clothing/Tops/Artem_Shit13/artem_top13_suit.json"));
+const artem_top13_hands = __importStar(require("../db/Clothing/Tops/Artem_Shit13/artem_top13_hands.json"));
+const artem_top13_locale = __importStar(require("../db/Clothing/Tops/Artem_Shit13/artem_top13_locale.json"));
+const artem_top14 = __importStar(require("../db/Clothing/Tops/Artem_Shit14/artem_top_14.json"));
+const artem_top14_suit = __importStar(require("../db/Clothing/Tops/Artem_Shit14/artem_top14_suit.json"));
+const artem_top14_hands = __importStar(require("../db/Clothing/Tops/Artem_Shit14/artem_top14_hands.json"));
+const artem_top14_locale = __importStar(require("../db/Clothing/Tops/Artem_Shit14/artem_top14_locale.json"));
+const artem_top15 = __importStar(require("../db/Clothing/Tops/Artem_Shit15/artem_top_15.json"));
+const artem_top15_suit = __importStar(require("../db/Clothing/Tops/Artem_Shit15/artem_top15_suit.json"));
+const artem_top15_hands = __importStar(require("../db/Clothing/Tops/Artem_Shit15/artem_top15_hands.json"));
+const artem_top15_locale = __importStar(require("../db/Clothing/Tops/Artem_Shit15/artem_top15_locale.json"));
+const artem_top16 = __importStar(require("../db/Clothing/Tops/Artem_Shit16/artem_top_16.json"));
+const artem_top16_suit = __importStar(require("../db/Clothing/Tops/Artem_Shit16/artem_top16_suit.json"));
+const artem_top16_hands = __importStar(require("../db/Clothing/Tops/Artem_Shit16/artem_top16_hands.json"));
+const artem_top16_locale = __importStar(require("../db/Clothing/Tops/Artem_Shit16/artem_top16_locale.json"));
+const artem_voxshirt = __importStar(require("../db/Clothing/Tops/Artem_Shit17/artem_top_17.json"));
+const artem_voxshirt_suit = __importStar(require("../db/Clothing/Tops/Artem_Shit17/artem_top17_suit.json"));
+const artem_voxshirt_hands = __importStar(require("../db/Clothing/Tops/Artem_Shit17/artem_top17_hands.json"));
+const artem_voxshirt_locale = __importStar(require("../db/Clothing/Tops/Artem_Shit17/artem_top17_locale.json"));
 const tradersuits = require("../db/Clothing/suits.json");
 class ArtemTrader {
     mod;
@@ -160,6 +200,18 @@ class ArtemTrader {
         tables.templates.customization[artem_pants_5._id] = artem_pants_5;
         tables.templates.customization[artem_pants_5_suit._id] = artem_pants_5_suit;
         this.addClothingItemToLocales(tables, artem_pants_5_suit._id, artem_pants_5_locale.Name, artem_pants_5_locale.ShortName, artem_pants_5_locale.Description);
+        // Adds Artem Pants6 Clothing
+        tables.templates.customization[artem_pants_6._id] = artem_pants_6;
+        tables.templates.customization[artem_pants_6_suit._id] = artem_pants_6_suit;
+        this.addClothingItemToLocales(tables, artem_pants_6_suit._id, artem_pants_6_locale.Name, artem_pants_6_locale.ShortName, artem_pants_6_locale.Description);
+        // Adds Artem Pants7 Clothing
+        tables.templates.customization[artem_pants_7._id] = artem_pants_7;
+        tables.templates.customization[artem_pants_7_suit._id] = artem_pants_7_suit;
+        this.addClothingItemToLocales(tables, artem_pants_7_suit._id, artem_pants_7_locale.Name, artem_pants_7_locale.ShortName, artem_pants_7_locale.Description);
+        // Adds Artem Pants7 Clothing
+        tables.templates.customization[artem_pants_8._id] = artem_pants_8;
+        tables.templates.customization[artem_pants_8_suit._id] = artem_pants_8_suit;
+        this.addClothingItemToLocales(tables, artem_pants_8_suit._id, artem_pants_8_locale.Name, artem_pants_8_locale.ShortName, artem_pants_8_locale.Description);
         // Adds test shirt Clothing
         tables.templates.customization[test_top._id] = test_top;
         tables.templates.customization[test_top_hands._id] = test_top_hands;
@@ -210,6 +262,46 @@ class ArtemTrader {
         tables.templates.customization[artem_top9_hands._id] = artem_top9_hands;
         tables.templates.customization[artem_top9_suit._id] = artem_top9_suit;
         this.addClothingItemToLocales(tables, artem_top9_suit._id, artem_top9_locale.Name, artem_top9_locale.ShortName, artem_top9_locale.Description);
+        // Adds artem shirt9 Clothing
+        tables.templates.customization[artem_wtttop._id] = artem_wtttop;
+        tables.templates.customization[artem_wtttop_hands._id] = artem_wtttop_hands;
+        tables.templates.customization[artem_wtttop_suit._id] = artem_wtttop_suit;
+        this.addClothingItemToLocales(tables, artem_wtttop_suit._id, artem_wtttop_locale.Name, artem_wtttop_locale.ShortName, artem_wtttop_locale.Description);
+        // Adds artem shirt11 Clothing
+        tables.templates.customization[artem_top10._id] = artem_top10;
+        tables.templates.customization[artem_top10_hands._id] = artem_top10_hands;
+        tables.templates.customization[artem_top10_suit._id] = artem_top10_suit;
+        this.addClothingItemToLocales(tables, artem_top10_suit._id, artem_top10_locale.Name, artem_top10_locale.ShortName, artem_top10_locale.Description);
+        // Adds artem shirt12 Clothing
+        tables.templates.customization[artem_top12._id] = artem_top12;
+        tables.templates.customization[artem_top12_hands._id] = artem_top12_hands;
+        tables.templates.customization[artem_top12_suit._id] = artem_top12_suit;
+        this.addClothingItemToLocales(tables, artem_top12_suit._id, artem_top12_locale.Name, artem_top12_locale.ShortName, artem_top12_locale.Description);
+        // Adds artem shirt13 Clothing
+        tables.templates.customization[artem_top13._id] = artem_top13;
+        tables.templates.customization[artem_top13_hands._id] = artem_top13_hands;
+        tables.templates.customization[artem_top13_suit._id] = artem_top13_suit;
+        this.addClothingItemToLocales(tables, artem_top13_suit._id, artem_top13_locale.Name, artem_top13_locale.ShortName, artem_top13_locale.Description);
+        // Adds artem shirt14 Clothing
+        tables.templates.customization[artem_top14._id] = artem_top14;
+        tables.templates.customization[artem_top14_hands._id] = artem_top14_hands;
+        tables.templates.customization[artem_top14_suit._id] = artem_top14_suit;
+        this.addClothingItemToLocales(tables, artem_top14_suit._id, artem_top14_locale.Name, artem_top14_locale.ShortName, artem_top14_locale.Description);
+        // Adds artem shirt15 Clothing
+        tables.templates.customization[artem_top15._id] = artem_top15;
+        tables.templates.customization[artem_top15_hands._id] = artem_top15_hands;
+        tables.templates.customization[artem_top15_suit._id] = artem_top15_suit;
+        this.addClothingItemToLocales(tables, artem_top15_suit._id, artem_top15_locale.Name, artem_top15_locale.ShortName, artem_top15_locale.Description);
+        // Adds artem shirt16 Clothing
+        tables.templates.customization[artem_top16._id] = artem_top16;
+        tables.templates.customization[artem_top16_hands._id] = artem_top16_hands;
+        tables.templates.customization[artem_top16_suit._id] = artem_top16_suit;
+        this.addClothingItemToLocales(tables, artem_top16_suit._id, artem_top16_locale.Name, artem_top16_locale.ShortName, artem_top16_locale.Description);
+        // Adds artem shirt16 Clothing
+        tables.templates.customization[artem_voxshirt._id] = artem_voxshirt;
+        tables.templates.customization[artem_voxshirt_hands._id] = artem_voxshirt_hands;
+        tables.templates.customization[artem_voxshirt_suit._id] = artem_voxshirt_suit;
+        this.addClothingItemToLocales(tables, artem_voxshirt_suit._id, artem_voxshirt_locale.Name, artem_voxshirt_locale.ShortName, artem_voxshirt_locale.Description);
         tables.traders["ArtemTrader"].suits = tradersuits;
         // Add trader to locale file, ensures trader text shows properly on screen
         // WARNING: adds the same text to ALL locales (e.g. chinese/french/english)

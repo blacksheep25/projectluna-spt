@@ -109,6 +109,117 @@ class AddItems {
             this.addTraderSuits(traders[trader]);
         }
         this.logger.debug(modFolderName + " traders finished");
+        const LOOTCONTAINER_AIRDROP_COMMON_SUPPLY_CRATE = "6223349b3136504a544d1608";
+        const LOOTCONTAINER_AIRDROP_MEDICAL_CRATE = "622334c873090231d904a9fc";
+        const LOOTCONTAINER_AIRDROP_SUPPLY_CRATE = "622334fa3136504a544d160c";
+        const LOOTCONTAINER_AIRDROP_WEAPON_CRATE = "6223351bb5d97a7b2c635ca7";
+        const LOOTCONTAINER_BURIED_BARREL_CACHE = "5d6d2bb386f774785b07a77a";
+        const LOOTCONTAINER_CASH_REGISTER = "578f879c24597735401e6bc6";
+        const LOOTCONTAINER_CASH_REGISTER_TAR22 = "5ad74cf586f774391278f6f0";
+        const LOOTCONTAINER_COMMON_FUND_STASH = "5d07b91b86f7745a077a9432";
+        const LOOTCONTAINER_DEAD_SCAV = "5909e4b686f7747f5b744fa4";
+        const LOOTCONTAINER_DRAWER = "578f87b7245977356274f2cd";
+        const LOOTCONTAINER_DUFFLE_BAG = "578f87a3245977356274f2cb";
+        const LOOTCONTAINER_DUFFLE_BAG_ADV = "61aa1e9a32a4743c3453d2cf";
+        const LOOTCONTAINER_GRENADE_BOX = "5909d36d86f774660f0bb900";
+        const LOOTCONTAINER_GROUND_CACHE = "5d6d2b5486f774785c2ba8ea";
+        const LOOTCONTAINER_JACKET = "578f8778245977358849a9b5";
+        const LOOTCONTAINER_JACKET_114KEY = "59387ac686f77401442ddd61";
+        const LOOTCONTAINER_JACKET_204KEY = "5914944186f774189e5e76c2";
+        const LOOTCONTAINER_JACKET_MACHINERYKEY = "5937ef2b86f77408a47244b3";
+        const LOOTCONTAINER_MEDBAG_SMU06 = "5909d24f86f77466f56e6855";
+        const LOOTCONTAINER_MEDBAG_SMU06_ADV = "61aa1ead84ea0800645777fd";
+        const LOOTCONTAINER_MEDCASE = "5909d4c186f7746ad34e805a";
+        const LOOTCONTAINER_MEDICAL_SUPPLY_CRATE = "5d6fe50986f77449d97f7463";
+        const LOOTCONTAINER_PC_BLOCK = "59139c2186f77411564f8e42";
+        const LOOTCONTAINER_PLASTIC_SUITCASE = "5c052cea86f7746b2101e8d8";
+        const LOOTCONTAINER_RATION_SUPPLY_CRATE = "5d6fd13186f77424ad2a8c69";
+        const LOOTCONTAINER_SAFE = "578f8782245977354405a1e3";
+        const LOOTCONTAINER_TECHNICAL_SUPPLY_CRATE = "5d6fd45b86f774317075ed43";
+        const LOOTCONTAINER_TOOLBOX = "5909d50c86f774659e6aaebe";
+        const LOOTCONTAINER_WEAPON_BOX_4X4 = "5909d7cf86f77470ee57d75a";
+        const LOOTCONTAINER_WEAPON_BOX_5X2 = "5909d5ef86f77467974efbd8";
+        const LOOTCONTAINER_WEAPON_BOX_5X5 = "5909d89086f77472591234a0";
+        const LOOTCONTAINER_WEAPON_BOX_6X3 = "5909d76c86f77471e53d2adf";
+        const LOOTCONTAINER_WOODEN_AMMO_BOX = "5909d45286f77465a8136dc6";
+        const LOOTCONTAINER_WOODEN_CRATE = "578f87ad245977356274f2cc";
+        //adds custom items to loot thanks groovey big balls
+        //Gas mask1
+        this.db.loot.staticLoot[LOOTCONTAINER_WOODEN_AMMO_BOX].itemDistribution.push({ tpl: "66326bfd46817c660d015130", relativeProbability: 1620 });
+        //Gas mask1
+        this.db.loot.staticLoot[LOOTCONTAINER_DUFFLE_BAG].itemDistribution.push({ tpl: "66326bfd46817c660d015130", relativeProbability: 1620 });
+        //Gas mask1
+        this.db.loot.staticLoot[LOOTCONTAINER_GROUND_CACHE].itemDistribution.push({ tpl: "66326bfd46817c660d015130", relativeProbability: 1620 });
+        //Gas mask1
+        this.db.loot.staticLoot[LOOTCONTAINER_WOODEN_CRATE].itemDistribution.push({ tpl: "66326bfd46817c660d015130", relativeProbability: 1620 });
+        //Gas mask1
+        this.db.loot.staticLoot[LOOTCONTAINER_DEAD_SCAV].itemDistribution.push({ tpl: "66326bfd46817c660d015130", relativeProbability: 1620 });
+        //Gas mask2
+        this.db.loot.staticLoot[LOOTCONTAINER_WOODEN_AMMO_BOX].itemDistribution.push({ tpl: "66326bfd46817c660d01514e", relativeProbability: 1620 });
+        //Gas mask2
+        this.db.loot.staticLoot[LOOTCONTAINER_DUFFLE_BAG].itemDistribution.push({ tpl: "66326bfd46817c660d01514e", relativeProbability: 1620 });
+        //Gas mask2
+        this.db.loot.staticLoot[LOOTCONTAINER_GROUND_CACHE].itemDistribution.push({ tpl: "66326bfd46817c660d01514e", relativeProbability: 1620 });
+        //Gas mask2
+        this.db.loot.staticLoot[LOOTCONTAINER_WOODEN_CRATE].itemDistribution.push({ tpl: "66326bfd46817c660d01514e", relativeProbability: 1620 });
+        //Gas mask2
+        this.db.loot.staticLoot[LOOTCONTAINER_DEAD_SCAV].itemDistribution.push({ tpl: "66326bfd46817c660d01514e", relativeProbability: 1620 });
+        //Gas mask3
+        this.db.loot.staticLoot[LOOTCONTAINER_WOODEN_AMMO_BOX].itemDistribution.push({ tpl: "66326bfd46817c660d01514f", relativeProbability: 1620 });
+        //Gas mask3
+        this.db.loot.staticLoot[LOOTCONTAINER_DUFFLE_BAG].itemDistribution.push({ tpl: "66326bfd46817c660d01514f", relativeProbability: 1620 });
+        //Gas mask3
+        this.db.loot.staticLoot[LOOTCONTAINER_GROUND_CACHE].itemDistribution.push({ tpl: "66326bfd46817c660d01514f", relativeProbability: 1620 });
+        //Gas mask3
+        this.db.loot.staticLoot[LOOTCONTAINER_WOODEN_CRATE].itemDistribution.push({ tpl: "66326bfd46817c660d01514f", relativeProbability: 1620 });
+        //Gas mask3
+        this.db.loot.staticLoot[LOOTCONTAINER_DEAD_SCAV].itemDistribution.push({ tpl: "66326bfd46817c660d01514f", relativeProbability: 1620 });
+        //Rocka's Hat
+        this.db.loot.staticLoot[LOOTCONTAINER_DUFFLE_BAG].itemDistribution.push({ tpl: "66326bfd46817c660d015155", relativeProbability: 2520 });
+        //Rocka's Hat
+        this.db.loot.staticLoot[LOOTCONTAINER_GROUND_CACHE].itemDistribution.push({ tpl: "66326bfd46817c660d015155", relativeProbability: 2520 });
+        //Rocka's Hat
+        this.db.loot.staticLoot[LOOTCONTAINER_WOODEN_CRATE].itemDistribution.push({ tpl: "66326bfd46817c660d015155", relativeProbability: 2304 });
+        //Rocka's Hat
+        this.db.loot.staticLoot[LOOTCONTAINER_DEAD_SCAV].itemDistribution.push({ tpl: "66326bfd46817c660d015155", relativeProbability: 2520 });
+        //Artem Hat
+        this.db.loot.staticLoot[LOOTCONTAINER_DUFFLE_BAG].itemDistribution.push({ tpl: "6673b1ac5cae0610f1079d72", relativeProbability: 2520 });
+        //Artem Hat
+        this.db.loot.staticLoot[LOOTCONTAINER_GROUND_CACHE].itemDistribution.push({ tpl: "6673b1ac5cae0610f1079d72", relativeProbability: 2520 });
+        //Artem Hat
+        this.db.loot.staticLoot[LOOTCONTAINER_WOODEN_CRATE].itemDistribution.push({ tpl: "6673b1ac5cae0610f1079d72", relativeProbability: 2304 });
+        //Artem Hat
+        this.db.loot.staticLoot[LOOTCONTAINER_DEAD_SCAV].itemDistribution.push({ tpl: "6673b1ac5cae0610f1079d72", relativeProbability: 2520 });
+        //Groovey's Flash Drive
+        this.db.loot.staticLoot[LOOTCONTAINER_SAFE].itemDistribution.push({ tpl: "66326bfd46817c660d015154", relativeProbability: 450 });
+        //Groovey's Flash Drive
+        this.db.loot.staticLoot[LOOTCONTAINER_PC_BLOCK].itemDistribution.push({ tpl: "66326bfd46817c660d015154", relativeProbability: 550 });
+        //Groovey's Flash Drive
+        this.db.loot.staticLoot[LOOTCONTAINER_DRAWER].itemDistribution.push({ tpl: "66326bfd46817c660d015154", relativeProbability: 400 });
+        //Rex's Snackyz
+        this.db.loot.staticLoot[LOOTCONTAINER_RATION_SUPPLY_CRATE].itemDistribution.push({ tpl: "66326bfd46817c660d015150", relativeProbability: 550 });
+        // Cultist mask
+        this.db.loot.staticLoot[LOOTCONTAINER_JACKET].itemDistribution.push({ tpl: "6673b1ac5cae0610f1079d6e", relativeProbability: 1500 });
+        // Cultist mask
+        this.db.loot.staticLoot[LOOTCONTAINER_JACKET_114KEY].itemDistribution.push({ tpl: "6673b1ac5cae0610f1079d6e", relativeProbability: 2000 });
+        // Cultist mask
+        this.db.loot.staticLoot[LOOTCONTAINER_JACKET_204KEY].itemDistribution.push({ tpl: "6673b1ac5cae0610f1079d6e", relativeProbability: 2000 });
+        // Cultist mask
+        this.db.loot.staticLoot[LOOTCONTAINER_DUFFLE_BAG].itemDistribution.push({ tpl: "6673b1ac5cae0610f1079d6e", relativeProbability: 2000 });
+        // Cultist mask
+        this.db.loot.staticLoot[LOOTCONTAINER_DEAD_SCAV].itemDistribution.push({ tpl: "6673b1ac5cae0610f1079d6e", relativeProbability: 2000 });
+        // Veil (BLACK)
+        this.db.loot.staticLoot[LOOTCONTAINER_GROUND_CACHE].itemDistribution.push({ tpl: "6673b1ac5cae0610f1079d73", relativeProbability: 2000 });
+        // Veil (TAN)
+        this.db.loot.staticLoot[LOOTCONTAINER_GROUND_CACHE].itemDistribution.push({ tpl: "6673b1ac5cae0610f1079d74", relativeProbability: 2000 });
+        // Veil (OD)
+        this.db.loot.staticLoot[LOOTCONTAINER_GROUND_CACHE].itemDistribution.push({ tpl: "6673b1ac5cae0610f1079d75", relativeProbability: 2000 });
+        // Veil (BLACK)
+        this.db.loot.staticLoot[LOOTCONTAINER_SAFE].itemDistribution.push({ tpl: "6673b1ac5cae0610f1079d73", relativeProbability: 1000 });
+        // Veil (BLACK)
+        this.db.loot.staticLoot[LOOTCONTAINER_SAFE].itemDistribution.push({ tpl: "6673b1ac5cae0610f1079d74", relativeProbability: 1000 });
+        // Veil (BLACK)
+        this.db.loot.staticLoot[LOOTCONTAINER_SAFE].itemDistribution.push({ tpl: "6673b1ac5cae0610f1079d75", relativeProbability: 1000 });
         //Stimulator Buffs
         //for (const buff in this.mydb.globals.config.Health.Effects.Stimulator.Buffs) this.db.globals.config.Health.Effects.Stimulator.Buffs[buff] = this.mydb.globals.config.Health.Effects.Stimulator.Buffs[buff];
         //this.logger.debug(modFolderName + " stimulator buffs finished");

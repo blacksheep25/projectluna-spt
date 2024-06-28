@@ -1,6 +1,46 @@
 {
     "items": [
         {
+			"_id": "ARTEM_VEILBLACK",
+			"_tpl": "6673b1ac5cae0610f1079d73",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": false,
+				"StackObjectsCount": 929
+			}
+		},
+		{
+			"_id": "ARTEM_VEILTAN",
+			"_tpl": "6673b1ac5cae0610f1079d74",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": false,
+				"StackObjectsCount": 920
+			}
+		},
+		{
+			"_id": "ARTEM_VEILOD",
+			"_tpl": "6673b1ac5cae0610f1079d75",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": false,
+				"StackObjectsCount": 643
+			}
+		},
+        {
+			"_id": "ARTEM_GROOVEYFLASHDRIVE",
+			"_tpl": "66326bfd46817c660d015154",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": false,
+				"StackObjectsCount": 6844
+			}
+		},
+        {
             "_id": "artem_GASWELDERGOGGLES",
             "_tpl": "61c18d83b00456371a66814b",
             "parentId": "hideout",
@@ -1260,7 +1300,7 @@
         },
         {
             "_id": "artem_ghostbalaclava",
-            "_tpl": "5ab8f39486f7745cd93a1cca",
+            "_tpl": "5ab8f4ff86f77431c60d91ba",
             "parentId": "hideout",
             "slotId": "hideout",
             "upd": {
@@ -3601,6 +3641,14 @@
                 }
             ]
         ],
+        "ARTEM_GROOVEYFLASHDRIVE": [
+			[
+				{
+					"count": 75000,
+					"_tpl": "5449016a4bdc2d6f028b456f"
+				}
+			]
+		],
         "artem_ak47": [
             [
                 {
@@ -3861,6 +3909,30 @@
                 }
             ]
         ],
+        "ARTEM_VEILOD": [
+			[
+				{
+					"count": 15000,
+					"_tpl": "5449016a4bdc2d6f028b456f"
+				}
+			]
+		],
+		"ARTEM_VEILTAN": [
+			[
+				{
+					"count": 15000,
+					"_tpl": "5449016a4bdc2d6f028b456f"
+				}
+			]
+		],
+		"ARTEM_VEILBLACK": [
+			[
+				{
+					"count": 15000,
+					"_tpl": "5449016a4bdc2d6f028b456f"
+				}
+			]
+		],
         "artem_eotechxpes3tan": [
             [
                 {
@@ -3920,7 +3992,7 @@
         "artem_6h118raidbackpack": [
             [
                 {
-                    "count": 108202,
+                    "count": 152000,
                     "_tpl": "5449016a4bdc2d6f028b456f"
                 }
             ]
@@ -4734,6 +4806,7 @@
         "artem_545igolnik": 4,
         "artem_338laupafmj": 4,
         "artem_t5000": 4,
+        "artem_6h118raidbackpack": 4,
         "artem_921bt": 4,
         "artem_pkp": 4,
         "artem_dvl": 4,
@@ -4756,7 +4829,6 @@
         "artem_vss20mag": 3,
         "artem_kacsuppressor": 3,
         "artem_hexagonsuppressor": 3,
-        "artem_6h118raidbackpack": 3,
         "artem_walkersXCELheadset": 3,
         "artem_57x28ss190": 3,
         "artem_762x39pp": 3,
@@ -4788,6 +4860,7 @@
         "artem_pnv10adapter": 2,
         "artem_msaheadphones": 2,
         "artem_fiveseven20mag": 2,
+        "artem_akmll2": 2,
         "artem_grizzly": 2,
         "artem_blackrogchestrig": 2,
         "artem_condorglasses": 2,
@@ -4818,6 +4891,7 @@
         "artem_akuspalmfde": 2,
         "artem_eotechxpes3": 2,
         "artem_akuspalmblack": 2,
+        "ARTEM_GROOVEYFLASHDRIVE": 2,
         "artem_bntizhuk3": 2,
         "artem_919ap": 2,
         "artem_9x39mmSPP": 2,
@@ -4875,6 +4949,9 @@
         "artem_spookyskullbarter": 1,
         "artem_barreta9mm": 1,
         "artem_glock": 1,
+        "ARTEM_VEILBLACK": 1,
+		"ARTEM_VEILTAN": 1,
+		"ARTEM_VEILOD": 1,
         "artem_medbox": 1
     }
 }

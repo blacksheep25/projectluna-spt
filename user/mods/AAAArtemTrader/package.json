@@ -1,7 +1,7 @@
 
 {
     "name": "Artem Trader",
-    "version": "1.6.2",
+    "version": "1.7.0",
     "main": "src/mod.js",
     "license": "MIT",
     "author": "Crackbone",

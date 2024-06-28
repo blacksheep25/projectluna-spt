@@ -36,7 +36,35 @@
             ]
         },
         {
+            "key": "Pants/artem_pants_6.bundle",
+            "dependencyKeys": [
+              "cubemaps",
+              "shaders"             
+            ]
+        },
+        {
+            "key": "Pants/artem_pants_7.bundle",
+            "dependencyKeys": [
+              "cubemaps",
+              "shaders"             
+            ]
+        },
+        {
+            "key": "Pants/artem_pants_8.bundle",
+            "dependencyKeys": [
+              "cubemaps",
+              "shaders"             
+            ]
+        },
+        {
             "key": "Tops/testshirt.bundle",
+            "dependencyKeys": [
+              "cubemaps",
+              "shaders"             
+            ]
+        },
+        {
+            "key": "Tops/artem_voxshirt.bundle",
             "dependencyKeys": [
               "cubemaps",
               "shaders"             
@@ -106,6 +134,55 @@
             ]
         },
         {
+            "key": "Tops/artem_top_10.bundle",
+            "dependencyKeys": [
+              "cubemaps",
+              "shaders"             
+            ]
+        },
+        {
+            "key": "Tops/artem_wttshirt.bundle",
+            "dependencyKeys": [
+              "cubemaps",
+              "shaders"             
+            ]
+        },
+        {
+          "key": "Tops/artem_top_12.bundle",
+          "dependencyKeys": [
+            "cubemaps",
+            "shaders"
+          ]
+        },
+        {
+          "key": "Tops/artem_top_13.bundle",
+          "dependencyKeys": [
+            "cubemaps",
+            "shaders"
+          ]
+        },
+        {
+          "key": "Tops/artem_top_14.bundle",
+          "dependencyKeys": [
+            "cubemaps",
+            "shaders"
+          ]
+        },
+        {
+          "key": "Tops/artem_top_15.bundle",
+          "dependencyKeys": [
+            "cubemaps",
+            "shaders"
+          ]
+        },
+        {
+          "key": "Tops/artem_top_16.bundle",
+          "dependencyKeys": [
+            "cubemaps",
+            "shaders"
+          ]
+        },
+        {
             "key": "Hands/testhands.bundle",
             "dependencyKeys": [
               "cubemaps",
@@ -173,6 +250,53 @@
             "dependencyKeys": [
               "cubemaps",
               "shaders"             
+            ]
+        },
+        {
+            "key": "Hands/artem_hands_12.bundle",
+            "dependencyKeys": [
+              "assets/content/hands/bear/bear_hands_watch_texture.bundles",
+              "assets/content/hands/bear/bear_watch.bundle",
+              "assets/content/hands/usec/materials/watch_usec_textures",
+              "cubemaps",
+              "shaders"           
+            ]
+        },
+        {
+            "key": "Hands/artem_hands_13.bundle",
+            "dependencyKeys": [
+              "assets/content/hands/bear/bear_hands_watch_texture.bundles",
+              "assets/content/hands/bear/bear_watch.bundle",
+              "assets/content/hands/usec/materials/watch_usec_textures",
+              "cubemaps",
+              "shaders"           
+            ]
+        },
+        {
+            "key": "Hands/artem_hands_14.bundle",
+            "dependencyKeys": [
+              "assets/content/hands/bear/bear_hands_watch_texture.bundles",
+              "assets/content/hands/bear/bear_watch.bundle",
+              "cubemaps",
+              "shaders"         
+            ]
+        },
+        {
+            "key": "Hands/artem_hands_15.bundle",
+            "dependencyKeys": [
+              "assets/content/hands/bear/bear_hands_watch_texture.bundles",
+              "assets/content/hands/bear/bear_watch.bundle",
+              "cubemaps",
+              "shaders"          
+            ]
+        },
+        {
+            "key": "Hands/artem_hands_16.bundle",
+            "dependencyKeys": [
+              "assets/content/hands/bear/bear_hands_watch_texture.bundles",
+              "assets/content/hands/bear/bear_watch.bundle",
+              "cubemaps",
+              "shaders"        
             ]
         }
     ]
