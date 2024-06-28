@@ -101,14 +101,19 @@ export class Gamble {
                 
         if(roll <= extremely_rare_odds) {
             money = 2000000;
+            this.logger.info(`[TheGambler] You won 2,000,000 Roubles! Lucky Bastard!`);
         } else if (roll <= rare_odds) {
             money = 1000000;
+            this.logger.info(`[TheGambler] You won 1,000,000 Roubles! Lucky Bastard!`);
         } else if (roll <= kinda_rare_odds) {
             money = 500000;
+            this.logger.info(`[TheGambler] You won 500,000 Roubles!`);
         } else if (roll <= uncommon_odds) { 
             money = 300000;
+            this.logger.info(`[TheGambler] You won 300,000 Roubles!`);
         } else if (roll <= common_odds) {
             money = 100000;
+            this.logger.info(`[TheGambler] You won 100,000 Roubles!`);
         } else {
             money = 0;
             this.logger.info(`[TheGambler] Wallet Opened... Received Nothing... Better luck next time :)`);
