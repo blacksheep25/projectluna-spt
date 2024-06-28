@@ -47,7 +47,7 @@ class SkillsPlus {
         this.customItemService = container.resolve("CustomItemService");
         this.setLocales();
         this.CreateItems();
-        this.addCraftsToDatabase();
+        //this.addCraftsToDatabase();
         this.locale = this.Instance.database.locales.global;
     }
     setLocales() {
@@ -106,8 +106,8 @@ class SkillsPlus {
             },
             parentId: "5c99f98d86f7745c314214b3",
             newId: ItemIDS.Lockpick,
-            fleaPriceRoubles: 120000,
-            handbookPriceRoubles: 75000,
+            fleaPriceRoubles: 135000,
+            handbookPriceRoubles: 115000,
             handbookParentId: "5c518ec986f7743b68682ce2",
             locales: {
                 en: {
@@ -126,13 +126,13 @@ class SkillsPlus {
             slotId: "hideout",
             upd: {
                 UnlimitedCount: false,
-                StackObjectsCount: 10
+                StackObjectsCount: 2
             }
         });
         mechanic.assort.barter_scheme[ItemIDS.Lockpick] = [
             [
                 {
-                    count: 75000,
+                    count: 115000,
                     _tpl: Money_1.Money.ROUBLES
                 }
             ]
@@ -183,12 +183,6 @@ class SkillsPlus {
             ]
         ];
         peaceKeeper.assort.loyal_level_items[ItemIDS.Pda] = 3;
-    }
-    addCraftsToDatabase() {
-        const crafts = SkillsConfig.LockPickingSkill.CRAFTING_RECIPES;
-        crafts.forEach((craft) => {
-            this.Instance.database.hideout.production.push(craft);
-        });
     }
 }
 module.exports = { mod: new SkillsPlus() };

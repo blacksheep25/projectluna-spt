@@ -38,7 +38,7 @@ class SkillsPlus implements IPreAkiLoadMod, IPostDBLoadMod
 
         this.setLocales();
         this.CreateItems();
-        this.addCraftsToDatabase();
+        //this.addCraftsToDatabase();
         this.locale = this.Instance.database.locales.global;
     }
 
