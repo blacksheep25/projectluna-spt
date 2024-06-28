@@ -15,7 +15,6 @@
     "choccy-rpg7-1.1.2",
     "ChooChoo-TraderModding",
     "DoorBreacher",
-    "EpicRangeTime-Weapons",
     "ExpandedTaskText",
     "Fontaine-FOV-Fix",
     "Lyconox-AkExtension-1.4.1",
@@ -44,6 +43,7 @@
     "WTT-Armory-Ak5C",
     "WTT-Armory-Cheytac",
     "Guns_Massivesoft",
+    "EpicRangeTime-Weapons",
     "zfoldedmp7irons",
     "SometimesItSnows",
     "xMASS_system",
@@ -60,6 +60,7 @@
     "Penguin's Doom Toys",
     "raid_review__0.0.6",
     "Vanilla Trader Pics Plus 1.0",
-    "corter-modsync"
+    "corter-modsync",
+    "zz_guiltyman-addmissingquestweaponrequirements"
   ]
 }
