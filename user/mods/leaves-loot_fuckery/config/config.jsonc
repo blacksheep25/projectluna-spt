@@ -1,8 +1,8 @@
 {
     "editProbabilities": true,      //Main enabling of the mod. 
 
-    "dataDumpRealRuns": false,      //Dumps data before each run
-    "dataDump": true,              //Dumps data on server start
+    "dataDumpRealRuns": true,      //Dumps data before each run
+    "dataDump": false,              //Dumps data on server start
     "categorize": true,             //Categorizes the data dump
     "convertToCompact": true,       //Makes the output more compact
     "runAllMaps": true,             //Data dumps every map
