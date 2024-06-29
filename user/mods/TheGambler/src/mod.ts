@@ -37,14 +37,11 @@ import { INotification } from "@spt-aki/models/eft/notifier/INotifier";
 // New trader classes and config
 import * as baseJson from "../db/base.json";
 import { TraderHelper } from "./traderHelpers";
-import { ItemCreator } from "./itemCreator";
-import { Keys } from "./keys";
 import { ItemCreateHelper } from "./itemCreateHelper";
 import { FluentAssortConstructor as FluentAssortCreator } from "./fluentTraderAssortCreator";
 import { VFS } from "@spt-aki/utils/VFS";
 import { jsonc } from "jsonc";
 import path from "path";
-import { Stims } from "./Stims";
 import { Gamble } from "./Gamble";
 
 class SampleTrader implements IPreAkiLoadMod, IPostDBLoadMod
@@ -128,7 +125,7 @@ class SampleTrader implements IPreAkiLoadMod, IPostDBLoadMod
         this.traderHelper.addTraderToDb(baseJson, tables, jsonUtil);
 
         // Add gambling containers to trader
-        this.traderHelper.addSingleItemsToTrader(tables, baseJson._id, this.fluentAssortCreator, container);
+        this.traderHelper.addSingleItemsToTrader(tables, baseJson._id, this.fluentAssortCreator, container, this.logger);
 
         // Add trader to locale file, ensures trader text shows properly on screen
         // WARNING: adds the same text to ALL locales (e.g. chinese/french/english)
@@ -141,17 +138,22 @@ class SampleTrader implements IPreAkiLoadMod, IPostDBLoadMod
     //
     public newOpenRandomLoot(container: DependencyContainer, pmcData: IPmcData, body: IOpenRandomLootContainerRequestData, sessionID: string): IItemEventRouterResponse {
         // Needed reference methods
+        // Message Notifier Doesn't Work Yet...
+        //const notifierHelper = container.resolve<NotifierHelper>("NotifierHelper");
+        //const notificationSendHelper = container.resolve<NotificationSendHelper>("NotificationSendHelper");
         const lootGenerator = container.resolve<LootGenerator>("LootGenerator");
         const itemHelper = container.resolve<ItemHelper>("ItemHelper");
         const inventoryHelper = container.resolve<InventoryHelper>("InventoryHelper");
-        const notifierHelper = container.resolve<NotifierHelper>("NotifierHelper");
-        const notificationSendHelper = container.resolve<NotificationSendHelper>("NotificationSendHelper");
         const eventOutputHolder = container.resolve<EventOutputHolder>("EventOutputHolder");
+        const openedItem = pmcData.Inventory.items.find(x => x._id === body.item);
 
-        const openedItem = pmcData.Inventory.items.find(x => x._id === body.item); // Get opened item from inventory
+        if (itemHelper.getItem(openedItem._tpl) == undefined){
+            this.logger.error("[TheGambler] Cannot find unboxed mystery container in Inventory... Best option is to restart game.. I am not fully sure why this happens...")
+            const output = eventOutputHolder.getOutput(sessionID);
+            return output;
+        }
+
         const containerDetails = itemHelper.getItem(openedItem._tpl);
-        let foundInRaid = false;
-        let isCustomGamble = true;
         let gamble: Gamble;
 
         const newItemsRequest: IAddItemDirectRequest = { // base tarkov sealed cases
@@ -161,7 +163,7 @@ class SampleTrader implements IPreAkiLoadMod, IPostDBLoadMod
         };
 
         const isSealedWeaponBox = containerDetails[1]._name.includes("event_container_airdrop"); // Default tarkov tagged container
-        const isGamblingContainer = containerDetails[1]._name.includes("gambling_"); // Mod items are tagged with "gambling_container" identifier
+        const isGamblingContainer = containerDetails[1]._name.includes("gambling_"); // Gambler items are tagged with "gambling_container" identifier
 
         if(isSealedWeaponBox) {
             // Sealed Weapon container
@@ -169,34 +171,31 @@ class SampleTrader implements IPreAkiLoadMod, IPostDBLoadMod
             const containerSettings = inventoryHelper.getInventoryConfig().sealedAirdropContainer;
             // This id is bugged and we have to delete it or bad shit will happen. Looks like SPT base bug?
             delete(containerSettings.weaponRewardWeight['5e848cc2988a8701445df1e8']) 
-
             newItemsRequest.itemsWithModsToAdd.push(...lootGenerator.getSealedWeaponCaseLoot(containerSettings));
-            //this.logger.info("SEALED CONTAINER ITEMS...");
-            //this.logger.info(newItemsRequest.itemsWithModsToAdd);
-            foundInRaid = containerSettings.foundInRaid;
-            newItemsRequest.foundInRaid = foundInRaid;
-            isCustomGamble = false;
+            newItemsRequest.foundInRaid = containerSettings.foundInRaid;
 
         } else if (isGamblingContainer){
-            // All Custom Gambling Happens Here
+            // All TheGambler Custom Gambling Happens Here
             const currentContainer = containerDetails[1];
             gamble = new Gamble(container, this.config, this.logger, currentContainer._name);
             gamble.newGamble();
+            
+            if(gamble.newItemsRequest.itemsWithModsToAdd.length != 0) {
+                newItemsRequest.itemsWithModsToAdd = [...gamble.newItemsRequest.itemsWithModsToAdd]
+            }
 
         } else {
-            // NOT SURE IF THIS WORKS... NEEDS MORE TESTING....
-
-            this.logger.info(`GET RANDOM LOOT CONTAINER LOOT`);
+            // Other custom gambling containers added by different mods
+            //this.logger.info(`GET RANDOM LOOT CONTAINER LOOT`);
             // Other random containers
             // Get summary of loot from config
             const rewardContainerDetails = inventoryHelper.getRandomLootContainerRewardDetails(openedItem._tpl);
             const getLoot = lootGenerator.getRandomLootContainerLoot(rewardContainerDetails);
-            this.logger.info(getLoot);
+            //this.logger.info(getLoot);
 
             newItemsRequest.itemsWithModsToAdd.push(...getLoot);
-            foundInRaid = rewardContainerDetails.foundInRaid;
-            newItemsRequest.foundInRaid = foundInRaid;
-            isCustomGamble = false;
+            newItemsRequest.foundInRaid = rewardContainerDetails.foundInRaid;
+            
         }
 
 
@@ -235,67 +234,24 @@ class SampleTrader implements IPreAkiLoadMod, IPostDBLoadMod
 
         //this.logger.info(message.type);
 
-        if (isGamblingContainer && gamble.newItemRequest.itemWithModsToAdd.length != 0){
-            // Have to store new Item in 2-D array or canPlaceItemsInventory() will bitch
-            multipleItems = [[...gamble.newItemRequest.itemWithModsToAdd]];
 
-            if (isCustomGamble && inventoryHelper.canPlaceItemsInInventory(sessionID, multipleItems)) { // Custom Gambles store one item (1-D array)
+        //console.log("END")
+        //console.log(newItemsRequest.itemsWithModsToAdd)
+        if (newItemsRequest.itemsWithModsToAdd.length != 0) {
 
-                inventoryHelper.removeItem(pmcData, body.item, sessionID, output); // Delete the opened random loot container
-                inventoryHelper.addItemToStash(sessionID, gamble.newItemRequest, pmcData, output);
-    
-            } else {
-
-                // Not Working
-                //let notification: INotification = notifierHelper.createNewMessageNotification(message);
-                //this.logger.info(notification);
-                //notificationSendHelper.sendMessage(sessionID, notification);
-                
-
-
-                this.logger.error(`[${this.mod}] Cannot Open Container, Inventory Is Full!`);
-
-
-
-            }
-        } else if (newItemsRequest.itemsWithModsToAdd.length != 0) {
-            if (!isCustomGamble && inventoryHelper.canPlaceItemsInInventory(sessionID, newItemsRequest.itemsWithModsToAdd)){ //  Tarkov Sealed containers store multiple items (2-D array)
-
-                inventoryHelper.removeItem(pmcData, body.item, sessionID, output); // Delete the opened random loot container
+            if (inventoryHelper.canPlaceItemsInInventory(sessionID, newItemsRequest.itemsWithModsToAdd)){
+                inventoryHelper.removeItem(pmcData, body.item, sessionID, output);
                 inventoryHelper.addItemsToStash(sessionID, newItemsRequest, pmcData, output);
             } else {
-
-
-                // Not Working
-                //notifierHelper.createNewMessageNotification(message);
-
-
-
-                this.logger.error(`[${this.mod}] Cannot Open Container, Inventory Is Full!`);
+            // notifierHelper.createNewMessageNotification(message); // Notifier Not Working
+            this.logger.error(`[${this.mod}] Cannot Open Container, Inventory Is Full!`);
             }
-
         } else {
             // Container returned nothing...
-            inventoryHelper.removeItem(pmcData, body.item, sessionID, output); // Delete the opened random loot container
+            inventoryHelper.removeItem(pmcData, body.item, sessionID, output);
         }
             
-
-
         return output;
-    }
-
-
-    private newItemFormat(tpl: string, count = undefined) {
-
-        const item = {
-            _id: this.hashUtil.generate(),
-            _tpl: tpl,
-            parentId: "hideout",
-            slotId: "hideout",
-            upd: {StackObjectsCount: count ? count : 1} 
-        }
-
-        return item;
     }
 }
 

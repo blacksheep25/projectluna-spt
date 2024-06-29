@@ -2,9 +2,9 @@ import { DependencyContainer } from "tsyringe";
 import { HashUtil } from "@spt-aki/utils/HashUtil";
 import { Item } from "@spt-aki/models/eft/common/tables/IItem";
 
-import { Weapons } from './Weapons';
-import { Armors } from './Armors';
-import { Helmets } from './Helmets';
+import { Weapons } from './containers/Weapons';
+import { Armors } from './containers/Armors';
+import { Helmets } from './containers/Helmets';
 
 
 export class ItemCreator {
@@ -31,13 +31,13 @@ export class ItemCreator {
         let baseHelmet: Item[];
 
         if(which == "common") {
-            baseHelmet = this.Helmets.commonHelmet;
+            baseHelmet = this.Helmets.helmet_common;
         } else if (which == "uncommon") {
-            baseHelmet = this.Helmets.uncommonHelmet;
+            baseHelmet = this.Helmets.helmet_uncommon;
         } else if (which == "rare") {
-            baseHelmet = this.Helmets.rareHelmet;
+            baseHelmet = this.Helmets.helmet_rare;
         } else if (which == "extremely_rare") {
-            baseHelmet = this.Helmets.thermalHelmet;
+            baseHelmet = this.Helmets.helmet_extremely_rare;
         }
 
         const randomHelmet = this.getRandomInt(baseHelmet.length);
@@ -67,6 +67,8 @@ export class ItemCreator {
     // Returns a random gun from Weapons
     public createGun(which: string): Item{
         let weaponBuilds: Item[];
+
+        //console.log('WHICH = ' + which)
 
         if(which == "base") {
             weaponBuilds = this.Weapons.weaponBaseBuilds;

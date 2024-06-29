@@ -1,6 +1,6 @@
 {
     "name": "TheGambler",
-    "version": "0.1.7",
+    "version": "0.1.8",
     "main": "src/mod.js",
     "license": "MIT",
     "author": "Hood",

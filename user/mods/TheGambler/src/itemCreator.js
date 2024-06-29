@@ -1,9 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.ItemCreator = void 0;
-const Weapons_1 = require("./Weapons");
-const Armors_1 = require("./Armors");
-const Helmets_1 = require("./Helmets");
+const Weapons_1 = require("./containers/Weapons");
+const Armors_1 = require("./containers/Armors");
+const Helmets_1 = require("./containers/Helmets");
 class ItemCreator {
     Weapons;
     Helmets;
@@ -23,16 +23,16 @@ class ItemCreator {
     createHelmet(which) {
         let baseHelmet;
         if (which == "common") {
-            baseHelmet = this.Helmets.commonHelmet;
+            baseHelmet = this.Helmets.helmet_common;
         }
         else if (which == "uncommon") {
-            baseHelmet = this.Helmets.uncommonHelmet;
+            baseHelmet = this.Helmets.helmet_uncommon;
         }
         else if (which == "rare") {
-            baseHelmet = this.Helmets.rareHelmet;
+            baseHelmet = this.Helmets.helmet_rare;
         }
         else if (which == "extremely_rare") {
-            baseHelmet = this.Helmets.thermalHelmet;
+            baseHelmet = this.Helmets.helmet_extremely_rare;
         }
         const randomHelmet = this.getRandomInt(baseHelmet.length);
         let getItem = baseHelmet[randomHelmet].Items;
@@ -57,6 +57,7 @@ class ItemCreator {
     // Returns a random gun from Weapons
     createGun(which) {
         let weaponBuilds;
+        //console.log('WHICH = ' + which)
         if (which == "base") {
             weaponBuilds = this.Weapons.weaponBaseBuilds;
         }

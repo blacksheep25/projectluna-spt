@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Helmets = void 0;
 class Helmets {
-    thermalHelmet = [
+    helmet_extremely_rare = [
         {
             Items: [
                 {
@@ -546,7 +546,7 @@ class Helmets {
             ],
         }
     ];
-    rareHelmet = [
+    helmet_rare = [
         {
             Items: [
                 {
@@ -2981,7 +2981,7 @@ class Helmets {
             ],
         },
     ];
-    uncommonHelmet = [
+    helmet_uncommon = [
         {
             Items: [
                 {
@@ -3651,7 +3651,7 @@ class Helmets {
             ],
         },
     ];
-    commonHelmet = [
+    helmet_common = [
         {
             Items: [
                 {
