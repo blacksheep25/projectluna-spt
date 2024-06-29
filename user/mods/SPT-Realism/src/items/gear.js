@@ -61,7 +61,6 @@ class Gear {
             if ((this.modConfig.realistic_ballistics == true || this.modConfig.enable_hazard_zones == true) && serverItem._props.FaceShieldComponent == true) {
                 confMaskOverlays.forEach(element => {
                     if (serverItem._id !== element) {
-                        this.logger.warning("doing it");
                         serverItem._props.ConflictingItems.push(element);
                     }
                 });
