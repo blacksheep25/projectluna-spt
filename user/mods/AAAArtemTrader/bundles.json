@@ -253,6 +253,13 @@
             ]
         },
         {
+            "key": "Hands/artem_atomhands.bundle",
+            "dependencyKeys": [
+              "cubemaps",
+              "shaders"             
+            ]
+        },
+        {
             "key": "Hands/artem_hands_12.bundle",
             "dependencyKeys": [
               "assets/content/hands/bear/bear_hands_watch_texture.bundles",
