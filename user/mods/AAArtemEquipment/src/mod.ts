@@ -301,7 +301,7 @@ class AddItems implements IPostDBLoadMod {
         this.db.loot.staticLoot[LOOTCONTAINER_DRAWER].itemDistribution.push({ tpl: "66326bfd46817c660d015154", relativeProbability: 400 });
 
         //Rex's Snackyz
-        this.db.loot.staticLoot[LOOTCONTAINER_RATION_SUPPLY_CRATE].itemDistribution.push({ tpl: "66326bfd46817c660d015150", relativeProbability: 550 });
+        //this.db.loot.staticLoot[LOOTCONTAINER_RATION_SUPPLY_CRATE].itemDistribution.push({ tpl: "66326bfd46817c660d015150", relativeProbability: 550 });
 
         // Cultist mask
         this.db.loot.staticLoot[LOOTCONTAINER_JACKET].itemDistribution.push({ tpl: "6673b1ac5cae0610f1079d6e", relativeProbability: 1500 });
