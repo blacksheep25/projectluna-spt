@@ -1,0 +1,1788 @@
+[
+  {
+    "ZoneId": "Coy_zone1",
+    "ZoneName": "Coy_zone1",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "-5.845939",
+      "Y": "22.82996",
+      "Z": "331.0245"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "2",
+      "Y": "6",
+      "Z": "1"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone2",
+    "ZoneName": "Coy_zone2",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "103.116",
+      "Y": "11.66411",
+      "Z": "44.57117"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "6.5",
+      "Y": "6",
+      "Z": "4.5"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone3",
+    "ZoneName": "Coy_zone3",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "191.7266",
+      "Y": "16.19613",
+      "Z": "134.2279"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "2.5",
+      "Y": "6",
+      "Z": "4.75"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone4",
+    "ZoneName": "Coy_zone4",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-18.59753",
+      "Y": "26.98832",
+      "Z": "329.0099"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "1.25",
+      "Y": "5.5",
+      "Z": "1.25"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone5",
+    "ZoneName": "Coy_zone5",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "11.59803",
+      "Y": "27.60371",
+      "Z": "336.9215"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "2",
+      "Y": "4",
+      "Z": "1"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone6",
+    "ZoneName": "Coy_zone6",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "21.25398",
+      "Y": "27.77151",
+      "Z": "315.7333"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "-2.733851E-09",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "1.5",
+      "Y": "5",
+      "Z": "1.5"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone7",
+    "ZoneName": "Coy_zone7",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "75.0815",
+      "Y": "23.31495",
+      "Z": "317.6588"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "6",
+      "Y": "5",
+      "Z": "2.5"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone8",
+    "ZoneName": "Coy_zone8",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "75.0815",
+      "Y": "23.31495",
+      "Z": "317.6588"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "6",
+      "Y": "5",
+      "Z": "2.5"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone9",
+    "ZoneName": "Coy_zone9",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "121.5328",
+      "Y": "34.55909",
+      "Z": "288.3778"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.4539905",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "12.25",
+      "Y": "4",
+      "Z": "7.75"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone10",
+    "ZoneName": "Coy_zone10",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "121.5328",
+      "Y": "34.55909",
+      "Z": "288.3778"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.4539905",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "12.25",
+      "Y": "4",
+      "Z": "7.75"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone11",
+    "ZoneName": "Coy_zone11",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "110.999",
+      "Y": "29.6462",
+      "Z": "150.1234"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "9",
+      "Y": "11",
+      "Z": "17.25"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone12",
+    "ZoneName": "Coy_zone12",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "110.999",
+      "Y": "29.6462",
+      "Z": "150.1234"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "9",
+      "Y": "11",
+      "Z": "17.25"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone13",
+    "ZoneName": "Coy_zone13",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "-11.96128",
+      "Y": "24.91602",
+      "Z": "134.7048"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "4",
+      "Y": "3.5",
+      "Z": "2"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone14",
+    "ZoneName": "Coy_zone14",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-11.96128",
+      "Y": "24.91602",
+      "Z": "134.7048"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "4",
+      "Y": "3.5",
+      "Z": "2"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone15",
+    "ZoneName": "Coy_zone15",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "16.83796",
+      "Y": "25.90258",
+      "Z": "71.08524"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.1757963",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "4",
+      "Y": "4",
+      "Z": "9"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone16",
+    "ZoneName": "Coy_zone16",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "16.83796",
+      "Y": "25.90258",
+      "Z": "71.08524"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.1757963",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "4",
+      "Y": "4",
+      "Z": "9"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone17",
+    "ZoneName": "Coy_zone17",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "174.8844",
+      "Y": "19.178",
+      "Z": "28.18536"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "6",
+      "Y": "4.5",
+      "Z": "14.75"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone18",
+    "ZoneName": "Coy_zone18",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "174.8844",
+      "Y": "19.178",
+      "Z": "28.18536"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "6",
+      "Y": "4.5",
+      "Z": "14.75"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone19",
+    "ZoneName": "Coy_zone19",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "178.0453",
+      "Y": "18.01779",
+      "Z": "86.87148"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "2.25",
+      "Y": "4",
+      "Z": "12"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone20",
+    "ZoneName": "Coy_zone20",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "178.0453",
+      "Y": "18.01779",
+      "Z": "86.87148"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "2.25",
+      "Y": "4",
+      "Z": "12"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone21",
+    "ZoneName": "Coy_zone21",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "115.5786",
+      "Y": "24.022",
+      "Z": "27.12043"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "24.25",
+      "Y": "3.25",
+      "Z": "16.75"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone22",
+    "ZoneName": "Coy_zone22",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "botkillzone",
+    "FlareType": "",
+    "Position": {
+      "X": "115.5961",
+      "Y": "25.022",
+      "Z": "28.25419"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "30",
+      "Y": "4.75",
+      "Z": "19"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone23",
+    "ZoneName": "Coy_zone23",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "botkillzone",
+    "FlareType": "",
+    "Position": {
+      "X": "73.4972",
+      "Y": "16.69227",
+      "Z": "52.47347"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "70.25",
+      "Y": "6.75",
+      "Z": "257.25"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone24",
+    "ZoneName": "Coy_zone24",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "55.2459",
+      "Y": "14.79253",
+      "Z": "-28.04351"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "2.5",
+      "Y": "5",
+      "Z": "2.75"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone25",
+    "ZoneName": "Coy_zone25",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "82.69476",
+      "Y": "15.06396",
+      "Z": "181.3369"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.25038",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "2",
+      "Y": "4.25",
+      "Z": "2"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone26",
+    "ZoneName": "Coy_zone26",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "89.91258",
+      "Y": "15.75711",
+      "Z": "-56.19307"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "6.25",
+      "Y": "5.25",
+      "Z": "2.75"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone27",
+    "ZoneName": "Coy_zone27",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "94.8775",
+      "Y": "15.09908",
+      "Z": "4.492811"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "2",
+      "Y": "4.5",
+      "Z": "3.25"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone28",
+    "ZoneName": "Coy_zone28",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "103.6527",
+      "Y": "16.82523",
+      "Z": "66.83338"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "4.5",
+      "Y": "6.75",
+      "Z": "30.75"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone29",
+    "ZoneName": "Coy_zone29",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "95.39014",
+      "Y": "14.84389",
+      "Z": "173.4737"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "2",
+      "Y": "4.75",
+      "Z": "5.5"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone30",
+    "ZoneName": "Coy_zone30",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "68.13509",
+      "Y": "14.44068",
+      "Z": "164.5612"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "2",
+      "Y": "6.25",
+      "Z": "9"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone31",
+    "ZoneName": "Coy_zone31",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "68.53857",
+      "Y": "15.84014",
+      "Z": "145.1782"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "1.5",
+      "Y": "4",
+      "Z": "4.25"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone32",
+    "ZoneName": "Coy_zone32",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "57.79593",
+      "Y": "25.41047",
+      "Z": "157.1857"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "11.5",
+      "Y": "5",
+      "Z": "22.75"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone33",
+    "ZoneName": "Coy_zone33",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "51.01316",
+      "Y": "15.36692",
+      "Z": "150.8717"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "2.75",
+      "Y": "4",
+      "Z": "3"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone34",
+    "ZoneName": "Coy_zone34",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "51.01316",
+      "Y": "15.36692",
+      "Z": "150.8717"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "2.75",
+      "Y": "4",
+      "Z": "3"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone35",
+    "ZoneName": "Coy_zone35",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "79.41837",
+      "Y": "16.46472",
+      "Z": "96.58537"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "2.25",
+      "Y": "2.5",
+      "Z": "3.25"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone36",
+    "ZoneName": "Coy_zone36",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "122.4207",
+      "Y": "25.14307",
+      "Z": "295.5975"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "-0.1413332",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "3.25",
+      "Y": "4",
+      "Z": "2.25"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone37",
+    "ZoneName": "Coy_zone37",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-18.7835",
+      "Y": "31.17147",
+      "Z": "40.31301"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "3.5",
+      "Y": "4.75",
+      "Z": "3.5"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone38",
+    "ZoneName": "Coy_zone38",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "57.79593",
+      "Y": "25.41047",
+      "Z": "157.1857"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "11.5",
+      "Y": "5",
+      "Z": "22.75"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone39",
+    "ZoneName": "Coy_zone39",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "botkillzone",
+    "FlareType": "",
+    "Position": {
+      "X": "54.23988",
+      "Y": "25.91047",
+      "Z": "156.8326"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "19.5",
+      "Y": "6",
+      "Z": "43.5"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone40",
+    "ZoneName": "Coy_zone40",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "57.54672",
+      "Y": "25.16047",
+      "Z": "170.9176"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "1.5",
+      "Y": "4.5",
+      "Z": "1.5"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone41",
+    "ZoneName": "Coy_zone41",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "44.36978",
+      "Y": "23.99763",
+      "Z": "157.4191"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "2.25",
+      "Y": "4.75",
+      "Z": "3.25"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone42",
+    "ZoneName": "Coy_zone42",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "133.1277",
+      "Y": "22.76837",
+      "Z": "-35.87434"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "1.5",
+      "Y": "2.5",
+      "Z": "1.5"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone43",
+    "ZoneName": "Coy_zone43",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "81.77437",
+      "Y": "24.63507",
+      "Z": "133.6034"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "2.5",
+      "Y": "4.5",
+      "Z": "5.75"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone44",
+    "ZoneName": "Coy_zone44",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "81.77437",
+      "Y": "24.63507",
+      "Z": "133.6034"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "2.5",
+      "Y": "4.5",
+      "Z": "5.75"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone45",
+    "ZoneName": "Coy_zone45",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "botkillzone",
+    "FlareType": "",
+    "Position": {
+      "X": "82.01249",
+      "Y": "28.59708",
+      "Z": "122.5178"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "39.25",
+      "Y": "13",
+      "Z": "435.25"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone46",
+    "ZoneName": "Coy_zone46",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "110.76",
+      "Y": "28.73335",
+      "Z": "201.3048"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "1.5",
+      "Y": "2.75",
+      "Z": "1.5"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone47",
+    "ZoneName": "Coy_zone47",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "131.6427",
+      "Y": "28.47051",
+      "Z": "201.4591"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "1.75",
+      "Y": "2",
+      "Z": "2.5"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone48",
+    "ZoneName": "Coy_zone48",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "96.63303",
+      "Y": "23.29",
+      "Z": "227.4034"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "2.25",
+      "Y": "1.75",
+      "Z": "1.5"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone49",
+    "ZoneName": "Coy_zone49",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "96.63303",
+      "Y": "23.29",
+      "Z": "227.4034"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "2.25",
+      "Y": "1.75",
+      "Z": "1.5"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone50",
+    "ZoneName": "Coy_zone50",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "68.19978",
+      "Y": "24.03718",
+      "Z": "190.3689"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "1",
+      "Y": "2.5",
+      "Z": "1"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone51",
+    "ZoneName": "Coy_zone51",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "68.19978",
+      "Y": "24.03718",
+      "Z": "190.3689"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "1",
+      "Y": "2.5",
+      "Z": "1"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone52",
+    "ZoneName": "Coy_zone52",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "163.3793",
+      "Y": "24.12624",
+      "Z": "-80.37667"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "3",
+      "Y": "3.25",
+      "Z": "6"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone53",
+    "ZoneName": "Coy_zone53",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "136.8381",
+      "Y": "24.09538",
+      "Z": "-80.24057"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "3",
+      "Y": "3.25",
+      "Z": "6"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone54",
+    "ZoneName": "Coy_zone54",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "62.76379",
+      "Y": "24.325",
+      "Z": "-51.71304"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "3.5",
+      "Y": "3.5",
+      "Z": "6"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone55",
+    "ZoneName": "Coy_zone55",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "41.63463",
+      "Y": "24.12519",
+      "Z": "-87.01835"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "6",
+      "Y": "3.75",
+      "Z": "3.75"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone56",
+    "ZoneName": "Coy_zone56",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "86.9242",
+      "Y": "23.9912",
+      "Z": "-11.37526"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "5",
+      "Y": "3.25",
+      "Z": "14"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone57",
+    "ZoneName": "Coy_zone57",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "189.5512",
+      "Y": "17.58903",
+      "Z": "67.9131"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "-0.42064",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "6.75",
+      "Y": "3.5",
+      "Z": "3.5"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone58",
+    "ZoneName": "Coy_zone58",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "214.2927",
+      "Y": "17.51762",
+      "Z": "20.82886"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "4.25",
+      "Y": "3.25",
+      "Z": "6.25"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone59",
+    "ZoneName": "Coy_zone59",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "46.09772",
+      "Y": "24.14537",
+      "Z": "27.7491"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "-0.1110353",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "3",
+      "Y": "3.5",
+      "Z": "6"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone60",
+    "ZoneName": "Coy_zone60",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "78.38964",
+      "Y": "23.84708",
+      "Z": "110.2224"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "-0.2944573",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "20.25",
+      "Y": "2.75",
+      "Z": "6.5"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone61",
+    "ZoneName": "Coy_zone61",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "-19.03687",
+      "Y": "23.84708",
+      "Z": "110.6804"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "2.5",
+      "Y": "2.75",
+      "Z": "6.5"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone62",
+    "ZoneName": "Coy_zone62",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "87.35966",
+      "Y": "24.02212",
+      "Z": "181.6983"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "3.5",
+      "Y": "3.5",
+      "Z": "6.5"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone63",
+    "ZoneName": "Coy_zone63",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "60.70438",
+      "Y": "24.1522",
+      "Z": "278.8573"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "-0.3624381",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "3.5",
+      "Y": "3.75",
+      "Z": "6.5"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone64",
+    "ZoneName": "Coy_zone64",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "33.93933",
+      "Y": "24.05589",
+      "Z": "331.1413"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "3.25",
+      "Y": "3.25",
+      "Z": "6.5"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone65",
+    "ZoneName": "Coy_zone65",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "86.13607",
+      "Y": "15.44055",
+      "Z": "77.56107"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "-0.2482672",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "3",
+      "Y": "3.75",
+      "Z": "6.75"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone66",
+    "ZoneName": "Coy_zone66",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "79.27198",
+      "Y": "15.43998",
+      "Z": "-54.81457"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.1175374",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "3.75",
+      "Y": "3.5",
+      "Z": "6.75"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone67",
+    "ZoneName": "Coy_zone67",
+    "ZoneLocation": "Sandbox",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "-17.60544",
+      "Y": "30.92148",
+      "Z": "57.96172"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "1.75",
+      "Y": "2.75",
+      "Z": "1"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone68",
+    "ZoneName": "Coy_zone68",
+    "ZoneLocation": "laboratory",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "-130.7643",
+      "Y": "1.259014",
+      "Z": "-349.4789"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "7.5",
+      "Y": "2.75",
+      "Z": "3.5"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone69",
+    "ZoneName": "Coy_zone69",
+    "ZoneLocation": "laboratory",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "-123.863",
+      "Y": "1.25875",
+      "Z": "-406.9472"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "1.75",
+      "Y": "2.75",
+      "Z": "1"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone70",
+    "ZoneName": "Coy_zone70",
+    "ZoneLocation": "laboratory",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "-136.2877",
+      "Y": "5.350014",
+      "Z": "-346.2868"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "3",
+      "Y": "2.5",
+      "Z": "1"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone71",
+    "ZoneName": "Coy_zone71",
+    "ZoneLocation": "laboratory",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "-257.9452",
+      "Y": "5.098027",
+      "Z": "-322.1306"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "1",
+      "Y": "2.5",
+      "Z": "1.75"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone72",
+    "ZoneName": "Coy_zone72",
+    "ZoneLocation": "laboratory",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "-261.2059",
+      "Y": "5.598026",
+      "Z": "-317.676"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "1.25",
+      "Y": "3",
+      "Z": "2.5"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone73",
+    "ZoneName": "Coy_zone73",
+    "ZoneLocation": "laboratory",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "-212.0547",
+      "Y": "5.352153",
+      "Z": "-375.8006"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "2",
+      "Y": "2.5",
+      "Z": "1"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone74",
+    "ZoneName": "Coy_zone74",
+    "ZoneLocation": "laboratory",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-223.2784",
+      "Y": "5.098969",
+      "Z": "-343.2733"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "2",
+      "Y": "2",
+      "Z": "4.25"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone75",
+    "ZoneName": "Coy_zone75",
+    "ZoneLocation": "laboratory",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-167.1077",
+      "Y": "5.375084",
+      "Z": "-343.11"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "1.25",
+      "Y": "2.75",
+      "Z": "2.5"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone76",
+    "ZoneName": "Coy_zone76",
+    "ZoneLocation": "laboratory",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-130.8374",
+      "Y": "5.106875",
+      "Z": "-287.2243"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "1",
+      "Y": "1",
+      "Z": "1"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone77",
+    "ZoneName": "Coy_zone77",
+    "ZoneLocation": "laboratory",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-133.6928",
+      "Y": "2.618486",
+      "Z": "-323.0675"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "1",
+      "Y": "1",
+      "Z": "1"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone78",
+    "ZoneName": "Coy_zone78",
+    "ZoneLocation": "laboratory",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "-237.0626",
+      "Y": "1.270214",
+      "Z": "-304.0898"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "24",
+      "Y": "2.5",
+      "Z": "14.25"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone79",
+    "ZoneName": "Coy_zone79",
+    "ZoneLocation": "laboratory",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "-133.3085",
+      "Y": "1.048",
+      "Z": "-357.4867"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "2",
+      "Y": "2.25",
+      "Z": "3"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone80",
+    "ZoneName": "Coy_zone80",
+    "ZoneLocation": "laboratory",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-131.0668",
+      "Y": "1.298",
+      "Z": "-358.5983"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "1.75",
+      "Y": "2.75",
+      "Z": "2"
+    }
+  },
+  {
+    "ZoneId": "Coy_zone81",
+    "ZoneName": "Coy_zone81",
+    "ZoneLocation": "laboratory",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "-130.5638",
+      "Y": "5.350008",
+      "Z": "-338.3212"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0"
+    },
+    "Scale": {
+      "X": "2",
+      "Y": "2.5",
+      "Z": "1.75"
+    }
+  }
+
+
+
+
+]
