@@ -189,39 +189,6 @@ class AddItems implements IPostDBLoadMod {
 
         
 
-        //Denis Collar
-        this.db.loot.staticLoot[LOOTCONTAINER_BURIED_BARREL_CACHE].itemDistribution.push({ tpl: "6673b1ac5cae0610f1079d76", relativeProbability: 8000 });
-
-        //Denis Collar
-        this.db.loot.staticLoot[LOOTCONTAINER_DUFFLE_BAG].itemDistribution.push({ tpl: "6673b1ac5cae0610f1079d76", relativeProbability: 8000 });
-
-        //Denis Collar
-        this.db.loot.staticLoot[LOOTCONTAINER_DEAD_SCAV].itemDistribution.push({ tpl: "6673b1ac5cae0610f1079d76", relativeProbability: 8000 });
-
-        //Denis Collar
-        this.db.loot.staticLoot[LOOTCONTAINER_DRAWER].itemDistribution.push({ tpl: "6673b1ac5cae0610f1079d76", relativeProbability: 8000 });
-
-        //Denis Collar
-        this.db.loot.staticLoot[LOOTCONTAINER_DUFFLE_BAG_ADV].itemDistribution.push({ tpl: "6673b1ac5cae0610f1079d76", relativeProbability: 6594 });
-
-        //Denis Collar
-        this.db.loot.staticLoot[LOOTCONTAINER_GROUND_CACHE].itemDistribution.push({ tpl: "6673b1ac5cae0610f1079d76", relativeProbability: 6594 });
-
-        //Denis Collar
-        this.db.loot.staticLoot[LOOTCONTAINER_JACKET_204KEY].itemDistribution.push({ tpl: "6673b1ac5cae0610f1079d76", relativeProbability: 6504 });
-
-        //Denis Collar
-        this.db.loot.staticLoot[LOOTCONTAINER_JACKET_114KEY].itemDistribution.push({ tpl: "6673b1ac5cae0610f1079d76", relativeProbability: 6504 });
-
-        //Denis Collar
-        this.db.loot.staticLoot[LOOTCONTAINER_JACKET].itemDistribution.push({ tpl: "6673b1ac5cae0610f1079d76", relativeProbability: 6504 });
-
-        //Denis Collar
-        this.db.loot.staticLoot[LOOTCONTAINER_WOODEN_CRATE].itemDistribution.push({ tpl: "6673b1ac5cae0610f1079d76", relativeProbability: 7594 });
-
-        //Denis Collar
-        this.db.loot.staticLoot[LOOTCONTAINER_SAFE].itemDistribution.push({ tpl: "6673b1ac5cae0610f1079d76", relativeProbability: 12523 });
-
         //Gas mask1
         this.db.loot.staticLoot[LOOTCONTAINER_WOODEN_AMMO_BOX].itemDistribution.push({ tpl: "66326bfd46817c660d015130", relativeProbability: 1620 });
 
@@ -301,7 +268,7 @@ class AddItems implements IPostDBLoadMod {
         this.db.loot.staticLoot[LOOTCONTAINER_DRAWER].itemDistribution.push({ tpl: "66326bfd46817c660d015154", relativeProbability: 400 });
 
         //Rex's Snackyz
-        //this.db.loot.staticLoot[LOOTCONTAINER_RATION_SUPPLY_CRATE].itemDistribution.push({ tpl: "66326bfd46817c660d015150", relativeProbability: 550 });
+        this.db.loot.staticLoot[LOOTCONTAINER_RATION_SUPPLY_CRATE].itemDistribution.push({ tpl: "66326bfd46817c660d015150", relativeProbability: 550 });
 
         // Cultist mask
         this.db.loot.staticLoot[LOOTCONTAINER_JACKET].itemDistribution.push({ tpl: "6673b1ac5cae0610f1079d6e", relativeProbability: 1500 });

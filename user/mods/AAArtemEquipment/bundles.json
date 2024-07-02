@@ -44,14 +44,6 @@
             ]
         },
         {
-            "key": "artem_denniscollar.bundle",
-            "dependencyKeys": [
-                "cubemaps",
-                "shaders",
-                "assets/commonassets/physics/physicsmaterials.bundle"
-            ]
-        },
-        {
             "key": "artem_grooveysflashdrive.bundle",
             "dependencyKeys": [
                 "cubemaps",

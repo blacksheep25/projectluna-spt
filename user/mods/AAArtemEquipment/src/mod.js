@@ -144,28 +144,6 @@ class AddItems {
         const LOOTCONTAINER_WOODEN_AMMO_BOX = "5909d45286f77465a8136dc6";
         const LOOTCONTAINER_WOODEN_CRATE = "578f87ad245977356274f2cc";
         //adds custom items to loot thanks groovey big balls
-        //Denis Collar
-        this.db.loot.staticLoot[LOOTCONTAINER_BURIED_BARREL_CACHE].itemDistribution.push({ tpl: "6673b1ac5cae0610f1079d76", relativeProbability: 8000 });
-        //Denis Collar
-        this.db.loot.staticLoot[LOOTCONTAINER_DUFFLE_BAG].itemDistribution.push({ tpl: "6673b1ac5cae0610f1079d76", relativeProbability: 8000 });
-        //Denis Collar
-        this.db.loot.staticLoot[LOOTCONTAINER_DEAD_SCAV].itemDistribution.push({ tpl: "6673b1ac5cae0610f1079d76", relativeProbability: 8000 });
-        //Denis Collar
-        this.db.loot.staticLoot[LOOTCONTAINER_DRAWER].itemDistribution.push({ tpl: "6673b1ac5cae0610f1079d76", relativeProbability: 8000 });
-        //Denis Collar
-        this.db.loot.staticLoot[LOOTCONTAINER_DUFFLE_BAG_ADV].itemDistribution.push({ tpl: "6673b1ac5cae0610f1079d76", relativeProbability: 6594 });
-        //Denis Collar
-        this.db.loot.staticLoot[LOOTCONTAINER_GROUND_CACHE].itemDistribution.push({ tpl: "6673b1ac5cae0610f1079d76", relativeProbability: 6594 });
-        //Denis Collar
-        this.db.loot.staticLoot[LOOTCONTAINER_JACKET_204KEY].itemDistribution.push({ tpl: "6673b1ac5cae0610f1079d76", relativeProbability: 6504 });
-        //Denis Collar
-        this.db.loot.staticLoot[LOOTCONTAINER_JACKET_114KEY].itemDistribution.push({ tpl: "6673b1ac5cae0610f1079d76", relativeProbability: 6504 });
-        //Denis Collar
-        this.db.loot.staticLoot[LOOTCONTAINER_JACKET].itemDistribution.push({ tpl: "6673b1ac5cae0610f1079d76", relativeProbability: 6504 });
-        //Denis Collar
-        this.db.loot.staticLoot[LOOTCONTAINER_WOODEN_CRATE].itemDistribution.push({ tpl: "6673b1ac5cae0610f1079d76", relativeProbability: 7594 });
-        //Denis Collar
-        this.db.loot.staticLoot[LOOTCONTAINER_SAFE].itemDistribution.push({ tpl: "6673b1ac5cae0610f1079d76", relativeProbability: 12523 });
         //Gas mask1
         this.db.loot.staticLoot[LOOTCONTAINER_WOODEN_AMMO_BOX].itemDistribution.push({ tpl: "66326bfd46817c660d015130", relativeProbability: 1620 });
         //Gas mask1

@@ -85,7 +85,7 @@
         "5448f39d4bdc2d0a728b4568": { "multi": 0.75 }, //Medkit
         "5448f3a14bdc2d27728b4569": { "multi": 1.1 }, //Drugs
 
-        "5c164d2286f774194c5e69fa": { "multi": 0.1 }, //Keycards
+        "5c164d2286f774194c5e69fa": { "multi": 1.7 }, //Keycards
         "5c99f98d86f7745c314214b3": { "multi": 2.6 }, //MechanicalKeys
 
         "5448ecbe4bdc2d60728b4568": { "multi": 1.0 }, //Info items
@@ -115,7 +115,7 @@
             "totalLootMultiplier": 0.65,
             "categories": //3rd Priority
             {
-                "5c164d2286f774194c5e69fa": { "multi": 0.5 }, //Keycards
+                "5c164d2286f774194c5e69fa": { "multi": 1.0 }, //Keycards
                 "5448f39d4bdc2d0a728b4568": { "multi": 0.65 } //Medkit
             },
             "items": //1st Priority (Highest)
@@ -175,7 +175,7 @@
                 "5448f3a64bdc2d60728b456a": { "multi": 0.6 }, //Stimulator
                 "57864c8c245977548867e7f1": { "multi": 0.7 }, //Medical Supplies
                 "57864e4c24597754843f8723": { "multi": 0.6 }, //Flammable materials (Lubricant)
-                "5c164d2286f774194c5e69fa": { "multi": 1.0 }, //Keycards
+                "5c164d2286f774194c5e69fa": { "multi": 3.4 }, //Keycards
                 "57864a3d24597754843f8721": { "multi": 0.7 } //Jewelry
             },
             "items": //1st Priority (Highest)
@@ -202,7 +202,7 @@
             }
         },
 
-        "rezervbase": //Reserve
+        "rezervbase": //Reserv
         {
             "totalLootMultiplier": 0.65,
             "categories": //3rd Priority
@@ -260,7 +260,7 @@
             "totalLootMultiplier": 0.65,
             "categories": //3rd Priority
             {
-                "5c164d2286f774194c5e69fa": { "multi": 0.1 } //Keycards
+                "5c164d2286f774194c5e69fa": { "multi": 2.5 } //Keycards
             },
             "items": //1st Priority (Highest)
             {

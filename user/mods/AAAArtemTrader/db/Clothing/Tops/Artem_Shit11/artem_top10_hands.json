@@ -13,11 +13,11 @@
     ],
     "BodyPart": "Hands",
     "Prefab": {
-      "path": "Hands/artem_atomhands.bundle",
+      "path": "assets/content/hands/hands_tshirt_bear_black/hands_tshirt_bear_black.skin.bundle",
       "rcid": ""
     },
     "WatchPrefab": {
-      "path": "",
+      "path": "assets/content/hands/bear/bear_watch.bundle",
       "rcid": ""
     },
     "IntegratedArmorVest": false,

@@ -168,11 +168,6 @@ class LootFuckery {
         const globalItems = this.lootConfig.globalItems.items;
         const mapCategories = this.lootConfig.mapSpecific[map].categories;
         const mapItems = this.lootConfig.mapSpecific[map].items;
-        if (!itemTable[item] || !itemTable[item]._parent) {
-            //oh fuck
-            this.printColor(`[LootFuckery] Found item that doesn't exist, or without parent: ${item} this is usually due to a mod doing something wrong. But it shouldn't be breaking anything.`, LogTextColor_1.LogTextColor.RED);
-            return 0;
-        }
         const parent = itemTable[item]._parent;
         //Check if it has a map specific item entry.
         if (mapItems[item]) {

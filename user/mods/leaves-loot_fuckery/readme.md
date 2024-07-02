@@ -81,7 +81,3 @@ Remember to REMOVE the old folder or you will get issues.
 ## 1.3.2HOTFIX
 
 - Fixed output folder being the old path.
-
-## 1.3.3
-
-- Fixed error when bad data is present in loot data.
