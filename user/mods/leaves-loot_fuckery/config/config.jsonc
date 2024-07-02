@@ -11,7 +11,8 @@
 
     "convertToName": true,          //Convert from item ID to name
     "localizeNames": true,          //Localize rather than using the default names
-    "localization": "en"            //The localization to pull names from
+    "localization": "en",            //The localization to pull names from
+    "HarmlessErrorLogging": true //harmless error logging
 
     //Map names
     /*

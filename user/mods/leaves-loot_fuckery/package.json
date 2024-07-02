@@ -1,6 +1,6 @@
 {
     "name": "loot_fuckery",
-    "version": "1.0.0",
+    "version": "1.3.4",
     "main": "src/mod.js",
     "license": "MIT",
     "author": "leaves",
