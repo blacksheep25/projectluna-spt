@@ -41,6 +41,7 @@ let WeaponCategorizer = class WeaponCategorizer {
         this.locale = this.databaseServer.getTables().locales.global["en"];
         logger.log("WeaponCategorizer created");
     }
+    // todo: make it more generic to support more than just weapons
     countAsWeapon = (name) => {
         return name == "Weapon" ? 0 : (name == "ThrowWeap" || name == "Knife" || name == "Launcher") ? 1 : -1;
     };
@@ -125,11 +126,63 @@ let WeaponCategorizer = class WeaponCategorizer {
             }
         }
         const allWeaponIds = Object.keys(this.weaponToType);
+        const addToCanBeUsedAs = (id0, id1) => {
+            if (!this.overridedSettings.canBeUsedAs[id0]) {
+                this.overridedSettings.canBeUsedAs[id0] = [];
+            }
+            (0, misc_1.pushIfNotExists)(this.overridedSettings.canBeUsedAs[id0], id1);
+        };
+        const allShortNames = allWeaponIds.map(id => [id, this.localeHelper.getShortName(id)]);
+        // can be used to find similar names
+        const whiteList = this.overridedSettings.canBeUsedAsShortNameWhitelist;
+        for (let i0 = 0; i0 < allShortNames.length; i0++) {
+            const name = allShortNames[i0][1];
+            if (this.overridedSettings.canBeUsedAsShortNameBlackList.includes(name)) {
+                continue;
+            }
+            for (let i1 = i0 + 1; i1 < allShortNames.length; i1++) {
+                const name2 = allShortNames[i1][1];
+                if (this.overridedSettings.canBeUsedAsShortNameBlackList.includes(name2)) {
+                    continue;
+                }
+                if (name === name2) {
+                    // this.logger.log(`${allShortNames[i0][0]} - ${allShortNames[i1][0]}`);
+                    addToCanBeUsedAs(allShortNames[i0][0], allShortNames[i1][0]);
+                    continue;
+                }
+                const s0 = name.split(" ");
+                const s1 = name2.split(" ");
+                if (s0.length === 1 && s1.length === 1) {
+                    continue;
+                }
+                let same = true;
+                for (const w of s0) {
+                    if (!s1.includes(w) && !whiteList.includes(w)) {
+                        same = false;
+                        break;
+                    }
+                }
+                if (!same) {
+                    same = true;
+                    for (const w of s1) {
+                        if (!s0.includes(w) && !whiteList.includes(w)) {
+                            same = false;
+                            break;
+                        }
+                    }
+                }
+                if (same) {
+                    // this.logger.log(`${allShortNames[i0][0]} - ${allShortNames[i1][0]}`);
+                    addToCanBeUsedAs(allShortNames[i0][0], allShortNames[i1][0]);
+                    continue;
+                }
+            }
+        }
         const matches = (item, regexes, alsoDesc) => {
             const name = this.localeHelper.getName(item._id);
             const desc = this.localeHelper.getDescription(item._id);
             for (const regex of regexes) {
-                if (name.match(regex) || (alsoDesc && desc.match(regex))) {
+                if (name.match(new RegExp(regex, "i")) || (alsoDesc && desc.match(new RegExp(regex, "i")))) {
                     return true;
                 }
             }
@@ -184,6 +237,35 @@ let WeaponCategorizer = class WeaponCategorizer {
                 this.logger.error(`Error processing custom category ${k}: ${e}`);
             }
         }
+        // process can be used as once more 
+        for (let i = Object.keys(this.overridedSettings.canBeUsedAs).length - 1; i >= 0; --i) {
+            const key = Object.keys(this.overridedSettings.canBeUsedAs)[i];
+            const value = this.overridedSettings.canBeUsedAs[key];
+            // process custom categories
+            for (const v of value) {
+                if (this.weaponsTypes[v]) {
+                    for (const id of this.weaponsTypes[v]) {
+                        if (id === key)
+                            continue;
+                        (0, misc_1.pushIfNotExists)(this.overridedSettings.canBeUsedAs[key], id);
+                    }
+                }
+            }
+            // add to each other
+            for (const v of value) {
+                if (!this.overridedSettings.canBeUsedAs[v]) {
+                    this.overridedSettings.canBeUsedAs[v] = [];
+                }
+                (0, misc_1.pushIfNotExists)(this.overridedSettings.canBeUsedAs[v], key);
+                for (const id of value) {
+                    if (id === v)
+                        continue;
+                    (0, misc_1.pushIfNotExists)(this.overridedSettings.canBeUsedAs[v], id);
+                }
+            }
+        }
+        this.logger.log("\n\n ###############  Can be used as weapons:  ################\n\n");
+        this.logger.log(this.overridedSettings.canBeUsedAs);
         this.logger.log("\n\n ###############  Prepared weapon types:  ################\n\n");
         this.logger.log(this.weaponsTypes);
         this.logger.logDebug("\n\n ###############  Prepared weapon to type:  ################\n\n");

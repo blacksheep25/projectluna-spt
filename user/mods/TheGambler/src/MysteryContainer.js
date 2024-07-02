@@ -4,6 +4,7 @@ exports.MysteryContainer = void 0;
 const Ammo_1 = require("./containers/Ammo");
 const Armors_1 = require("./containers/Armors");
 const Backpacks_1 = require("./containers/Backpacks");
+const Foods_1 = require("./containers/Foods");
 const Headsets_1 = require("./containers/Headsets");
 const Melees_1 = require("./containers/Melees");
 const Rigs_1 = require("./containers/Rigs");
@@ -20,7 +21,7 @@ class MysteryContainer {
         this.config = config;
         this.logger = logger;
         this.container = this.setConfig(this.containersData);
-        this.simulation = ['wallet', 'armor', 'headset', 'rig', 'backpack', 'key', 'melee', 'stim'];
+        this.simulation = ['wallet', 'armor', 'premium_armor', 'headset', 'rig', 'backpack', 'key', 'melee', 'stim', 'food'];
         this.items = {
             wallet: new Wallet_1.Wallet(),
             backpack: new Backpacks_1.Backpacks(),
@@ -30,6 +31,7 @@ class MysteryContainer {
             key: new keys_1.Keys(),
             melee: new Melees_1.Melees(),
             stim: new Stims_1.Stims(),
+            food: new Foods_1.Foods(),
             ammo: new Ammo_1.Ammo()
         };
         //console.log('CONTAINER INFO!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!');
@@ -55,6 +57,9 @@ class MysteryContainer {
             }
         }
         return data;
+    }
+    getName(name) {
+        return this.container[name]['name'];
     }
     getOdds(name) {
         return this.container[name]['odds'];
@@ -119,6 +124,14 @@ class MysteryContainer {
         'stim': {
             'name': 'stim',
             'rarities': ["_extremely_rare", "_rare", "_uncommon", "_common"],
+            'odds': [],
+            'override': [],
+            'rarity_average_profit': [],
+            'profit_percentage': 110,
+        },
+        'food': {
+            'name': 'food',
+            'rarities': ["_rare", "_uncommon", "_common"],
             'odds': [],
             'override': [],
             'rarity_average_profit': [],

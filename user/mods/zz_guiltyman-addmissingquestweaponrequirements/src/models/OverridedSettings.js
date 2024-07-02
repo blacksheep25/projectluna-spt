@@ -6,6 +6,8 @@ class OverridedSettings {
     overriddenWeapons = {};
     canBeUsedAs = {};
     customCategories = {};
+    canBeUsedAsShortNameWhitelist = [];
+    canBeUsedAsShortNameBlackList = [];
 }
 exports.OverridedSettings = OverridedSettings;
 //# sourceMappingURL=OverridedSettings.js.map

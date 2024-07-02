@@ -147,6 +147,7 @@ class SampleTrader {
             gamble.newGamble();
             if (gamble.newItemsRequest.itemsWithModsToAdd.length != 0) {
                 newItemsRequest.itemsWithModsToAdd = [...gamble.newItemsRequest.itemsWithModsToAdd];
+                newItemsRequest.foundInRaid = gamble.newItemsRequest.foundInRaid;
             }
         }
         else {

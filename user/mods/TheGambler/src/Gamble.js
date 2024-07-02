@@ -10,6 +10,7 @@ const Headsets_1 = require("./containers/Headsets");
 const Ammo_1 = require("./containers/Ammo");
 const Melees_1 = require("./containers/Melees");
 const MysteryContainer_1 = require("./MysteryContainer");
+const Foods_1 = require("./containers/Foods");
 class Gamble {
     newItemsRequest;
     name;
@@ -48,6 +49,9 @@ class Gamble {
                 break;
             case 'stim':
                 this.openStim();
+                break;
+            case 'food':
+                this.openFood();
                 break;
             case 'bitcoin':
                 this.openBitcoin();
@@ -181,7 +185,8 @@ class Gamble {
     openBitcoin() {
         let id;
         const roll = this.randomUtil.getFloat(0, 100);
-        if (roll <= 50) {
+        this.logger.info(`\n[TheGambler][Keycard] The container roll is: ${roll}!`);
+        if (roll <= this.config.odds['bitcoin_success']) {
             this.logger.info(`[TheGambler][Bitcoin] Case Opened... Received Nothing... Better luck next time :)`);
         }
         else {
@@ -196,7 +201,8 @@ class Gamble {
     openGPCoin() {
         let id;
         const roll = this.randomUtil.getFloat(0, 100);
-        if (roll <= 50) {
+        this.logger.info(`\n[TheGambler][Keycard] The container roll is: ${roll}!`);
+        if (roll <= this.config.odds['gpcoin_success']) {
             this.logger.info(`[TheGambler][GPcoin] Case Opened... Received Nothing... Better luck next time :)`);
         }
         else {
@@ -252,6 +258,33 @@ class Gamble {
         if (this.config.debug) {
             this.logger.info("[TheGambler] Stimulant Mystery Box Information...");
             this.logger.info("[TheGambler] Stimulant id = " + id);
+        }
+        if (id != "NaN") {
+            this.newItemsRequest.itemsWithModsToAdd[this.count] = [this.newItemFormat(id)];
+            this.newItemsRequest.foundInRaid = true;
+            this.count++;
+        }
+        else {
+            this.logger.info(`[TheGambler][Stim] Case Opened... Received Nothing... Better luck next time :)`);
+        }
+    }
+    openFood() {
+        const roll = this.randomUtil.getFloat(0, 100);
+        this.logger.info(`\n[TheGambler][Food] The container roll is: ${roll}!`);
+        const foods = new Foods_1.Foods();
+        const odds = this.mysteryContainer.getOdds('food');
+        const rarities = this.mysteryContainer.getRarities('food');
+        let id = "NaN";
+        for (let i = 0; i < odds.length; i++) {
+            if (roll <= odds[i]) {
+                const secondRoll = this.randomUtil.getInt(0, foods.items['food' + rarities[i]].length - 1);
+                id = foods.items['food' + rarities[i]][secondRoll];
+                break;
+            }
+        }
+        if (this.config.debug) {
+            this.logger.info("[TheGambler] Mystery Food Information...");
+            this.logger.info("[TheGambler] Food id = " + id);
         }
         if (id != "NaN") {
             this.newItemsRequest.itemsWithModsToAdd[this.count] = [this.newItemFormat(id)];
@@ -517,7 +550,7 @@ class Gamble {
             let ammoRoll;
             ammoRoll = this.randomUtil.getFloat(this.config.odds[name + '_min'], this.config.odds[name + '_max']);
             this.newItemsRequest.itemsWithModsToAdd[this.count] = [this.newItemFormat(id, ammoRoll)];
-            this.newItemsRequest.foundInRaid = true;
+            this.newItemsRequest.foundInRaid = false;
             this.count++;
         }
         else {

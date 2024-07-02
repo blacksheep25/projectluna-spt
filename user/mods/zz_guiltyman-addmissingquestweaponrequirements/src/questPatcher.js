@@ -53,13 +53,14 @@ let QuestPatcher = class QuestPatcher {
             // iterate through all quests
             for (const questId in this.quests) {
                 if (questOverrides[questId] && questOverrides[questId].blackListed) {
-                    this.logger.log(`Skipping quest ${questId} due to blacklisted`);
+                    this.logger.logDebug(`Skipping quest ${questId} due to blacklisted`);
                     continue;
                 }
-                // if (questId !== "Scorpion_10_4_1")
+                // if (questId !== "5bc4776586f774512d07cf05")
                 // {
                 //     continue;
                 // }
+                this.logger.log(`Patching quest ${questId}`);
                 const quest = this.quests[questId];
                 // iterate through all conditions
                 [quest.conditions.AvailableForStart, quest.conditions.Started, quest.conditions.AvailableForFinish, quest.conditions.Success, quest.conditions.Fail].forEach((conditions) => {
@@ -126,22 +127,25 @@ let QuestPatcher = class QuestPatcher {
                                             }
                                         }
                                     };
+                                    let weaponType = null;
                                     //#endregion
                                     if (questOverrides[questId] && questOverrides[questId].skip) {
                                         // only add weapons that can be used as the weapon
+                                        weaponType = "Skipped";
                                         processCanBeUsedAs();
                                         processBlackListed(questId);
                                     }
                                     else {
                                         if (!(questOverrides[questId] && questOverrides[questId].onlyUseWhiteListedWeapons) && newWeaponCondition.length > 1) {
                                             //#region finding the weapon type
-                                            let weaponType = null;
                                             // select the most restrictive weapon type if all weapons are of the same type
                                             // for example if all weapons are revolvers, then the type is revolver
                                             // but if there are revolvers and pistols, then the type is pistol
                                             let error = false;
                                             const potentialTypes = {};
-                                            for (const weaponId of newWeaponCondition) {
+                                            this.logger.log("-------------");
+                                            for (let i = newWeaponCondition.length - 1; i >= 0; i--) {
+                                                const weaponId = newWeaponCondition[i];
                                                 if (!this.weaponToType[weaponId] || this.weaponToType[weaponId].length === 0) {
                                                     this.logger.error(`Weapon (${weaponId}) not found in weaponToType for quest ${questId}`);
                                                     error = true;
@@ -151,9 +155,12 @@ let QuestPatcher = class QuestPatcher {
                                                     if (!potentialTypes[w]) {
                                                         potentialTypes[w] = [];
                                                     }
-                                                    potentialTypes[w].push(weaponId);
+                                                    (0, misc_1.pushIfNotExists)(potentialTypes[w], weaponId);
                                                     if (canBeUsedAs[weaponId]) {
-                                                        canBeUsedAs[weaponId].forEach(v => potentialTypes[w].push(v));
+                                                        canBeUsedAs[weaponId].forEach(v => {
+                                                            (0, misc_1.pushIfNotExists)(potentialTypes[w], v);
+                                                            (0, misc_1.pushIfNotExists)(newWeaponCondition, v);
+                                                        });
                                                     }
                                                 }
                                             }
@@ -165,13 +172,27 @@ let QuestPatcher = class QuestPatcher {
                                             let bestCandidate = null;
                                             // check if there is a weapon type that all weapons are of
                                             for (const w in potentialTypes) {
+                                                this.logger.log(`Checking type ${w}`);
+                                                this.logger.log(`potentialTypes[${w}].length ${potentialTypes[w].length} newWeaponCondition.length ${newWeaponCondition.length}`);
+                                                if (potentialTypes[w].length > newWeaponCondition.length) {
+                                                    this.logger.log(`Type ${w} has more weapons than the condition`);
+                                                    this.logger.plusIndent();
+                                                    this.logger.log(potentialTypes[w]);
+                                                    this.logger.log("---");
+                                                    this.logger.log(newWeaponCondition);
+                                                    this.logger.minusIndent();
+                                                    this.logger.log(`Extra weapons: ${potentialTypes[w].filter(i => !newWeaponCondition.includes(i)).join(", ")}`);
+                                                    this.logger.log("\n\n");
+                                                }
                                                 if (potentialTypes[w].length === newWeaponCondition.length) {
                                                     if (weaponType == null) {
                                                         weaponType = w;
                                                     }
                                                     else {
-                                                        // if there are multiple types, then select the most restrictive
-                                                        if (this.config.kindOf[w] == weaponType || this.weaponsTypes[weaponType].length > this.weaponsTypes[w].length) {
+                                                        if (this.config.kindOf[w] == weaponType // take the most restrictive type
+                                                            || this.weaponsTypes[weaponType].length > this.weaponsTypes[w].length // take the most restrictive type
+                                                            || this.overridedSettings.customCategories[w] && !this.overridedSettings.customCategories[weaponType] // take the custom category
+                                                        ) {
                                                             weaponType = w;
                                                         }
                                                     }
@@ -274,7 +295,7 @@ let QuestPatcher = class QuestPatcher {
                                     };
                                     const [isSame, weaponsChangesLog] = checkChangesAndformatToPrint(original, newWeaponCondition);
                                     if (!isSame) {
-                                        this.logger.log(`Quest: ${questId}\n${weaponsChangesLog}}`);
+                                        this.logger.log(`Quest: ${questId} - Chosen Weapon Type: ${weaponType}\n${weaponsChangesLog}}`);
                                         condition.counter.conditions[cI].weapon = newWeaponCondition;
                                     }
                                     else {

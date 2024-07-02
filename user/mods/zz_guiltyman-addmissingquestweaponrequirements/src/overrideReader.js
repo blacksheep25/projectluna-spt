@@ -110,13 +110,13 @@ let OverrideReader = class OverrideReader {
                                 overridedSettings.canBeUsedAs[key] = [];
                             }
                             overriddenWeaponsData.CanBeUsedAs[key].forEach(v => (0, misc_1.pushIfNotExists)(overridedSettings.canBeUsedAs[key], v));
-                            for (const v of overriddenWeaponsData.CanBeUsedAs[key]) {
-                                if (!overridedSettings.canBeUsedAs[v]) {
-                                    overridedSettings.canBeUsedAs[v] = [];
-                                }
-                                (0, misc_1.pushIfNotExists)(overridedSettings.canBeUsedAs[v], key);
-                            }
                         }
+                    }
+                    if (overriddenWeaponsData.CanBeUsedAsShortNameWhitelist) {
+                        overriddenWeaponsData.CanBeUsedAsShortNameWhitelist.forEach(v => (0, misc_1.pushIfNotExists)(overridedSettings.canBeUsedAsShortNameWhitelist, v));
+                    }
+                    if (overriddenWeaponsData.CanBeUsedAsShortNameBlacklist) {
+                        overriddenWeaponsData.CanBeUsedAsShortNameBlacklist.forEach(v => (0, misc_1.pushIfNotExists)(overridedSettings.canBeUsedAsShortNameBlackList, v));
                     }
                     if (overriddenWeaponsData.CustomCategories) {
                         for (const customCategory of overriddenWeaponsData.CustomCategories) {

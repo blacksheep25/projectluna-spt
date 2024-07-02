@@ -29,6 +29,9 @@ let LocaleHelper = class LocaleHelper {
     getDescription(id) {
         return this.locale[`${id} description`] || this.locale[`${id} Description`] || "";
     }
+    getShortName(id) {
+        return this.locale[`${id} shortName`] || this.locale[`${id} ShortName`] || "";
+    }
 };
 exports.LocaleHelper = LocaleHelper;
 exports.LocaleHelper = LocaleHelper = __decorate([
