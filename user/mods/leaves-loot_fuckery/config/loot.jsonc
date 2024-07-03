@@ -115,7 +115,7 @@
             "totalLootMultiplier": 0.65,
             "categories": //3rd Priority
             {
-                "5c164d2286f774194c5e69fa": { "multi": 1.0 }, //Keycards
+                "5c164d2286f774194c5e69fa": { "multi": 0.5 }, //Keycards
                 "5448f39d4bdc2d0a728b4568": { "multi": 0.65 } //Medkit
             },
             "items": //1st Priority (Highest)
@@ -175,12 +175,12 @@
                 "5448f3a64bdc2d60728b456a": { "multi": 0.6 }, //Stimulator
                 "57864c8c245977548867e7f1": { "multi": 0.7 }, //Medical Supplies
                 "57864e4c24597754843f8723": { "multi": 0.6 }, //Flammable materials (Lubricant)
-                "5c164d2286f774194c5e69fa": { "multi": 3.4 }, //Keycards
+                "5c164d2286f774194c5e69fa": { "multi": 2.0 }, //Keycards
                 "57864a3d24597754843f8721": { "multi": 0.7 } //Jewelry
             },
             "items": //1st Priority (Highest)
             {
-                "5c0530ee86f774697952d952": { "multi": 1.9 } //Ledx
+                "5c0530ee86f774697952d952": { "multi": 1.5 } //Ledx
             }
         },
 
@@ -260,7 +260,7 @@
             "totalLootMultiplier": 0.65,
             "categories": //3rd Priority
             {
-                "5c164d2286f774194c5e69fa": { "multi": 2.5 } //Keycards
+                "5c164d2286f774194c5e69fa": { "multi": 1.0 } //Keycards
             },
             "items": //1st Priority (Highest)
             {

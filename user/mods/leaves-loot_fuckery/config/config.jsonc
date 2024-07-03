@@ -2,12 +2,12 @@
     "editProbabilities": true,      //Main enabling of the mod. 
 
     "dataDumpRealRuns": true,      //Dumps data before each run
-    "dataDump": false,              //Dumps data on server start
+    "dataDump": true,              //Dumps data on server start
     "categorize": true,             //Categorizes the data dump
     "convertToCompact": true,       //Makes the output more compact
     "runAllMaps": true,             //Data dumps every map
     "mapToGenerate": "shoreline",  //If runAllMaps is diabled, will only run this map.
-    "timesToGenerate": 1,         //How many times to generate to get better averages. 
+    "timesToGenerate": 4,         //How many times to generate to get better averages. 
 
     "convertToName": true,          //Convert from item ID to name
     "localizeNames": true,          //Localize rather than using the default names
