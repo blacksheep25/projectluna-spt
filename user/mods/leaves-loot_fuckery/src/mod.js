@@ -168,6 +168,13 @@ class LootFuckery {
         const globalItems = this.lootConfig.globalItems.items;
         const mapCategories = this.lootConfig.mapSpecific[map].categories;
         const mapItems = this.lootConfig.mapSpecific[map].items;
+        if (!itemTable[item] || !itemTable[item]._parent) {
+            //oh fuck
+            if (this.config.HarmlessErrorLogging ? this.config.HarmlessErrorLogging : false) {
+                this.printColor(`[LootFuckery] Found item that doesn't exist, or without parent: ${item} this is usually due to a mod doing something wrong. But it shouldn't be breaking anything.`, LogTextColor_1.LogTextColor.RED);
+            }
+            return 0;
+        }
         const parent = itemTable[item]._parent;
         //Check if it has a map specific item entry.
         if (mapItems[item]) {
@@ -186,7 +193,9 @@ class LootFuckery {
             return globalCategories[parent].multi;
         }
         //oh fuck
-        this.printColor(`[LootFuckery] Found item without matching parent: ${item} - Parent: ${itemTable[parent]._name} -ID: ${parent}`, LogTextColor_1.LogTextColor.RED);
+        if (this.config.HarmlessErrorLogging ? this.config.HarmlessErrorLogging : false) {
+            this.printColor(`[LootFuckery] Found item without matching parent: ${item} - Parent: ${itemTable[parent]._name} -ID: ${parent}`, LogTextColor_1.LogTextColor.RED);
+        }
         return 0;
     }
     adjustPoint(point, map) {
@@ -198,6 +207,12 @@ class LootFuckery {
         for (const item in point.template.Items) {
             //If an entry has a parent, it's not the top node in the entry. So we skip it.
             if (items[item].parentId) {
+                continue;
+            }
+            if (!point.itemDistribution[relativeID] || !point.itemDistribution[relativeID].relativeProbability) {
+                if (this.config.HarmlessErrorLogging ? this.config.HarmlessErrorLogging : false) {
+                    this.printColor(`[LootFuckery] Found point item that doesn't exist, or doesn't have a relativeProbability entry, ${item} this is usually due to a mod doing something wrong. But it shouldn't be breaking anything.`, LogTextColor_1.LogTextColor.RED);
+                }
                 continue;
             }
             const multi = this.getProbability(items[item]._tpl, map);
