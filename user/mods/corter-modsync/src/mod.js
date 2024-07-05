@@ -28,16 +28,20 @@ class Mod {
             Mod.loadFailed = true;
             throw new Error("Corter-ModSync: One or more required config values is missing. Please verify your config is correct and try again.");
         }
-        Mod.commonModExclusionsRegex = Mod.config.commonModExclusions.map((exclusion) => new RegExp(exclusion
+        Mod.commonModExclusionsRegex = Mod.config.commonModExclusions.map((exclusion) => new RegExp(`${exclusion
             .split(node_path_1.default.posix.sep)
             .join(node_path_1.default.sep)
-            .replaceAll("\\", "\\\\")));
+            .replaceAll("\\", "\\\\")}$`));
         if (Mod.config.syncPaths === undefined ||
             Mod.config.syncPaths.length === 0) {
             logger.warning("Corter-ModSync: No sync paths configured. Mod will not be loaded.");
             Mod.loadFailed = true;
         }
         for (const syncPath of Mod.config.syncPaths) {
+            if (!vfs.exists(syncPath)) {
+                logger.warning(`Corter-ModSync: SyncPath '${syncPath}' does not exist. Path will not be synced.`);
+                continue;
+            }
             node_fs_1.default.watch(syncPath, { recursive: true, persistent: false }, (e, filename) => {
                 if (filename &&
                     Mod.commonModExclusionsRegex.some((exclusion) => exclusion.test(node_path_1.default.join(syncPath, filename))))
@@ -135,7 +139,7 @@ class Mod {
             else if (req.url === "/modsync/hashes") {
                 if (this.modFileHashes === undefined || Mod.syncPathsUpdated) {
                     Mod.syncPathsUpdated = false;
-                    this.modFileHashes = await getFileHashes(Mod.config.syncPaths);
+                    this.modFileHashes = await getFileHashes(Mod.config.syncPaths.filter(vfs.exists));
                 }
                 resp.setHeader("Content-Type", "application/json");
                 resp.writeHead(200, "OK");
@@ -170,7 +174,7 @@ class Mod {
         }
         catch (e) {
             if (e instanceof Error) {
-                logger.error(e.toString());
+                logger.error(`${e.message}\n${e.stack}`);
                 resp.writeHead(500, "Internal server error");
                 resp.end(e.toString());
             }
