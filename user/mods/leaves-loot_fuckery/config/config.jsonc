@@ -7,7 +7,7 @@
     "convertToCompact": true,       //Makes the output more compact
     "runAllMaps": true,             //Data dumps every map
     "mapToGenerate": "shoreline",  //If runAllMaps is diabled, will only run this map.
-    "timesToGenerate": 4,         //How many times to generate to get better averages. 
+    "timesToGenerate": 10,         //How many times to generate to get better averages. 
 
     "convertToName": true,          //Convert from item ID to name
     "localizeNames": true,          //Localize rather than using the default names
