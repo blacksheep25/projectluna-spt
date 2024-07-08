@@ -5,7 +5,7 @@
 	
         "DEFAULT TRADERS": "-------------------------",
             "updatePrapor": true,
-				"smilingPrapor": true,
+				"smilingPrapor": false,
 			
             "updateTherapist": true,
             "updateFence": true,
@@ -14,5 +14,6 @@
             "updateMechanic": true,
             "updateRagman": true,
             "updateJaeger": true,
-            "updateLightKeeper": true
+            "updateLightKeeper": true,
+            "MFACShop": true
 }

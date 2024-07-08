@@ -24,7 +24,7 @@
   //
   "price_stock": {
     "wallet_case_price": 100000,
-    "wallet_case_stock": 15,
+    "wallet_case_stock": 12,
     "wallet_case_enable": true,
 
     "key_case_price": 47500,
@@ -45,7 +45,7 @@
     "gpcoin_case_stock": 8,
     "gpcoin_case_enable": true,
 
-    "keycard_case_price": 265000,
+    "keycard_case_price": 325000,
     "keycard_case_stock": 10,
     "keycard_case_enable": true,
 
@@ -53,8 +53,8 @@
     "fiftyfifty_case_stock": 2,
     "fiftyfifty_case_enable": true,
 
-    "melee_case_price": 58500,
-    "melee_case_stock": 15,
+    "melee_case_price": 63600,
+    "melee_case_stock": 8,
     "melee_case_enable": true,
 
     "gun_case_price": 95000,
@@ -209,7 +209,7 @@
     // Mystery Wallet
     // Chance for each possibility in percentage from rarest to most common
     "wallet_extremely_rare": 0.5,     // 2 Million Roubles
-    "wallet_rare": 1.5,             // 1 Miliion Roubles
+    "wallet_rare": 1.5,             // 1 Million Roubles
     "wallet_kinda_rare": 4.0,       // 500k Roubles
     "wallet_uncommon": 7.0,        // 300k Roubles
     "wallet_common": 35.0,          // 100K Roubles
